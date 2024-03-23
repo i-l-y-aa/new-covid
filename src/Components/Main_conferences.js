@@ -6,8 +6,9 @@ import Question from ".././images/conf/Question.png"
 import BGRS_SB_2024 from ".././images/conf/BGRS_SB_2024.png"
 const Main_conferences = () => {
   const confs = [
-    {id: 5, name: 'QIPA-2024', image: Question, hreff: "", width: '6rem', height: '6rem', rounded: true},
-    {id: 8, name: 'BGRS/SB-2024', image:  BGRS_SB_2024, hreff: "https://bgrssb.icgbio.ru/2024/ru/", width: '6rem' , height: '6rem', rounded: false},
+    {id: 1, name: 'Обратные некорректные задачи и машинное обучение', image: Question, hreff: "https://kaznpu.kz/ru/6589/notice/", width: '6rem', height: '6rem', rounded: true},
+    {id: 2, name: 'BGRS/SB-2024', image:  BGRS_SB_2024, hreff: "https://bgrssb.icgbio.ru/2024/ru/", width: '6rem' , height: '6rem', rounded: false},
+  
   ]
 
   const variants = {
@@ -67,7 +68,7 @@ const Main_conferences = () => {
         />
         </Container>
           <Card.Body>
-            <Card.Title className="text-center"><a href="" className="nav-link d-inline text-black" target="_blank" rel="noopener noreferrer">Обратные некорректные задачи и машинное обучение</a></Card.Title>
+            <Card.Title className="text-center"><a hreff="" className="nav-link d-inline text-black" target="_blank" rel="noopener noreferrer">QIPA-2024 </a></Card.Title>
           </Card.Body>
         </Card>
         </a>

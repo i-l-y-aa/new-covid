@@ -1,24 +1,37 @@
 import React from "react";
 import {Container, Card, ListGroup} from 'react-bootstrap';
 import Footer_En from './Footer_En'
+import NaviBarv2_En from './NaviBarv2_En'
 
 export function Main_publications_more_detailed_En () {
     return (
         <>
+    <NaviBarv2_En />
+    <Container className="my-3"   style={{height: "120%" }}></Container>
     <ListGroup as="ol" variant="flush"  >
 
-      <h3>2024</h3>
+              <ListGroup as="li">
+      <a  style={{'textDecoration': 'none'}}>
+              <Card.Body className="pubcardcol mx-5 my-3">
+              <Card.Title ><h5 align='left' style={{fontSize:"30px", align:"right"}}>2024 </h5></Card.Title>
+              </Card.Body></a>
+              </ListGroup>  
 
-    <ListGroup as="li">
+              <ListGroup as="li">
       <a  style={{'textDecoration': 'none'}}>
               <Card.Body className="pubcardcol mx-5 my-3">
               <Card.Title ><h5 align='left' style={{fontSize:"20px", align:"right"}}>  G. Akindinov, O. Krivorotko, V. Matyukhin. Numerical solution of an inverse problem for a general hyperbolic heat equation // In: Olenev, N., Evtushenko, Y., Jacimovic, M., Khachay, M., Malkova, V. (eds) Advances in Optimization and Applications. OPTIMA 2023. Communications in Computer and Information Science, vol 1913. Springer, Cham. 2024. P. 47-60.</h5></Card.Title>
               </Card.Body></a>
               </ListGroup>
 
-      <h3>2023</h3>
+              <ListGroup as="li">
+      <a  style={{'textDecoration': 'none'}}>
+              <Card.Body className="pubcardcol mx-5 my-3">
+              <Card.Title ><h5 align='left' style={{fontSize:"30px", align:"right"}}>2023 </h5></Card.Title>
+              </Card.Body></a>
+              </ListGroup>  
 
-      <ListGroup as="li">
+              <ListGroup as="li">
       <a href="https://covid19-modeling.ru/data/COVID-19_NN_eng.pdf" style={{'textDecoration': 'none'}}>
               <Card.Body className="pubcardcol mx-5 my-3">
               <Card.Title ><h5 align='left' style={{fontSize:"20px", align:"right"}}>  O. Krivorotko , S. Kabanikhin , N. Zyatkov  Neural network modeling of COVID-19 spread taking into account socio-economic processes // World Congress (June 26-30, 2023, Moscow). Systems theory, algebraic biology, artificial intelligence: mathematical foundations and applications: Abstracts. М., 2023. С. 787-789. DOI 10.18699/sblai2023-22</h5></Card.Title>
@@ -123,9 +136,14 @@ export function Main_publications_more_detailed_En () {
               </Card.Body></a>
               </ListGroup>
 
-    <h3>2022</h3>
+              <ListGroup as="li">
+      <a  style={{'textDecoration': 'none'}}>
+              <Card.Body className="pubcardcol mx-5 my-3">
+              <Card.Title ><h5 align='left' style={{fontSize:"30px", align:"right"}}>2022 </h5></Card.Title>
+              </Card.Body></a>
+              </ListGroup>  
 
-    <ListGroup as="li">
+              <ListGroup as="li">
       <a href="https://arxiv.org/pdf/2112.12313.pdf" style={{'textDecoration': 'none'}}>
               <Card.Body className="pubcardcol mx-5 my-3">
               <Card.Title ><h5 align='left' style={{fontSize:"20px", align:"right"}}> Petrakova V., Krivorotko O. Mean field game for modeling of COVID-19 spread. Journal of Mathematical Analysis and Application, 2022, V. 514, 126271. DOI: 10.1016/j.jmaa.2022.126271</h5></Card.Title>
@@ -160,9 +178,14 @@ export function Main_publications_more_detailed_En () {
               </Card.Body></a>
               </ListGroup>
 
-     <h3>2021</h3>
+              <ListGroup as="li">
+      <a  style={{'textDecoration': 'none'}}>
+              <Card.Body className="pubcardcol mx-5 my-3">
+              <Card.Title ><h5 align='left' style={{fontSize:"30px", align:"right"}}>2021 </h5></Card.Title>
+              </Card.Body></a>
+              </ListGroup>  
 
-     <ListGroup as="li">
+              <ListGroup as="li">
       <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2092/1/012014/pdf" style={{'textDecoration': 'none'}}>
               <Card.Body className="pubcardcol mx-5 my-3">
               <Card.Title ><h5 align='left' style={{fontSize:"20px", align:"right"}}> Kabanikhin S., Bektemesov M., Krivorotko O., Bektemessov Z. Practical identifiability of mathematical models of biomedical processes. Journal of Physics: Conference Series, 2021, V. 2092(1), No. 012014</h5></Card.Title>
@@ -204,9 +227,14 @@ export function Main_publications_more_detailed_En () {
               </Card.Body></a>
               </ListGroup>
 
-     <h3>2020</h3>
+              <ListGroup as="li">
+      <a  style={{'textDecoration': 'none'}}>
+              <Card.Body className="pubcardcol mx-5 my-3">
+              <Card.Title ><h5 align='left' style={{fontSize:"30px", align:"right"}}>2020 </h5></Card.Title>
+              </Card.Body></a>
+              </ListGroup>  
      
-     <ListGroup as="li">
+              <ListGroup as="li">
       <a href="https://arxiv.org/pdf/1904.10627v1.pdf" style={{'textDecoration': 'none'}}>
               <Card.Body className="pubcardcol mx-5 my-3">
               <Card.Title ><h5 align='left' style={{fontSize:"20px", align:"right"}}> Kabanikhin S., Krivorotko O., Bektemessov Z., Bektemessov M., Zhang S. Differential evolution algorithm of solving an inverse problem for the spatial Solow mathematical model. Journal of Inverse and Ill-Posed Problems, 2020, V. 28 (5), pp. 761-774</h5></Card.Title>

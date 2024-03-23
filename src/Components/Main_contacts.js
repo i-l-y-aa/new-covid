@@ -36,9 +36,9 @@ const Main_contacts = () => {
 
       <YMaps >
         <div >
-          <Map defaultState={{ center: [54.851360, 83.102482], zoom: 15, controls: []}} width='100%'>
+          <Map defaultState={{ center: [54.8463754, 83.1039456], zoom: 15, controls: []}} width='100%'>
           <ZoomControl options={{ float: 'right' }} />
-          <Placemark geometry={[54.851360, 83.102482]} />
+          <Placemark geometry={[54.8463754, 83.1039456]} />
           </Map>
 
         </div>

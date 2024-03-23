@@ -11,7 +11,7 @@ export default function NaviBar_En() {
   return (
 
     <>
-      <Navbar collapseOnSelect expand="md" className="text-white">
+      <Navbar collapseOnSelect expand="lg" bg="" variant="" >
         <Container className="py-1">
         <Navbar.Brand className="text-white ">
         <Stack direction="horizontal" gap={3}>
@@ -24,7 +24,7 @@ export default function NaviBar_En() {
       <h3></h3></Stack></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto" className="justify-content-end flex-grow-1 pe-4" >
+          <Nav className="me-auto" className="justify-content-end flex-grow-1 pe-2" >
             <Nav.Link><NavLink to="/En"
             className={setActive}><h5>Main</h5></NavLink></Nav.Link>
             <Nav.Link><NavLink to="/modeling/En"

@@ -11,7 +11,7 @@ const Main_publications = () => {
       
             <ListGroup as="li"> 
       <a  style={{'textDecoration': 'none'}}>
-              <Card.Body className="pubcardcol">
+              <Card.Body className="pubcardcol my-3">
               <Card.Title ><h5 align='left' style={{fontSize:"20px", align:"right"}}>  G. Akindinov, O. Krivorotko, V. Matyukhin. Numerical solution of an inverse problem for a general hyperbolic heat equation // In: Olenev, N., Evtushenko, Y., Jacimovic, M., Khachay, M., Malkova, V. (eds) Advances in Optimization and Applications. OPTIMA 2023. Communications in Computer and Information Science, vol 1913. Springer, Cham. 2024. P. 47-60.</h5></Card.Title>
               </Card.Body></a>
               </ListGroup>

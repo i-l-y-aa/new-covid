@@ -1,7 +1,6 @@
 import React from "react";
 import {Container, Card, Row } from 'react-bootstrap';
 import MTeamItem from './Components/TeamItem'
-//import Main_picture from './Components/Main_picture'
 import { motion } from "framer-motion"
 import Zvonareva from "./images/team/Zvonareva.png"
 import Krivorotko from "./images/team/Krivorotko.png"
@@ -12,6 +11,7 @@ import Khrushchev from "./images/team/Khrushchev.jpg"
 import Kabanikhin from "./images/team/Kabanikhin.jpg"
 import Question from "./images/conf/Question.png"
 import Footer from './Components/Footer'
+import NaviBarv2 from './Components/NaviBarv2'
 
 const variants = {
   visible: custom => ({
@@ -58,6 +58,8 @@ export function MainTeam() {
   ]
   return(
       <>
+      <NaviBarv2 />
+    <Container className="my-3"   style={{height: "120%" }}></Container>
 
         <Container >
           <motion.div initial="hidden"

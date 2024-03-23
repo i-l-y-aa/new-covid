@@ -6,9 +6,9 @@ import { motion } from "framer-motion"
 const TeamItem = forwardRef((props, ref) => {
     return (
         <Col xs= {12} md={6} lg={6} className="my-1" ref={ref}>
-               <Card border="light" style={{height: '11rem'}} className="mx-auto shadow1">
+               <Card border="light" style={{minheight: '15rem'}} className="mx-auto shadow1">
                    <Row>
-                       <Col md={3}>
+                       <Col md={4}>
                             <Container style={{ width: '10rem' }, {height: '9rem'}} className="my-4 text-center">
                 <Image variant="bottom"
                src={props.post.image}
@@ -19,7 +19,7 @@ const TeamItem = forwardRef((props, ref) => {
                />
              </Container>                 
                        </Col>
-                       <Col md={9}>
+                       <Col md={8}>
                            <Card.Body>
                                <Card.Title>{props.post.name}</Card.Title>
                                <Card.Text>

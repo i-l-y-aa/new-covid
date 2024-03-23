@@ -6,7 +6,7 @@ import Question from ".././images/conf/Question.png"
 import BGRS_SB_2024 from ".././images/conf/BGRS_SB_2024.png"
 const Main_conferences_En = () => {
   const confs = [
-    {id: 5, name: 'QIPA-2024', image: Question, hreff: "", width: '6rem', height: '6rem', rounded: true},
+    {id: 5, name: 'Inverse and Ill-Posed Problems and Machine Learning', image: Question, hreff: "https://kaznpu.kz/en/6589/notice/", width: '6rem', height: '6rem', rounded: true},
     {id: 8, name: 'BGRS/SB-2024', image:  BGRS_SB_2024, hreff: "https://bgrssb.icgbio.ru/2024/ru/", width: '6rem' , height: '6rem', rounded: false},
   ]
 
@@ -67,7 +67,7 @@ const Main_conferences_En = () => {
         />
         </Container>
           <Card.Body>
-            <Card.Title className="text-center"><a href="" className="nav-link d-inline text-black" target="_blank" rel="noopener noreferrer">Inverse and Ill-Posed Problems and Machine Learning</a></Card.Title>
+            <Card.Title className="text-center"><a href="" className="nav-link d-inline text-black" target="_blank" rel="noopener noreferrer">QIPA-2024 </a></Card.Title>
           </Card.Body>
         </Card>
         </a>
