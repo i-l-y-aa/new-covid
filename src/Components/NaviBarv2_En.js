@@ -19,7 +19,7 @@ function NaviBarv2_En() {
         <Image variant="bottom" className = ""
           src={ip_head}
           fluid
-          style={{ width: '5rem' }, {height: '5rem'}}
+          style={{ width: '8rem' }, {height: '8rem'}}
           />{' '}
           <h3></h3></Stack></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

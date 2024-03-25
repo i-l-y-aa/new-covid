@@ -13,6 +13,7 @@ import Zyatkov from "./images/team/Zyatkov.png"
 import Neverov from "./images/team/Neverov.png"
 import Petrakova from "./images/team/Petrakova.jpg"
 import Kabanikhin from "./images/team/Kabanikhin.jpg"
+import Khrushchev from "./images/team/Khrushchev.jpg"
 import Footer from './Components/Footer'
 import Question from "./images/conf/Question.png"
 
@@ -45,13 +46,13 @@ const itemAnimation = {
 export function Main() {
 
   const posts = [
-    {id: 1, wid: '9rem', name: 'Криворотько Ольга Игоревна', url:'https://covid19-modeling.ru/data/Резюме-Криворотько_2023.pdf', institution: 'д.ф.-м.н.,  начальник научно-исследовательского отдела ММЦ ИМ СО РАН',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
+    {id: 1, wid: '8rem', name: 'Криворотько Ольга Игоревна', url:'https://covid19-modeling.ru/data/Резюме-Криворотько_2023.pdf', institution: 'д.ф.-м.н.,  начальник научно-исследовательского отдела ММЦ ИМ СО РАН',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
     {id: 2, wid: '8rem', name: 'Зятьков Николай Юрьевич', institution: 'к.т.н., начальник инновационного отдела ММЦ ИМ СО РАН',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
     {id: 3, wid: '8rem', name: 'Кабанихин Сергей Игоревич', institution: 'Директор ММЦ ИМ СО РАН',Phone:' 📞 +7(383) 329-7526',mail:'📩 kabanikh@math.nsc.ru', image: Kabanikhin},
-    {id: 4, wid: '9rem', name: 'Петракова Виктория Сергеевна ', institution: 'к.ф.-м.н., научный сотрудник ИМ СО РАН',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
-    {id: 5, wid: '8rem', name: 'Хрущев Сергей Евгеньевич ', institution: 'к.ф.-м.н., старший научный сотрудник ИМ СО РАН',Phone:' 📞 +7(383) 329-7659',mail:'📩 s.e.khrushchev@math.nsc.ru', image: Question},
-    {id: 6, wid: '8rem', name: 'Звонарева Татьяна Александровна ', institution: 'инженер ИМ СО РАН',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
-    {id: 7, wid: '9rem', name: 'Неверов Андрей Вячеславович ', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь ИМ СО РАН',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
+    {id: 4, wid: '8rem', name: 'Петракова Виктория Сергеевна ', institution: 'к.ф.-м.н., научный сотрудник ИМ СО РАН',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
+    {id: 5, wid: '8rem', name: 'Хрущев Сергей Евгеньевич ', institution: 'к.ф.-м.н., старший научный сотрудник ИМ СО РАН',Phone:' 📞 +7(383) 329-7659',mail:'📩 s.e.khrushchev@math.nsc.ru', image: Khrushchev},
+    {id: 6, wid: '8rem', name: 'Звонарева Татьяна Александровна ', institution: 'младший научный сотрудник ИМ СО РАН',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
+    {id: 7, wid: '8rem', name: 'Неверов Андрей Вячеславович ', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь ИМ СО РАН',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
     {id: 8, wid: '8rem', name: 'Нестерова Ангелина Витальевна ', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь ИМ СО РАН',Phone:'',mail:'📩 angelka.nesterova.99@mail.ru' , image: Question},
     {id: 9, wid: '8rem', name: 'Стрижак Сергей Владимирович ', institution: 'к.т.н., старший научный сотрудник ИСП',institution2:'РАН',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
     {id: 10, wid: '8rem', name: 'Кошелев Константин Борисович ', institution: 'к.ф.-м.н., старший научный сотрудник ИСП РАН',Phone:'',mail:'📩 koshelev@iwep.ru', image: Question},
@@ -106,7 +107,7 @@ export function Main() {
             <Main_publications />
             </motion.div>
             <motion.div initial="hidden"
-          animate="visible" custom={3}
+          animate="visible" custom={2}
           variants={variants}>
           <Button href="/Main_publications_more_detailed" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
             <div style={{fontSize: 16}}><b>Подробнее</b></div></Button>
