@@ -13,7 +13,6 @@ import Zyatkov from "./images/team/Zyatkov.png"
 import Neverov from "./images/team/Neverov.png"
 import Petrakova from "./images/team/Petrakova.jpg"
 import Kabanikhin from "./images/team/Kabanikhin.jpg"
-import Khrushchev from "./images/team/Khrushchev.jpg"
 import Footer from './Components/Footer'
 import Question from "./images/conf/Question.png"
 
@@ -50,15 +49,13 @@ export function Main() {
     {id: 2, wid: '8rem', name: 'Зятьков Николай Юрьевич', institution: 'к.т.н., начальник инновационного отдела ММЦ ИМ СО РАН',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
     {id: 3, wid: '8rem', name: 'Кабанихин Сергей Игоревич', institution: 'Директор ММЦ ИМ СО РАН',Phone:' 📞 +7(383) 329-7526',mail:'📩 kabanikh@math.nsc.ru', image: Kabanikhin},
     {id: 4, wid: '8rem', name: 'Петракова Виктория Сергеевна ', institution: 'к.ф.-м.н., научный сотрудник ИМ СО РАН',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
-    {id: 5, wid: '8rem', name: 'Хрущев Сергей Евгеньевич ', institution: 'к.ф.-м.н., старший научный сотрудник ИМ СО РАН',Phone:' 📞 +7(383) 329-7659',mail:'📩 s.e.khrushchev@math.nsc.ru', image: Khrushchev},
-    {id: 6, wid: '8rem', name: 'Звонарева Татьяна Александровна ', institution: 'младший научный сотрудник ИМ СО РАН',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
-    {id: 7, wid: '8rem', name: 'Неверов Андрей Вячеславович ', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь ИМ СО РАН',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
-    {id: 8, wid: '8rem', name: 'Нестерова Ангелина Витальевна ', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь ИМ СО РАН',Phone:'',mail:'📩 angelka.nesterova.99@mail.ru' , image: Question},
-    {id: 9, wid: '8rem', name: 'Стрижак Сергей Владимирович ', institution: 'к.т.н., старший научный сотрудник ИСП',institution2:'РАН',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
-    {id: 10, wid: '8rem', name: 'Кошелев Константин Борисович ', institution: 'к.ф.-м.н., старший научный сотрудник ИСП РАН',Phone:'',mail:'📩 koshelev@iwep.ru', image: Question},
-    {id: 11, wid: '8rem', name: 'Шефер Евгений Игоревич ', institution: 'к.ф.-м.н., научный сотрудник ИМ СО РАН',Phone:' 📞 +7(383) 329-7659',mail:'📩 e.i.shefer@math.nsc.ru', image: Question},
-    {id: 12, wid: '8rem', name: 'Глухов Антон Иосифович ', institution: 'стажер-исследователь ИМ СО ',institution2:'РАН',Phone:'',mail:'📩 a.glukhov@g.nsu.ru', image: Question},
-    {id: 13, wid: '8rem', name: 'Сурнин Павел Сергеевич ', institution: 'аспирант НГУ',institution2:'стажер-исследователь ИМ СО РАН',Phone:'',mail:'📩 p.surnin@g.nsu.ru', image: Question}
+    {id: 5, wid: '8rem', name: 'Звонарева Татьяна Александровна ', institution: 'младший научный сотрудник ИМ СО РАН',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
+    {id: 6, wid: '8rem', name: 'Неверов Андрей Вячеславович ', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь ИМ СО РАН',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
+    {id: 7, wid: '8rem', name: 'Нестерова Ангелина Витальевна ', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь ИМ СО РАН',Phone:'',mail:'📩 angelka.nesterova.99@mail.ru' , image: Question},
+    {id: 8, wid: '8rem', name: 'Стрижак Сергей Владимирович ', institution: 'к.т.н., старший научный сотрудник ИСП',institution2:'РАН',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
+    {id: 9, wid: '8rem', name: 'Кошелев Константин Борисович ', institution: 'к.ф.-м.н., старший научный сотрудник ИСП РАН',Phone:'',mail:'📩 koshelev@iwep.ru', image: Question},
+    {id: 10, wid: '8rem', name: 'Глухов Антон Иосифович ', institution: 'стажер-исследователь ИМ СО ',institution2:'РАН',Phone:'',mail:'📩 a.glukhov@g.nsu.ru', image: Question},
+    {id: 11, wid: '8rem', name: 'Сурнин Павел Сергеевич ', institution: 'аспирант НГУ',institution2:'стажер-исследователь ИМ СО РАН',Phone:'',mail:'📩 p.surnin@g.nsu.ru', image: Question}
   ]
   return(
       <>
