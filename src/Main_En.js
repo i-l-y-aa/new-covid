@@ -45,11 +45,11 @@ const itemAnimation = {
 export function Main_En() {
 
   const posts = [
-    {id: 1, wid: '8rem', name: 'Olga Krivorotko', url:'https://covid19-modeling.ru/data/Krivorotko-CV_short.pdf', institution: 'Doctor of Physical and Mathematical Sciences, Head of the Research Department of the MCA IM SB RAS',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
+    {id: 1, wid: '8rem', name: 'Olga Krivorotko', url:'https://covid19-modeling.ru/data/Krivorotko-CV_short .pdf', institution: 'Doctor of Physical and Mathematical Sciences, Head of the Research Department of the MCA IM SB RAS',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
     {id: 2, wid: '8rem', name: 'Nikolai Zyatkov', institution: 'Candidate of Technical Sciences, Head of the Innovation Department of the MCA IM SB RAS',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
     {id: 3, wid: '8rem', name: 'Sergey Kabanikhin', institution: 'Director of the MCA IM SB RAS',Phone:' 📞 +7(383) 329-7526',mail:'📩 kabanikh@math.nsc.ru', image: Kabanikhin},
     {id: 4, wid: '8rem', name: 'Victoria Petrakova', institution: 'Candidate of Physical and Mathematical Sciences, Researcher IM SB RAS',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
-    {id: 5, wid: '8rem', name: 'Tatyana Zvonareva', institution: 'Junior Researcher IM SB RAS',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
+    {id: 5, wid: '8rem', name: 'Tatyana Zvonareva',url:'https://covid19-modeling.ru/data/Zvonareva-CV.pdf', institution: 'Junior Researcher IM SB RAS',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
     {id: 6, wid: '8rem', name: 'Andrey Neverov', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer IM SB RAS',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
     {id: 7, wid: '8rem', name: 'Angelina Nesterova', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer IM SB RAS',Phone:'',mail:'📩 angelka.nesterova.99@mail.ru' , image: Question},
     {id: 8, wid: '8rem', name: 'Sergey Strizhak', institution: 'Candidate of Technical Sciences, Senior Researcher of the ISP RAS',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
