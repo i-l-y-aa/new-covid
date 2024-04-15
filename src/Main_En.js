@@ -53,7 +53,7 @@ export function Main_En() {
     {id: 6, wid: '8rem', name: 'Andrey Neverov', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer IM SB RAS',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
     {id: 7, wid: '8rem', name: 'Angelina Nesterova', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer IM SB RAS',Phone:'',mail:'📩 angelka.nesterova.99@mail.ru' , image: Question},
     {id: 8, wid: '8rem', name: 'Sergey Strizhak', institution: 'Candidate of Technical Sciences, Senior Researcher of the ISP RAS',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
-    {id: 9, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher at ISP RAN',Phone:'',mail:'📩 koshelev@iwep.ru', image: Question},
+    {id: 9, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher at ISP RAN',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Question},
     {id: 10, wid: '8rem', name: 'Anton Glukhov', institution: 'Intern researcher IM SB RAS',institution2:'',Phone:'',mail:'📩 a.glukhov@g.nsu.ru', image: Question},
     {id: 11, wid: '8rem', name: 'Pavel Surnin', institution: 'Graduate student of NSU',institution2:'Intern researcher IM SB RAS',Phone:'',mail:'📩 p.surnin@g.nsu.ru', image: Question}
   ]
