@@ -12,7 +12,7 @@ import Krivorotko from "./images/team/Krivorotko.png"
 import Zyatkov from "./images/team/Zyatkov.png"
 import Neverov from "./images/team/Neverov.png"
 import Petrakova from "./images/team/Petrakova.jpg"
-import Kabanikhin from "./images/team/Kabanikhin.jpg"
+import Koshelev from "./images/team/Koshelev.jpg"
 import Footer_En from './Components/Footer_En'
 import Question from "./images/conf/Question.png"
 
@@ -45,17 +45,19 @@ const itemAnimation = {
 export function Main_En() {
 
   const posts = [
-    {id: 1, wid: '8rem', name: 'Olga Krivorotko', url:'https://covid19-modeling.ru/data/Krivorotko-CV_short .pdf', institution: 'Doctor of Physical and Mathematical Sciences, Head of the Research Department of the MCA IM SB RAS',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
-    {id: 2, wid: '8rem', name: 'Nikolai Zyatkov', institution: 'Candidate of Technical Sciences, Head of the Innovation Department of the MCA IM SB RAS',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
-    {id: 3, wid: '8rem', name: 'Sergey Kabanikhin', institution: 'Director of the MCA IM SB RAS',Phone:' 📞 +7(383) 329-7526',mail:'📩 kabanikh@math.nsc.ru', image: Kabanikhin},
-    {id: 4, wid: '8rem', name: 'Victoria Petrakova', institution: 'Candidate of Physical and Mathematical Sciences, Researcher IM SB RAS',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
-    {id: 5, wid: '8rem', name: 'Tatyana Zvonareva',url:'https://covid19-modeling.ru/data/Zvonareva-CV.pdf', institution: 'Junior Researcher IM SB RAS',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
-    {id: 6, wid: '8rem', name: 'Andrey Neverov', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer IM SB RAS',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
-    {id: 7, wid: '8rem', name: 'Angelina Nesterova', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer IM SB RAS',Phone:'',mail:'📩 angelka.nesterova.99@mail.ru' , image: Question},
-    {id: 8, wid: '8rem', name: 'Sergey Strizhak', institution: 'Candidate of Technical Sciences, Senior Researcher of the ISP RAS',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
-    {id: 9, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher at ISP RAN',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Question},
-    {id: 10, wid: '8rem', name: 'Anton Glukhov', institution: 'Intern researcher IM SB RAS',institution2:'',Phone:'',mail:'📩 a.glukhov@g.nsu.ru', image: Question},
-    {id: 11, wid: '8rem', name: 'Pavel Surnin', institution: 'Graduate student of NSU',institution2:'Intern researcher IM SB RAS',Phone:'',mail:'📩 p.surnin@g.nsu.ru', image: Question}
+    {id: 1, wid: '8rem', name: 'Olga Krivorotko', url:'https://covid19-modeling.ru/data/Krivorotko-CV_short .pdf', institution: 'Doctor of Physical and Mathematical Sciences,Head of the laboratory',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
+    {id: 2, wid: '8rem', name: 'Nikita Novikov', institution: 'Candidate of Physical and Mathematical Sciences,Senior Researcher',Phone:'',mail:'📩 novikov-1989@yandex.ru', image: Question},
+    {id: 3, wid: '8rem', name: 'Nikolai Zyatkov', institution: 'Candidate of Technical Sciences,Research Associate',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
+    {id: 4, wid: '8rem', name: 'Victoria Petrakova', url:'https://covid19-modeling.ru/data/Petrakova_CV.pdf', institution: 'Candidate of Physical and Mathematical Sciences,Research Associate',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
+    {id: 5, wid: '8rem', name: 'Sergey Strizhak', institution: 'Candidate of Technical Sciences, Senior Researcher',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
+    {id: 6, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev},
+    {id: 7, wid: '8rem', name: 'Tatyana Zvonareva',url:'https://covid19-modeling.ru/data/Zvonareva-CV.pdf', institution: 'Junior Research Assistant',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
+    {id: 8, wid: '8rem', name: 'Diana Semenova', institution: 'Junior Research Assistant',Phone:'',mail:'📩 dianasoulmate@yandex.ru', image: Question},
+    {id: 9, wid: '8rem', name: 'Andrey Neverov', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
+    {id: 10, wid: '8rem', name: 'Angelina Nesterova', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:'',mail:'📩 angelka.nesterova.99@mail.ru' , image: Question},
+    {id: 11, wid: '8rem', name: 'Denis Mikhailapov', institution: 'Intern Researcher',Phone:'',mail:'📩', image: Question},
+    {id: 12, wid: '8rem', name: 'Dmitry Dudukalov', institution: 'Intern Researcher',Phone:'',mail:'📩 d.dudukalov@g.nsu.ru', image: Question}
+  
   ]
   return(
       <>

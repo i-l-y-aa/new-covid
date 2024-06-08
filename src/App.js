@@ -6,6 +6,8 @@ import Footer_En from './Components/Footer_En'
 import './App.css';
 import {MainTeam} from './MainTeam'
 import {Main_publications_more_detailed} from './Components/Main_publications_more_detailed'
+import {Krivorotko_info} from './Components/Krivorotko_info'
+
 
 import {
   BrowserRouter as Router,
@@ -31,11 +33,14 @@ import { Data_En } from "./Data_En";
 import { MainTeam_En } from "./MainTeam_En";
 import {Main_publications_more_detailed_En} from './Components/Main_publications_more_detailed_En'
 
+
+
 function App() {
 
 return (<>
     <>
     <div className="bg-light" >
+
       <Helmet>
          <meta charSet="utf-8" />
          <title></title>
@@ -54,6 +59,7 @@ return (<>
             <Route exact path="/data/En" element={<Data_En />} />
             <Route exact path="/mainTeam/En" element={<MainTeam_En />} />
             <Route exact path="/main_publications_more_detailed/En" element={<Main_publications_more_detailed_En />} />
+            <Route exact path="/krivorotko_info" element={<Krivorotko_info />} />
           </Routes>
           </div>
     </>

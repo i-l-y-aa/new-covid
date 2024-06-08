@@ -37,9 +37,10 @@ const TeamItem = forwardRef((props, ref) => {
                           </div>
                           <div>
                             <a href={props.post.url} className="nav-link d-inline text-blue" target="_blank">
-                                Резюме
+                            Подробнее
                             </a>
                           </div>
+                          
                         </Card.Text>
                            </Card.Body>
                        </Col>

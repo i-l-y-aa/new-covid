@@ -29,10 +29,10 @@ const Main_picture = () => {
         <motion.div initial="hidden"
           animate="visible" custom={1}
           variants={variants}>
-          <h1 className="text-white mp_info"><b>Лаборатория обратных и некорректных</b></h1>
-          <h1 className="text-white mp_info"><b>задач и машинного обучения</b></h1>
-          <h1 className="text-white mp_info"><b>в биологических, социально-экономических</b></h1>
-          <h1 className="text-white mp_info"><b>и экологических процессах</b></h1>
+          <h1 className="text-white mp_info"><b>Лаборатория ИИ-технологий</b></h1>
+          <h1 className="text-white mp_info"><b>математического моделирования</b></h1>
+          <h1 className="text-white mp_info"><b>биологических, социально-экономических</b></h1>
+          <h1 className="text-white mp_info"><b>и экологических процессов</b></h1>
           </motion.div>
           </b>
 
