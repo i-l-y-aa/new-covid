@@ -25,6 +25,7 @@ export default function NaviBar() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto" className="justify-content-end flex-grow-1 pe-4">
+        <Nav.Link><NavLink to="/news" className={setActive} ><h5>Новости</h5></NavLink></Nav.Link>
           <Nav.Link><NavLink to="/" className={setActive} ><h5>Главная</h5></NavLink></Nav.Link>
           <Nav.Link><NavLink to="/modeling" className={setActive}><h5>Моделирование</h5></NavLink></Nav.Link>
           <Nav.Link><NavLink to="/data" className={setActive}><h5>Данные</h5></NavLink></Nav.Link>

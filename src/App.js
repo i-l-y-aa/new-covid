@@ -9,6 +9,7 @@ import {Main_publications_more_detailed} from './Components/Main_publications_mo
 import {Krivorotko_info} from './Components/Krivorotko_info'
 
 
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -21,6 +22,7 @@ import {Main} from './Main';
 import {Modeling} from './Modeling';
 import {Data} from './Data';
 import axios from "axios"
+import {News} from './News';
 
 
 import {Helmet} from "react-helmet";
@@ -31,9 +33,12 @@ import { Main_En } from "./Main_En";
 import { Modeling_En } from "./Modeling_En";
 import { Data_En } from "./Data_En";
 import { MainTeam_En } from "./MainTeam_En";
-import {Main_publications_more_detailed_En} from './Components/Main_publications_more_detailed_En'
+import {Main_publications_more_detailed_En} from './Components/Main_publications_more_detailed_En';
 
 
+import {Sem_a} from './news/Sem_a';
+import {Conf_a} from './news/Conf_a';
+import {Conf_b} from './news/Conf_b'
 
 function App() {
 
@@ -60,6 +65,10 @@ return (<>
             <Route exact path="/mainTeam/En" element={<MainTeam_En />} />
             <Route exact path="/main_publications_more_detailed/En" element={<Main_publications_more_detailed_En />} />
             <Route exact path="/krivorotko_info" element={<Krivorotko_info />} />
+            <Route exact path="/news" element={<News />} />
+            <Route exact path="/sem_a" element={<Sem_a />} />
+            <Route exact path="/conf_a" element={<Conf_a />} />
+            <Route exact path="/conf_b" element={<Conf_b />} />
           </Routes>
           </div>
     </>

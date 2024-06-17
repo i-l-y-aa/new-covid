@@ -53,7 +53,7 @@ import scales from 'chartjs-plugin-zoom';
    },
   }
 
-const PublicationsData = (props) => {
+const NewsData = (props) => {
 
   
 
@@ -64,7 +64,7 @@ const PublicationsData = (props) => {
     </div>
     <ListGroup className="justify-content-md-center" align='center' as="ol" variant="flush" style={{width:"100%"}} >
    
-    { props.item.list.map((item) =>
+   <Row xs={1} md={3} > { props.item.list.map((item) =>
                   <ListGroup as="li">
                   <a  style={{'textDecoration': 'none'}}>
                           <Card.Body className="pubcardcol my-3">
@@ -72,10 +72,10 @@ const PublicationsData = (props) => {
                           </Card.Body></a>
                           </ListGroup> 
               )} 
-              
+              </Row>
     </ListGroup>
   </Tab.Pane>
   
   );
 };
-export default PublicationsData;
+export default NewsData;

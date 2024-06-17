@@ -219,6 +219,64 @@ color:  #39C0ED;
     display: none;
 }
 
+.cards_t {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+.cards_item_t:not(:last-child) {
+  margin-right: 20px;
+}
+.card_t {
+  display: flex;
+  flex-direction: column;
+  width: 419px;
+  background-color: #fff;
+}
+.card_image_t {
+  height: 200px;
+}
+.card_image_t img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card_content_t {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  flex-grow: 1;
+}
+.card_title_t {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.card_descr_t {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.card_btn_t {
+  border: none;
+  padding: 10px 20px;
+  color:#000000;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin-top: auto;
+}
+.card_btn_th {
+  border: none;
+  padding: 10px 20px;
+  color:#ffffff;
+  background-color: #39C0ED;
+  cursor: pointer;
+  margin-top: auto;
+  border-radius: 10px
+}
+.cards_item_t .card_t {
+  height: 100%;
+}
 
 @media screen and (max-width:940px) {
     .header {
@@ -261,5 +319,4 @@ color:  #39C0ED;
     .navbar-light .navbar-toggler-icon {
     background-image: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e);
     }
-
   }
