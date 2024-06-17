@@ -107,7 +107,7 @@ export function Main() {
                   <img src={conf_b} alt="Конференция"></img>
                 </div>
                 <div class="card_content_t">
-                <h5 class="card_title_t">Открыта подача тезисов на конференцию «Математика в медицине»</h5>
+                <h5 class="card_title_t">Продолжается приём тезисов на конференцию «Математика в медицине»</h5>
                 <p class="card_descr_t">17.06.2024 </p>
                 <span class="card_btn_t "><a href="/Conf_b">Читать полностью > </a></span>
                 </div>

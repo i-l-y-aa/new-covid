@@ -99,7 +99,7 @@ const postsall  = [
       <img src={conf_b} alt="Конференция"></img>
     </div>
     <div class="card_content_t">
-    <h5 class="card_title_t">Открыта подача тезисов на конференцию «Математика в медицине»</h5>
+    <h5 class="card_title_t">Продолжается приём тезисов на конференцию «Математика в медицине»</h5>
     <h5 class="card_descr_t lead">17.06.2024 </h5>
     <span class="card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
     </div>
