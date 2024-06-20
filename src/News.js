@@ -19,7 +19,7 @@ export function News () {
             <img src={conf_a} alt="Конференция"></img>
           </div>
           <div class="card_content_t">
-          <h5 class="card_title_t">14-я Международная мультиконференция «Биоинформатика регуляции и структуры геномов/системная биология», 5-10 августа 2024 года</h5>
+          <h5 class="card_title_t">14-я Международная мультиконференция «Биоинформатика регуляции и структуры геномов/системная биология», 5-10 августа 2024</h5>
           <h5 class="card_descr_t lead">13.06.2024</h5>
           <span class="card_btn_t "><a href="/Conf_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
           </div>
@@ -32,8 +32,8 @@ export function News () {
         </div>
         <div class="card_content_t">
         <h5 class="card_title_t">Открыта подача тезисов на конференцию «Математика в медицине»</h5>
-        <p class="card_descr_t">17.06.2024 </p>
-        <span class="card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+        <h5 class="my-3 card_descr_t lead">17.06.2024 </h5>
+        <span class="my-1 card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
         </div>
       </article>
     </li></ul>,eventKey: "A1",eventKey: "all"}
@@ -87,7 +87,7 @@ const postsall  = [
         <img src={conf_a} alt="Конференция"></img>
       </div>
       <div class="card_content_t">
-      <h5 class="card_title_t">14-я Международная мультиконференция «Биоинформатика регуляции и структуры геномов/системная биология», 5-10 августа 2024 года</h5>
+      <h5 class="card_title_t">14-я Международная мультиконференция «Биоинформатика регуляции и структуры геномов/системная биология», 5-10 августа 2024</h5>
       <h5 class="card_descr_t lead">13.06.2024</h5>
       <span class="card_btn_t "><a href="/Conf_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
       </div>
@@ -100,11 +100,12 @@ const postsall  = [
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t">Продолжается приём тезисов на конференцию «Математика в медицине»</h5>
-    <h5 class="card_descr_t lead">17.06.2024 </h5>
-    <span class="card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    <h5 class="my-3 card_descr_t lead">17.06.2024 </h5>
+    <span class="my-1 card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
     </div>
   </article>
-</li></ul>,eventKey: "A2",eventKey: "all"}
+</li></ul>,eventKey: "A2",eventKey: "all"},
+
   
   
 ]  

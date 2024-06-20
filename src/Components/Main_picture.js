@@ -20,7 +20,7 @@ const Main_picture = () => {
     return (
       <Card  border="light"  style={{
         backgroundImage: `url("https://ega.ee/wp-content/uploads/2020/08/corona_1.jpg")`,
-        height:'px',
+        height:'500px',
 
       }}>
       <NaviBar />
@@ -29,10 +29,8 @@ const Main_picture = () => {
         <motion.div initial="hidden"
           animate="visible" custom={1}
           variants={variants}>
-          <h4 className="text-white mp_info"><b>Лаборатория ИИ-технологий</b></h4>
-          <h4 className="text-white mp_info"><b>математического моделирования</b></h4>
-          <h4 className="text-white mp_info"><b>биологических, социально-экономических</b></h4>
-          <h4 className="text-white mp_info"><b>и экологических процессов</b></h4>
+          <h2 className="text-white mp_info"><b>Лаборатория ИИ-технологий математического моделирования</b></h2>
+          <h2 className="text-white mp_info"><b>биологических, социально-экономических и экологических процессов</b></h2>
           </motion.div>
           </b>
 

@@ -166,16 +166,7 @@ export function Main() {
           <Button href="/Main_publications_more_detailed" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
             <div style={{fontSize: 16}}><b>Подробнее</b></div></Button>
             </motion.div>
-            <motion.div initial="hidden"
-               custom={2}
-              variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
-        <Card className="text-center bg-secondary text-white my-3">
-          <Card.Title> <h4 className="my-1 ">Конференции</h4> </Card.Title>
-        </Card></motion.div>
-        <motion.div initial="hidden"
-           custom={2}
-          variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
-            <Main_conferences /> </motion.div>
+            
       </Container>
       <Footer />
     </>
