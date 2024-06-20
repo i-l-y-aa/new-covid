@@ -32,6 +32,7 @@ export default function NaviBar() {
           <h5><NavDropdown title={<span className="fdrop">Статистика</span>} id="collasible-nav-dropdown">
             <NavDropdown.Item> <NavLink to="/statistics" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Коронавирус</NavLink></NavDropdown.Item>
           </NavDropdown></h5>
+          
           <div class="header__lang">
                     <a href="/" class="header__lang-link active">RU</a>
                     <span>|</span>

@@ -45,7 +45,7 @@ const itemAnimation = {
 export function Main_En() {
 
   const posts = [
-    {id: 1, wid: '8rem', name: 'Olga Krivorotko', url:'https://covid19-modeling.ru/data/Krivorotko-CV_short .pdf', institution: 'Doctor of Physical and Mathematical Sciences,Head of the laboratory',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
+    {id: 1, wid: '8rem', name: 'Olga Krivorotko', url:'/Krivorotko_info/En', institution: 'Doctor of Physical and Mathematical Sciences,Head of the laboratory',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
     {id: 2, wid: '8rem', name: 'Nikita Novikov', institution: 'Candidate of Physical and Mathematical Sciences,Senior Researcher',Phone:'',mail:'📩 novikov-1989@yandex.ru', image: Question},
     {id: 3, wid: '8rem', name: 'Nikolai Zyatkov', institution: 'Candidate of Technical Sciences,Research Associate',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
     {id: 4, wid: '8rem', name: 'Victoria Petrakova', url:'https://covid19-modeling.ru/data/Petrakova_CV.pdf', institution: 'Candidate of Physical and Mathematical Sciences,Research Associate',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},

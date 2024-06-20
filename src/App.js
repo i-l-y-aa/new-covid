@@ -7,6 +7,7 @@ import './App.css';
 import {MainTeam} from './MainTeam'
 import {Main_publications_more_detailed} from './Components/Main_publications_more_detailed'
 import {Krivorotko_info} from './Components/Krivorotko_info'
+import {Krivorotko_info_En} from './Components/Krivorotko_info_En'
 
 
 
@@ -18,12 +19,13 @@ import {
 } from 'react-router-dom';
 
 import {Covid} from './Covid';
+import {Tub} from './Tub';
 import {Main} from './Main';
 import {Modeling} from './Modeling';
 import {Data} from './Data';
 import axios from "axios"
 import {News} from './News';
-
+import {News_En} from './News_En';
 
 import {Helmet} from "react-helmet";
 
@@ -39,6 +41,9 @@ import {Main_publications_more_detailed_En} from './Components/Main_publications
 import {Sem_a} from './news/Sem_a';
 import {Conf_a} from './news/Conf_a';
 import {Conf_b} from './news/Conf_b'
+import {Sem_a_En} from './news/Sem_a_En';
+import {Conf_a_En} from './news/Conf_a_En';
+import {Conf_b_En} from './news/Conf_b_En'
 
 function App() {
 
@@ -53,6 +58,7 @@ return (<>
        </Helmet>
           <Routes>
             <Route exact path="/statistics" element={<Covid />} />
+            <Route exact path="/tub" element={<Tub />} />
             <Route exact path="/" element={<Main />} />
             <Route exact path="/modeling" element={<Modeling />} />
             <Route exact path="/data" element={<Data />} />
@@ -65,10 +71,15 @@ return (<>
             <Route exact path="/mainTeam/En" element={<MainTeam_En />} />
             <Route exact path="/main_publications_more_detailed/En" element={<Main_publications_more_detailed_En />} />
             <Route exact path="/krivorotko_info" element={<Krivorotko_info />} />
+            <Route exact path="/krivorotko_info/En" element={<Krivorotko_info_En />} />
             <Route exact path="/news" element={<News />} />
+            <Route exact path="/news/En" element={<News_En />} />
             <Route exact path="/sem_a" element={<Sem_a />} />
             <Route exact path="/conf_a" element={<Conf_a />} />
             <Route exact path="/conf_b" element={<Conf_b />} />
+            <Route exact path="/sem_a/En" element={<Sem_a_En />} />
+            <Route exact path="/conf_a/En" element={<Conf_a_En />} />
+            <Route exact path="/conf_b/En" element={<Conf_b_En />} />
           </Routes>
           </div>
     </>
