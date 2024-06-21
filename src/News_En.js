@@ -40,7 +40,19 @@ export function News_En () {
      
     ]
     const postsA2 = [
-      {id: 1, name: <ul class="cards_t"><li class="cards_item_t">
+      {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={sem_a} alt="Семинар"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">On July 4, a laboratory seminar will be held on the topic "Application of PINN in the SIR model of the middle field game"</h5>
+    <p class="my-3 card_descr_t lead">21.06.2024</p>
+    <span class="my-1 card_btn_t "><a href="/Sem_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+    </div>
+  </article>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+      {id: 2, name: <ul class="cards_t"><li class="cards_item_t">
       <article class="card_t">
         <div class="card_image_t">
           <img src={sem_a} alt="Семинар"></img>
@@ -68,19 +80,31 @@ export function News_En () {
 
     ]  
 const postsall  = [
-  {id: 1, name: <ul class="cards_t"><li class="cards_item_t">
+  {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={sem_a} alt="Семинар"></img>
     </div>
     <div class="card_content_t">
-    <h5 class="card_title_t">On June 20, the laboratory will hold a seminar on "Reasoning about methods of checking time series for stationarity"</h5>
-    <h5 class="my-3 card_descr_t lead">13.06.2024</h5>
-    <span class="my-1 card_btn_t"><a  href="/Sem_a/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+    <h5 class="card_title_t">On July 4, a laboratory seminar will be held on the topic "Application of PINN in the SIR model of the middle field game"</h5>
+    <p class="my-3 card_descr_t lead">21.06.2024</p>
+    <span class="my-1 card_btn_t "><a href="/Sem_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
     </div>
   </article>
-</li></ul>,eventKey: "A1",eventKey: "all"},
-  {id: 2, name: <ul class="cards_t ">
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={conf_b} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">The acceptance of abstracts for the conference "Mathematics in Medicine" continues</h5>
+    <h5 class="my-3 card_descr_t lead">17.06.2024 </h5>
+    <span class="my-1 card_btn_t "><a href="/Conf_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+    </div>
+  </article>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 3, name: <ul class="cards_t ">
   <li class="cards_item_t">
     <article class="card_t">
       <div class="card_image_t">
@@ -93,18 +117,19 @@ const postsall  = [
       </div>
     </article>
   </li></ul>,eventKey: "A1",eventKey: "all"},
-  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 4, name: <ul class="cards_t"><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
-      <img src={conf_b} alt="Конференция"></img>
+      <img src={sem_a} alt="Семинар"></img>
     </div>
     <div class="card_content_t">
-    <h5 class="card_title_t">The acceptance of abstracts for the conference "Mathematics in Medicine" continues</h5>
-    <h5 class="my-3 card_descr_t lead">17.06.2024 </h5>
-    <span class="my-1 card_btn_t "><a href="/Conf_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+    <h5 class="card_title_t">On June 20, the laboratory will hold a seminar on "Reasoning about methods of checking time series for stationarity"</h5>
+    <h5 class="my-3 card_descr_t lead">13.06.2024</h5>
+    <span class="my-1 card_btn_t"><a  href="/Sem_a/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
     </div>
   </article>
-</li></ul>,eventKey: "A2",eventKey: "all"},
+</li></ul>,eventKey: "A1",eventKey: "all"},
+  
 
   
   
@@ -158,7 +183,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Quantity: 1 </div>
+               Quantity: 2 </div>
                </Popover.Body>
              </Popover>
            }>
@@ -195,7 +220,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Quantity: 3</div>
+               Quantity: 4</div>
                </Popover.Body>
              </Popover>
            }>

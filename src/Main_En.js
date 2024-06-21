@@ -15,6 +15,9 @@ import Petrakova from "./images/team/Petrakova.jpg"
 import Koshelev from "./images/team/Koshelev.jpg"
 import Footer_En from './Components/Footer_En'
 import Question from "./images/conf/Question.png"
+import sem_a from "./images/news/sem_a.PNG"
+import conf_a from "./images/news/conf_a.PNG"
+import conf_b from "./images/news/conf_b.PNG"
 
 const variants = {
   visible: custom => ({
@@ -62,7 +65,54 @@ export function Main_En() {
   return(
       <>
       <Main_picture_En />
-        <Container >
+      <Container >
+        <motion.div initial="hidden"
+             custom={2}
+            variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
+          <Card className="text-center bg-secondary text-white my-3" >
+            <Card.Title> <h4 className="my-1 ">News</h4> </Card.Title>
+          </Card>
+          </motion.div>
+          <ul class="cards_t">
+            <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">On July 4, a laboratory seminar will be held on the topic "Application of PINN in the SIR model of the middle field game"</h5>
+                <p class="card_descr_t">21.06.2024</p>
+                <span class="card_btn_t "><a href="/Sem_b/En">Read completely > </a></span>
+                </div>
+              </article>
+            </li>
+            <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={conf_b} alt="Конференция"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">The acceptance of abstracts for the conference "Mathematics in Medicine" continues</h5>
+                <p class="card_descr_t">17.06.2024 </p>
+                <span class="card_btn_t "><a href="/Conf_b/En">Read completely > </a></span>
+                </div>
+              </article>
+            </li>
+            <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={conf_a} alt="Конференция"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">14th International Multi-Conference "Bioinformatics of genome regulation and Structure/Systems Biology", August 5-10, 2024</h5>
+                <p class="card_descr_t">13.06.2024</p>
+                <span class="card_btn_t "><a href="/Conf_a/En">Read completely > </a></span>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <Button href="/News/En" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
+            <div style={{fontSize: 16}}><b>All the news</b></div></Button>
           <motion.div initial="hidden"
              custom={2}
             variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>

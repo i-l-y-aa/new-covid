@@ -26,6 +26,8 @@ import {Data} from './Data';
 import axios from "axios"
 import {News} from './News';
 import {News_En} from './News_En';
+import {Sem_Compl} from './Sem_Compl';
+
 
 import {Helmet} from "react-helmet";
 
@@ -36,6 +38,7 @@ import { Modeling_En } from "./Modeling_En";
 import { Data_En } from "./Data_En";
 import { MainTeam_En } from "./MainTeam_En";
 import {Main_publications_more_detailed_En} from './Components/Main_publications_more_detailed_En';
+import {Sem_Compl_En} from './Sem_Compl_En';
 
 
 import {Sem_a} from './news/Sem_a';
@@ -43,7 +46,9 @@ import {Conf_a} from './news/Conf_a';
 import {Conf_b} from './news/Conf_b'
 import {Sem_a_En} from './news/Sem_a_En';
 import {Conf_a_En} from './news/Conf_a_En';
-import {Conf_b_En} from './news/Conf_b_En'
+import {Conf_b_En} from './news/Conf_b_En';
+import {Sem_b} from './news/Sem_b';
+import {Sem_b_En} from './news/Sem_b_En'
 
 function App() {
 
@@ -74,12 +79,16 @@ return (<>
             <Route exact path="/krivorotko_info/En" element={<Krivorotko_info_En />} />
             <Route exact path="/news" element={<News />} />
             <Route exact path="/news/En" element={<News_En />} />
+            <Route exact path="/sem_compl" element={<Sem_Compl />} />
+            <Route exact path="/sem_compl/EN" element={<Sem_Compl_En />} />
             <Route exact path="/sem_a" element={<Sem_a />} />
+            <Route exact path="/sem_a/En" element={<Sem_a_En />} />
             <Route exact path="/conf_a" element={<Conf_a />} />
             <Route exact path="/conf_b" element={<Conf_b />} />
-            <Route exact path="/sem_a/En" element={<Sem_a_En />} />
             <Route exact path="/conf_a/En" element={<Conf_a_En />} />
             <Route exact path="/conf_b/En" element={<Conf_b_En />} />
+            <Route exact path="/sem_b" element={<Sem_b />} />
+            <Route exact path="/sem_b/En" element={<Sem_b_En />} />
           </Routes>
           </div>
     </>

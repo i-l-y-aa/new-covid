@@ -83,21 +83,9 @@ export function Main() {
                   <img src={sem_a} alt="Семинар"></img>
                 </div>
                 <div class="card_content_t">
-                <h5 class="card_title_t">20 июня пройдёт семинар лаборатории на тему «Рассуждения о методах проверки временных рядов на стационарность»</h5>
-                <p class="card_descr_t">13.06.2024</p>
-                <span class="card_btn_t "><a href="/Sem_a">Читать полностью > </a></span>
-                </div>
-              </article>
-            </li>
-            <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={conf_a} alt="Конференция"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">14-я Международная мультиконференция «Биоинформатика регуляции и структуры геномов/системная биология», 5-10 августа 2024 года</h5>
-                <p class="card_descr_t">13.06.2024</p>
-                <span class="card_btn_t "><a href="/Conf_a">Читать полностью > </a></span>
+                <h5 class="card_title_t">4 июля пройдёт семинар лаборатории на тему «Применение PINN в SIR модели игры среднего поля»</h5>
+                <p class="card_descr_t">21.06.2024</p>
+                <span class="card_btn_t "><a href="/Sem_b">Читать полностью > </a></span>
                 </div>
               </article>
             </li>
@@ -110,6 +98,18 @@ export function Main() {
                 <h5 class="card_title_t">Продолжается приём тезисов на конференцию «Математика в медицине»</h5>
                 <p class="card_descr_t">17.06.2024 </p>
                 <span class="card_btn_t "><a href="/Conf_b">Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+            <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={conf_a} alt="Конференция"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">14-я Международная мультиконференция «Биоинформатика регуляции и структуры геномов/системная биология», 5-10 августа 2024 года</h5>
+                <p class="card_descr_t">13.06.2024</p>
+                <span class="card_btn_t "><a href="/Conf_a">Читать полностью > </a></span>
                 </div>
               </article>
             </li>
