@@ -19,7 +19,6 @@ import {
 } from 'react-router-dom';
 
 import {Covid} from './Covid';
-import {Tub} from './Tub';
 import {Main} from './Main';
 import {Modeling} from './Modeling';
 import {Data} from './Data';
@@ -63,7 +62,6 @@ return (<>
        </Helmet>
           <Routes>
             <Route exact path="/statistics" element={<Covid />} />
-            <Route exact path="/tub" element={<Tub />} />
             <Route exact path="/" element={<Main />} />
             <Route exact path="/modeling" element={<Modeling />} />
             <Route exact path="/data" element={<Data />} />
