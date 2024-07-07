@@ -20,6 +20,7 @@ import {Carousel} from 'react-bootstrap'
 import sem_a from "./images/news/sem_a.PNG"
 import conf_a from "./images/news/conf_a.PNG"
 import conf_b from "./images/news/conf_b.PNG"
+import qipa from "./images/conf/qipa.PNG"
 
 
 
@@ -85,7 +86,7 @@ export function Main() {
                 <div class="card_content_t">
                 <h5 class="card_title_t">4 июля пройдёт семинар лаборатории на тему «Применение PINN в SIR модели игры среднего поля»</h5>
                 <p class="card_descr_t">21.06.2024</p>
-                <span class="card_btn_t "><a href="/Sem_b">Читать полностью > </a></span>
+                <span class="card_btn_t "><a href="/Sem_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>
@@ -97,7 +98,7 @@ export function Main() {
                 <div class="card_content_t">
                 <h5 class="card_title_t">Продолжается приём тезисов на конференцию «Математика в медицине»</h5>
                 <p class="card_descr_t">17.06.2024 </p>
-                <span class="card_btn_t "><a href="/Conf_b">Читать полностью > </a></span>
+                <span class="card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>
@@ -109,7 +110,7 @@ export function Main() {
                 <div class="card_content_t">
                 <h5 class="card_title_t">14-я Международная мультиконференция «Биоинформатика регуляции и структуры геномов/системная биология», 5-10 августа 2024 года</h5>
                 <p class="card_descr_t">13.06.2024</p>
-                <span class="card_btn_t "><a href="/Conf_a">Читать полностью > </a></span>
+                <span class="card_btn_t "><a href="/Conf_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>
@@ -166,6 +167,7 @@ export function Main() {
           <Button href="/Main_publications_more_detailed" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
             <div style={{fontSize: 16}}><b>Подробнее</b></div></Button>
             </motion.div>
+
             
       </Container>
       <Footer />

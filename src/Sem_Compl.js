@@ -49,6 +49,18 @@ export function Sem_Compl() {
           </Card>
           </motion.div>
           <ul class="cards_t">
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">4 июля пройдёт семинар лаборатории на тему «Применение PINN в SIR модели игры среднего поля»</h5>
+                <p class="card_descr_t">05.07.2024</p>
+                <span class="card_btn_t "><a href="/Sem_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
             <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
@@ -57,11 +69,10 @@ export function Sem_Compl() {
                 <div class="card_content_t">
                 <h5 class="card_title_t">20 июня пройдёт семинар лаборатории на тему «Рассуждения о методах проверки временных рядов на стационарность»</h5>
                 <p class="card_descr_t">21.06.2024</p>
-                <span class="card_btn_t "><a href="/Sem_a">Читать полностью > </a></span>
+                <span class="card_btn_t "><a href="/Sem_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>
-            
           </ul>
        
           

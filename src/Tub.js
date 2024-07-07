@@ -6,7 +6,7 @@ import Footer from './Components/Footer'
 import {Container, Row, Col, Card, ListGroup, ListGroupItem, Button, Tab, Nav,
 OverlayTrigger, Popover, Placeholder} from 'react-bootstrap';
 import { motion } from "framer-motion"
-import StaticCovidData from './Components/StaticCovidData'
+import StaticTubData from './Components/StaticTubData'
 
 const variants = {
   visible: custom => ({
@@ -24,9 +24,9 @@ const variants = {
 export function Tub(){
 
   const regions = [
-    {id: 1, hr: "https://server.covid19-modeling.ru/api/csvCovid/nd", eventKey: "novosibirsk" },
-    {id: 2, hr: "https://server.covid19-modeling.ru/api/csvCovid/altay", eventKey: "altay"},
-    {id: 3, hr: "https://server.covid19-modeling.ru/api/csvCovid/omsk", eventKey: "omsk"},
+    {id: 1, hr: "https://server.covid19-modeling.ru/api/csvTub/novosibirsk", eventKey: "novosibirsk" },
+    {id: 2, hr: "https://server.covid19-modeling.ru/api/csvTub/altay", eventKey: "altay"},
+    {id: 3, hr: "https://server.covid19-modeling.ru/api/csvTub/omsk", eventKey: "omsk"},
   ]
 
   return (
@@ -121,7 +121,7 @@ export function Tub(){
 
     <Tab.Content>
       {regions.map((region) =>
-          <StaticCovidData key={region.id} region = {region}/>
+          <StaticTubData key={region.id} region = {region}/>
       )}
       </Tab.Content>
   </Tab.Container>

@@ -30,7 +30,8 @@ function NaviBarv2() {
           <Nav.Link><NavLink to="/modeling" className={setActive}><h5>Моделирование</h5></NavLink></Nav.Link>
           <Nav.Link><NavLink to="/data" className={setActive}><h5>Данные</h5></NavLink></Nav.Link>
           <h5><NavDropdown title={<span className="fdrop">Статистика</span>} id="collasible-nav-dropdown">
-            <NavDropdown.Item> <NavLink to="/statistics" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Коронавирус</NavLink></NavDropdown.Item>
+            <NavDropdown.Item> <NavLink to="/statistics" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Коронавирус</NavLink>
+            </NavDropdown.Item>
           </NavDropdown></h5>
           <div class="header__lang">
                     <a href="/" class="header__lang-link active">RU</a>

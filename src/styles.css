@@ -234,14 +234,25 @@ color:  #39C0ED;
   width: 419px;
   background-color: #ffffff;
 }
+.card_conf {
+  display: flex;
+  flex-direction: row;
+  width: 638px;
+  background-color: #ffffff;
+}
 .card_image_t {
   height: 200px;
+}
+.card_image_conf {
+  height: 150px;
+  width: 500px;
 }
 .card_image_t img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .card_content_t {
   display: flex;
   flex-direction: column;
@@ -275,6 +286,10 @@ color:  #39C0ED;
   border-radius: 10px
 }
 .cards_item_t .card_t {
+  height: 100%;
+}
+
+.cards_item_t .card_conf {
   height: 100%;
 }
 

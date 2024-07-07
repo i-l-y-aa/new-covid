@@ -82,7 +82,7 @@ export function Main_En() {
                 <div class="card_content_t">
                 <h5 class="card_title_t">On July 4, a laboratory seminar will be held on the topic "Application of PINN in the SIR model of the middle field game"</h5>
                 <p class="card_descr_t">21.06.2024</p>
-                <span class="card_btn_t "><a href="/Sem_b/En">Read completely > </a></span>
+                <span class="card_btn_t "><a href="/Sem_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
                 </div>
               </article>
             </li>
@@ -94,7 +94,7 @@ export function Main_En() {
                 <div class="card_content_t">
                 <h5 class="card_title_t">The acceptance of abstracts for the conference "Mathematics in Medicine" continues</h5>
                 <p class="card_descr_t">17.06.2024 </p>
-                <span class="card_btn_t "><a href="/Conf_b/En">Read completely > </a></span>
+                <span class="card_btn_t "><a href="/Conf_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
                 </div>
               </article>
             </li>
@@ -106,7 +106,7 @@ export function Main_En() {
                 <div class="card_content_t">
                 <h5 class="card_title_t">14th International Multi-Conference "Bioinformatics of genome regulation and Structure/Systems Biology", August 5-10, 2024</h5>
                 <p class="card_descr_t">13.06.2024</p>
-                <span class="card_btn_t "><a href="/Conf_a/En">Read completely > </a></span>
+                <span class="card_btn_t "><a href="/Conf_a/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
                 </div>
               </article>
             </li>
