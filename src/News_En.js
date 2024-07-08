@@ -8,6 +8,7 @@ import sem_a from "./images/news/sem_a.PNG"
 import conf_a from "./images/news/conf_a.PNG"
 import NewsData from './Components/NewsData'
 import conf_b from "./images/news/conf_b.PNG"
+import life_a from "./images/news/life_a.PNG"
   
 export function News_En () {
 
@@ -80,6 +81,18 @@ export function News_En () {
 
     ]  
 const postsall  = [
+  {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={life_a} alt="Семинар"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">NSU scientists are developing a model for predicting the development of complications of infectious diseases</h5>
+    <p class="my-3 card_descr_t lead">08.07.2024</p>
+    <span class="my-1 card_btn_t "><a href="/Life_a/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+    </div>
+  </article>
+</li></ul>,eventKey: "A2",eventKey: "all"},
   {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">

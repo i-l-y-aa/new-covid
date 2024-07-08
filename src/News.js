@@ -8,6 +8,7 @@ import sem_a from "./images/news/sem_a.PNG"
 import conf_a from "./images/news/conf_a.PNG"
 import NewsData from './Components/NewsData'
 import conf_b from "./images/news/conf_b.PNG"
+import life_a from "./images/news/life_a.PNG"
   
 export function News () {
 
@@ -66,45 +67,63 @@ export function News () {
     </li></ul>,eventKey: "A2",eventKey: "all"}
     ]
     const postsQ1 = [
+      {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={life_a} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">Ученые НГУ разрабатывают модель для прогнозирования развития осложнений инфекционных заболеваний</h5>
+    <h5 class="my-3 card_descr_t lead">08.07.2024 </h5>
+    <span class="my-1 card_btn_t "><a href="/Life_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    </div>
+  </article>
+</li></ul>,eventKey: "Q1",eventKey: "all"},
       
     ]
-    const postsQ2 = [
-     
-    ]
-    const postsQ3 = [
-      
-    ]
-    const postsQ4 = [
+    
       
      
 
-    ]  
+     
 const postsall  = [
   {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
-      <img src={sem_a} alt="Конференция"></img>
+      <img src={life_a} alt="Конференция"></img>
     </div>
     <div class="card_content_t">
-    <h5 class="card_title_t">4 июля пройдёт семинар лаборатории на тему «Применение PINN в SIR модели игры среднего поля»</h5>
-    <h5 class="my-3 card_descr_t lead">21.06.2024 </h5>
-    <span class="my-1 card_btn_t "><a href="/Sem_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    <h5 class="card_title_t">Ученые НГУ разрабатывают модель для прогнозирования развития осложнений инфекционных заболеваний</h5>
+    <h5 class="my-3 card_descr_t lead">08.07.2024 </h5>
+    <span class="my-1 card_btn_t "><a href="/Life_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
   {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
+      <img src={sem_a} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">4 июля пройдёт семинар лаборатории на тему «Применение PINN в SIR модели игры среднего поля»</h5>
+    <h5 class="my-4 card_descr_t lead">21.06.2024 </h5>
+    <span class="my-2 card_btn_t "><a href="/Sem_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    </div>
+  </article>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
       <img src={conf_b} alt="Конференция"></img>
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t">Продолжается приём тезисов на конференцию «Математика в медицине»</h5>
-    <h5 class="my-3 card_descr_t lead">17.06.2024 </h5>
-    <span class="my-1 card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    <h5 class="my-4 card_descr_t lead">17.06.2024 </h5>
+    <span class="my-2 card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 3, name: <ul class="cards_t ">
+  {id: 4, name: <ul class="cards_t ">
   <li class="cards_item_t">
     <article class="card_t">
       <div class="card_image_t">
@@ -117,7 +136,7 @@ const postsall  = [
       </div>
     </article>
   </li></ul>,eventKey: "A1",eventKey: "all"},
-{id: 4, name: <ul class="cards_t"><li class="cards_item_t">
+{id: 5, name: <ul class="cards_t"><li class="cards_item_t">
 <article class="card_t">
   <div class="card_image_t">
     <img src={sem_a} alt="Семинар"></img>
@@ -200,7 +219,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Количество: 0</div>
+               Количество: 1</div>
                </Popover.Body>
              </Popover>
            }>
@@ -219,7 +238,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Количество: 4</div>
+               Количество: 5</div>
                </Popover.Body>
              </Popover>
            }>

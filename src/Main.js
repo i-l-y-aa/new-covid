@@ -18,7 +18,7 @@ import Footer from './Components/Footer'
 import Question from "./images/conf/Question.png"
 import {Carousel} from 'react-bootstrap'
 import sem_a from "./images/news/sem_a.PNG"
-import conf_a from "./images/news/conf_a.PNG"
+import life_a from "./images/news/life_a.PNG"
 import conf_b from "./images/news/conf_b.PNG"
 import qipa from "./images/conf/qipa.PNG"
 
@@ -78,6 +78,18 @@ export function Main() {
           </Card>
           </motion.div>
           <ul class="cards_t">
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={life_a} alt="Конференция"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">Ученые НГУ разрабатывают модель для прогнозирования развития осложнений инфекционных заболеваний</h5>
+                <p class="card_descr_t">08.07.2024</p>
+                <span class="card_btn_t "><a href="/Life_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
             <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
@@ -99,18 +111,6 @@ export function Main() {
                 <h5 class="card_title_t">Продолжается приём тезисов на конференцию «Математика в медицине»</h5>
                 <p class="card_descr_t">17.06.2024 </p>
                 <span class="card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-                </div>
-              </article>
-            </li>
-            <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={conf_a} alt="Конференция"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">14-я Международная мультиконференция «Биоинформатика регуляции и структуры геномов/системная биология», 5-10 августа 2024 года</h5>
-                <p class="card_descr_t">13.06.2024</p>
-                <span class="card_btn_t "><a href="/Conf_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>
@@ -167,7 +167,30 @@ export function Main() {
           <Button href="/Main_publications_more_detailed" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
             <div style={{fontSize: 16}}><b>Подробнее</b></div></Button>
             </motion.div>
+            <motion.div initial="hidden"
+custom={2}
+variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
+<Card className="text-center bg-secondary text-white my-3" >
+<Card.Title> <h4 className="my-1 ">Конференции</h4> </Card.Title>
+</Card>
+</motion.div>
+<ul class="cards_t">
+<li class="cards_item_t">
+<article class="card_conf">
+<div class="card_image_conf my-3">
+<img src={qipa} alt="Конференция"></img>
+</div>
+<div class="card_content_t">
+<h5 class="card_title_t">X Международная конференция «Квазилинейные уравнения, обратные задачи и их приложения».</h5>
+<p class="card_title_t ">Место проведения: Образовательный центр «Сириус».</p>
+<p class="card_title_t ">Дата проведения: С 17 по 21 октября 2024 года .</p>
 
+<span class="card_btn_t "><a href="/QIPA" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+</div>
+</article>
+</li>
+
+</ul>
             
       </Container>
       <Footer />
