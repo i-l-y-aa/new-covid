@@ -9,6 +9,7 @@ import conf_a from "./images/news/conf_a.PNG"
 import NewsData from './Components/NewsData'
 import conf_b from "./images/news/conf_b.PNG"
 import life_a from "./images/news/life_a.PNG"
+import life_b from "./images/news/life_b.PNG"
   
 export function News_En () {
 
@@ -42,6 +43,18 @@ export function News_En () {
     ]
     const postsA2 = [
       {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_a} alt="Семинар"></img>
+        </div>
+        <div class="card_content_t">
+        <h5 class="card_title_t">On July 18, the laboratory will hold a seminar on the topic "Semi-controlled segmentation of medical images: An overview"</h5>
+        <p class="card_descr_t lead">10.07.2024</p>
+        <span class="card_btn_t "><a href="/Sem_c/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+        </div>
+      </article>
+    </li></ul>,eventKey: "A2",eventKey: "all"},
+      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={sem_a} alt="Семинар"></img>
@@ -53,7 +66,7 @@ export function News_En () {
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 2, name: <ul class="cards_t"><li class="cards_item_t">
+      {id: 3, name: <ul class="cards_t"><li class="cards_item_t">
       <article class="card_t">
         <div class="card_image_t">
           <img src={sem_a} alt="Семинар"></img>
@@ -67,21 +80,62 @@ export function News_En () {
     </li></ul>,eventKey: "A2",eventKey: "all"}
     ]
     const postsQ1 = [
-      
-    ]
-    const postsQ2 = [
-     
-    ]
-    const postsQ3 = [
-      
-    ]
-    const postsQ4 = [
+      {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={life_b} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t">
+        <h5 class="card_title_t my-3">The action "Science is near" is taking place in the Novosibirsk region</h5>
+        <p class="card_descr_t lead my-4">10.07.2024</p>
+        <span class="card_btn_t "><a href="/Life_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+        </div>
+      </article>
+    </li></ul>,eventKey: "A2",eventKey: "all"},
+    {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+    <article class="card_t">
+      <div class="card_image_t">
+        <img src={life_a} alt="Семинар"></img>
+      </div>
+      <div class="card_content_t">
+      <h5 class="card_title_t">NSU scientists are developing a model for predicting the development of complications of infectious diseases</h5>
+      <p class="my-3 card_descr_t lead">08.07.2024</p>
+      <span class="my-1 card_btn_t "><a href="/Life_a/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+      </div>
+    </article>
+  </li></ul>,eventKey: "A2",eventKey: "all"}
+
+
       
      
 
     ]  
 const postsall  = [
   {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={life_b} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">The action "Science is near" is taking place in the Novosibirsk region</h5>
+    <p class="card_descr_t lead my-2">10.07.2024</p>
+    <span class="card_btn_t my-4"><a href="/Life_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+    </div>
+  </article>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={sem_a} alt="Семинар"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">On July 18, the laboratory will hold a seminar on the topic "Semi-controlled segmentation of medical images: An overview"</h5>
+    <p class="card_descr_t lead">10.07.2024</p>
+    <span class="card_btn_t "><a href="/Sem_c/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+    </div>
+  </article>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={life_a} alt="Семинар"></img>
@@ -93,7 +147,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={sem_a} alt="Семинар"></img>
@@ -105,7 +159,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={conf_b} alt="Конференция"></img>
@@ -117,7 +171,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 3, name: <ul class="cards_t ">
+  {id: 6, name: <ul class="cards_t ">
   <li class="cards_item_t">
     <article class="card_t">
       <div class="card_image_t">
@@ -130,7 +184,7 @@ const postsall  = [
       </div>
     </article>
   </li></ul>,eventKey: "A1",eventKey: "all"},
-  {id: 4, name: <ul class="cards_t"><li class="cards_item_t">
+  {id: 7, name: <ul class="cards_t"><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={sem_a} alt="Семинар"></img>
@@ -196,7 +250,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Quantity: 2 </div>
+               Quantity: 3 </div>
                </Popover.Body>
              </Popover>
            }>
@@ -214,7 +268,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Quantity: 0</div>
+               Quantity: 2</div>
                </Popover.Body>
              </Popover>
            }>
@@ -233,7 +287,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Quantity: 4</div>
+               Quantity: 7</div>
                </Popover.Body>
              </Popover>
            }>

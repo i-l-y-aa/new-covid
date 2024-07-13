@@ -9,6 +9,7 @@ import conf_a from "./images/news/conf_a.PNG"
 import NewsData from './Components/NewsData'
 import conf_b from "./images/news/conf_b.PNG"
 import life_a from "./images/news/life_a.PNG"
+import life_b from "./images/news/life_b.PNG"
   
 export function News () {
 
@@ -44,6 +45,18 @@ export function News () {
       {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
+      <img src={sem_a} alt="Семинар"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">18 июля пройдёт семинар лаборатории на тему «Полуконтролируемая сегментация медицинских изображений: Обзор»</h5>
+    <p class="card_descr_t lead">10.07.2024</p>
+    <span class="card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    </div>
+  </article>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
       <img src={sem_a} alt="Конференция"></img>
     </div>
     <div class="card_content_t">
@@ -53,7 +66,7 @@ export function News () {
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 2, name: <ul class="cards_t"><li class="cards_item_t">
+      {id: 3, name: <ul class="cards_t"><li class="cards_item_t">
       <article class="card_t">
         <div class="card_image_t">
           <img src={sem_a} alt="Семинар"></img>
@@ -70,6 +83,18 @@ export function News () {
       {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
+      <img src={life_b} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">Ученые НГУ разрабатывают модель для прогнозирования развития осложнений инфекционных заболеваний</h5>
+    <p class="card_descr_t lead">10.07.2024</p>
+    <span class="card_btn_t "><a href="/Life_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    </div>
+  </article>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
       <img src={life_a} alt="Конференция"></img>
     </div>
     <div class="card_content_t">
@@ -79,6 +104,7 @@ export function News () {
     </div>
   </article>
 </li></ul>,eventKey: "Q1",eventKey: "all"},
+
       
     ]
     
@@ -90,6 +116,30 @@ const postsall  = [
   {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
+      <img src={life_b} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">Ученые НГУ разрабатывают модель для прогнозирования развития осложнений инфекционных заболеваний</h5>
+    <p class="card_descr_t lead">10.07.2024</p>
+    <span class="card_btn_t "><a href="/Life_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    </div>
+  </article>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={sem_a} alt="Семинар"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">18 июля пройдёт семинар лаборатории на тему «Полуконтролируемая сегментация медицинских изображений: Обзор»</h5>
+    <p class="card_descr_t lead">10.07.2024</p>
+    <span class="card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    </div>
+  </article>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
       <img src={life_a} alt="Конференция"></img>
     </div>
     <div class="card_content_t">
@@ -99,7 +149,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={sem_a} alt="Конференция"></img>
@@ -111,7 +161,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={conf_b} alt="Конференция"></img>
@@ -123,7 +173,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 4, name: <ul class="cards_t ">
+  {id: 6, name: <ul class="cards_t ">
   <li class="cards_item_t">
     <article class="card_t">
       <div class="card_image_t">
@@ -136,7 +186,7 @@ const postsall  = [
       </div>
     </article>
   </li></ul>,eventKey: "A1",eventKey: "all"},
-{id: 5, name: <ul class="cards_t"><li class="cards_item_t">
+{id: 7, name: <ul class="cards_t"><li class="cards_item_t">
 <article class="card_t">
   <div class="card_image_t">
     <img src={sem_a} alt="Семинар"></img>
@@ -201,7 +251,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Количество: 2 </div>
+               Количество: 3 </div>
                </Popover.Body>
              </Popover>
            }>
@@ -219,7 +269,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Количество: 1</div>
+               Количество: 2</div>
                </Popover.Body>
              </Popover>
            }>
@@ -238,7 +288,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Количество: 5</div>
+               Количество: 7</div>
                </Popover.Body>
              </Popover>
            }>

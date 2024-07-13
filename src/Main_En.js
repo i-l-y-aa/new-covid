@@ -17,7 +17,7 @@ import Footer_En from './Components/Footer_En'
 import Question from "./images/conf/Question.png"
 import sem_a from "./images/news/sem_a.PNG"
 import life_a from "./images/news/life_a.PNG"
-import conf_b from "./images/news/conf_b.PNG"
+import life_b from "./images/news/life_b.PNG"
 
 const variants = {
   visible: custom => ({
@@ -77,12 +77,12 @@ export function Main_En() {
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
-                  <img src={life_a} alt="Конференция"></img>
+                  <img src={life_b} alt="Конференция"></img>
                 </div>
                 <div class="card_content_t">
-                <h5 class="card_title_t">NSU scientists are developing a model for predicting the development of complications of infectious diseases</h5>
-                <p class="card_descr_t">08.07.2024</p>
-                <span class="card_btn_t "><a href="/Life_a/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+                <h5 class="card_title_t">The action "Science is near" is taking place in the Novosibirsk region</h5>
+                <p class="card_descr_t">10.07.2024</p>
+                <span class="card_btn_t "><a href="/Life_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
                 </div>
               </article>
             </li>
@@ -92,21 +92,21 @@ export function Main_En() {
                   <img src={sem_a} alt="Семинар"></img>
                 </div>
                 <div class="card_content_t">
-                <h5 class="card_title_t">On July 4, a laboratory seminar will be held on the topic "Application of PINN in the SIR model of the middle field game"</h5>
-                <p class="card_descr_t">21.06.2024</p>
-                <span class="card_btn_t "><a href="/Sem_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+                <h5 class="card_title_t">On July 18, the laboratory will hold a seminar on the topic "Semi-controlled segmentation of medical images: An overview"</h5>
+                <p class="card_descr_t">10.07.2024</p>
+                <span class="card_btn_t "><a href="/Sem_c/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
                 </div>
               </article>
             </li>
-            <li class="cards_item_t">
+          <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
-                  <img src={conf_b} alt="Конференция"></img>
+                  <img src={life_a} alt="Конференция"></img>
                 </div>
                 <div class="card_content_t">
-                <h5 class="card_title_t">The acceptance of abstracts for the conference "Mathematics in Medicine" continues</h5>
-                <p class="card_descr_t">17.06.2024 </p>
-                <span class="card_btn_t "><a href="/Conf_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+                <h5 class="card_title_t">NSU scientists are developing a model for predicting the development of complications of infectious diseases</h5>
+                <p class="card_descr_t">08.07.2024</p>
+                <span class="card_btn_t "><a href="/Life_a/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
                 </div>
               </article>
             </li>

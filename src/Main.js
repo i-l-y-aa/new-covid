@@ -19,7 +19,7 @@ import Question from "./images/conf/Question.png"
 import {Carousel} from 'react-bootstrap'
 import sem_a from "./images/news/sem_a.PNG"
 import life_a from "./images/news/life_a.PNG"
-import conf_b from "./images/news/conf_b.PNG"
+import life_b from "./images/news/life_b.PNG"
 import qipa from "./images/conf/qipa.PNG"
 
 
@@ -81,12 +81,12 @@ export function Main() {
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
-                  <img src={life_a} alt="Конференция"></img>
+                  <img src={life_b} alt="Конференция"></img>
                 </div>
                 <div class="card_content_t">
                 <h5 class="card_title_t">Ученые НГУ разрабатывают модель для прогнозирования развития осложнений инфекционных заболеваний</h5>
-                <p class="card_descr_t">08.07.2024</p>
-                <span class="card_btn_t "><a href="/Life_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                <p class="card_descr_t">10.07.2024</p>
+                <span class="card_btn_t "><a href="/Life_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>
@@ -96,21 +96,21 @@ export function Main() {
                   <img src={sem_a} alt="Семинар"></img>
                 </div>
                 <div class="card_content_t">
-                <h5 class="card_title_t">4 июля пройдёт семинар лаборатории на тему «Применение PINN в SIR модели игры среднего поля»</h5>
-                <p class="card_descr_t">21.06.2024</p>
-                <span class="card_btn_t "><a href="/Sem_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                <h5 class="card_title_t">18 июля пройдёт семинар лаборатории на тему «Полуконтролируемая сегментация медицинских изображений: Обзор»</h5>
+                <p class="card_descr_t">10.07.2024</p>
+                <span class="card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>
-            <li class="cards_item_t">
+          <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
-                  <img src={conf_b} alt="Конференция"></img>
+                  <img src={life_a} alt="Конференция"></img>
                 </div>
                 <div class="card_content_t">
-                <h5 class="card_title_t">Продолжается приём тезисов на конференцию «Математика в медицине»</h5>
-                <p class="card_descr_t">17.06.2024 </p>
-                <span class="card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                <h5 class="card_title_t">Ученые НГУ разрабатывают модель для прогнозирования развития осложнений инфекционных заболеваний</h5>
+                <p class="card_descr_t">08.07.2024</p>
+                <span class="card_btn_t "><a href="/Life_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>

@@ -24,7 +24,7 @@ const variants = {
 export function Covid(){
 
   const regions = [
-   {id: 1, hr: "https://server.covid19-modeling.ru/api/csvCovid/nd", eventKey: "novosibirsk" },
+    {id: 1, hr: "https://server.covid19-modeling.ru/api/csvCovid/nd", eventKey: "novosibirsk" },
     {id: 2, hr: "https://server.covid19-modeling.ru/api/csvCovid/altay", eventKey: "altay"},
     {id: 3, hr: "https://server.covid19-modeling.ru/api/csvCovid/omsk", eventKey: "omsk"},
   ]

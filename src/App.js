@@ -19,6 +19,7 @@ import {
 } from 'react-router-dom';
 
 import {Covid} from './Covid';
+
 import {Main} from './Main';
 import {Modeling} from './Modeling';
 import {Data} from './Data';
@@ -48,8 +49,12 @@ import {Conf_a_En} from './news/Conf_a_En';
 import {Conf_b_En} from './news/Conf_b_En';
 import {Sem_b} from './news/Sem_b';
 import {Sem_b_En} from './news/Sem_b_En'
+import {Sem_c} from './news/Sem_c';
+import {Sem_c_En} from './news/Sem_c_En'
 import {Life_a} from './news/Life_a';
 import {Life_a_En} from './news/Life_a_En'
+import {Life_b} from './news/Life_b';
+import {Life_b_En} from './news/Life_b_En'
 import {QIPA} from './conference/QIPA';
 
 function App() {
@@ -65,6 +70,7 @@ return (<>
        </Helmet>
           <Routes>
             <Route exact path="/statistics" element={<Covid />} />
+
             <Route exact path="/" element={<Main />} />
             <Route exact path="/modeling" element={<Modeling />} />
             <Route exact path="/data" element={<Data />} />
@@ -90,8 +96,12 @@ return (<>
             <Route exact path="/conf_b/En" element={<Conf_b_En />} />
             <Route exact path="/sem_b" element={<Sem_b />} />
             <Route exact path="/sem_b/En" element={<Sem_b_En />} />
+            <Route exact path="/sem_c" element={<Sem_c />} />
+            <Route exact path="/sem_c/En" element={<Sem_c_En />} />
             <Route exact path="/life_a" element={<Life_a />} />
             <Route exact path="/life_a/En" element={<Life_a_En />} />
+            <Route exact path="/life_b" element={<Life_b />} />
+            <Route exact path="/life_b/En" element={<Life_b_En />} />
             <Route exact path="/qipa" element={<QIPA />} />
           </Routes>
           </div>
