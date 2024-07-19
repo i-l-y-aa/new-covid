@@ -49,6 +49,18 @@ export function Sem_Compl_En() {
           </Card>
           </motion.div>
           <ul class="cards_t">
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">On July 18, the laboratory will hold a seminar on the topic "Semi-controlled segmentation of medical images: An overview"</h5>
+                <p class="my-3 card_descr_t lead">19.07.2024</p>
+                <span class="my-1 card_btn_t "><a href="/Sem_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+                </div>
+              </article>
+            </li>
             <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">

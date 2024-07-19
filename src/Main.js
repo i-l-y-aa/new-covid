@@ -6,7 +6,6 @@ import Main_contacts from './Components/Main_contacts'
 import Main_publications from './Components/Main_publications'
 import Main_conferences from './Components/Main_conferences'
 import Main_publications_more_detailed from './Components/Main_publications_more_detailed'
-import Krivorotko_info from './Components/Krivorotko_info'
 import { motion } from "framer-motion"
 import Zvonareva from "./images/team/Zvonareva.png"
 import Krivorotko from "./images/team/Krivorotko.png"
@@ -14,6 +13,8 @@ import Zyatkov from "./images/team/Zyatkov.png"
 import Neverov from "./images/team/Neverov.png"
 import Petrakova from "./images/team/Petrakova.jpg"
 import Koshelev from "./images/team/Koshelev.jpg"
+import Semenova from "./images/team/Semenova.jpg"
+import Mikhailapov from "./images/team/Mikhailapov.png"
 import Footer from './Components/Footer'
 import Question from "./images/conf/Question.png"
 import {Carousel} from 'react-bootstrap'
@@ -56,14 +57,14 @@ export function Main() {
     {id: 1, wid: '8rem', name: 'Криворотько Ольга Игоревна', url:'/Krivorotko_info', institution: 'д.ф.-м.н.,заведующий лабораторией',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
     {id: 2, wid: '8rem', name: 'Новиков Никита Сергеевич ', institution: 'к.ф.-м.н.,старший научный сотрудник',Phone:'',mail:'📩 novikov-1989@yandex.ru', image: Question},
     {id: 3, wid: '8rem', name: 'Зятьков Николай Юрьевич', institution: 'к.т.н.,научный сотрудник',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
-    {id: 4, wid: '8rem', name: 'Петракова Виктория Сергеевна ', url:'https://covid19-modeling.ru/data/Резюме-Петракова_2024.pdf', institution: 'к.ф.-м.н., научный сотрудник',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
+    {id: 4, wid: '8rem', name: 'Петракова Виктория Сергеевна ', url:'/Petrakova_info', institution: 'к.ф.-м.н., научный сотрудник',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
     {id: 5, wid: '8rem', name: 'Стрижак Сергей Владимирович ', institution: 'к.т.н., старший научный сотрудник',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
     {id: 6, wid: '8rem', name: 'Кошелев Константин Борисович ', institution: 'к.ф.-м.н., старший научный сотрудник',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev},
     {id: 7, wid: '8rem', name: 'Звонарева Татьяна Александровна ',url:'https://covid19-modeling.ru/data/Резюме ЗвонареваТА.pdf', institution: 'младший научный сотрудник',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
-    {id: 8, wid: '8rem', name: 'Семёнова Диана Анзоровна ', institution: 'младший научный сотрудник',Phone:'',mail:'📩 dianasoulmate@yandex.ru', image: Question},
+    {id: 8, wid: '8rem', name: 'Семёнова Диана Анзоровна ',url:'/Semenova_info', institution: 'младший научный сотрудник',Phone:'📞 +7(926) 189-8945',mail:'📩 dianasoulmate@yandex.ru', image: Semenova},
     {id: 9, wid: '8rem', name: 'Неверов Андрей Вячеславович ', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
-    {id: 10, wid: '8rem', name: 'Нестерова Ангелина Витальевна ', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь',Phone:'',mail:'📩 angelka.nesterova.99@mail.ru' , image: Question},
-    {id: 11, wid: '8rem', name: 'Михайлапов Денис Иванович', institution: 'стажер-исследователь',Phone:'',mail:'📩', image: Question},
+    {id: 10, wid: '8rem', name: 'Нестерова Ангелина Витальевна ',url:'/Nesterova_info', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь',Phone:'',mail:'📩 a.v.nesterova@math.nsc.ru' , image: Question},
+    {id: 11, wid: '8rem', name: 'Михайлапов Денис Иванович',url:'/Mikhailapov_info', institution: 'стажер-исследователь',Phone:'',mail:'📩 d.i.mikhailapov@math.nsc.ru', image: Mikhailapov},
     {id: 12, wid: '8rem', name: 'Дудукалов Дмитрий Витальевич ', institution: 'стажер-исследователь',Phone:'',mail:'📩 d.dudukalov@g.nsu.ru', image: Question}
   ]
   return(

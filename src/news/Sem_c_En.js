@@ -23,6 +23,7 @@ export function Sem_c_En () {
     <div class="row my-4"><p class="lead">Time: 14:00 Novosibirsk time (10:00 Moscow time).</p></div>
     <div class="row my-4"><p class="lead">The seminar will be held in an online format in Zoom. You can join by following the <a rel="noopener" target="_blank" href="https://us02web.zoom.us/j/8615596919">link.</a></p></div>
     <div class="row my-4"><p class="lead">*Before connecting, please write your first and last name.</p></div>
+    <div class="row my-4"><p class="lead">The presentation of the report can be seen at the <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Semi-Supervised Medical Image Segmentation.pdf">link</a>.</p></div>
     <div class="row my-4"><p class="lead">All the seminars held are posted in the <a rel="noopener" target="_blank" href="Sem_Compl">archive</a>.</p></div>
     <div class="row my-4"><p>10.07.2024</p></div>
     </Container>

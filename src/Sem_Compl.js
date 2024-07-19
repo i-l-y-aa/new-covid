@@ -55,6 +55,18 @@ export function Sem_Compl() {
                   <img src={sem_a} alt="Семинар"></img>
                 </div>
                 <div class="card_content_t">
+                <h5 class="card_title_t">18 июля пройдёт семинар лаборатории на тему «Полуконтролируемая сегментация медицинских изображений: Обзор»</h5>
+                <p class="card_descr_t">19.07.2024</p>
+                <span class="card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
                 <h5 class="card_title_t">4 июля пройдёт семинар лаборатории на тему «Применение PINN в SIR модели игры среднего поля»</h5>
                 <p class="card_descr_t">05.07.2024</p>
                 <span class="card_btn_t "><a href="/Sem_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
