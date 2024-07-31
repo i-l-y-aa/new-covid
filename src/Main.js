@@ -12,6 +12,7 @@ import Krivorotko from "./images/team/Krivorotko.png"
 import Zyatkov from "./images/team/Zyatkov.png"
 import Neverov from "./images/team/Neverov.png"
 import Petrakova from "./images/team/Petrakova.jpg"
+import Dudukalov from "./images/team/Dudukalov.jpg"
 import Koshelev from "./images/team/Koshelev.jpg"
 import Semenova from "./images/team/Semenova.jpg"
 import Mikhailapov from "./images/team/Mikhailapov.png"
@@ -65,7 +66,7 @@ export function Main() {
     {id: 9, wid: '8rem', name: 'Неверов Андрей Вячеславович ', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
     {id: 10, wid: '8rem', name: 'Нестерова Ангелина Витальевна ',url:'/Nesterova_info', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь',Phone:'',mail:'📩 a.v.nesterova@math.nsc.ru' , image: Question},
     {id: 11, wid: '8rem', name: 'Михайлапов Денис Иванович',url:'/Mikhailapov_info', institution: 'стажер-исследователь',Phone:'',mail:'📩 d.i.mikhailapov@math.nsc.ru', image: Mikhailapov},
-    {id: 12, wid: '8rem', name: 'Дудукалов Дмитрий Витальевич ', institution: 'стажер-исследователь',Phone:'',mail:'📩 d.dudukalov@g.nsu.ru', image: Question}
+    {id: 12, wid: '8rem', name: 'Дудукалов Дмитрий Витальевич ', institution: 'стажер-исследователь',Phone:'',mail:'📩 d.dudukalov@g.nsu.ru', image: Dudukalov}
   ]
   return(
       <>
@@ -79,6 +80,30 @@ export function Main() {
           </Card>
           </motion.div>
           <ul class="cards_t">
+            <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Конференция"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">15 августа пройдёт семинар лаборатории на тему «Рекомендательная система для микрофинансовых организаций»</h5>
+                <p class="card_descr_t">31.07.2024</p>
+                <span class="card_btn_t "><a href="/Sem_e" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Конференция"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">1 августа пройдёт семинар лаборатории на тему «Метод регуляризации А.Н. Тихонова для решения задачи определения начального условия в параболическом уравнении»</h5>
+                <p class="card_descr_t">31.07.2024</p>
+                <span class="card_btn_t "><a href="/Sem_d" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
@@ -88,30 +113,6 @@ export function Main() {
                 <h5 class="card_title_t">Ученые НГУ разрабатывают модель для прогнозирования развития осложнений инфекционных заболеваний</h5>
                 <p class="card_descr_t">10.07.2024</p>
                 <span class="card_btn_t "><a href="/Life_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-                </div>
-              </article>
-            </li>
-            <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={sem_a} alt="Семинар"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">18 июля пройдёт семинар лаборатории на тему «Полуконтролируемая сегментация медицинских изображений: Обзор»</h5>
-                <p class="card_descr_t">10.07.2024</p>
-                <span class="card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-                </div>
-              </article>
-            </li>
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={life_a} alt="Конференция"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">Ученые НГУ разрабатывают модель для прогнозирования развития осложнений инфекционных заболеваний</h5>
-                <p class="card_descr_t">08.07.2024</p>
-                <span class="card_btn_t "><a href="/Life_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>

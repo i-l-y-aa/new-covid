@@ -43,18 +43,42 @@ export function News () {
     ]
     const postsA2 = [
       {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_a} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t">
+        <h5 class="card_title_t">15 августа пройдёт семинар лаборатории на тему «Рекомендательная система для микрофинансовых организаций»</h5>
+        <p class="my-4 card_descr_t lead">31.07.2024</p>
+        <span class="my-2 card_btn_t "><a href="/Sem_e" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+        </div>
+      </article>
+    </li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_a} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t">
+        <h5 class="card_title_t">1 августа пройдёт семинар лаборатории на тему «Метод регуляризации А.Н. Тихонова для решения задачи определения начального условия в параболическом уравнении»</h5>
+        <p class="card_descr_t lead">31.07.2024</p>
+        <span class="card_btn_t "><a href="/Sem_d" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+        </div>
+      </article>
+    </li></ul>,eventKey: "A2",eventKey: "all"},
+      {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={sem_a} alt="Семинар"></img>
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t">18 июля пройдёт семинар лаборатории на тему «Полуконтролируемая сегментация медицинских изображений: Обзор»</h5>
-    <p class="card_descr_t lead">10.07.2024</p>
-    <span class="card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    <p class="my-4 card_descr_t lead">10.07.2024</p>
+    <span class="my-2 card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={sem_a} alt="Конференция"></img>
@@ -66,7 +90,7 @@ export function News () {
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 3, name: <ul class="cards_t"><li class="cards_item_t">
+      {id: 5, name: <ul class="cards_t"><li class="cards_item_t">
       <article class="card_t">
         <div class="card_image_t">
           <img src={sem_a} alt="Семинар"></img>
@@ -114,30 +138,54 @@ export function News () {
      
 const postsall  = [
   {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_a} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t">
+        <h5 class="card_title_t">15 августа пройдёт семинар лаборатории на тему «Рекомендательная система для микрофинансовых организаций»</h5>
+        <p class="my-4 card_descr_t lead">31.07.2024</p>
+        <span class="my-2 card_btn_t "><a href="/Sem_e" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+        </div>
+      </article>
+    </li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_a} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t">
+        <h5 class="card_title_t">1 августа пройдёт семинар лаборатории на тему «Метод регуляризации А.Н. Тихонова для решения задачи определения начального условия в параболическом уравнении»</h5>
+        <p class="card_descr_t lead">31.07.2024</p>
+        <span class="card_btn_t "><a href="/Sem_d" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+        </div>
+      </article>
+    </li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={life_b} alt="Конференция"></img>
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t">Ученые НГУ разрабатывают модель для прогнозирования развития осложнений инфекционных заболеваний</h5>
-    <p class="card_descr_t lead">10.07.2024</p>
-    <span class="card_btn_t "><a href="/Life_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    <p class="my-4 card_descr_t lead">10.07.2024</p>
+    <span class="my-2 card_btn_t "><a href="/Life_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={sem_a} alt="Семинар"></img>
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t">18 июля пройдёт семинар лаборатории на тему «Полуконтролируемая сегментация медицинских изображений: Обзор»</h5>
-    <p class="card_descr_t lead">10.07.2024</p>
-    <span class="card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    <p class="my-3 card_descr_t lead">10.07.2024</p>
+    <span class="my-1 card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={life_a} alt="Конференция"></img>
@@ -149,7 +197,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 6, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={sem_a} alt="Конференция"></img>
@@ -161,7 +209,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 7, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={conf_b} alt="Конференция"></img>
@@ -173,7 +221,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 6, name: <ul class="cards_t ">
+  {id: 8, name: <ul class="cards_t ">
   <li class="cards_item_t">
     <article class="card_t">
       <div class="card_image_t">
@@ -181,20 +229,20 @@ const postsall  = [
       </div>
       <div class="card_content_t">
       <h5 class="card_title_t">14-я Международная мультиконференция «Биоинформатика регуляции и структуры геномов/системная биология», 5-10 августа 2024</h5>
-      <h5 class="card_descr_t lead">13.06.2024</h5>
-      <span class="card_btn_t "><a href="/Conf_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+      <h5 class="my-3 card_descr_t lead">13.06.2024</h5>
+      <span class="my-1 card_btn_t "><a href="/Conf_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
       </div>
     </article>
   </li></ul>,eventKey: "A1",eventKey: "all"},
-{id: 7, name: <ul class="cards_t"><li class="cards_item_t">
+{id: 9, name: <ul class="cards_t"><li class="cards_item_t">
 <article class="card_t">
   <div class="card_image_t">
     <img src={sem_a} alt="Семинар"></img>
   </div>
   <div class="card_content_t">
   <h5 class="card_title_t">20 июня пройдёт семинар лаборатории на тему «Рассуждения о методах проверки временных рядов на стационарность»</h5>
-  <h5 class="card_descr_t lead">13.06.2024</h5>
-  <span class="card_btn_t"><a  href="/Sem_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+  <h5 class="my-3 card_descr_t lead">13.06.2024</h5>
+  <span class="my-1 card_btn_t"><a  href="/Sem_a" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
   </div>
 </article>
 </li></ul>,eventKey: "A1",eventKey: "all"},
@@ -251,7 +299,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Количество: 3 </div>
+               Количество: 5 </div>
                </Popover.Body>
              </Popover>
            }>
@@ -288,7 +336,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Количество: 7</div>
+               Количество: 9</div>
                </Popover.Body>
              </Popover>
            }>

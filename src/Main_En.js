@@ -77,36 +77,36 @@ export function Main_En() {
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
-                  <img src={life_b} alt="Конференция"></img>
+                  <img src={sem_a} alt="Конференция"></img>
                 </div>
                 <div class="card_content_t">
-                <h5 class="card_title_t">The action "Science is near" is taking place in the Novosibirsk region</h5>
-                <p class="card_descr_t">10.07.2024</p>
-                <span class="card_btn_t "><a href="/Life_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
-                </div>
-              </article>
-            </li>
-            <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={sem_a} alt="Семинар"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">On July 18, the laboratory will hold a seminar on the topic "Semi-controlled segmentation of medical images: An overview"</h5>
-                <p class="card_descr_t">10.07.2024</p>
-                <span class="card_btn_t "><a href="/Sem_c/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+                <h5 class="card_title_t">On August 15, the laboratory will hold a seminar on the topic «Recommendation system for microfinance organizations»</h5>
+                <p class="card_descr_t">31.07.2024</p>
+                <span class="card_btn_t "><a href="/Sem_e/En" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
-                  <img src={life_a} alt="Конференция"></img>
+                  <img src={sem_a} alt="Конференция"></img>
                 </div>
                 <div class="card_content_t">
-                <h5 class="card_title_t">NSU scientists are developing a model for predicting the development of complications of infectious diseases</h5>
-                <p class="card_descr_t">08.07.2024</p>
-                <span class="card_btn_t "><a href="/Life_a/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+                <h5 class="card_title_t">On August 1, a laboratory seminar will be held on the topic «A.N. Tikhonov's regularization method for solving the problem of determining the initial condition in a parabolic equation»</h5>
+                <p class="card_descr_t">31.07.2024</p>
+                <span class="card_btn_t "><a href="/Sem_d/En" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={life_b} alt="Конференция"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">The action "Science is near" is taking place in the Novosibirsk region</h5>
+                <p class="card_descr_t">10.07.2024</p>
+                <span class="card_btn_t "><a href="/Life_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
                 </div>
               </article>
             </li>

@@ -30,7 +30,15 @@ export function Tub(){
    // {id: 2, hr: "http://localhost:4000/api/csvTub/altay", eventKey: "altay" },
 {id: 3, hr: "https://server.covid19-modeling.ru/api/csvTub/omsk", eventKey: "omsk"},
    // {id: 3, hr: "http://localhost:4000/api/csvTub/omsk", eventKey: "omsk" },
+   //{id: 4, hr: "https://server.covid19-modeling.ru/api/csvTub/novosibirsk", eventKey: "novosibirsk" },
+  // {id: 4, hr: "http://localhost:3000/api/csvSocTub/novosibirsk", eventKey: "novosibirsk2" },
+   //{id: 5, hr: "https://server.covid19-modeling.ru/api/csvTub/altay", eventKey: "altay"},
+   //   {id: 5, hr: "http://localhost:3000/api/csvSocTub/altay", eventKey: "altay2" },
+   //{id: 6, hr: "https://server.covid19-modeling.ru/api/csvTub/omsk", eventKey: "omsk"},
+   //    {id: 6, hr: "http://localhost:3000/api/csvSocTub/omsk", eventKey: "omsk2" },
   ]
+
+
 
   return (
   <>
@@ -125,7 +133,8 @@ export function Tub(){
     <Tab.Content>
       {regions.map((region) =>
           <StaticTubData key={region.id} region = {region}/>
-      )}
+       )
+      }
       </Tab.Content>
   </Tab.Container>
 </Container>
