@@ -12,6 +12,7 @@ import {Mikhailapov_info} from './Components/Mikhailapov_info'
 import {Petrakova_info} from './Components/Petrakova_info'
 import {Semenova_info} from './Components/Semenova_info'
 import {Nesterova_info} from './Components/Nesterova_info'
+import {Zyatkov_info} from './Components/Zyatkov_info'
 
 
 import {
@@ -95,6 +96,7 @@ return (<>
             <Route exact path="/petrakova_info" element={<Petrakova_info />} />
             <Route exact path="/semenova_info" element={<Semenova_info />} />
             <Route exact path="/nesterova_info" element={<Nesterova_info />} />
+            <Route exact path="/zyatkov_info" element={<Zyatkov_info />} />
             <Route exact path="/news" element={<News />} />
             <Route exact path="/news/En" element={<News_En />} />
             <Route exact path="/sem_compl" element={<Sem_Compl />} />
