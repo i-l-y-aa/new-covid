@@ -53,7 +53,7 @@ import scales from 'chartjs-plugin-zoom';
    },
   }
 
-const StaticTubData = (props) => {
+const StaticTubDataSoc = (props) => {
 
   const zoom_chart=(e) => {
     e.preventDefault()
@@ -73,8 +73,9 @@ const StaticTubData = (props) => {
   }
 
   const [lastDatadate, setLastsDatadate] = useState(0)
-  const [lastData, setLastsData] = useState(0)
-  const [last_ndeaths, setlast_ndeaths] = useState(0)
+  const [last_unemployment, setlast_unemployment] = useState(0)
+  const [last_poverty, setlast_poverty] = useState(0)
+  const [last_income, setlast_income] = useState(0)
   const [chartData, setChartData] = useState({
     datasets: [],
   })
@@ -83,12 +84,14 @@ const StaticTubData = (props) => {
 
   const chart = () => {
     setLoadingprosses(true)
-    let tub_nd = [];
-    let tub_data = [];
-    let tub_last_ndeaths = [];
-    let tub_last_nd = [];
+    let soc_data = [];
+    let soc_unempl = [];
+    let soc_pov = [];
+    let soc_income = [];
+    let soc_last_unempl = [];
+    let soc_last_pov = [];
+    let soc_last_income = [];
     let tub_last_date = [];
-    let tub_ndeaths = [];
 
     let url = props.region.hr
     axios
@@ -96,107 +99,123 @@ const StaticTubData = (props) => {
     .then(res => {
       setLoadingprosses(false)
       setSomeerrors(false)
-      tub_last_nd.push(parseInt(res.data[res.data.length-1].diagnoses))
-      tub_last_ndeaths.push(parseInt(res.data[res.data.length-1].deaths)) //
+      soc_last_unempl.push(parseInt(res.data[res.data.length-1].unemployment))
+      soc_last_pov.push(parseInt(res.data[res.data.length-1].poverty)) 
+      soc_last_income.push(res.data[res.data.length-1].income)
       tub_last_date.push(res.data[res.data.length-1].date)
 
       for (const dataObj of res.data) {
-        tub_nd.push(parseInt(dataObj.diagnoses));
-        tub_data.push(dataObj.date);
-        tub_ndeaths.push(parseInt(dataObj.deaths));
+        soc_unempl.push(parseInt(dataObj.unemployment));
+        soc_pov.push(parseInt(dataObj.poverty));
+        soc_income.push(parseInt(dataObj.income));
+        soc_data.push(dataObj.date);
       }
       setChartData({
-        labels: tub_data,
+        labels: soc_data,
         datasets: [
+            {
+                label: "безработица , шк.2",
+                data: soc_unempl,
+                fill: false,
+                borderColor: "rgba(0, 191, 255, 1)",
+                backgroundColor: "rgba(0, 191, 255, 1)",
+                tension: 0.9,
+                borderWidth: 2,
+                pointRadius: 0.3,
+                pointHoverRadius: 5,
+                pointHitRadius: 30,
+                pointBorderWidth: 0.1,
+                yAxisID: 'y'
+              },
+              
           {
-            label: "новые случаи, шк.1",
-            data: tub_nd,
-            fill: false,
-            borderColor: "rgba(0, 191, 255, 1)",
-            backgroundColor: "rgba(0, 191, 255, 1)",
+            label: "доля населения с доходами ниже прожиточного минимума , шк.2",
+            data: soc_pov,
+            borderColor: "rgb(255,0,0)",
+            backgroundColor: "rgb(255,0,0, 1)",
             tension: 0.9,
-            borderWidth: 2,
+            borderWidth: 4,
+            pointRadius: 0.3,
+            pointHoverRadius: 5,
+            pointHitRadius: 30,
+            pointBorderWidth: 0.1,
+            yAxisID: 'y'
+          },
+          {
+            label: "среднедушевые доходы населения , шк.1",
+            data: soc_income,
+            borderColor: "rgb(128, 0, 255)",
+            backgroundColor: "rgb(128,0,255)",
+            tension: 0.9,
+            borderWidth: 4,
             pointRadius: 0.3,
             pointHoverRadius: 5,
             pointHitRadius: 30,
             pointBorderWidth: 0.1,
             yAxisID: 'quantity'
           },
-          
-      {
-        label: "летальные исходы, шк.1",
-        data: tub_ndeaths,
-        borderColor: "rgb(128, 0, 255)",
-        backgroundColor: "rgb(128,0,255)",
-        tension: 0.9,
-        borderWidth: 4,
-        pointRadius: 0.3,
-        pointHoverRadius: 5,
-        pointHitRadius: 30,
-        pointBorderWidth: 0.1,
-        yAxisID: 'quantity'
-      },
-        ],
-      });
+            ],
+          });
 
       setChartOptions({
-         maintainAspectRatio : false,
-        responsive: true,
-        plugins: {
-          zoom: {
-            pan: {
-              enabled: true,
-              mode: 'xy',
-            },
-           zoom: {
-             wheel: {
-               enabled: true,
-               speed: 0.1,
-             },
-             drag: {
-              enabled: true,
-            },
-             pan: {enabled: true},
-             pinch: {
-               enabled: true
-             },
+        maintainAspectRatio : false,
+       responsive: true,
+       plugins: {
+         zoom: {
+           pan: {
+             enabled: true,
              mode: 'xy',
            },
-        },
-          legend: {
-            position: "top",
-          },
-          title: {
-            display: true,
-            text: "Статистические данные",
-          },
-        },
-        scales: {
-          quantity: {
-            title: {
-              display: true,
-              text: 'шкала 1'
+          zoom: {
+            wheel: {
+              enabled: true,
+              speed: 0.1,
             },
-            position:'left',
-            type: 'linear',
-          },
-          y: {
-            title: {
-              display: true,
-              text: 'шкала 2'
+            drag: {
+             enabled: true,
+           },
+            pan: {enabled: true},
+            pinch: {
+              enabled: true
             },
-            position:'right',
-            beginAtZero: true,
-            type: 'linear',
-            grid: {
-              drawOnChartArea: false
-            }
-          }
-        }
-      });
-      setLastsData(tub_last_nd)
-      setlast_ndeaths(tub_last_ndeaths)
-      setLastsDatadate(tub_last_date)
+            mode: 'xy',
+          },
+       },
+         legend: {
+           position: "top",
+         },
+         title: {
+           display: true,
+           text: "Социально-эпидемиологические данные",
+         },
+       },
+       scales: {
+         quantity: {
+           title: {
+             display: true,
+             text: 'шкала 1'
+           },
+           position:'left',
+           type: 'linear',
+         },
+         y: {
+           title: {
+             display: true,
+             text: 'шкала 2'
+           },
+           position:'right',
+           beginAtZero: true,
+           type: 'linear',
+           grid: {
+             drawOnChartArea: false
+           }
+         }
+       }
+     });
+     setlast_unemployment(soc_last_unempl)
+     setlast_poverty(soc_last_pov)
+     setlast_income(soc_last_income)
+     setLastsDatadate(tub_last_date)
     })
     .catch(err => {
       setLoadingprosses(false)
@@ -213,8 +232,9 @@ const StaticTubData = (props) => {
   const [someerrors, setSomeerrors] = useState(false)
 
   const lasts = [
-    {id: 1, lastData: lastData, lastDatadate: lastDatadate, name: "случаев заражения"},
-    {id: 3, lastData: last_ndeaths, lastDatadate: lastDatadate, name: "летальных исходов"},
+    {id: 1, lastData: last_unemployment, lastDatadate: lastDatadate, name: "безработица"},
+    {id: 2, lastData: last_poverty, lastDatadate: lastDatadate, name: "доля населения с доходами ниже прожиточного минимума"},
+    {id: 3, lastData: last_income, lastDatadate: lastDatadate, name: "среднедушевые доходы населения"},
   ]
 
 
@@ -284,4 +304,5 @@ const StaticTubData = (props) => {
   </Tab.Pane>
   );
 };
-export default StaticTubData;
+export default StaticTubDataSoc;
+

@@ -24,6 +24,7 @@ import {
 
 import {Covid} from './Covid';
 import {Tub} from './Tub';
+import {Tub_Soc} from './Tub_Soc';
 import {Main} from './Main';
 import {Modeling} from './Modeling';
 import {Data} from './Data';
@@ -79,6 +80,7 @@ return (<>
           <Routes>
             <Route exact path="/statistics" element={<Covid />} />
             <Route exact path="/tub" element={<Tub />} />
+            <Route exact path="/tub_soc" element={<Tub_Soc />} />
             <Route exact path="/" element={<Main />} />
             <Route exact path="/modeling" element={<Modeling />} />
             <Route exact path="/data" element={<Data />} />
