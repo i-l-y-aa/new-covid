@@ -97,7 +97,7 @@ export function Main_En() {
                 <div class="card_content_t">
                 <h5 class="card_title_t">On August 15, the laboratory will hold a seminar on the topic «Recommendation system for microfinance organizations»</h5>
                 <p class="card_descr_t">31.07.2024</p>
-                <span class="card_btn_t "><a href="/Sem_e/En" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                <span class="card_btn_t "><a href="/Sem_e/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
                 </div>
               </article>
             </li>
@@ -109,7 +109,7 @@ export function Main_En() {
                 <div class="card_content_t">
                 <h5 class="card_title_t">On August 1, a laboratory seminar will be held on the topic «A.N. Tikhonov's regularization method for solving the problem of determining the initial condition in a parabolic equation»</h5>
                 <p class="card_descr_t">31.07.2024</p>
-                <span class="card_btn_t "><a href="/Sem_d/En" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                <span class="card_btn_t "><a href="/Sem_d/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
                 </div>
               </article>
             </li>
