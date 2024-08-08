@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from '../Components/Footer'
-import NaviBarv2 from '../Components/NaviBarv2'
+import Footer_En from '../Components/Footer_En'
+import NaviBarv2_En from '../Components/NaviBarv2_En'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles.css";
 import {Container, Row, Col, Card, ListGroup, ListGroupItem, Button, Tab, Nav,
@@ -11,7 +11,7 @@ import life_a from "../images/news/life_a.PNG"
 export function Life_a_En () {
   return (
         <>
-    <NaviBarv2 />
+    <NaviBarv2_En />
     <Container>
     <div><img src={life_a} align="left" width={500} ></img></div>
     <div class="row my-4 ps-4"><h2>NSU scientists are developing a model for predicting the development of complications of infectious diseases</h2></div>
@@ -32,7 +32,7 @@ export function Life_a_En () {
     <div class="row ps-4 my-4"><p class="lead">— This forecast was made based on the basic model, which was based on the law of acting masses and functioned without the use of machine learning. It took into account only information about the disease itself — its incubation period, the degree of contagion, the course of the disease, etc. Then began a period of restrictive measures: mandatory wearing of protective masks, closure of public places, temporary shutdown of institutions and organizations, lockdowns, and then vaccination. It should be noted that with the introduction of preventive measures, the scenario of the spread of any infectious disease changes, and classical mathematical models of calculations no longer work here. And we have created a new forecast model that takes into account many factors, including the listed ones. Moreover, the forecasts were different for all regions — depending on what preventive measures were introduced in them and when, forecasts for 7, 30, 45 days were issued, taking into account current socio-economic changes," <b>Olga Krivorotko</b> said.</p></div>
     <div class="row ps-4 my-4"><p>08.07.2024</p></div>
     </Container>
-    <Footer />
+    <Footer_En />
     </>
     
     )}

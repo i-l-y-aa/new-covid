@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from '../Components/Footer'
-import NaviBarv2 from '../Components/NaviBarv2'
+import Footer_En from '../Components/Footer_En'
+import NaviBarv2_En from '../Components/NaviBarv2_En'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles.css";
 import {Container, Row, Col, Card, ListGroup, ListGroupItem, Button, Tab, Nav,
@@ -11,7 +11,7 @@ import sem_a from "../images/news/sem_a.PNG"
 export function Sem_c_En () {
   return (
         <>
-    <NaviBarv2 />
+    <NaviBarv2_En />
     <Container>
     <div><img src={sem_a} align="left" width={500} ></img></div>
     <div class="row my-4 ps-4"><h1>On July 18, the laboratory will hold a seminar on the topic "Semi-controlled segmentation of medical images: An overview"</h1></div>
@@ -27,7 +27,7 @@ export function Sem_c_En () {
     <div class="row my-4"><p class="lead">All the seminars held are posted in the <a rel="noopener" target="_blank" href="Sem_Compl">archive</a>.</p></div>
     <div class="row my-4"><p>10.07.2024</p></div>
     </Container>
-    <Footer />
+    <Footer_En />
     </>
     
     )}

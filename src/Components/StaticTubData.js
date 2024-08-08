@@ -168,7 +168,7 @@ const StaticTubData = (props) => {
           },
           title: {
             display: true,
-            text: "Статистические данные",
+            text: "Эпидемиологические данные",
           },
         },
         scales: {

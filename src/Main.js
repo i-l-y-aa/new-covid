@@ -20,7 +20,7 @@ import Footer from './Components/Footer'
 import Question from "./images/conf/Question.png"
 import {Carousel} from 'react-bootstrap'
 import sem_a from "./images/news/sem_a.PNG"
-import life_a from "./images/news/life_a.PNG"
+import conf_c from "./images/news/conf_c.PNG"
 import life_b from "./images/news/life_b.PNG"
 import qipa from "./images/conf/qipa.PNG"
 
@@ -83,6 +83,18 @@ export function Main() {
             <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
+                  <img src={conf_c} alt="Конференция"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">Сотрудники лаборатории примут участие в IV конференции математических центров России</h5>
+                <p class="card_descr_t">08.08.2024</p>
+                <span class="card_btn_t "><a href="/Conf_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+            <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
                   <img src={sem_a} alt="Конференция"></img>
                 </div>
                 <div class="card_content_t">
@@ -104,18 +116,7 @@ export function Main() {
                 </div>
               </article>
             </li>
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={life_b} alt="Конференция"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">Ученые НГУ разрабатывают модель для прогнозирования развития осложнений инфекционных заболеваний</h5>
-                <p class="card_descr_t">10.07.2024</p>
-                <span class="card_btn_t "><a href="/Life_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-                </div>
-              </article>
-            </li>
+          
           </ul>
           <Button href="/News" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
             <div style={{fontSize: 16}}><b>Все новости</b></div></Button>

@@ -10,11 +10,37 @@ import NewsData from './Components/NewsData'
 import conf_b from "./images/news/conf_b.PNG"
 import life_a from "./images/news/life_a.PNG"
 import life_b from "./images/news/life_b.PNG"
+import conf_c from "./images/news/conf_c.PNG"
   
 export function News_En () {
 
     const postsA1 = [
-      {id: 1, name: <ul class="cards_t ">
+      {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={conf_c} alt="Conference"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">Laboratory staff will take part in the IV conference of mathematical centers of Russia</h5>
+    <p class="card_descr_t lead my-1">08.08.2024</p>
+    <span class="card_btn_t my-3"><a href="/Conf_c/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+    </div>
+  </article>
+</li>
+  </ul>,eventKey: "A2",eventKey: "all"},
+  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={conf_b} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t">
+        <h5 class="card_title_t">The acceptance of abstracts for the conference "Mathematics in Medicine" continues</h5>
+        <h5 class="my-3 card_descr_t lead">17.06.2024 </h5>
+        <span class="my-1 card_btn_t "><a href="/Conf_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+        </div>
+      </article>
+    </li></ul>,eventKey: "A1",eventKey: "all"},
+      {id: 3, name: <ul class="cards_t ">
       <li class="cards_item_t">
         <article class="card_t">
           <div class="card_image_t">
@@ -26,19 +52,8 @@ export function News_En () {
           <span class="card_btn_t "><a href="/Conf_a/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
           </div>
         </article>
-      </li></ul>,eventKey: "A1",eventKey: "all"},
-      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
-      <article class="card_t">
-        <div class="card_image_t">
-          <img src={conf_b} alt="Конференция"></img>
-        </div>
-        <div class="card_content_t">
-        <h5 class="card_title_t">The acceptance of abstracts for the conference "Mathematics in Medicine" continues</h5>
-        <h5 class="my-3 card_descr_t lead">17.06.2024 </h5>
-        <span class="my-1 card_btn_t "><a href="/Conf_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
-        </div>
-      </article>
-    </li></ul>,eventKey: "A1",eventKey: "all"}
+      </li></ul>,eventKey: "A1",eventKey: "all"}
+      
      
     ]
     const postsA2 = [
@@ -137,9 +152,22 @@ export function News_En () {
     ]  
 const postsall  = [
   {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={conf_c} alt="Conference"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t my-1">Laboratory staff will take part in the IV conference of mathematical centers of Russia</h5>
+    <p class="card_descr_t lead my-3">08.08.2024</p>
+    <span class="card_btn_t my-4"><a href="/Conf_c/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+    </div>
+  </article>
+</li>
+  </ul>,eventKey: "A2",eventKey: "all"},
+  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
       <article class="card_t">
         <div class="card_image_t">
-          <img src={sem_a} alt="Конференция"></img>
+          <img src={sem_a} alt="Seminar"></img>
         </div>
         <div class="card_content_t">
         <h5 class="card_title_t my-1">On August 15, the laboratory will hold a seminar on the topic «Recommendation system for microfinance organizations»</h5>
@@ -149,10 +177,10 @@ const postsall  = [
       </article>
     </li>
   </ul>,eventKey: "A2",eventKey: "all"},
-    {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+    {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
     <article class="card_t">
       <div class="card_image_t">
-        <img src={sem_a} alt="Конференция"></img>
+        <img src={sem_a} alt="Seminar"></img>
       </div>
       <div class="card_content_t">
       <h5 class="card_title_t">On August 1, a laboratory seminar will be held on the topic «A.N. Tikhonov's regularization method for solving the problem of determining the initial condition in a parabolic equation»</h5>
@@ -161,22 +189,22 @@ const postsall  = [
       </div>
     </article>
   </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
-      <img src={life_b} alt="Конференция"></img>
+      <img src={life_b} alt="Life"></img>
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t">The action "Science is near" is taking place in the Novosibirsk region</h5>
-    <p class="card_descr_t lead my-4">10.07.2024</p>
+    <p class="card_descr_t lead my-2">10.07.2024</p>
     <span class="card_btn_t my-4"><a href="/Life_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
-      <img src={sem_a} alt="Семинар"></img>
+      <img src={sem_a} alt="Seminar"></img>
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t">On July 18, the laboratory will hold a seminar on the topic "Semi-controlled segmentation of medical images: An overview"</h5>
@@ -185,10 +213,10 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 6, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
-      <img src={life_a} alt="Семинар"></img>
+      <img src={life_a} alt="Life"></img>
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t">NSU scientists are developing a model for predicting the development of complications of infectious diseases</h5>
@@ -197,10 +225,10 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 6, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 7, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
-      <img src={sem_a} alt="Семинар"></img>
+      <img src={sem_a} alt="Seminar"></img>
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t">On July 4, a laboratory seminar will be held on the topic "Application of PINN in the SIR model of the middle field game"</h5>
@@ -209,10 +237,10 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 7, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 8, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
-      <img src={conf_b} alt="Конференция"></img>
+      <img src={conf_b} alt="Conference"></img>
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t">The acceptance of abstracts for the conference "Mathematics in Medicine" continues</h5>
@@ -221,11 +249,11 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 8, name: <ul class="cards_t ">
+  {id: 9, name: <ul class="cards_t ">
   <li class="cards_item_t">
     <article class="card_t">
       <div class="card_image_t">
-        <img src={conf_a} alt="Конференция"></img>
+        <img src={conf_a} alt="Conference"></img>
       </div>
       <div class="card_content_t">
       <h5 class="card_title_t">14th International Multi-Conference "Bioinformatics of genome regulation and Structure/Systems Biology", August 5-10, 2024</h5>
@@ -234,10 +262,10 @@ const postsall  = [
       </div>
     </article>
   </li></ul>,eventKey: "A1",eventKey: "all"},
-  {id: 9, name: <ul class="cards_t"><li class="cards_item_t">
+  {id: 10, name: <ul class="cards_t"><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
-      <img src={sem_a} alt="Семинар"></img>
+      <img src={sem_a} alt="Seminar"></img>
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t">On June 20, the laboratory will hold a seminar on "Reasoning about methods of checking time series for stationarity"</h5>
@@ -282,7 +310,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="left" className="text-black">
-               Quantity: 2 </div>
+               Quantity: 3 </div>
                </Popover.Body>
              </Popover>
            }>
@@ -318,7 +346,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Quantity: 2</div>
+               Quantity: 2 </div>
                </Popover.Body>
              </Popover>
            }>
@@ -337,7 +365,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Quantity: 9</div>
+               Quantity: 10 </div>
                </Popover.Body>
              </Popover>
            }>

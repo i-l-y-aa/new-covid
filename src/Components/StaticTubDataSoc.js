@@ -186,7 +186,7 @@ const StaticTubDataSoc = (props) => {
          },
          title: {
            display: true,
-           text: "Социально-эпидемиологические данные",
+           text: "Социально-экономические данные",
          },
        },
        scales: {

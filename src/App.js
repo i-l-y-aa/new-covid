@@ -65,6 +65,8 @@ import {Life_a_En} from './news/Life_a_En'
 import {Life_b} from './news/Life_b';
 import {Life_b_En} from './news/Life_b_En'
 import {QIPA} from './conference/QIPA';
+import {Conf_c} from './news/Conf_c';
+import {Conf_c_En} from './news/Conf_c_En';
 
 function App() {
 
@@ -109,6 +111,8 @@ return (<>
             <Route exact path="/conf_b" element={<Conf_b />} />
             <Route exact path="/conf_a/En" element={<Conf_a_En />} />
             <Route exact path="/conf_b/En" element={<Conf_b_En />} />
+            <Route exact path="/conf_c" element={<Conf_c />} />
+            <Route exact path="/conf_c/En" element={<Conf_c_En />} />
             <Route exact path="/sem_b" element={<Sem_b />} />
             <Route exact path="/sem_b/En" element={<Sem_b_En />} />
             <Route exact path="/sem_c" element={<Sem_c />} />

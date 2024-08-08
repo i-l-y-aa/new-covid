@@ -16,8 +16,11 @@ import Koshelev from "./images/team/Koshelev.jpg"
 import Footer_En from './Components/Footer_En'
 import Question from "./images/conf/Question.png"
 import sem_a from "./images/news/sem_a.PNG"
-import life_a from "./images/news/life_a.PNG"
+import conf_c from "./images/news/conf_c.PNG"
 import life_b from "./images/news/life_b.PNG"
+import Semenova from "./images/team/Semenova.jpg"
+import Mikhailapov from "./images/team/Mikhailapov.png"
+import Dudukalov from "./images/team/Dudukalov.jpg"
 
 const variants = {
   visible: custom => ({
@@ -55,11 +58,11 @@ export function Main_En() {
     {id: 5, wid: '8rem', name: 'Sergey Strizhak', institution: 'Candidate of Technical Sciences, Senior Researcher',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
     {id: 6, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev},
     {id: 7, wid: '8rem', name: 'Tatyana Zvonareva',url:'https://covid19-modeling.ru/data/Zvonareva-CV.pdf', institution: 'Junior Research Assistant',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
-    {id: 8, wid: '8rem', name: 'Diana Semenova', institution: 'Junior Research Assistant',Phone:'',mail:'📩 dianasoulmate@yandex.ru', image: Question},
+    {id: 8, wid: '8rem', name: 'Diana Semenova', institution: 'Junior Research Assistant',Phone:' 📞 +7(926) 189-8945',mail:'📩 dianasoulmate@yandex.ru', image: Semenova},
     {id: 9, wid: '8rem', name: 'Andrey Neverov', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
-    {id: 10, wid: '8rem', name: 'Angelina Nesterova', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:'',mail:'📩 angelka.nesterova.99@mail.ru' , image: Question},
-    {id: 11, wid: '8rem', name: 'Denis Mikhailapov', institution: 'Intern Researcher',Phone:'',mail:'📩', image: Question},
-    {id: 12, wid: '8rem', name: 'Dmitry Dudukalov', institution: 'Intern Researcher',Phone:'',mail:'📩 d.dudukalov@g.nsu.ru', image: Question}
+    {id: 10, wid: '8rem', name: 'Angelina Nesterova', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:'',mail:'📩  a.v.nesterova@math.nsc.ru' , image: Question},
+    {id: 11, wid: '8rem', name: 'Denis Mikhailapov', institution: 'Intern Researcher',Phone:'',mail:'📩 d.i.mikhailapov@math.nsc.ru', image: Mikhailapov},
+    {id: 12, wid: '8rem', name: 'Dmitry Dudukalov', institution: 'Intern Researcher',Phone:'',mail:'📩 d.dudukalov@g.nsu.ru', image: Dudukalov}
   
   ]
   return(
@@ -77,7 +80,19 @@ export function Main_En() {
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
-                  <img src={sem_a} alt="Конференция"></img>
+                  <img src={conf_c} alt="Conference"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">Laboratory staff will take part in the IV conference of mathematical centers of Russia</h5>
+                <p class="card_descr_t">08.08.2024</p>
+                <span class="card_btn_t "><a href="/Conf_c/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Seminar"></img>
                 </div>
                 <div class="card_content_t">
                 <h5 class="card_title_t">On August 15, the laboratory will hold a seminar on the topic «Recommendation system for microfinance organizations»</h5>
@@ -89,24 +104,12 @@ export function Main_En() {
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
-                  <img src={sem_a} alt="Конференция"></img>
+                  <img src={sem_a} alt="Seminar"></img>
                 </div>
                 <div class="card_content_t">
                 <h5 class="card_title_t">On August 1, a laboratory seminar will be held on the topic «A.N. Tikhonov's regularization method for solving the problem of determining the initial condition in a parabolic equation»</h5>
                 <p class="card_descr_t">31.07.2024</p>
                 <span class="card_btn_t "><a href="/Sem_d/En" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-                </div>
-              </article>
-            </li>
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={life_b} alt="Конференция"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">The action "Science is near" is taking place in the Novosibirsk region</h5>
-                <p class="card_descr_t">10.07.2024</p>
-                <span class="card_btn_t "><a href="/Life_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
                 </div>
               </article>
             </li>
