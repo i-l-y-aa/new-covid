@@ -64,7 +64,10 @@ import {Life_a} from './news/Life_a';
 import {Life_a_En} from './news/Life_a_En'
 import {Life_b} from './news/Life_b';
 import {Life_b_En} from './news/Life_b_En'
-import {QIPA} from './conference/QIPA';
+import {TheoryAndNumericalMethods} from './conference/TheoryAndNumericalMethods';
+import {TheoryAndNumericalMethods_En} from './conference/TheoryAndNumericalMethods_En';
+import {ModernProblemsOfInverseProblems} from './conference/ModernProblemsOfInverseProblems';
+import {ModernProblemsOfInverseProblems_En} from './conference/ModernProblemsOfInverseProblems_En';
 import {Conf_c} from './news/Conf_c';
 import {Conf_c_En} from './news/Conf_c_En';
 
@@ -125,7 +128,10 @@ return (<>
             <Route exact path="/life_a/En" element={<Life_a_En />} />
             <Route exact path="/life_b" element={<Life_b />} />
             <Route exact path="/life_b/En" element={<Life_b_En />} />
-            <Route exact path="/qipa" element={<QIPA />} />
+            <Route exact path="/theoryAndNumericalMethods" element={<TheoryAndNumericalMethods />} />
+            <Route exact path="/theoryAndNumericalMethods/En" element={<TheoryAndNumericalMethods_En />} />
+            <Route exact path="/modernProblemsOfInverseProblems" element={<ModernProblemsOfInverseProblems />} />
+            <Route exact path="/modernProblemsOfInverseProblems/En" element={<ModernProblemsOfInverseProblems_En />} />
           </Routes>
           </div>
     </>

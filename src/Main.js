@@ -22,8 +22,8 @@ import {Carousel} from 'react-bootstrap'
 import sem_a from "./images/news/sem_a.PNG"
 import conf_c from "./images/news/conf_c.PNG"
 import life_b from "./images/news/life_b.PNG"
-import qipa from "./images/conf/qipa.PNG"
-
+import conf_TheoryAndNumericalMethods from "./images/conf/conf_TheoryAndNumericalMethods.png"
+import conf_ModernProblemsOfInverseProblems from "./images/conf/conf_ModernProblemsOfInverseProblems.png"
 
 
 const variants = {
@@ -180,19 +180,32 @@ variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
 <ul class="cards_t">
 <li class="cards_item_t">
 <article class="card_conf">
-<div class="card_image_conf my-3">
-<img src={qipa} alt="Конференция"></img>
+<div class="card_image_conf my-4">
+<img src={conf_TheoryAndNumericalMethods} alt="Конференция"></img>
 </div>
 <div class="card_content_t">
-<h5 class="card_title_t">X Международная конференция «Квазилинейные уравнения, обратные задачи и их приложения».</h5>
-<p class="card_title_t ">Место проведения: Образовательный центр «Сириус».</p>
-<p class="card_title_t ">Дата проведения: С 17 по 21 октября 2024 года .</p>
+<h5 class="card_title_t">XVI международная молодежная научная школа-конференция «Теория и численные методы решения обратных и некорректных задач».</h5>
+<p class="card_title_t ">Место проведения: Институт математики им. С.Л. Соболева СО РАН.</p>
+<p class="card_title_t ">Дата проведения: С 30 сентября по 2 октября 2024 года.</p>
 
-<span class="card_btn_t "><a href="/QIPA" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+<span class="card_btn_t "><a href="/TheoryAndNumericalMethods" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
 </div>
 </article>
 </li>
+<li class="cards_item_t">
+<article class="card_conf">
+<div class="card_image_conf my-4">
+<img src={conf_ModernProblemsOfInverseProblems} alt="Конференция"></img>
+</div>
+<div class="card_content_t">
+<h5 class="card_title_t">Международная научная конференция «Современные проблемы обратных задач».</h5>
+<p class="card_title_t ">Место проведения: Институт математики им. С.Л. Соболева СО РАН.</p>
+<p class="card_title_t ">Дата проведения: С 3 по 5 октября 2024 года.</p>
 
+<span class="card_btn_t "><a href="/ModernProblemsOfInverseProblems" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+</div>
+</article>
+</li>
 </ul>
             
       </Container>
