@@ -30,6 +30,12 @@ export function Tub(){
 
 {id: 3, hr: "https://server.covid19-modeling.ru/api/csvTub/omsk", eventKey: "omsk"},
 
+{id: 4, hr: "https://server.covid19-modeling.ru/api/csvSocTub/novosibirsk", eventKey: "novosibirsktwo" },
+
+    {id: 5, hr: "https://server.covid19-modeling.ru/api/csvSocTub/altay", eventKey: "altaytwo" },
+ 
+     {id: 6, hr: "https://server.covid19-modeling.ru/api/csvSocTub/omsk", eventKey: "omsktwo" },
+
     ]
 
 

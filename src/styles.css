@@ -224,6 +224,7 @@ color:  #39C0ED;
   padding: 0;
   list-style-type: none;
   display: flex;
+  margin-bottom: 20px;
 }
 .cards_item_t:not(:last-child) {
   margin-right: 20px;
@@ -287,6 +288,7 @@ color:  #39C0ED;
 }
 .cards_item_t .card_t {
   height: 100%;
+
 }
 
 .cards_item_t .card_conf {

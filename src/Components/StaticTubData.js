@@ -99,8 +99,7 @@ const StaticTubData = (props) => {
       tub_last_nd.push(parseInt(res.data[res.data.length-1].diagnoses))
       tub_last_ndeaths.push(parseInt(res.data[res.data.length-1].deaths)) //
       tub_last_date.push(res.data[res.data.length-1].date)
-
-      for (const dataObj of res.data) {
+            for (const dataObj of res.data) {
         tub_nd.push(parseInt(dataObj.diagnoses));
         tub_data.push(dataObj.date);
         tub_ndeaths.push(parseInt(dataObj.deaths));
@@ -196,7 +195,7 @@ const StaticTubData = (props) => {
       });
       setLastsData(tub_last_nd)
       setlast_ndeaths(tub_last_ndeaths)
-      setLastsDatadate(tub_last_date)
+            setLastsDatadate(tub_last_date)
     })
     .catch(err => {
       setLoadingprosses(false)

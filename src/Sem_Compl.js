@@ -55,12 +55,38 @@ export function Sem_Compl() {
                   <img src={sem_a} alt="Семинар"></img>
                 </div>
                 <div class="card_content_t">
+                <h5 class="card_title_t">15 августа пройдёт семинар лаборатории на тему «Рекомендательная система для микрофинансовых организаций»</h5>
+        <p class="my-4 card_descr_t ">16.08.2024</p>
+        <span class="my-2 card_btn_t "><a href="/Sem_e" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+            <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">1 августа пройдёт семинар лаборатории на тему «Метод регуляризации А.Н. Тихонова для решения задачи определения начального условия в параболическом уравнении»</h5>
+        <p class="card_descr_t ">02.08.2024</p>
+        <span class="card_btn_t "><a href="/Sem_d" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
                 <h5 class="card_title_t">18 июля пройдёт семинар лаборатории на тему «Полуконтролируемая сегментация медицинских изображений: Обзор»</h5>
                 <p class="card_descr_t">19.07.2024</p>
                 <span class="card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>
+            </ul>
+            <ul class="cards_t">
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
