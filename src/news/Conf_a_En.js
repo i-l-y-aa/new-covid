@@ -9,6 +9,14 @@ import conf_a from "../images/news/conf_a.PNG"
 
 
 export function Conf_a_En () {
+  const [views1, setViews1] = useState(0);
+
+  useEffect(() => {
+    const storedViews1 = localStorage.getItem('sem_e_views1');
+    const newViews1 = storedViews1 ? parseInt(storedViews1) + 1 : 1;
+    setViews1(newViews1);
+    localStorage.setItem('sem_e_views1', newViews1);
+  }, []);
   return (
         <>
     <NaviBarv2_En />
@@ -22,6 +30,11 @@ export function Conf_a_En () {
     <div class="row ps-4 my-4"><p class="lead">Within the framework of the conference, a section "Mathematical Epidemiology" will be organized (<a rel="noopener" target="_blank" href="https://bgrssb.icgbio.ru/2024/ru/systems-computational-biology/">Symposium "System Computer Biology"</a>).</p></div>
     <div class="row ps-4 my-4"><p class="lead">More detailed information is available on the <a rel="noopener" target="_blank" href="https://bgrssb.icgbio.ru/2024/ru/schedule/">conference website.</a></p></div>
     <div class="row ps-4 my-4"><p>13.06.2024</p></div>
+    <div className="row ps-4 my-4">
+          <p className="lead">
+            <FontAwesomeIcon icon={faEye} /> {views1}
+          </p>
+        </div>
     </Container>
     <Footer_En />
     </>

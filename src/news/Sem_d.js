@@ -9,6 +9,14 @@ import sem_a from "../images/news/sem_a.PNG"
 
 
 export function Sem_d () {
+  const [views18, setViews18] = useState(0);
+
+  useEffect(() => {
+    const storedViews18 = localStorage.getItem('sem_e_views18');
+    const newViews18 = storedViews18 ? parseInt(storedViews18) + 1 : 1;
+    setViews18(newViews18);
+    localStorage.setItem('sem_e_views18', newViews18);
+  }, []);
   return (
         <>
     <NaviBarv2 />
@@ -25,6 +33,11 @@ export function Sem_d () {
     <div class="row my-4"><p class="lead">Презентацию доклада можно увидеть по <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Sem_01.08.2024_Zvonareva.pdf">ссылке</a>.</p></div>
     <div class="row my-4"><p class="lead">Все проведённые семинары выложены в <a rel="noopener" target="_blank" href="Sem_Compl">архиве</a>.</p></div>
     <div class="row my-4"><p>31.07.2024</p></div>
+    <div className="row ps-4 my-4">
+          <p className="lead">
+            <FontAwesomeIcon icon={faEye} /> {views18}
+          </p>
+        </div>
     </Container>
     <Footer />
     </>

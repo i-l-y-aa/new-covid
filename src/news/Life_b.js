@@ -9,6 +9,14 @@ import life_b from "../images/news/life_b.PNG"
 
 
 export function Life_b () {
+  const [views10, setViews10] = useState(0);
+
+  useEffect(() => {
+    const storedViews10 = localStorage.getItem('sem_e_views10');
+    const newViews10 = storedViews10 ? parseInt(storedViews10) + 1 : 1;
+    setViews10(newViews10);
+    localStorage.setItem('sem_e_views10', newViews10);
+  }, []);
   return (
         <>
     <NaviBarv2 />
@@ -23,6 +31,11 @@ export function Life_b () {
     <hr></hr>
     <div class="row ps-4 my-4"><p class="lead">Герои информационных баннеров - 15 молодых новосибирских учёных, чьи научные достижения активно применяют в различных отраслях. На цифровых панелях можно увидеть не только фото исследователей, но и познакомиться с результатами их деятельности. С одной из героинь встретилась корреспондент телеканала ОТС Светлана Шевченко. Видео можно посмотреть по <a rel="noopener" target="_blank" href="https://yandex.ru/video/preview/1383508478853144806">ссылке.</a></p></div>
     <div class="row ps-4 my-4"><p>10.07.2024</p></div>
+    <div className="row ps-4 my-4">
+          <p className="lead">
+            <FontAwesomeIcon icon={faEye} /> {views10}
+          </p>
+        </div>
     </Container>
     <Footer />
     </>

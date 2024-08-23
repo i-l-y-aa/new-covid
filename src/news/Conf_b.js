@@ -9,6 +9,14 @@ import conf_b from "../images/news/conf_b.PNG"
 
 
 export function Conf_b () {
+  const [views4, setViews4] = useState(0);
+
+  useEffect(() => {
+    const storedViews4 = localStorage.getItem('sem_e_views4');
+    const newViews4 = storedViews4 ? parseInt(storedViews4) + 1 : 1;
+    setViews4(newViews4);
+    localStorage.setItem('sem_e_views4', newViews4);
+  }, []);
   return (
         <>
     <NaviBarv2 />
@@ -25,6 +33,11 @@ export function Conf_b () {
     <div class="row my-4"><p class="lead">Конференция пройдёт 1-4 октября 2024 года в институте математики им. С.Л. Соболева СО РАН, Академгородок, Новосибирск.</p></div>
     <div class="row my-4"><p class="lead">Более подробная информация приведена на <a rel="noopener" target="_blank" href="http://conf.nsc.ru/mmed2024/ru/general_info">сайте конференции.</a></p></div>
     <div class="row my-4"><p>17.06.2024</p></div>
+    <div className="row ps-4 my-4">
+          <p className="lead">
+            <FontAwesomeIcon icon={faEye} /> {views4}
+          </p>
+        </div>
     </Container>
     <Footer />
     </>

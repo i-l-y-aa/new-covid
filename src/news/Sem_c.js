@@ -9,6 +9,14 @@ import sem_a from "../images/news/sem_a.PNG"
 
 
 export function Sem_c () {
+  const [views16, setViews16] = useState(0);
+
+  useEffect(() => {
+    const storedViews16 = localStorage.getItem('sem_e_views16');
+    const newViews16 = storedViews16 ? parseInt(storedViews16) + 1 : 1;
+    setViews16(newViews16);
+    localStorage.setItem('sem_e_views16', newViews16);
+  }, []);
   return (
         <>
     <NaviBarv2 />
@@ -26,6 +34,11 @@ export function Sem_c () {
     <div class="row my-4"><p class="lead">Презентацию доклада можно увидеть по <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Semi-Supervised Medical Image Segmentation.pdf">ссылке</a>.</p></div>
     <div class="row my-4"><p class="lead">Все проведённые семинары выложены в <a rel="noopener" target="_blank" href="Sem_Compl">архиве</a>.</p></div>
     <div class="row my-4"><p>10.07.2024</p></div>
+    <div className="row ps-4 my-4">
+          <p className="lead">
+            <FontAwesomeIcon icon={faEye} /> {views16}
+          </p>
+        </div>
     </Container>
     <Footer />
     </>
