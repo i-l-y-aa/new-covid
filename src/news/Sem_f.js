@@ -5,8 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles.css";
 import { Container } from 'react-bootstrap';
 import sem_a from "../images/news/sem_a.PNG";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye } from '@fortawesome/free-solid-svg-icons';
+
 
 export function Sem_f() {
 
