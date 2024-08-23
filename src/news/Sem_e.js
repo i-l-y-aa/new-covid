@@ -9,14 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 export function Sem_e() {
-  const [views20, setViews20] = useState(0);
 
-  useEffect(() => {
-    const storedViews20 = localStorage.getItem('sem_e_views20');
-    const newViews20 = storedViews20 ? parseInt(storedViews20) + 1 : 1;
-    setViews20(newViews20);
-    localStorage.setItem('sem_e_views20', newViews20);
-  }, []);
 
   return (
     <>
@@ -38,11 +31,6 @@ export function Sem_e() {
         <div className="row my-4"><p className="lead">Презентацию доклада можно увидеть по <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Ранжирование мфо.pdf">ссылке</a>.</p></div>
         <div className="row my-4"><p className="lead">Все проведённые семинары выложены в <a rel="noopener" target="_blank" href="Sem_Compl">архиве</a>.</p></div>
         <div className="row my-4"><p>31.07.2024</p></div>
-        <div className="row ps-4 my-4">
-          <p className="lead">
-            <FontAwesomeIcon icon={faEye} /> {views20}
-          </p>
-        </div>
       </Container>
       <Footer />
     </>

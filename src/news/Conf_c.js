@@ -9,14 +9,7 @@ import conf_c from "../images/news/conf_c.PNG"
 
 
 export function Conf_c () {
-  const [views6, setViews6] = useState(0);
 
-  useEffect(() => {
-    const storedViews6 = localStorage.getItem('sem_e_views6');
-    const newViews6 = storedViews6 ? parseInt(storedViews6) + 1 : 1;
-    setViews6(newViews6);
-    localStorage.setItem('sem_e_views6', newViews6);
-  }, []);
   return (
         <>
     <NaviBarv2 />
@@ -35,11 +28,7 @@ export function Conf_c () {
     <div class="row my-4"><p class="lead">Дудукалов Д.В. примет участие в секции <a rel="noopener" target="_blank" href="https://mc4-conf.ru/probability-theory#!/tab/721114718-5">«Теория вероятностей»</a> с докладом на тему «Рекомендательная система для микрофинансовых организаций».</p></div>
     <div class="row my-4"><p class="lead">Более подробную информацию можно найти на <a rel="noopener" target="_blank" href="https://mc4-conf.ru/">сайте конференции.</a></p></div>
     <div class="row my-4"><p>08.08.2024</p></div>
-    <div className="row ps-4 my-4">
-          <p className="lead">
-            <FontAwesomeIcon icon={faEye} /> {views6}
-          </p>
-        </div>
+
     </Container>
     <Footer />
     </>

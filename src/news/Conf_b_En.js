@@ -9,14 +9,7 @@ import conf_b from "../images/news/conf_b.PNG"
 
 
 export function Conf_b_En () {
-  const [views3, setViews3] = useState(0);
 
-  useEffect(() => {
-    const storedViews3 = localStorage.getItem('sem_e_views3');
-    const newViews3 = storedViews3 ? parseInt(storedViews3) + 1 : 1;
-    setViews3(newViews3);
-    localStorage.setItem('sem_e_views3', newViews3);
-  }, []);
   return (
         <>
     <NaviBarv2_En />
@@ -33,11 +26,7 @@ export function Conf_b_En () {
     <div class="row my-4"><p class="lead">The conference will be held on October 1-4, 2024 at the S.L. Sobolev Institute of Mathematics SB RAS, Akademgorodok, Novosibirsk.</p></div>
     <div class="row my-4"><p class="lead">More detailed information is available on the <a rel="noopener" target="_blank" href="http://conf.nsc.ru/mmed2024/ru/general_info">conference website.</a></p></div>
     <div class="row my-4"><p>17.06.2024</p></div>
-    <div className="row ps-4 my-4">
-          <p className="lead">
-            <FontAwesomeIcon icon={faEye} /> {views3}
-          </p>
-        </div>
+
     </Container>
     <Footer_En />
     </>

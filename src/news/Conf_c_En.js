@@ -9,14 +9,7 @@ import conf_c from "../images/news/conf_c.PNG"
 
 
 export function Conf_c_En () {
-  const [views5, setViews5] = useState(0);
 
-  useEffect(() => {
-    const storedViews5 = localStorage.getItem('sem_e_views5');
-    const newViews5 = storedViews5 ? parseInt(storedViews5) + 1 : 1;
-    setViews5(newViews5);
-    localStorage.setItem('sem_e_views5', newViews5);
-  }, []);
   return (
         <>
     <NaviBarv2_En />
@@ -35,11 +28,7 @@ export function Conf_c_En () {
     <div class="row my-4"><p class="lead">Dmitry Dudukalov will take part in the section <a rel="noopener" target="_blank" href="https://mc4-conf.ru/probability-theory#!/tab/721114718-5">«Probability Theory»</a> with a report on «Recommendation system for microfinance organizations».</p></div>
     <div class="row my-4"><p class="lead">More detailed information can be found on the <a rel="noopener" target="_blank" href="https://mc4-conf.ru/">conference website.</a></p></div>
     <div class="row my-4"><p>08.08.2024</p></div>
-    <div className="row ps-4 my-4">
-          <p className="lead">
-            <FontAwesomeIcon icon={faEye} /> {views5}
-          </p>
-        </div>
+
     </Container>
     <Footer_En />
     </>

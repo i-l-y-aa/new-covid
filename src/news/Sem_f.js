@@ -9,14 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 export function Sem_f() {
-  const [views22, setViews22] = useState(0);
 
-  useEffect(() => {
-    const storedViews22 = localStorage.getItem('sem_e_views22');
-    const newViews22 = storedViews22 ? parseInt(storedViews22) + 1 : 1;
-    setViews22(newViews22);
-    localStorage.setItem('sem_e_views22', newViews22);
-  }, []);
 
   return (
     <>
@@ -36,11 +29,7 @@ export function Sem_f() {
         <div className="row my-4"><p className="lead">*Перед подключением просьба написать свои Имя и Фамилию.</p></div>
         <div className="row my-4"><p className="lead">Все проведённые семинары выложены в <a rel="noopener" target="_blank" href="Sem_Compl">архиве</a>.</p></div>
         <div className="row my-4"><p>23.08.2024</p></div>
-        <div className="row ps-4 my-4">
-          <p className="lead">
-            <FontAwesomeIcon icon={faEye} /> {views22}
-          </p>
-        </div>
+
       </Container>
       <Footer />
     </>
