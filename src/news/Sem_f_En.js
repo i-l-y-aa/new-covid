@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Footer from '../Components/Footer';
-import NaviBarv2 from '../Components/NaviBarv2';
+import Footer_En from '../Components/Footer_En'
+import NaviBarv2_En from '../Components/NaviBarv2_En'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles.css";
 import { Container } from 'react-bootstrap';
@@ -12,7 +12,7 @@ export function Sem_f_En() {
 
   return (
     <>
-      <NaviBarv2 />
+      <NaviBarv2_En />
       <Container>
         <div><img src={sem_a} align="left" width={500}></img></div>
         <div className="row my-4 ps-4">
@@ -29,7 +29,7 @@ export function Sem_f_En() {
         <div className="row my-4"><p className="lead">All the seminars held are posted in the <a rel="noopener" target="_blank" href="Sem_Compl">archive</a>.</p></div>
         <div className="row my-4"><p>23.08.2024</p></div>
       </Container>
-      <Footer />
+      <Footer_En />
     </>
   );
 }

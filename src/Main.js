@@ -22,7 +22,7 @@ import Novikov from "./images/team/Novikov.jpg"
 import {Carousel} from 'react-bootstrap'
 import sem_a from "./images/news/sem_a.PNG"
 import conf_c from "./images/news/conf_c.PNG"
-import life_b from "./images/news/life_b.PNG"
+import life_c from "./images/news/life_c.PNG"
 import conf_TheoryAndNumericalMethods from "./images/conf/conf_TheoryAndNumericalMethods.png"
 import conf_ModernProblemsOfInverseProblems from "./images/conf/conf_ModernProblemsOfInverseProblems.png"
 
@@ -84,6 +84,18 @@ export function Main() {
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
+                  <img src={life_c} alt="Конференция"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">30 августа на базе Центра нейрохирургии состоится Заседание Сибирской ассоциации нейрохирургов</h5>
+                <p class="card_descr_t">26.08.2024</p>
+                <span class="card_btn_t "><a href="/Life_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
                   <img src={sem_a} alt="Конференция"></img>
                 </div>
                 <div class="card_content_t">
@@ -102,18 +114,6 @@ export function Main() {
                 <h5 class="card_title_t">Сотрудники лаборатории примут участие в IV конференции математических центров России</h5>
                 <p class="card_descr_t">08.08.2024</p>
                 <span class="card_btn_t "><a href="/Conf_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-                </div>
-              </article>
-            </li>
-            <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={sem_a} alt="Конференция"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">15 августа пройдёт семинар лаборатории на тему «Рекомендательная система для микрофинансовых организаций»</h5>
-                <p class="card_descr_t">31.07.2024</p>
-                <span class="card_btn_t "><a href="/Sem_e" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>

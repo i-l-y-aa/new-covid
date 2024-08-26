@@ -18,7 +18,7 @@ import Footer_En from './Components/Footer_En'
 import Question from "./images/conf/Question.png"
 import sem_a from "./images/news/sem_a.PNG"
 import conf_c from "./images/news/conf_c.PNG"
-import life_b from "./images/news/life_b.PNG"
+import life_c from "./images/news/life_c.PNG"
 import Semenova from "./images/team/Semenova.jpg"
 import Mikhailapov from "./images/team/Mikhailapov.png"
 import Dudukalov from "./images/team/Dudukalov.jpg"
@@ -81,6 +81,18 @@ export function Main_En() {
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
+                  <img src={life_c} alt="Seminar"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">On August 30, a meeting of the Siberian Association of Neurosurgeons will be held at the Neurosurgery Center</h5>
+                <p class="card_descr_t">26.08.2024</p>
+                <span class="card_btn_t "><a href="/Life_c/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
                   <img src={sem_a} alt="Seminar"></img>
                 </div>
                 <div class="card_content_t">
@@ -99,18 +111,6 @@ export function Main_En() {
                 <h5 class="card_title_t">Laboratory staff will take part in the IV conference of mathematical centers of Russia</h5>
                 <p class="card_descr_t">08.08.2024</p>
                 <span class="card_btn_t "><a href="/Conf_c/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
-                </div>
-              </article>
-            </li>
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={sem_a} alt="Seminar"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">On August 15, the laboratory will hold a seminar on the topic «Recommendation system for microfinance organizations»</h5>
-                <p class="card_descr_t">31.07.2024</p>
-                <span class="card_btn_t "><a href="/Sem_e/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
                 </div>
               </article>
             </li>
