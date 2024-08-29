@@ -13,7 +13,9 @@ import {Petrakova_info} from './Components/Petrakova_info'
 import {Semenova_info} from './Components/Semenova_info'
 import {Nesterova_info} from './Components/Nesterova_info'
 import {Zyatkov_info} from './Components/Zyatkov_info'
-
+import {Zvonareva_info} from './Components/Zvonareva_info'
+import {Zvonareva_teaching} from './Components/Zvonareva_teaching';
+import {Krivorotko_teaching} from './Components/Krivorotko_teaching';
 
 import {
   BrowserRouter as Router,
@@ -31,6 +33,7 @@ import axios from "axios"
 import {News} from './News';
 import {News_En} from './News_En';
 import {Sem_Compl} from './Sem_Compl';
+
 
 
 import {Helmet} from "react-helmet";
@@ -106,6 +109,7 @@ return (<>
             <Route exact path="/semenova_info" element={<Semenova_info />} />
             <Route exact path="/nesterova_info" element={<Nesterova_info />} />
             <Route exact path="/zyatkov_info" element={<Zyatkov_info />} />
+            <Route exact path="/zvonareva_info" element={<Zvonareva_info />} />
             <Route exact path="/news" element={<News />} />
             <Route exact path="/news/En" element={<News_En />} />
             <Route exact path="/sem_compl" element={<Sem_Compl />} />
@@ -138,6 +142,8 @@ return (<>
             <Route exact path="/theoryAndNumericalMethods/En" element={<TheoryAndNumericalMethods_En />} />
             <Route exact path="/modernProblemsOfInverseProblems" element={<ModernProblemsOfInverseProblems />} />
             <Route exact path="/modernProblemsOfInverseProblems/En" element={<ModernProblemsOfInverseProblems_En />} />
+            <Route exact path="/zvonareva_teaching" element={<Zvonareva_teaching />} />
+            <Route exact path="/krivorotko_teaching" element={<Krivorotko_teaching />} />
           </Routes>
           </div>
     </>

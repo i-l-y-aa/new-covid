@@ -25,7 +25,7 @@ export function Krivorotko_info_En () {
         <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0 ">ID OF the RSCI:<a rel="noopener" target="_blank" href="https://www.elibrary.ru/author_profile.asp?authorid=746714">746714</a></div>
         </div>
         <div class="row">
-        <div class="col-sm-6 col-md-5 col-lg-6 mx-auto ps-5 ">Scopus Author ID:<a href="https://www.scopus.com/authid/detail.uri?authorId=56557032900">56557032900</a><hr></hr></div>
+        <div class="col-sm-6 col-md-5 col-lg-6 mx-auto ps-5 ">Scopus Author ID:<a href="https://www.scopus.com/authid/detail.uri?authorId=57217457913">57217457913</a><hr></hr></div>
         <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">ORCID: <a href="https://orcid.org/0000-0003-0125-4988">0000-0003-0125-4988</a><hr></hr></div>
         </div>
         <div class="row ps-4"><p><a href="https://covid19-modeling.ru/data/Krivorotko-CV_short .pdf">CV</a></p></div>

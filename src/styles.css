@@ -285,6 +285,7 @@ color:  #39C0ED;
   cursor: pointer;
   margin-top: auto;
   border-radius: 10px
+  
 }
 .cards_item_t .card_t {
   height: 100%;
@@ -328,6 +329,19 @@ input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
+
+.horizontal-scroll {
+  display: flex;
+  overflow-x: auto; /* Позволяет прокручивать содержимое по оси X */
+  flex-wrap: nowrap; /* Запрещает перенос строк */
+  width: 100%; /* Убедитесь, что контейнер занимает всю ширину */
+}
+
+.region-button {
+  display: inline-block; /* Убедитесь, что кнопки располагаются в одной строке */
+  margin-right: 10px; /* Добавьте отступ между кнопками */
+  max-width: none; /* Убедитесь, что нет ограничений по ширине */
+}
 
 @media screen and (max-width:940px) {
     .header {

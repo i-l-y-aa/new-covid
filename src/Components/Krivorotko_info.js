@@ -25,7 +25,7 @@ export function Krivorotko_info () {
         <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0 ">ID РИНЦ:<a rel="noopener" target="_blank" href="https://www.elibrary.ru/author_profile.asp?authorid=746714">746714</a></div>
         </div>
         <div class="row">
-        <div class="col-sm-6 col-md-5 col-lg-6 mx-auto ps-5 ">Scopus Author ID:<a href="https://www.scopus.com/authid/detail.uri?authorId=56557032900">56557032900</a><hr></hr></div>
+        <div class="col-sm-6 col-md-5 col-lg-6 mx-auto ps-5 ">Scopus Author ID:<a href="https://www.scopus.com/authid/detail.uri?authorId=57217457913">57217457913</a><hr></hr></div>
         <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">ORCID: <a href="https://orcid.org/0000-0003-0125-4988">0000-0003-0125-4988</a><hr></hr></div>
         </div>
         <div class="row ps-4"><p><a href="https://covid19-modeling.ru/data/Резюме-Криворотько_2023 .pdf">Резюме</a></p></div>
@@ -59,6 +59,10 @@ export function Krivorotko_info () {
         <div class="col-sm-6 col-md-5 col-lg-6 mx-auto"><div class="my-3"><h3>Преподавание</h3></div>
         <p>Численные методы решения обратных и некорректных задач - годовой спецкурс кафедры математических методов геофизики ММФ НГУ, 3-6 курсы.</p>
         <p>Векторный и тензорный анализ - лекции и семинары, 3 курс физического факультета НГУ.</p>
+        <p>Обратные задачи: теория и практика - спецкурс на кафедре биомедицинской физики Новосибирского государственного университета для магистрантов 5-6 курса.</p>
+        <Button href="/Krivorotko_teaching" className="text-white shadow4 mp_info" variant="info" size="sm">
+            <div style={{fontSize: 16}}><b>Материалы</b></div></Button>
+            <div class="row ps-4 my-3"><p class="lead"></p></div>
         <p>Научный руководитель 6 студентов (2 аспиранта, 1 магистрант, 3 бакалавра).</p></div>
         <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0"><div class="my-3"><h3>Профессиональные интересы</h3></div>
         <p>Обратные и некорректные задачи в науках о Земле и биологии.</p>
