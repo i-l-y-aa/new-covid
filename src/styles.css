@@ -343,6 +343,15 @@ input[type="submit"]:hover {
   max-width: none; /* Убедитесь, что нет ограничений по ширине */
 }
 
+.all-region {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #39C0ED;
+}
+
 @media screen and (max-width:940px) {
     .header {
         max-width: 100%;

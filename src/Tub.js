@@ -31,9 +31,20 @@ const regions = [
   getRegionData(8, "https://server.covid19-modeling.ru/api/csvTub/kursk", "kursk", "Курская область", "Курская область курская область","Центральный федеральный округ","Курск", "1 060 892 ч.", "29 997 км²", "35,37 чел./км²"),
   getRegionData(9, "https://server.covid19-modeling.ru/api/csvTub/lipeck", "lipeck", "Липецкая область", "Липецкая область липецкая область","Центральный федеральный округ","Липецк", "1 116 265 ч.", "24 047 км²", "46,42 чел./км²"),
   getRegionData(10, "https://server.covid19-modeling.ru/api/csvTub/moscow", "moscow", "Московская область", "Московская область московская область","Центральный федеральный округ","Москва", "8 651 260 ч.", "44 329 км²", "195,16 чел./км²"),
-  getRegionData(11, "https://server.covid19-modeling.ru/api/csvTub/novosibirsk", "novosibirsk", "Новосибирская область", "Новосибирская область новосибирская область","Сибирский федеральный округ","Новосибирск", "2 779 375 ч.", "177 756 км²", "15,64 чел./км²"),
-  getRegionData(12, "https://server.covid19-modeling.ru/api/csvTub/altay", "altay", "Алтайский край" , "Алтайский край алтайский край","Сибирский федеральный округ","Барнаул", "2 268 179 ч.", "167 996 км²", "13,5 чел./км²"),
-  getRegionData(13, "https://server.covid19-modeling.ru/api/csvTub/omsk", "omsk", "Омская область", "Омская область омская область","Сибирский федеральный округ","Омск", "1 879 548 ч.", "141 140 км²", "13,32 чел./км²"),
+  getRegionData(11, "https://server.covid19-modeling.ru/api/csvTub/orel", "orel", "Орловская область", "Орловская область орловская область","Центральный федеральный округ","Орёл", "724 686 ч.", "24 700 км²", "29,4 чел./км²"),
+  getRegionData(12, "https://server.covid19-modeling.ru/api/csvTub/ryazun", "ryazun", "Рязанская область", "Рязанская область рязанская область","Центральный федеральный округ","Рязань", "1 082 231 ч.", "44 329 км²", "27,33 чел./км²"),
+  getRegionData(13, "https://server.covid19-modeling.ru/api/csvTub/smolensk", "smolensk", "Смоленская область", "Смоленская область смоленская область","Центральный федеральный округ","Смоленск", "863 987 ч.", "49 779 км²", "17,36 чел./км²"),
+  getRegionData(14, "https://server.covid19-modeling.ru/api/csvTub/tambov", "tambov", "Тамбовская область", "Тамбовская область тамбовская область","Центральный федеральный округ","Тамбов", "956 292 ч.", "34 462 км²", "27,75 чел./км²"),
+  getRegionData(15, "https://server.covid19-modeling.ru/api/csvTub/tver", "tver", "Тверская область", "Тверская область тверская область","Центральный федеральный округ","Тверь", "1 199 747 ч.", "84 100 км²", "14,25 чел./км²"),
+  getRegionData(16, "https://server.covid19-modeling.ru/api/csvTub/tula", "tula", "Тульская область", "Тульская область тульская область","Центральный федеральный округ","Тула", "1 471 140 ч.", "25 679 км²", "57,29 чел./км²"),
+  getRegionData(17, "https://server.covid19-modeling.ru/api/csvTub/yaroslavl", "yaroslavl", "Ярославская область", "Ярославская область ярославская область","Центральный федеральный округ","Ярославль", "1 187 558 ч.", "36 400 км²", "32,83 чел./км²"),
+  getRegionData(18, "https://server.covid19-modeling.ru/api/csvTub/kareliya", "kareliya", "Республика Карелия", "Республика Карелия республика карелия","Северо-Западный федеральный округ","Петразаводск", "523 856 ч.", "172 400 км²", "2,9 чел./км²"),
+  getRegionData(19, "https://server.covid19-modeling.ru/api/csvTub/komi", "komi", "Республика Коми", "Республика Коми республика коми","Северо-Западный федеральный округ","Сыктывкар", "720 610 ч.", "415 900 км²", "1,73 чел./км²"),
+  getRegionData(20, "https://server.covid19-modeling.ru/api/csvTub/arhangelsk", "arhangelsk", "Архангельская область", "Архангельская область архангельская область","Северо-Западный федеральный округ","Архангельск", "998 072 ч.", "587 400 км²", "1,69 чел./км²"),
+  
+  getRegionData(21, "https://server.covid19-modeling.ru/api/csvTub/novosibirsk", "novosibirsk", "Новосибирская область", "Новосибирская область новосибирская область","Сибирский федеральный округ","Новосибирск", "2 779 375 ч.", "177 756 км²", "15,64 чел./км²"),
+  getRegionData(22, "https://server.covid19-modeling.ru/api/csvTub/altay", "altay", "Алтайский край" , "Алтайский край алтайский край","Сибирский федеральный округ","Барнаул", "2 268 179 ч.", "167 996 км²", "13,5 чел./км²"),
+  getRegionData(23, "https://server.covid19-modeling.ru/api/csvTub/omsk", "omsk", "Омская область", "Омская область омская область","Сибирский федеральный округ","Омск", "1 879 548 ч.", "141 140 км²", "13,32 чел./км²"),
 ];
 
 const regionsSoc = [
@@ -48,9 +59,21 @@ const regionsSoc = [
   getRegionData(8, "https://server.covid19-modeling.ru/api/csvSocTub/kursk", "kursk", "Курская область", "Курская область курская область","Центральный федеральный округ","Курск", "1 060 892 ч.", "29 997 км²", "35,37 чел./км²"),
   getRegionData(9, "https://server.covid19-modeling.ru/api/csvSocTub/lipeck", "lipeck", "Липецкая область", "Липецкая область липецкая область","Центральный федеральный округ","Липецк", "1 116 265 ч.", "24 047 км²", "46,42 чел./км²"),
   getRegionData(10, "https://server.covid19-modeling.ru/api/csvSocTub/moscow", "moscow", "Московская область", "Московская область московская область","Центральный федеральный округ","Москва", "8 651 260 ч.", "44 329 км²", "195,16 чел./км²"),
-  getRegionData(11, "https://server.covid19-modeling.ru/api/csvSocTub/novosibirsk", "novosibirsk", "Новосибирская область", "Новосибирская область новосибирская область","Сибирский федеральный округ","Новосибирск", "2 779 375 ч.", "177 756 км²", "15,64 чел./км²"),
-  getRegionData(12, "https://server.covid19-modeling.ru/api/csvSocTub/altay", "altay", "Алтайский край", "Алтайский край алтайский край","Сибирский федеральный округ","Барнаул", "2 268 179 ч.", "167 996 км²", "13,5 чел./км²"),
-  getRegionData(13, "https://server.covid19-modeling.ru/api/csvSocTub/omsk", "omsk", "Омская область", "Омская область омская область","Сибирский федеральный округ","Омск", "1 879 548 ч.", "141 140 км²", "13,32 чел./км²"),
+  getRegionData(11, "https://server.covid19-modeling.ru/api/csvSocTub/orel", "orel", "Орловская область", "Орловская область орловская область","Центральный федеральный округ","Орёл", "724 686 ч.", "24 700 км²", "29,4 чел./км²"),
+  getRegionData(12, "https://server.covid19-modeling.ru/api/csvSocTub/ryazun", "ryazun", "Рязанская область", "Рязанская область рязанская область","Центральный федеральный округ","Рязань", "1 082 231 ч.", "44 329 км²", "27,33 чел./км²"),
+  getRegionData(13, "https://server.covid19-modeling.ru/api/csvSocTub/smolensk", "smolensk", "Смоленская область", "Смоленская область смоленская область","Центральный федеральный округ","Смоленск", "863 987 ч.", "49 779 км²", "17,36 чел./км²"),
+  getRegionData(14, "https://server.covid19-modeling.ru/api/csvSocTub/tambov", "tambov", "Тамбовская область", "Тамбовская область тамбовская область","Центральный федеральный округ","Тамбов", "956 292 ч.", "34 462 км²", "27,75 чел./км²"),
+  getRegionData(15, "https://server.covid19-modeling.ru/api/csvSocTub/tver", "tver", "Тверская область", "Тверская область тверская область","Центральный федеральный округ","Тверь", "1 199 747 ч.", "84 100 км²", "14,25 чел./км²"),
+  getRegionData(16, "https://server.covid19-modeling.ru/api/csvSocTub/tula", "tula", "Тульская область", "Тульская область тульская область","Центральный федеральный округ","Тула", "1 471 140 ч.", "25 679 км²", "57,29 чел./км²"),
+  getRegionData(17, "https://server.covid19-modeling.ru/api/csvSocTub/yaroslavl", "yaroslavl", "Ярославская область", "Ярославская область ярославская область","Центральный федеральный округ","Ярославль", "1 187 558 ч.", "36 400 км²", "32,83 чел./км²"),
+  getRegionData(18, "https://server.covid19-modeling.ru/api/csvSocTub/kareliya", "kareliya", "Республика Карелия", "Республика Карелия республика карелия","Северо-Западный федеральный округ","Петразаводск", "523 856 ч.", "172 400 км²", "2,9 чел./км²"),
+  getRegionData(19, "https://server.covid19-modeling.ru/api/csvSocTub/komi", "komi", "Республика Коми", "Республика Коми", "Республика Коми республика коми","Северо-Западный федеральный округ","Сыктывкар", "720 610 ч.", "415 900 км²", "1,73 чел./км²"),
+  getRegionData(20, "https://server.covid19-modeling.ru/api/csvSocTub/arhangelsk", "arhangelsk", "Архангельская область", "Архангельская область архангельская область","Северо-Западный федеральный округ","Архангельск", "998 072 ч.", "587 400 км²", "1,69 чел./км²"),
+
+  getRegionData(21, "https://server.covid19-modeling.ru/api/csvSocTub/novosibirsk", "novosibirsk", "Новосибирская область", "Новосибирская область новосибирская область","Сибирский федеральный округ","Новосибирск", "2 779 375 ч.", "177 756 км²", "15,64 чел./км²"),
+  getRegionData(22, "https://server.covid19-modeling.ru/api/csvSocTub/altay", "altay", "Алтайский край", "Алтайский край алтайский край","Сибирский федеральный округ","Барнаул", "2 268 179 ч.", "167 996 км²", "13,5 чел./км²"),
+  getRegionData(23, "https://server.covid19-modeling.ru/api/csvSocTub/omsk", "omsk", "Омская область", "Омская область омская область","Сибирский федеральный округ","Омск", "1 879 548 ч.", "141 140 км²", "13,32 чел./км²"),
+//getRegionData(11, "http://localhost:4000/api/csvSocTub/lipeck", "lipeck", "Липецкая область", "Липецкая область липецкая область","Центральный федеральный округ","Липецк", "1 116 265 ч.", "24 047 км²", "46,42 чел./км²"),
 ];
 
 const variants = {
@@ -67,10 +90,13 @@ const variants = {
   },
 };
 
+
+
 export function Tub() {
   const [searchParams, setSearchParams] = useSearchParams();
   const postQuery = searchParams.get('post') || '';
   const [noResults, setNoResults] = useState(false);
+  const [showAllRegions, setShowAllRegions] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -113,49 +139,56 @@ export function Tub() {
             По вашему запросу регион не найден
           </div>
         )}
+              <Button className="my-2 all-region" onClick={() => setShowAllRegions(!showAllRegions)}>
+        {showAllRegions ? "Скрыть регионы" : "Показать все регионы"}
+      </Button>
         <Tab.Container id="left-tabs-example" defaultActiveKey={filteredRegions.length > 0 ? filteredRegions[0].eventKey : ""}>
           <div className="horizontal-scroll">
             <Nav variant="pills" defaultActiveKey="/home" className="d-flex">
-              {filteredRegions.map((region, index) => (
-                <Nav.Item key={region.id} className="region-button">
-                  <OverlayTrigger
-                    placement="bottom"
-                    overlay={
-                      <Popover>
-                        <Popover.Body>
-                          <div>{region.district}</div>
-                          <div>Административный центр — город {region.center}</div>
-                          <div>Население: {region.population}</div>
-                          <div>Площадь: {region.area}</div>
-                          <div>Плотность: {region.density}</div>
-                        </Popover.Body>
-                      </Popover>
-                    }
-                  >
-                    <motion.div
-                      initial="hidden"
-                      custom={index + 1}
-                      variants={variants}
-                      whileInView="visible"
-                      viewport={{ amount: 0.1, once: true }}
+              {showAllRegions ?
+                filteredRegions.map((region, index) => (
+                  <Nav.Item key={region.id} className="region-button">
+                    <OverlayTrigger
+                      placement="bottom"
+                      overlay={
+                        <Popover>
+                          <Popover.Body>
+                            <div>{region.district}</div>
+                            <div>Административный центр — город {region.center}</div>
+                            <div>Население: {region.population}</div>
+                            <div>Площадь: {region.area}</div>
+                            <div>Плотность: {region.density}</div>
+                          </Popover.Body>
+                        </Popover>
+                      }
                     >
-                      <Button
-                        className="shadow3 "
-                        size="sm"
-                        variant="outline-info"
-                        style={{ color: "#FFFFFF" }}
+                      <motion.div
+                        initial="hidden"
+                        custom={index + 1}
+                        variants={variants}
+                        whileInView="visible"
+                        viewport={{ amount: 0.1, once: true }}
                       >
-                        <Nav.Link eventKey={region.eventKey}>
-                          {region.title}
-                        </Nav.Link>
-                      </Button>
-                    </motion.div>
-                  </OverlayTrigger>
+                        <Button
+                          className="shadow3"
+                          size="sm"
+                          variant="outline-info"
+                          style={{ color: "#FFFFFF" }}
+                        >
+                          <Nav.Link eventKey={region.eventKey}>
+                            {region.title}
+                          </Nav.Link>
+                        </Button>
+                      </motion.div>
+                    </OverlayTrigger>
+                  </Nav.Item>
+                )) :
+                <Nav.Item key={filteredRegions[0].id} className="region-button">
+                  {/* Отображаем только первый регион */}
                 </Nav.Item>
-              ))}
+              }
             </Nav>
           </div>
-  
           <Tab.Content>
             {filteredRegions.map(region => (
               <StaticTubData key={region.id} region={region} />
