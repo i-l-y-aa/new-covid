@@ -330,12 +330,6 @@ input[type="submit"]:hover {
 }
 
 
-.horizontal-scroll {
-  display: flex;
-  overflow-x: auto; /* Позволяет прокручивать содержимое по оси X */
-  flex-wrap: nowrap; /* Запрещает перенос строк */
-  width: 100%; /* Убедитесь, что контейнер занимает всю ширину */
-}
 
 .region-button {
   display: inline-block; /* Убедитесь, что кнопки располагаются в одной строке */
