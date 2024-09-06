@@ -14,7 +14,7 @@ import {Semenova_info} from './Components/Semenova_info'
 import {Nesterova_info} from './Components/Nesterova_info'
 import {Zyatkov_info} from './Components/Zyatkov_info'
 import {Zvonareva_info} from './Components/Zvonareva_info'
-import {Zvonareva_teaching} from './Components/Zvonareva_teaching';
+import {Krivorotko_Zvonareva_teaching} from './Components/Krivorotko_Zvonareva_teaching';
 import {Krivorotko_teaching} from './Components/Krivorotko_teaching';
 
 import {
@@ -142,7 +142,7 @@ return (<>
             <Route exact path="/theoryAndNumericalMethods/En" element={<TheoryAndNumericalMethods_En />} />
             <Route exact path="/modernProblemsOfInverseProblems" element={<ModernProblemsOfInverseProblems />} />
             <Route exact path="/modernProblemsOfInverseProblems/En" element={<ModernProblemsOfInverseProblems_En />} />
-            <Route exact path="/zvonareva_teaching" element={<Zvonareva_teaching />} />
+            <Route exact path="/krivorotko_zvonareva_teaching" element={<Krivorotko_Zvonareva_teaching />} />
             <Route exact path="/krivorotko_teaching" element={<Krivorotko_teaching />} />
           </Routes>
           </div>

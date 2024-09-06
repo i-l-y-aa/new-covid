@@ -7,7 +7,7 @@ import {Container, Row, Col, Card, ListGroup, ListGroupItem, Button, Tab, Nav,
 OverlayTrigger, Popover, Placeholder} from 'react-bootstrap';
 
 
-export function Zvonareva_teaching () {
+export function Krivorotko_Zvonareva_teaching () {
   return (
         <>
     <NaviBarv2 />
@@ -21,24 +21,16 @@ export function Zvonareva_teaching () {
 
        <div class="row my-4 ps-4"><p class="lead">Далее приведено содержание семинаров, ссылки в названии тем ведут на файлы семинаров в формате pdf.</p></div>
        <div class="row my-4 ps-4"><p class="lead"><b>1.</b> <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Семинары 1-2.pdf">Тензор, преобразования тензора. Главные оси и главные значения тензора. Инварианты.</a></p></div>
-      
-       <div class="row my-4 ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Самостоятельная работа 1.pdf">Самостоятельная работа 1.</a></p></div>
 
        <div class="row my-4 ps-4"><p class="lead"><b>2.</b> <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Семинар 3.pdf">Симметризация и антисимметризация.</a></p></div>
-       
-       <div class="row my-4 ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Самостоятельная работа 2.pdf">Самостоятельная работа 2.</a></p></div>
 
        <div class="row my-4 ps-4"><p class="lead"><b>3.</b> <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Семинар 4.pdf">Неортогональные базисы и общее определение тензора. Операции над тензорами: сложение, произведение, свертка, симметрирование и антисимметрирование.</a></p></div>
 
        <div class="row my-4 ps-4"><p class="lead"><b>4.</b> <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Семинары 5-6.pdf">Метрический тензор. Основные понятия и свойства.</a></p></div>
 
-       <div class="row my-4 ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Самостоятельная работа 3.pdf">Самостоятельная работа 3.</a></p></div>
-
        <div class="row my-4 ps-4"><p class="lead"><b>5.</b> <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Семинар 7.pdf">Тензорные поля. Криволинейные системы координат. Коэффициенты Ламе.</a></p></div>
 
        <div class="row my-4 ps-4"><p class="lead"><b>6.</b> <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Семинары 8-9.pdf">Тензорные поля. Криволинейные системы координат и преобразование тензора. Градиент, дивергенция векторного поля, лапласиан, ротор.</a></p></div>
-
-       <div class="row my-4 ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Самостоятельная работа 4.pdf">Самостоятельная работа 4.</a></p></div>
 
        <div class="row my-4 ps-4"><p class="lead"><b>7.</b> <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Семинар 10-12.pdf">Понятие геодезических линий. Символы Кристоффеля и их свойства. Ковариантная производная.</a></p></div>
 
