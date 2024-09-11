@@ -84,6 +84,18 @@ export function Main() {
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
+                  <img src={sem_a} alt="Конференция"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">12 сентября пройдёт семинар лаборатории на тему «Особенности использования физически-информированных нейронных сетей для решения задач моделирования движения несжимаемой жидкости»</h5>
+                <p class="card_descr_t">11.09.2024</p>
+                <span class="card_btn_t "><a href="/Sem_g" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
                   <img src={life_c} alt="Конференция"></img>
                 </div>
                 <div class="card_content_t">
@@ -105,18 +117,7 @@ export function Main() {
                 </div>
               </article>
             </li>
-            <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={conf_c} alt="Конференция"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">Сотрудники лаборатории примут участие в IV конференции математических центров России</h5>
-                <p class="card_descr_t">08.08.2024</p>
-                <span class="card_btn_t "><a href="/Conf_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-                </div>
-              </article>
-            </li>
+
           
           </ul>
           <Button href="/News" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
