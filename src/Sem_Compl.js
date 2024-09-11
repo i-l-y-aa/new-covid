@@ -85,7 +85,9 @@ export function Sem_Compl() {
                 </div>
               </article>
             </li>
-          <li class="cards_item_t">
+            </ul>
+            <ul class="cards_t">
+            <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
                   <img src={sem_a} alt="Семинар"></img>
@@ -97,8 +99,6 @@ export function Sem_Compl() {
                 </div>
               </article>
             </li>
-            </ul>
-            <ul class="cards_t">
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
