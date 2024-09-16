@@ -62,6 +62,7 @@ the possibility of parameterizing the geometric properties of a streamlined body
         <div className="row my-4"><p className="lead">Time: 14:00 Novosibirsk time (10:00 Moscow time).</p></div>
         <div className="row my-4"><p className="lead">The seminar will be held in an online format in Zoom. You can join by following the <a rel="noopener" target="_blank" href="https://us02web.zoom.us/j/8615596919">link.</a></p></div>
         <div className="row my-4"><p className="lead">*Before connecting, please write your first and last name.</p></div>
+        <div class="row my-4"><p class="lead">The presentation of the report can be seen at the <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/PINN-Fluid Dynamics-SSV-12.09.2024.pdf">link</a>.</p></div>
         <div className="row my-4"><p className="lead">All the seminars held are posted in the <a rel="noopener" target="_blank" href="/Sem_Compl/En">archive</a>.</p></div>
         <div className="row my-4"><p>11.09.2024</p></div>
 

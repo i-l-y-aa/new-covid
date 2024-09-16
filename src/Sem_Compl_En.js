@@ -69,7 +69,7 @@ export function Sem_Compl_En() {
         </div>
         <div class="card_content_t">
         <h5 class="card_title_t">On August 29, the laboratory will hold a seminar on the topic «The Gelfand-Levitan method in coefficient inverse problems»</h5>
-        <p class="card_descr_t lead my-3">23.08.2024</p>
+        <p class="card_descr_t my-3">23.08.2024</p>
         <span class="card_btn_t my-1"><a href="/Sem_f/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
         </div>
       </article>

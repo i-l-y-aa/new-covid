@@ -14,6 +14,7 @@ import {Semenova_info} from './Components/Semenova_info'
 import {Nesterova_info} from './Components/Nesterova_info'
 import {Zyatkov_info} from './Components/Zyatkov_info'
 import {Zvonareva_info} from './Components/Zvonareva_info'
+import {Neverov_info} from './Components/Neverov_info'
 import {Krivorotko_Zvonareva_teaching} from './Components/Krivorotko_Zvonareva_teaching';
 import {Krivorotko_teaching} from './Components/Krivorotko_teaching';
 
@@ -112,6 +113,7 @@ return (<>
             <Route exact path="/nesterova_info" element={<Nesterova_info />} />
             <Route exact path="/zyatkov_info" element={<Zyatkov_info />} />
             <Route exact path="/zvonareva_info" element={<Zvonareva_info />} />
+            <Route exact path="/neverov_info" element={<Neverov_info />} />
             <Route exact path="/news" element={<News />} />
             <Route exact path="/news/En" element={<News_En />} />
             <Route exact path="/sem_compl" element={<Sem_Compl />} />

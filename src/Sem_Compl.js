@@ -55,8 +55,20 @@ export function Sem_Compl() {
                   <img src={sem_a} alt="Семинар"></img>
                 </div>
                 <div class="card_content_t">
-                <h5 class="card_title_t">15 августа пройдёт семинар лаборатории на тему «Рекомендательная система для микрофинансовых организаций»</h5>
-        <p class="my-4 card_descr_t ">16.08.2024</p>
+                <h5 class="card_title_t">12 сентября пройдёт семинар лаборатории на тему «Особенности использования физически-информированных нейронных сетей для решения задач моделирования движения несжимаемой жидкости»</h5>
+                <p class="card_descr_t">11.09.2024</p>
+                <span class="card_btn_t "><a href="/Sem_g" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">29 августа пройдёт семинар лаборатории на тему «Метод Гельфанда-Левитана в коэффициентых обратных задачах»</h5>
+        <p class="my-4 card_descr_t ">30.08.2024</p>
         <span class="my-2 card_btn_t "><a href="/Sem_f" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
@@ -73,6 +85,9 @@ export function Sem_Compl() {
                 </div>
               </article>
             </li>
+            
+            </ul>
+            <ul class="cards_t">
             <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
@@ -85,8 +100,6 @@ export function Sem_Compl() {
                 </div>
               </article>
             </li>
-            </ul>
-            <ul class="cards_t">
             <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
@@ -111,7 +124,10 @@ export function Sem_Compl() {
                 </div>
               </article>
             </li>
-            <li class="cards_item_t">
+            
+          </ul>
+          <ul class="cards_t">
+          <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
                   <img src={sem_a} alt="Семинар"></img>
