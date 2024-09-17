@@ -87,6 +87,18 @@ export function Main() {
                   <img src={sem_a} alt="Семинар"></img>
                 </div>
                 <div class="card_content_t">
+                <h5 class="card_title_t">26 сентября пройдёт семинар лаборатории на тему «Проблемы получения точной количественной оценки накопленной активности в опухолевых очагах при исследовании методом ОФЭКТ/КТ»</h5>
+                <p class="card_descr_t">17.09.2024</p>
+                <span class="card_btn_t "><a href="/Sem_h" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
                 <h5 class="card_title_t">12 сентября пройдёт семинар лаборатории на тему «Особенности использования физически-информированных нейронных сетей для решения задач моделирования движения несжимаемой жидкости»</h5>
                 <p class="card_descr_t">11.09.2024</p>
                 <span class="card_btn_t "><a href="/Sem_g" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
@@ -102,18 +114,6 @@ export function Main() {
                 <h5 class="card_title_t">30 августа на базе Центра нейрохирургии состоится Заседание Сибирской ассоциации нейрохирургов</h5>
                 <p class="card_descr_t">26.08.2024</p>
                 <span class="card_btn_t "><a href="/Life_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-                </div>
-              </article>
-            </li>
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={sem_a} alt="Конференция"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">29 августа пройдёт семинар лаборатории на тему «Метод Гельфанда-Левитана в коэффициентых обратных задачах»</h5>
-                <p class="card_descr_t">23.08.2024</p>
-                <span class="card_btn_t "><a href="/Sem_f" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
             </li>
