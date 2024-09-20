@@ -4,6 +4,7 @@ import {NavLink} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ".././styles.css";
 import ip_head from "../images/ip_head.png"
+import logo_nav2 from "../images/logo_nav2.png"
 
 const setActive=({isActive}) => isActive ? 'active-link' : 'non-active';
 
@@ -17,9 +18,9 @@ function NaviBarv2() {
         <Navbar.Brand className="text-white">
         <Stack direction="horizontal" gap={3}>
         <Image variant="bottom" className = ""
-          src={ip_head}
+          src={logo_nav2}
           fluid
-          style={{ width: '8rem' }, {height: '8rem'}}
+          style={{ width: '6rem' }, {height: '6rem'}}
           />{' '}
           <h3></h3></Stack></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

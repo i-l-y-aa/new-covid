@@ -29,8 +29,8 @@ const Main_picture_En = () => {
         <motion.div initial="hidden"
           animate="visible" custom={1}
           variants={variants}>
-          <h2 className="text-white mp_info"><b>Laboratory of AI-technologies for mathematical modeling</b></h2>
-          <h2 className="text-white mp_info"><b>of biological, socio-economic and environmental processes</b></h2>
+          <h2 className="text-white mp_info"><b>AI technologies for mathematical modeling of biological,</b></h2>
+          <h2 className="text-white mp_info"><b>socio-economic and ecological processes</b></h2>
           </motion.div>
           </b>
 
