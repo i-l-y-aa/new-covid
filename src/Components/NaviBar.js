@@ -28,7 +28,10 @@ export default function NaviBar() {
         <Nav.Link><NavLink to="/news" className={setActive} ><h5>Новости</h5></NavLink></Nav.Link>
           <Nav.Link><NavLink to="/" className={setActive} ><h5>Главная</h5></NavLink></Nav.Link>
           <Nav.Link><NavLink to="/modeling" className={setActive}><h5>Моделирование</h5></NavLink></Nav.Link>
-          <Nav.Link><NavLink to="/data" className={setActive}><h5>Данные</h5></NavLink></Nav.Link>
+          <h5><NavDropdown title={<span className="fdrop">Данные</span>} id="collasible-nav-dropdown">
+            <NavDropdown.Item> <NavLink to="/data" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Данные для скачивания</NavLink></NavDropdown.Item>
+            <NavDropdown.Item> <NavLink to="/links" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Полезные ссылки</NavLink></NavDropdown.Item>
+          </NavDropdown></h5>
           <h5><NavDropdown title={<span className="fdrop">Статистика</span>} id="collasible-nav-dropdown">
             <NavDropdown.Item> <NavLink to="/statistics" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Коронавирус</NavLink></NavDropdown.Item>
             <NavDropdown.Item> <NavLink to="/tub" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Туберкулёз</NavLink></NavDropdown.Item>

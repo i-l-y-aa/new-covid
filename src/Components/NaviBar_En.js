@@ -31,8 +31,10 @@ export default function NaviBar_En() {
             className={setActive}><h5>Main</h5></NavLink></Nav.Link>
             <Nav.Link><NavLink to="/modeling/En"
             className={setActive}><h5>Modeling</h5></NavLink></Nav.Link>
-            <Nav.Link><NavLink to="/data/En"
-            className={setActive}><h5>Data</h5></NavLink></Nav.Link>
+                      <h5><NavDropdown title={<span className="fdrop">Data</span>} id="collasible-nav-dropdown">
+            <NavDropdown.Item> <NavLink to="/data/En" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Download data</NavLink></NavDropdown.Item>
+            <NavDropdown.Item> <NavLink to="/links/En" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Useful links</NavLink></NavDropdown.Item>
+          </NavDropdown></h5>
             <h5><NavDropdown title={<span className="fdrop">Statistics</span>} id="collasible-nav-dropdown">
               <NavDropdown.Item> <NavLink to="/statistics/En" className={({isActive}) => isActive ? 'active-link' : 'text-secondary'}>Coronavirus</NavLink></NavDropdown.Item>
             </NavDropdown></h5>

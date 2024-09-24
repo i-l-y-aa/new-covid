@@ -2,6 +2,7 @@ import React from "react";
 import {Container, Card, Image, Col, Row, Button} from 'react-bootstrap';
 import NaviBar from './NaviBar';
 import { motion } from "framer-motion"
+import back_1 from "../images/back_1.jpg"
 
 const variants = {
   visible: custom => ({
@@ -18,11 +19,15 @@ const variants = {
 
 const Main_picture = () => {
     return (
-      <Card  border="light"  style={{
-        backgroundImage: `url("https://ega.ee/wp-content/uploads/2020/08/corona_1.jpg")`,
-        height:'500px',
-
-      }}>
+<Card
+  border="light"
+  style={{
+    backgroundImage: `url(${back_1})`, 
+    backgroundSize: 'cover', 
+    height: '500px',
+    backgroundPosition: 'center', 
+  }}
+>
       <NaviBar />
       <div align="left" className="my-auto mx-auto">
         <b>

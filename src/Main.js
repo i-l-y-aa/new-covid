@@ -21,7 +21,7 @@ import Question from "./images/conf/Question.png"
 import Novikov from "./images/team/Novikov.jpg"
 import {Carousel} from 'react-bootstrap'
 import sem_a from "./images/news/sem_a.PNG"
-import conf_c from "./images/news/conf_c.PNG"
+import conf_b from "./images/news/conf_b.PNG"
 import life_c from "./images/news/life_c.PNG"
 import conf_TheoryAndNumericalMethods from "./images/conf/conf_TheoryAndNumericalMethods.png"
 import conf_ModernProblemsOfInverseProblems from "./images/conf/conf_ModernProblemsOfInverseProblems.png"
@@ -84,6 +84,18 @@ export function Main() {
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
+                  <img src={conf_b} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">Сотрудники лаборатории примут участие в конференции «Математика в медицине»</h5>
+                <p class="card_descr_t">24.09.2024</p>
+                <span class="card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
                   <img src={sem_a} alt="Семинар"></img>
                 </div>
                 <div class="card_content_t">
@@ -105,20 +117,7 @@ export function Main() {
                 </div>
               </article>
             </li>
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={life_c} alt="Конференция"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">30 августа на базе Центра нейрохирургии состоится Заседание Сибирской ассоциации нейрохирургов</h5>
-                <p class="card_descr_t">26.08.2024</p>
-                <span class="card_btn_t "><a href="/Life_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-                </div>
-              </article>
-            </li>
-
-          
+      
           </ul>
           <Button href="/News" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
             <div style={{fontSize: 16}}><b>Все новости</b></div></Button>

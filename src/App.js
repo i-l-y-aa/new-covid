@@ -34,6 +34,7 @@ import axios from "axios"
 import {News} from './News';
 import {News_En} from './News_En';
 import {Sem_Compl} from './Sem_Compl';
+import {Links} from './Links';
 
 
 
@@ -47,6 +48,7 @@ import { Data_En } from "./Data_En";
 import { MainTeam_En } from "./MainTeam_En";
 import {Main_publications_more_detailed_En} from './Components/Main_publications_more_detailed_En';
 import {Sem_Compl_En} from './Sem_Compl_En';
+import {Links_En} from './Links_En';
 
 
 import {Sem_a} from './news/Sem_a';
@@ -99,12 +101,14 @@ return (<>
             <Route exact path="/" element={<Main />} />
             <Route exact path="/modeling" element={<Modeling />} />
             <Route exact path="/data" element={<Data />} />
+            <Route exact path="/links" element={<Links />} />
             <Route exact path="/mainTeam" element={<MainTeam />} />
             <Route exact path="/main_publications_more_detailed" element={<Main_publications_more_detailed />} />
             <Route exact path="/statistics/En" element={<Covid_En />} />
             <Route exact path="/En" element={<Main_En />} />
             <Route exact path="/modeling/En" element={<Modeling_En />} />
             <Route exact path="/data/En" element={<Data_En />} />
+            <Route exact path="/links/En" element={<Links_En />} />
             <Route exact path="/mainTeam/En" element={<MainTeam_En />} />
             <Route exact path="/main_publications_more_detailed/En" element={<Main_publications_more_detailed_En />} />
             <Route exact path="/krivorotko_info" element={<Krivorotko_info />} />

@@ -17,6 +17,18 @@ export function News () {
 
     const postsA1 = [
       {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={conf_b} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t">
+        <h5 class="card_title_t">Сотрудники лаборатории примут участие в конференции «Математика в медицине»</h5>
+        <h5 class="my-3 card_descr_t lead">24.09.2024 </h5>
+        <span class="my-1 card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+        </div>
+      </article>
+    </li></ul>,eventKey: "A1",eventKey: "all"},
+      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={conf_c} alt="Конференция"></img>
@@ -28,18 +40,6 @@ export function News () {
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
-      <article class="card_t">
-        <div class="card_image_t">
-          <img src={conf_b} alt="Конференция"></img>
-        </div>
-        <div class="card_content_t">
-        <h5 class="card_title_t">Открыта подача тезисов на конференцию «Математика в медицине»</h5>
-        <h5 class="my-3 card_descr_t lead">17.06.2024 </h5>
-        <span class="my-1 card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-        </div>
-      </article>
-    </li></ul>,eventKey: "A1",eventKey: "all"},
       {id: 3, name: <ul class="cards_t ">
       <li class="cards_item_t">
         <article class="card_t">
@@ -203,6 +203,18 @@ const postsall  = [
   {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
+      <img src={conf_b} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="my-3 card_title_t">Сотрудники лаборатории примут участие в конференции «Математика в медицине»</h5>
+    <h5 class="my-4 card_descr_t lead">24.09.2024 </h5>
+    <span class="my-3 card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    </div>
+  </article>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  <article class="card_t">
+    <div class="card_image_t">
       <img src={sem_a} alt="Семинар"></img>
     </div>
     <div class="card_content_t">
@@ -212,7 +224,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={sem_a} alt="Конференция"></img>
@@ -224,7 +236,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={life_c} alt="Конференция"></img>
@@ -236,7 +248,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
       <article class="card_t">
         <div class="card_image_t">
           <img src={sem_a} alt="Семинар"></img>
@@ -248,7 +260,7 @@ const postsall  = [
         </div>
       </article>
     </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 6, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={conf_c} alt="Конференция"></img>
@@ -260,19 +272,19 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 6, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 7, name: <ul class="cards_t "><li class="cards_item_t">
       <article class="card_t">
         <div class="card_image_t">
           <img src={sem_a} alt="Конференция"></img>
         </div>
         <div class="card_content_t">
-        <h5 class=" my-1 card_title_t">15 августа пройдёт семинар лаборатории на тему «Рекомендательная система для микрофинансовых организаций»</h5>
-        <p class="my-3 card_descr_t lead">31.07.2024</p>
+        <h5 class=" my-2 card_title_t">15 августа пройдёт семинар лаборатории на тему «Рекомендательная система для микрофинансовых организаций»</h5>
+        <p class="my-2 card_descr_t lead">31.07.2024</p>
         <span class="my-4 card_btn_t "><a href="/Sem_e" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
         </div>
       </article>
     </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 7, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 8, name: <ul class="cards_t "><li class="cards_item_t">
       <article class="card_t">
         <div class="card_image_t">
           <img src={sem_a} alt="Конференция"></img>
@@ -284,7 +296,7 @@ const postsall  = [
         </div>
       </article>
     </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 8, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 9, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={life_b} alt="Конференция"></img>
@@ -296,19 +308,19 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 9, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 10, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={sem_a} alt="Семинар"></img>
     </div>
     <div class="card_content_t">
-    <h5 class="my-3 card_title_t">18 июля пройдёт семинар лаборатории на тему «Полуконтролируемая сегментация медицинских изображений: Обзор»</h5>
+    <h5 class="card_title_t">18 июля пройдёт семинар лаборатории на тему «Полуконтролируемая сегментация медицинских изображений: Обзор»</h5>
     <p class="my-3 card_descr_t lead">10.07.2024</p>
-    <span class="my-2 card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+    <span class="my-1 card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 10, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 11, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={life_a} alt="Конференция"></img>
@@ -320,7 +332,7 @@ const postsall  = [
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 11, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 12, name: <ul class="cards_t "><li class="cards_item_t">
   <article class="card_t">
     <div class="card_image_t">
       <img src={sem_a} alt="Конференция"></img>
@@ -329,18 +341,6 @@ const postsall  = [
     <h5 class="card_title_t">4 июля пройдёт семинар лаборатории на тему «Применение PINN в SIR модели игры среднего поля»</h5>
     <h5 class="my-4 card_descr_t lead">21.06.2024 </h5>
     <span class="my-2 card_btn_t "><a href="/Sem_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-    </div>
-  </article>
-</li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 12, name: <ul class="cards_t "><li class="cards_item_t">
-  <article class="card_t">
-    <div class="card_image_t">
-      <img src={conf_b} alt="Конференция"></img>
-    </div>
-    <div class="card_content_t">
-    <h5 class="card_title_t">Продолжается приём тезисов на конференцию «Математика в медицине»</h5>
-    <h5 class="my-4 card_descr_t lead">17.06.2024 </h5>
-    <span class="my-2 card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
     </div>
   </article>
 </li></ul>,eventKey: "A2",eventKey: "all"},

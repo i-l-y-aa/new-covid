@@ -346,6 +346,22 @@ input[type="submit"]:hover {
   background: #39C0ED;
 }
 
+.card_links {
+  transition: transform 0.2s;
+}
+
+.card_links:hover {
+  transform: scale(1.05);
+}
+
+.header_links {
+  border: 2px solid #007bff; /* Цвет рамки */
+  padding: 10px; /* Отступы внутри рамки */
+  border-radius: 5px; /* Закругление углов */
+  width: 100%; /* Занимает всю ширину родительского элемента */
+  text-align: center; /* Центрирование текста */
+}
+
 @media screen and (max-width:940px) {
     .header {
         max-width: 100%;
