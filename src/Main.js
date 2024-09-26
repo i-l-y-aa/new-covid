@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Card, Row, Button, CarouselItem, CarouselCaption } from 'react-bootstrap'
+import {Container, Card, Row, Button, CarouselItem, CarouselCaption, Col } from 'react-bootstrap'
 import MTeamItem from './Components/TeamItem'
 import Main_picture from './Components/Main_picture'
 import Main_contacts from './Components/Main_contacts'
@@ -55,6 +55,27 @@ const itemAnimation = {
 
 export function Main() {
 
+  const newsItems = [
+    {
+      title: "Сотрудники лаборатории примут участие в конференции «Математика в медицине»",
+      date: "24.09.2024",
+      image: conf_b,
+      link: "/Conf_b"
+    },
+    {
+      title: "26 сентября пройдёт семинар лаборатории на тему «Проблемы получения точной количественной оценки накопленной активности в опухолевых очагах при исследовании методом ОФЭКТ/КТ»",
+      date: "17.09.2024",
+      image: sem_a,
+      link: "/Sem_h"
+    },
+    {
+      title: "12 сентября пройдёт семинар лаборатории на тему «Особенности использования физически-информированных нейронных сетей для решения задач моделирования движения несжимаемой жидкости»",
+      date: "11.09.2024",
+      image: sem_a,
+      link: "/Sem_g"
+    },
+  ];
+
   const posts = [
     {id: 1, wid: '8rem', name: 'Криворотько Ольга Игоревна', url:'/Krivorotko_info', institution: 'д.ф.-м.н.,заведующий лабораторией',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
     {id: 2, wid: '8rem', name: 'Новиков Никита Сергеевич ', institution: 'к.ф.-м.н.,старший научный сотрудник',Phone:'',mail:'📩 novikov-1989@yandex.ru', image: Novikov},
@@ -73,54 +94,36 @@ export function Main() {
       <>
       <Main_picture />
         <Container >
-        <motion.div initial="hidden"
-             custom={2}
-            variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
-          <Card className="text-center bg-secondary text-white my-3" >
-            <Card.Title> <h4 className="my-1 ">Новости</h4> </Card.Title>
+        <motion.div initial="hidden" custom={2} variants={variants} whileInView="visible" viewport={{ amount: 0.05, once: true }}>
+          <Card className="text-center bg-secondary text-white my-3">
+            <Card.Title>
+              <h4 className="my-1">Новости</h4>
+            </Card.Title>
           </Card>
-          </motion.div>
-          <ul class="cards_t">
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={conf_b} alt="Семинар"></img>
+        </motion.div>
+
+        <Row>
+          {newsItems.map((item, index) => (
+            <Col xs={12} md={6} lg={4} key={index} className="mb-4"> {/* Измените размеры колонок здесь */}
+              <article className="card_t">
+                <div className="card_image_t">
+                  <img src={item.image} alt={item.title}></img>
                 </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">Сотрудники лаборатории примут участие в конференции «Математика в медицине»</h5>
-                <p class="card_descr_t">24.09.2024</p>
-                <span class="card_btn_t "><a href="/Conf_b" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-                </div>
-              </article>
-            </li>
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={sem_a} alt="Семинар"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">26 сентября пройдёт семинар лаборатории на тему «Проблемы получения точной количественной оценки накопленной активности в опухолевых очагах при исследовании методом ОФЭКТ/КТ»</h5>
-                <p class="card_descr_t">17.09.2024</p>
-                <span class="card_btn_t "><a href="/Sem_h" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                <div className="card_content_t">
+                  <h5 className="card_title_t">{item.title}</h5>
+                  <p className="card_descr_t">{item.date}</p>
+                  <span className="card_btn_t">
+                    <a href={item.link} className="lead" style={{ textDecoration: 'none' }}>Читать полностью ></a>
+                  </span>
                 </div>
               </article>
-            </li>
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={sem_a} alt="Семинар"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">12 сентября пройдёт семинар лаборатории на тему «Особенности использования физически-информированных нейронных сетей для решения задач моделирования движения несжимаемой жидкости»</h5>
-                <p class="card_descr_t">11.09.2024</p>
-                <span class="card_btn_t "><a href="/Sem_g" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-                </div>
-              </article>
-            </li>
-      
-          </ul>
-          <Button href="/News" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
-            <div style={{fontSize: 16}}><b>Все новости</b></div></Button>
+            </Col>
+          ))}
+        </Row>
+
+        <Button href="/News" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
+          <div style={{ fontSize: 16 }}><b>Все новости</b></div>
+        </Button>
           
           <motion.div initial="hidden"
              custom={2}

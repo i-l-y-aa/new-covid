@@ -226,13 +226,14 @@ color:  #39C0ED;
   display: flex;
   margin-bottom: 20px;
 }
+
 .cards_item_t:not(:last-child) {
   margin-right: 20px;
 }
 .card_t {
   display: flex;
-  flex-direction: column;
-  width: 419px;
+  flex-direction: column; /* Позволяет карточке занимать всю высоту */
+  height: 100%; /* Задает высоту карточки */
   background-color: #ffffff;
 }
 .card_conf {
@@ -403,4 +404,16 @@ input[type="submit"]:hover {
     .navbar-light .navbar-toggler-icon {
     background-image: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e);
     }
+    .card-item {
+    flex: 1 1 100%; /* Одна колонка на маленьких экранах */
+  }
+
+  .cards_item_t {
+    flex: 1 1 100%; /* Одна колонка */
+  }
+
+.card_conf {
+  background-color: #ffffff; /* Пример фона для карточки */
+  color: rgb(0, 0, 0); /* Цвет текста */
+}
   }
