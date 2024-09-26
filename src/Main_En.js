@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Card, Row, Button } from 'react-bootstrap'
+import {Container, Card, Row, Button, Col } from 'react-bootstrap'
 import MTeamItem from './Components/TeamItem'
 import Main_picture_En from './Components/Main_picture_En'
 import Main_contacts_En from './Components/Main_contacts_En'
@@ -52,6 +52,27 @@ const itemAnimation = {
 
 export function Main_En() {
 
+  const newsItems = [
+    {
+      title: "Laboratory staff will take part in the conference «Mathematics in Medicine»",
+      date: "24.09.2024",
+      image: conf_b,
+      link: "/Conf_b/En"
+    },
+    {
+      title: "On September 26, the laboratory will hold a seminar on the topic «Problems of obtaining an accurate quantitative assessment of accumulated activity in tumor foci during the examination by the method of SPECT/CT»",
+      date: "17.09.2024",
+      image: sem_a,
+      link: "/Sem_h/En"
+    },
+    {
+      title: "On September 12, a laboratory seminar will be held on the topic «Features of using physically informed neural networks to solve problems of modeling the motion of an incompressible fluid»",
+      date: "11.09.2024",
+      image: sem_a,
+      link: "/Sem_g/En"
+    },
+  ];
+
   const posts = [
     {id: 1, wid: '8rem', name: 'Olga Krivorotko', url:'/Krivorotko_info/En', institution: 'Doctor of Physical and Mathematical Sciences,Head of the laboratory',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
     {id: 2, wid: '8rem', name: 'Nikita Novikov', institution: 'Candidate of Physical and Mathematical Sciences,Senior Researcher',Phone:'',mail:'📩 novikov-1989@yandex.ru', image: Novikov},
@@ -70,53 +91,36 @@ export function Main_En() {
       <>
       <Main_picture_En />
       <Container >
-        <motion.div initial="hidden"
-             custom={2}
-            variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
-          <Card className="text-center bg-secondary text-white my-3" >
-            <Card.Title> <h4 className="my-1 ">News</h4> </Card.Title>
+        <motion.div initial="hidden" custom={2} variants={variants} whileInView="visible" viewport={{ amount: 0.05, once: true }}>
+          <Card className="text-center bg-secondary text-white my-3">
+            <Card.Title>
+              <h4 className="my-1">Новости</h4>
+            </Card.Title>
           </Card>
-          </motion.div>
-          <ul class="cards_t">
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={conf_b} alt="Seminar"></img>
+        </motion.div>
+
+        <Row>
+          {newsItems.map((item, index) => (
+            <Col xs={12} md={6} lg={4} key={index} className="mb-4"> {/* Измените размеры колонок здесь */}
+              <article className="card_t">
+                <div className="card_image_t">
+                  <img src={item.image} alt={item.title}></img>
                 </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">Laboratory staff will take part in the conference "Mathematics in Medicine"</h5>
-                <p class="card_descr_t">24.09.2024</p>
-                <span class="card_btn_t "><a href="/Conf_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
-                </div>
-              </article>
-            </li>
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={sem_a} alt="Seminar"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">On September 26, the laboratory will hold a seminar on the topic «Problems of obtaining an accurate quantitative assessment of accumulated activity in tumor foci during the examination by the method of SPECT/CT»</h5>
-                <p class="card_descr_t">17.09.2024</p>
-                <span class="card_btn_t "><a href="/Sem_h/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+                <div className="card_content_t">
+                  <h5 className="card_title_t">{item.title}</h5>
+                  <p className="card_descr_t">{item.date}</p>
+                  <span className="card_btn_t">
+                    <a href={item.link} className="lead" style={{ textDecoration: 'none' }}>Read completely ></a>
+                  </span>
                 </div>
               </article>
-            </li>
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={sem_a} alt="Seminar"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">On September 12, a laboratory seminar will be held on the topic «Features of using physically informed neural networks to solve problems of modeling the motion of an incompressible fluid»</h5>
-                <p class="card_descr_t">11.09.2024</p>
-                <span class="card_btn_t "><a href="/Sem_g/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
-                </div>
-              </article>
-            </li>
-          </ul>
-          <Button href="/News/En" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
-            <div style={{fontSize: 16}}><b>All the news</b></div></Button>
+            </Col>
+          ))}
+        </Row>
+
+        <Button href="/News" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
+          <div style={{ fontSize: 16 }}><b>Все новости</b></div>
+        </Button>
           <motion.div initial="hidden"
              custom={2}
             variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
