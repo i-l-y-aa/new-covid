@@ -21,7 +21,6 @@ import conf_b from "./images/news/conf_b.PNG"
 import life_c from "./images/news/life_c.PNG"
 import Semenova from "./images/team/Semenova.jpg"
 import Mikhailapov from "./images/team/Mikhailapov.png"
-import Dudukalov from "./images/team/Dudukalov.jpg"
 import conf_TheoryAndNumericalMethods from "./images/conf/conf_TheoryAndNumericalMethods.png"
 import conf_ModernProblemsOfInverseProblems from "./images/conf/conf_ModernProblemsOfInverseProblems.png"
 const variants = {
@@ -76,16 +75,15 @@ export function Main_En() {
   const posts = [
     {id: 1, wid: '8rem', name: 'Olga Krivorotko', url:'/Krivorotko_info/En', institution: 'Doctor of Physical and Mathematical Sciences,Head of the laboratory',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
     {id: 2, wid: '8rem', name: 'Nikita Novikov', institution: 'Candidate of Physical and Mathematical Sciences,Senior Researcher',Phone:'',mail:'📩 novikov-1989@yandex.ru', image: Novikov},
-    {id: 3, wid: '8rem', name: 'Nikolai Zyatkov', institution: 'Candidate of Technical Sciences,Research Associate',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
-    {id: 4, wid: '8rem', name: 'Victoria Petrakova', url:'https://covid19-modeling.ru/data/Petrakova_CV.pdf', institution: 'Candidate of Physical and Mathematical Sciences,Research Associate',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
-    {id: 5, wid: '8rem', name: 'Tatyana Zvonareva',url:'https://covid19-modeling.ru/data/Zvonareva-CV.pdf', institution: 'Junior Research Assistant',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
-    {id: 6, wid: '8rem', name: 'Diana Semenova', institution: 'Junior Research Assistant',Phone:' 📞 +7(926) 189-8945',mail:'📩 dianasoulmate@yandex.ru', image: Semenova},
-    {id: 7, wid: '8rem', name: 'Andrey Neverov', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
-    {id: 8, wid: '8rem', name: 'Angelina Nesterova', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:'',mail:'📩  a.v.nesterova@math.nsc.ru' , image: Question},
-    {id: 9, wid: '8rem', name: 'Denis Mikhailapov', institution: 'Intern Researcher',Phone:'',mail:'📩 d.i.mikhailapov@math.nsc.ru', image: Mikhailapov},
-    {id: 10, wid: '8rem', name: 'Dmitry Dudukalov', institution: 'Intern Researcher',Phone:'',mail:'📩 d.dudukalov@g.nsu.ru', image: Dudukalov},
-    {id: 11, wid: '8rem', name: 'Sergey Strizhak', institution: 'Candidate of Technical Sciences, Senior Researcher',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
-    {id: 12, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev}
+    {id: 3, wid: '8rem', name: 'Nikolai Zyatkov',url:'/Zyatkov_info/En', institution: 'Candidate of Technical Sciences,Research Associate',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
+    {id: 4, wid: '8rem', name: 'Victoria Petrakova',url:'/Petrakova_info/En', institution: 'Candidate of Physical and Mathematical Sciences,Research Associate',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
+    {id: 5, wid: '8rem', name: 'Tatyana Zvonareva',url:'/Zvonareva_info/En', institution: 'Junior Research Assistant',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
+    {id: 6, wid: '8rem', name: 'Diana Semenova',url:'/Semenova_info/En', institution: 'Junior Research Assistant',Phone:' 📞 +7(926) 189-8945',mail:'📩 dianasoulmate@yandex.ru', image: Semenova},
+    {id: 7, wid: '8rem', name: 'Andrei Neverov',url:'/Neverov_info/En', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
+    {id: 8, wid: '8rem', name: 'Angelina Nesterova',url:'/Nesterova_info/En', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:'',mail:'📩  a.v.nesterova@math.nsc.ru' , image: Question},
+    {id: 9, wid: '8rem', name: 'Denis Mikhailapov',url:'/Mikhailapov_info/En', institution: 'Intern Researcher',Phone:'',mail:'📩 d.mikhailapov@math.nsc.ru', image: Mikhailapov},
+    {id: 10, wid: '8rem', name: 'Sergey Strizhak', institution: 'Candidate of Technical Sciences, Senior Researcher',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
+    {id: 11, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev}
   ]
   return(
       <>
@@ -94,7 +92,7 @@ export function Main_En() {
         <motion.div initial="hidden" custom={2} variants={variants} whileInView="visible" viewport={{ amount: 0.05, once: true }}>
           <Card className="text-center bg-secondary text-white my-3">
             <Card.Title>
-              <h4 className="my-1">Новости</h4>
+              <h4 className="my-1">News</h4>
             </Card.Title>
           </Card>
         </motion.div>
@@ -119,7 +117,7 @@ export function Main_En() {
         </Row>
 
         <Button href="/News" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
-          <div style={{ fontSize: 16 }}><b>Все новости</b></div>
+          <div style={{ fontSize: 16 }}><b>All news</b></div>
         </Button>
           <motion.div initial="hidden"
              custom={2}

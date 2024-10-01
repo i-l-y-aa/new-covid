@@ -9,12 +9,19 @@ import {Main_publications_more_detailed} from './Components/Main_publications_mo
 import {Krivorotko_info} from './Components/Krivorotko_info'
 import {Krivorotko_info_En} from './Components/Krivorotko_info_En'
 import {Mikhailapov_info} from './Components/Mikhailapov_info'
+import {Mikhailapov_info_En} from './Components/Mikhailapov_info_En'
 import {Petrakova_info} from './Components/Petrakova_info'
+import {Petrakova_info_En} from './Components/Petrakova_info_En'
 import {Semenova_info} from './Components/Semenova_info'
+import {Semenova_info_En} from './Components/Semenova_info_En'
 import {Nesterova_info} from './Components/Nesterova_info'
+import {Nesterova_info_En} from './Components/Nesterova_info_En'
 import {Zyatkov_info} from './Components/Zyatkov_info'
+import {Zyatkov_info_En} from './Components/Zyatkov_info_En'
 import {Zvonareva_info} from './Components/Zvonareva_info'
+import {Zvonareva_info_En} from './Components/Zvonareva_info_En'
 import {Neverov_info} from './Components/Neverov_info'
+import {Neverov_info_En} from './Components/Neverov_info_En'
 import {Krivorotko_Zvonareva_teaching} from './Components/Krivorotko_Zvonareva_teaching';
 import {Krivorotko_teaching} from './Components/Krivorotko_teaching';
 
@@ -114,12 +121,19 @@ return (<>
             <Route exact path="/krivorotko_info" element={<Krivorotko_info />} />
             <Route exact path="/krivorotko_info/En" element={<Krivorotko_info_En />} />
             <Route exact path="/mikhailapov_info" element={<Mikhailapov_info />} />
+            <Route exact path="/mikhailapov_info/En" element={<Mikhailapov_info_En />} />
             <Route exact path="/petrakova_info" element={<Petrakova_info />} />
+            <Route exact path="/petrakova_info/En" element={<Petrakova_info_En />} />
             <Route exact path="/semenova_info" element={<Semenova_info />} />
+            <Route exact path="/semenova_info/En" element={<Semenova_info_En />} />
             <Route exact path="/nesterova_info" element={<Nesterova_info />} />
+            <Route exact path="/nesterova_info/En" element={<Nesterova_info_En />} />
             <Route exact path="/zyatkov_info" element={<Zyatkov_info />} />
+            <Route exact path="/zyatkov_info/En" element={<Zyatkov_info_En />} />
             <Route exact path="/zvonareva_info" element={<Zvonareva_info />} />
+            <Route exact path="/zvonareva_info/En" element={<Zvonareva_info_En />} />
             <Route exact path="/neverov_info" element={<Neverov_info />} />
+            <Route exact path="/neverov_info/En" element={<Neverov_info_En />} />
             <Route exact path="/news" element={<News />} />
             <Route exact path="/news/En" element={<News_En />} />
             <Route exact path="/sem_compl" element={<Sem_Compl />} />

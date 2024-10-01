@@ -12,7 +12,6 @@ import Krivorotko from "./images/team/Krivorotko.png"
 import Zyatkov from "./images/team/Zyatkov.png"
 import Neverov from "./images/team/Neverov.png"
 import Petrakova from "./images/team/Petrakova.jpg"
-import Dudukalov from "./images/team/Dudukalov.jpg"
 import Koshelev from "./images/team/Koshelev.jpg"
 import Semenova from "./images/team/Semenova.jpg"
 import Mikhailapov from "./images/team/Mikhailapov.png"
@@ -86,9 +85,8 @@ export function Main() {
     {id: 7, wid: '8rem', name: 'Неверов Андрей Вячеславович ',url:'/Neverov_info', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
     {id: 8, wid: '8rem', name: 'Нестерова Ангелина Витальевна ',url:'/Nesterova_info', institution: 'аспирант ИМ СО РАН',institution2:'инженер-исследователь',Phone:'',mail:'📩 a.v.nesterova@math.nsc.ru' , image: Question},
     {id: 9, wid: '8rem', name: 'Михайлапов Денис Иванович',url:'/Mikhailapov_info', institution: 'стажер-исследователь',Phone:'',mail:'📩 d.i.mikhailapov@math.nsc.ru', image: Mikhailapov},
-    {id: 10, wid: '8rem', name: 'Дудукалов Дмитрий Витальевич ', institution: 'стажер-исследователь',Phone:'',mail:'📩 d.dudukalov@g.nsu.ru', image: Dudukalov},
-    {id: 11, wid: '8rem', name: 'Стрижак Сергей Владимирович ', institution: 'к.т.н., старший научный сотрудник',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
-    {id: 12, wid: '8rem', name: 'Кошелев Константин Борисович ', institution: 'к.ф.-м.н., старший научный сотрудник',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev}
+    {id: 10, wid: '8rem', name: 'Стрижак Сергей Владимирович ', institution: 'к.т.н., старший научный сотрудник',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
+    {id: 11, wid: '8rem', name: 'Кошелев Константин Борисович ', institution: 'к.ф.-м.н., старший научный сотрудник',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev}
   ]
   return(
       <>
