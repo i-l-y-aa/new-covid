@@ -225,8 +225,12 @@ color:  #39C0ED;
   list-style-type: none;
   display: flex;
   margin-bottom: 20px;
+  align-items: stretch;
 }
-
+.cards_item_t {
+  flex: 1 1 calc(33.333% - 20px); /* Позволяет карточкам занимать равное пространство */
+  max-width: 419px; /* Минимальная ширина для карточек */
+}
 .cards_item_t:not(:last-child) {
   margin-right: 20px;
 }
@@ -362,6 +366,7 @@ input[type="submit"]:hover {
   width: 100%; /* Занимает всю ширину родительского элемента */
   text-align: center; /* Центрирование текста */
 }
+
 
 @media screen and (max-width:940px) {
     .header {

@@ -7,6 +7,19 @@ const Main_publications_En = () => {
       
     <ListGroup as="ol" variant="flush" >
     <h3>2024</h3>
+    <ListGroup as="li"> 
+      <a href="https://covid19-modeling.ru/data/mathematics-12-03044.pdf" style={{'textDecoration': 'none'}}>
+              <Card.Body className="pubcardcol my-3">
+              <Card.Title ><h5 align='left'>  O. Krivorotko, N. Zyatkov. The Forecasting of the Spread of Infectious Diseases Based on Conditional Generative Adversarial Networks. Journal of Applied Mathematics in Disease Control and Dynamics. Vol. 12, No.19. DOI: 10.3390/math12193044.</h5></Card.Title>
+              </Card.Body></a>
+              </ListGroup>        
+
+            <ListGroup as="li"> 
+      <a href="https://covid19-modeling.ru/data/COVID_review_10.1515_jiip-2024-0013.pdf" style={{'textDecoration': 'none'}}>
+              <Card.Body className="pubcardcol my-3">
+              <Card.Title ><h5 align='left'>  O. Krivorotko, S. Kabanikhin. Artificial intelligence for COVID-19 spread modeling. Journal of Inverse and Ill-Posed Problems. Vol. 32, No.2. DOI: 10.1515/jiip-2024-0013.</h5></Card.Title>
+              </Card.Body></a>
+              </ListGroup>
 
 <ListGroup as="li">
   <a  style={{'textDecoration': 'none'}}>
@@ -28,20 +41,6 @@ const Main_publications_En = () => {
   <a href="https://covid19-modeling.ru/data/Proc_Petrakova_Krivorotko_CSGB-23.pdf" style={{'textDecoration': 'none'}}>
           <Card.Body className="pubcardcol my-3">
           <Card.Title ><h5 align='left' style={{fontSize:"20px", align:"right"}}>  V. Petrakova, O. Krivorotko, A. Neverov. Review of the mean field models for predicting the spread of viral infections. 2023 IEEE CSGB.2023. P. 45-50. DOI: 10.1109/CSGB60362.2023</h5></Card.Title>
-          </Card.Body></a>
-          </ListGroup>
-
-          <ListGroup as="li">
-  <a href="https://covid19-modeling.ru/data/_Numerical Modelling of Mean-Field .pdf" style={{'textDecoration': 'none'}}>
-          <Card.Body className="pubcardcol my-3">
-          <Card.Title ><h5 align='left' style={{fontSize:"20px", align:"right"}}>  Neverov A., Krivorotko O. Numerical Modelling of Mean-Field Game Epidemic. Lecture Notes in Computer Science. 2023. V.14395 - Optimization and Applications: 14th International Conference, OPTIMA 2023, Petrovac, Montenegro, September 18–22, 2023. P.207-217. DOI: 10.1007/978-3-031-47859-8_15</h5></Card.Title>
-          </Card.Body></a>
-          </ListGroup>
-
-          <ListGroup as="li">
-  <a href="https://covid19-modeling.ru/data/PCI_2023_paper_146.pdf" style={{'textDecoration': 'none'}}>
-          <Card.Body className="pubcardcol my-3">
-          <Card.Title ><h5 align='left' style={{fontSize:"20px", align:"right"}}>  T. Zvonareva, O. Krivorotko. Identifiability analysis for source problem of quasi-hyperbolic equation // IEEE Proceedings of 5th International Conference on Problems of Cybernetics and Informatics (PCI 2023), Baku, August 28-30, 2023. P. 1-4. DOI: 10.1109/PCI60110.2023.10325964</h5></Card.Title>
           </Card.Body></a>
           </ListGroup>
      

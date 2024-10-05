@@ -24,7 +24,7 @@ export function News_En () {
         <div class="card_content_t">
         <h5 class="card_title_t">Laboratory staff will take part in the conference "Mathematics in Medicine"</h5>
         <h5 class="my-3 card_descr_t lead">24.09.2024 </h5>
-        <span class="my-1 card_btn_t "><a href="/Conf_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+        <span class="my-3 card_btn_t "><a href="/Conf_b/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
         </div>
       </article>
     </li></ul>,eventKey: "A1",eventKey: "all"},

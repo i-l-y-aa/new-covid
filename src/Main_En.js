@@ -116,7 +116,7 @@ export function Main_En() {
           ))}
         </Row>
 
-        <Button href="/News" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
+        <Button href="/News/En" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
           <div style={{ fontSize: 16 }}><b>All news</b></div>
         </Button>
           <motion.div initial="hidden"
