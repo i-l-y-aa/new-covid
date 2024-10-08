@@ -26,6 +26,7 @@ import conf_TheoryAndNumericalMethods from "./images/conf/conf_TheoryAndNumerica
 import conf_ModernProblemsOfInverseProblems from "./images/conf/conf_ModernProblemsOfInverseProblems.png"
 
 
+
 const variants = {
   visible: custom => ({
     opacity: 1,
@@ -103,18 +104,17 @@ export function Main() {
         <Row>
           {newsItems.map((item, index) => (
             <Col xs={12} md={6} lg={4} key={index} className="mb-4"> {/* Измените размеры колонок здесь */}
-              <article className="card_t">
-                <div className="card_image_t">
-                  <img src={item.image} alt={item.title}></img>
-                </div>
-                <div className="card_content_t">
-                  <h5 className="card_title_t">{item.title}</h5>
-                  <p className="card_descr_t">{item.date}</p>
-                  <span className="card_btn_t">
-                    <a href={item.link} className="lead" style={{ textDecoration: 'none' }}>Читать полностью ></a>
-                  </span>
-                </div>
-              </article>
+              <a href={item.link} style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article className="card_t">
+        <div className="card_image_t">
+          <img src={item.image} alt={item.title}></img>
+        </div>
+        <div className="card_content_t">
+          <h5 className="card_title_t">{item.title}</h5>
+          <p className="card_descr_t">{item.date}</p>
+        </div>
+      </article>
+    </a>
             </Col>
           ))}
         </Row>
@@ -179,36 +179,38 @@ variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
 <Card.Title> <h4 className="my-1 ">Конференции</h4> </Card.Title>
 </Card>
 </motion.div>
-<ul class="cards_t">
-<li class="cards_item_t">
-<article class="card_conf">
-<div class="card_image_conf my-4">
-<img src={conf_TheoryAndNumericalMethods} alt="Конференция"></img>
+<div className="cards_container">
+  <ul className="cards_t">
+    <li className="cards_item_conf">
+    <a href="/TheoryAndNumericalMethods" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article className="card_conf">
+        <div className="card_image_conf my-4">
+          <img src={conf_TheoryAndNumericalMethods} alt="Конференция" />
+        </div>
+        <div className="card_content_t">
+          <h5 className="card_title_t">XVI международная молодежная научная школа-конференция «Теория и численные методы решения обратных и некорректных задач».</h5>
+          <p className="card_title_t">Место проведения: Институт математики им. С.Л. Соболева СО РАН.</p>
+          <p className="card_title_t">Дата проведения: С 30 сентября по 2 октября 2024 года.</p>
+        </div>
+      </article>
+      </a>
+    </li>
+    <li className="cards_item_conf">
+    <a href="/ModernProblemsOfInverseProblems" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article className="card_conf">
+        <div className="card_image_conf my-4">
+          <img src={conf_ModernProblemsOfInverseProblems} alt="Конференция" />
+        </div>
+        <div className="card_content_t">
+          <h5 className="card_title_t">Международная научная конференция «Современные проблемы обратных задач».</h5>
+          <p className="card_title_t">Место проведения: Институт математики им. С.Л. Соболева СО РАН.</p>
+          <p className="card_title_t">Дата проведения: С 3 по 5 октября 2024 года.</p>
+        </div>
+      </article>
+      </a>
+    </li>
+  </ul>
 </div>
-<div class="card_content_t">
-<h5 class="card_title_t">XVI международная молодежная научная школа-конференция «Теория и численные методы решения обратных и некорректных задач».</h5>
-<p class="card_title_t ">Место проведения: Институт математики им. С.Л. Соболева СО РАН.</p>
-<p class="card_title_t ">Дата проведения: С 30 сентября по 2 октября 2024 года.</p>
-
-<span class="card_btn_t "><a href="/TheoryAndNumericalMethods" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-</div>
-</article>
-</li>
-<li class="cards_item_t">
-<article class="card_conf">
-<div class="card_image_conf my-4">
-<img src={conf_ModernProblemsOfInverseProblems} alt="Конференция"></img>
-</div>
-<div class="card_content_t">
-<h5 class="card_title_t">Международная научная конференция «Современные проблемы обратных задач».</h5>
-<p class="card_title_t ">Место проведения: Институт математики им. С.Л. Соболева СО РАН.</p>
-<p class="card_title_t ">Дата проведения: С 3 по 5 октября 2024 года.</p>
-
-<span class="card_btn_t "><a href="/ModernProblemsOfInverseProblems" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
-</div>
-</article>
-</li>
-</ul>
             
       </Container>
       <Footer />

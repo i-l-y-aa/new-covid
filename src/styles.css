@@ -227,6 +227,13 @@ color:  #39C0ED;
   margin-bottom: 20px;
   align-items: stretch;
 }
+
+.cards_t {
+  display: flex; /* Используем Flexbox для списка карточек */
+  flex-wrap: wrap; /* Позволяет переносить элементы на новую строку */
+  list-style: none; /* Убираем маркеры списка */
+  padding: 0; /* Убираем отступы у списка */
+}
 .cards_item_t {
   flex: 1 1 calc(33.333% - 20px); /* Позволяет карточкам занимать равное пространство */
   max-width: 419px; /* Минимальная ширина для карточек */
@@ -239,6 +246,11 @@ color:  #39C0ED;
   flex-direction: column; /* Позволяет карточке занимать всю высоту */
   height: 100%; /* Задает высоту карточки */
   background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавный переход для трансформации и тени */
+}
+.card_t:hover {
+  transform: translateY(-5px); /* Выдвижение карточки */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Тень при наведении */
 }
 .card_conf {
   display: flex;
@@ -299,6 +311,29 @@ color:  #39C0ED;
 
 .cards_item_t .card_conf {
   height: 100%;
+}
+
+.cards_container {
+  display: flex;
+  flex-wrap: wrap; /* Позволяет элементам переноситься на следующую строку */
+  gap: 20px; /* Отступ между карточками */
+}
+
+.cards_item_conf {
+  flex: 0 0 48%; /* Каждая карточка занимает почти половину ширины контейнера */
+  margin-bottom: 20px; /* Отступ между строками */
+  margin:5px;
+}
+
+.card_conf {
+  display: flex;
+  flex-direction: row; /* Вертикальное расположение содержимого карточки */
+  height: 100%; /* Задает одинаковую высоту для всех карточек */
+}
+
+.card_image_conf img {
+  width: 240px; /* Заставляет изображение занимать всю ширину карточки */
+  height: 140px; /* Сохраняет пропорции изображения */
 }
 
 .form {

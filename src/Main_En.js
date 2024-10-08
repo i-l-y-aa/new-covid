@@ -100,18 +100,16 @@ export function Main_En() {
         <Row>
           {newsItems.map((item, index) => (
             <Col xs={12} md={6} lg={4} key={index} className="mb-4"> {/* Измените размеры колонок здесь */}
-              <article className="card_t">
+              <a href={item.link} style={{ textDecoration: 'none', color: 'inherit' }}>
+                <article className="card_t">
                 <div className="card_image_t">
                   <img src={item.image} alt={item.title}></img>
                 </div>
                 <div className="card_content_t">
                   <h5 className="card_title_t">{item.title}</h5>
                   <p className="card_descr_t">{item.date}</p>
-                  <span className="card_btn_t">
-                    <a href={item.link} className="lead" style={{ textDecoration: 'none' }}>Read completely ></a>
-                  </span>
                 </div>
-              </article>
+              </article></a>
             </Col>
           ))}
         </Row>
@@ -174,36 +172,38 @@ variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
 <Card.Title> <h4 className="my-1 ">Conferences</h4> </Card.Title>
 </Card>
 </motion.div>
-<ul class="cards_t">
-<li class="cards_item_t">
-<article class="card_conf">
-<div class="card_image_conf my-3">
-<img src={conf_TheoryAndNumericalMethods} alt="Conferences"></img>
+<div className="cards_container">
+  <ul className="cards_t">
+    <li className="cards_item_conf">
+    <a href="/TheoryAndNumericalMethods/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article className="card_conf">
+        <div className="card_image_conf my-4">
+          <img src={conf_TheoryAndNumericalMethods} alt="Конференция" />
+        </div>
+        <div className="card_content_t">
+          <h5 className="card_title_t">XVI International Youth Scientific School-conference «Theory and numerical methods for solving inverse and ill-posed problems».</h5>
+          <p className="card_title_t">Venue: S.L. Sobolev Institute of Mathematics SB RAS</p>
+          <p className="card_title_t">Date: From September 30 to October 2, 2024.</p>
+        </div>
+      </article>
+      </a>
+    </li>
+    <li className="cards_item_conf">
+    <a href="/ModernProblemsOfInverseProblems/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article className="card_conf">
+        <div className="card_image_conf my-4">
+          <img src={conf_ModernProblemsOfInverseProblems} alt="Конференция" />
+        </div>
+        <div className="card_content_t">
+          <h5 className="card_title_t">International Scientific Conference «Modern problems of inverse problems».</h5>
+          <p className="card_title_t">Venue: S.L. Sobolev Institute of Mathematics SB RAS.</p>
+          <p className="card_title_t">Date: From 3 to 5 October 2024.</p>
+        </div>
+      </article>
+      </a>
+    </li>
+  </ul>
 </div>
-<div class="card_content_t">
-<h5 class="card_title_t">XVI International Youth Scientific School-conference «Theory and numerical methods for solving inverse and ill-posed problems».</h5>
-<p class="card_title_t ">Venue: S.L. Sobolev Institute of Mathematics SB RAS.</p>
-<p class="card_title_t ">Date: From September 30 to October 2, 2024.</p>
-
-<span class="card_btn_t "><a href="/TheoryAndNumericalMethods/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
-</div>
-</article>
-</li>
-<li class="cards_item_t">
-<article class="card_conf">
-<div class="card_image_conf my-3">
-<img src={conf_ModernProblemsOfInverseProblems} alt="Conferences"></img>
-</div>
-<div class="card_content_t">
-<h5 class="card_title_t">International Scientific Conference «Modern problems of inverse problems».</h5>
-<p class="card_title_t ">Venue: S.L. Sobolev Institute of Mathematics SB RAS.</p>
-<p class="card_title_t ">Date: From 3 to 5 October 2024.</p>
-
-<span class="card_btn_t "><a href="/ModernProblemsOfInverseProblems/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
-</div>
-</article>
-</li>
-</ul>
       </Container>
       <Footer_En />
     </>
