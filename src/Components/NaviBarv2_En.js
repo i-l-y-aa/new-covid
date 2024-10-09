@@ -35,6 +35,7 @@ function NaviBarv2_En() {
           </NavDropdown></h5>
           <h5><NavDropdown title={<span className="fdrop">Statistics</span>} id="collasible-nav-dropdown">
             <NavDropdown.Item> <NavLink to="/statistics/En" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Coronavirus</NavLink></NavDropdown.Item>
+            <NavDropdown.Item> <NavLink to="/tub/En" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Tuberculosis</NavLink></NavDropdown.Item>
           </NavDropdown></h5>
           <div class="header__lang">
                     <a href="/" class="header__lang-link ">RU</a>

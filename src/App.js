@@ -49,6 +49,7 @@ import {Helmet} from "react-helmet";
 
 import "./styles.css";
 import { Covid_En } from "./Covid_En";
+import {Tub_En} from './Tub_En';
 import { Main_En } from "./Main_En";
 import { Modeling_En } from "./Modeling_En";
 import { Data_En } from "./Data_En";
@@ -112,6 +113,7 @@ return (<>
             <Route exact path="/mainTeam" element={<MainTeam />} />
             <Route exact path="/main_publications_more_detailed" element={<Main_publications_more_detailed />} />
             <Route exact path="/statistics/En" element={<Covid_En />} />
+            <Route exact path="/tub/En" element={<Tub_En />} />
             <Route exact path="/En" element={<Main_En />} />
             <Route exact path="/modeling/En" element={<Modeling_En />} />
             <Route exact path="/data/En" element={<Data_En />} />
