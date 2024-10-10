@@ -16,13 +16,14 @@ function NaviBarv2() {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
         <Container className="py-1">
         <Navbar.Brand className="text-white">
+        <NavLink to="/" className={setActive}>
         <Stack direction="horizontal" gap={3}>
         <Image variant="bottom" className = ""
           src={logo_nav2}
           fluid
           style={{ width: '6rem' }, {height: '6rem'}}
           />{' '}
-          <h3></h3></Stack></Navbar.Brand>
+          <h3></h3></Stack></NavLink></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto" className="justify-content-end flex-grow-1 pe-4">

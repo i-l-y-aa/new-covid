@@ -50,7 +50,7 @@ export function Zvonareva_info_En () {
         <div class="row">
         <div class="col-sm-6 col-md-5 col-lg-6 mx-auto"><div class="my-3"><h3>Teaching</h3></div>
         <p>Vector and Tensor analysis - seminars, 3rd year of the NSU Faculty of Physics.</p>
-        <Button href="/Krivorotko_Zvonareva_teaching" className="text-white shadow4 mp_info" variant="info" size="sm">
+        <Button href="/Krivorotko_Zvonareva_teaching/En" className="text-white shadow4 mp_info" variant="info" size="sm">
             <div style={{fontSize: 16}}><b>Materials</b></div></Button>
    
 </div>

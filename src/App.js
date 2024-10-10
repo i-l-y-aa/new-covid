@@ -24,6 +24,8 @@ import {Neverov_info} from './Components/Neverov_info'
 import {Neverov_info_En} from './Components/Neverov_info_En'
 import {Krivorotko_Zvonareva_teaching} from './Components/Krivorotko_Zvonareva_teaching';
 import {Krivorotko_teaching} from './Components/Krivorotko_teaching';
+import {Krivorotko_Zvonareva_teaching_En} from './Components/Krivorotko_Zvonareva_teaching_En';
+import {Krivorotko_teaching_En} from './Components/Krivorotko_teaching_En';
 
 import {
   BrowserRouter as Router,
@@ -174,6 +176,8 @@ return (<>
             <Route exact path="/modernProblemsOfInverseProblems/En" element={<ModernProblemsOfInverseProblems_En />} />
             <Route exact path="/krivorotko_zvonareva_teaching" element={<Krivorotko_Zvonareva_teaching />} />
             <Route exact path="/krivorotko_teaching" element={<Krivorotko_teaching />} />
+            <Route exact path="/krivorotko_zvonareva_teaching/En" element={<Krivorotko_Zvonareva_teaching_En />} />
+            <Route exact path="/krivorotko_teaching/En" element={<Krivorotko_teaching_En />} />
           </Routes>
           </div>
     </>
