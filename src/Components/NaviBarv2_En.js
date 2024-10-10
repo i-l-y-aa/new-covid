@@ -16,7 +16,7 @@ function NaviBarv2_En() {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
         <Container className="py-1">
         <Navbar.Brand className="text-white">
-        <NavLink to="/" className={setActive}>
+        <NavLink to="/En" className={setActive}>
         <Stack direction="horizontal" gap={3}>
         <Image variant="bottom" className = ""
           src={logo_nav2En}
@@ -28,7 +28,6 @@ function NaviBarv2_En() {
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto" className="justify-content-end flex-grow-1 pe-4">
         <Nav.Link><NavLink to="/news/En" className={setActive} ><h5>News</h5></NavLink></Nav.Link>
-          <Nav.Link><NavLink to="/En" className={setActive} ><h5>Main</h5></NavLink></Nav.Link>
           <Nav.Link><NavLink to="/modeling/En" className={setActive}><h5>Modeling</h5></NavLink></Nav.Link>
           <h5><NavDropdown title={<span className="fdrop">Data</span>} id="collasible-nav-dropdown">
             <NavDropdown.Item> <NavLink to="/data/En" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Download data</NavLink></NavDropdown.Item>
