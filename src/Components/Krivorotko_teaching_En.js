@@ -50,6 +50,15 @@ export function Krivorotko_teaching_En () {
 <p>5.4. Using information about the surface of the objective function obtained during minimization.</p>
 <p>5.5. The Monte Carlo method.</p>
 <p>5.6. The applicability of the linear approximation.</p></div>
+<div class="row my-2 ps-4"><h4><a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/InvProb_06.pptx">6. Verification of initial assumptions and modification of the standard regression procedure</a></h4></div>
+<div class="row my-2 ps-4"><p>6.1. Generalized least squares method.</p>
+<p>6.2. Definition of drop-down points.</p>
+<p>6.3. Abnormal error distribution.</p>
+<p>6.4. The dependence of the errors of different points on each other.</p>
+<p>6.5. General adequacy of the model.</p>
+<p>6.6. Comparison of different models.</p>
+<p>6.7. Accounting for repeated measurements.</p>
+<p>6.8. Simultaneous regression of several data sets with the same values of some parameters.</p></div>
 
 <div class="row my-4 ps-4"><h2>Application of the acquired knowledge in students' theses</h2></div>
 <div class="row my-4 ps-4"><p class="lead">As an examination paper, students must submit a chapter of the thesis (for the 5th year - preliminary), which describes the processing of experimental data. During the verification, the main attention will be paid to the statistical reliability of the results and conclusions.</p></div>
