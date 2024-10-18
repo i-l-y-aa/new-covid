@@ -64,9 +64,21 @@ import {Links_En} from './Links_En';
 import {Sem_a} from './news/Sem_a';
 import {Conf_a} from './news/Conf_a';
 import {Conf_b} from './news/Conf_b'
+import {Conf_c} from './news/Conf_c';
+import {Conf_d} from './news/Conf_d';
+import {Conf_e} from './news/Conf_e';
+import {Conf_f} from './news/Conf_f';
+import {Conf_g} from './news/Conf_g';
+import {Conf_h} from './news/Conf_h';
 import {Sem_a_En} from './news/Sem_a_En';
 import {Conf_a_En} from './news/Conf_a_En';
 import {Conf_b_En} from './news/Conf_b_En';
+import {Conf_c_En} from './news/Conf_c_En';
+import {Conf_d_En} from './news/Conf_d_En';
+import {Conf_e_En} from './news/Conf_e_En';
+import {Conf_f_En} from './news/Conf_f_En';
+import {Conf_g_En} from './news/Conf_g_En';
+import {Conf_h_En} from './news/Conf_h_En';
 import {Sem_b} from './news/Sem_b';
 import {Sem_b_En} from './news/Sem_b_En'
 import {Sem_c} from './news/Sem_c';
@@ -87,12 +99,13 @@ import {Life_b} from './news/Life_b';
 import {Life_b_En} from './news/Life_b_En'
 import {Life_c} from './news/Life_c';
 import {Life_c_En} from './news/Life_c_En'
+import {Life_d} from './news/Life_d';
+import {Life_d_En} from './news/Life_d_En'
 import {TheoryAndNumericalMethods} from './conference/TheoryAndNumericalMethods';
 import {TheoryAndNumericalMethods_En} from './conference/TheoryAndNumericalMethods_En';
 import {ModernProblemsOfInverseProblems} from './conference/ModernProblemsOfInverseProblems';
 import {ModernProblemsOfInverseProblems_En} from './conference/ModernProblemsOfInverseProblems_En';
-import {Conf_c} from './news/Conf_c';
-import {Conf_c_En} from './news/Conf_c_En';
+
 
 function App() {
 
@@ -150,6 +163,16 @@ return (<>
             <Route exact path="/conf_b/En" element={<Conf_b_En />} />
             <Route exact path="/conf_c" element={<Conf_c />} />
             <Route exact path="/conf_c/En" element={<Conf_c_En />} />
+            <Route exact path="/conf_d" element={<Conf_d />} />
+            <Route exact path="/conf_d/En" element={<Conf_d_En />} />
+            <Route exact path="/conf_e" element={<Conf_e />} />
+            <Route exact path="/conf_e/En" element={<Conf_e_En />} />
+            <Route exact path="/conf_f" element={<Conf_f />} />
+            <Route exact path="/conf_f/En" element={<Conf_f_En />} />
+            <Route exact path="/conf_g" element={<Conf_g />} />
+            <Route exact path="/conf_g/En" element={<Conf_g_En />} />
+            <Route exact path="/conf_h" element={<Conf_h />} />
+            <Route exact path="/conf_h/En" element={<Conf_h_En />} />
             <Route exact path="/sem_b" element={<Sem_b />} />
             <Route exact path="/sem_b/En" element={<Sem_b_En />} />
             <Route exact path="/sem_c" element={<Sem_c />} />
@@ -170,6 +193,8 @@ return (<>
             <Route exact path="/life_b/En" element={<Life_b_En />} />
             <Route exact path="/life_c" element={<Life_c />} />
             <Route exact path="/life_c/En" element={<Life_c_En />} />
+            <Route exact path="/life_d" element={<Life_d />} />
+            <Route exact path="/life_d/En" element={<Life_d_En />} />
             <Route exact path="/theoryAndNumericalMethods" element={<TheoryAndNumericalMethods />} />
             <Route exact path="/theoryAndNumericalMethods/En" element={<TheoryAndNumericalMethods_En />} />
             <Route exact path="/modernProblemsOfInverseProblems" element={<ModernProblemsOfInverseProblems />} />

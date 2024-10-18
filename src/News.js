@@ -12,24 +12,87 @@ import life_a from "./images/news/life_a.PNG"
 import life_b from "./images/news/life_b.PNG"
 import life_c from "./images/news/life_c.PNG"
 import conf_c from "./images/news/conf_c.PNG"
+import conf_e from "./images/news/conf_e.PNG"
+import conf_d from "./images/news/conf_d.PNG"
+import life_d from "./images/news/life_d.PNG"
   
 export function News () {
 
     const postsA1 = [
-      {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Conf_h" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={conf_e} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">Cотрудники лаборатории примут участие в Международной конференции ПОСТГЕНОМ’2024, на которой с результатами работы выступит заведующий лабораторией Криворотько О.И.</h5>
+    <p class="card_descr_t lead">17.10.2024</p>
+    </div>
+  </article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Conf_g" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={conf_c} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t my-3">Сотрудники лаборатории примут участие в XVI конференции «Математические модели и численные методы в биологии и медицине»</h5>
+    <p class="card_descr_t lead my-4">17.10.2024</p>
+    </div>
+  </article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Conf_f" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={conf_d} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t my-3">Сотрудники лаборатории примут участие в конференции «Квазилинейные уравнения, обратные задачи и их приложения»</h5>
+    <p class="card_descr_t lead my-4">17.10.2024</p>
+    </div>
+  </article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Conf_e" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={conf_d} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t">
+        <h5 class="card_title_t my-1">Сотрудники лаборатории примут участие в конференции «Обратные некорректные задачи и машинное обучение»</h5>
+        <p class=" card_descr_t lead my-4">17.10.2024</p>
+        </div>
+      </article></a>
+    </li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Conf_d" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={conf_d} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">Сотрудники лаборатории примут участие в конференции «Индустриальная математика: от математических методов к промышленным технологиям»</h5>
+    <p class="card_descr_t lead">17.10.2024</p>
+    </div>
+  </article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+      {id: 6, name: <ul class="cards_t "><li class="cards_item_t">
         <a href="/Conf_b" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
           <img src={conf_b} alt="Конференция"></img>
         </div>
         <div class="card_content_t">
-        <h5 class="card_title_t">Сотрудники лаборатории примут участие в конференции «Математика в медицине»</h5>
-        <h5 class="my-3 card_descr_t lead">24.09.2024 </h5>
+        <h5 class="my-3 card_title_t">Сотрудники лаборатории примут участие в конференции «Математика в медицине»</h5>
+        <h5 class="my-4 card_descr_t lead">24.09.2024 </h5>
         </div>
       </article>
       </a>
     </li></ul>,eventKey: "A1",eventKey: "all"},
-      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 7, name: <ul class="cards_t "><li class="cards_item_t">
         <a href="/Conf_c" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -42,7 +105,7 @@ export function News () {
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 3, name: <ul class="cards_t ">
+      {id: 8, name: <ul class="cards_t ">
       <li class="cards_item_t">
       <a href="/Conf_a" style={{ textDecoration: 'none', color: 'inherit' }}>
         <article class="card_t">
@@ -161,6 +224,18 @@ export function News () {
 
     const postsQ1 = [
       {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Life_d" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={life_d} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">Заведующий лабораторией Криворотько О.И. примет участие в заседаниях IV Конгресса молодых учённых</h5>
+    <h5 class="card_descr_t lead">17.10.2024 </h5>
+    </div>
+  </article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
         <a href="/Life_c" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
@@ -172,7 +247,7 @@ export function News () {
         </div>
       </article></a>
     </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
         <a href="/Life_b" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -184,7 +259,7 @@ export function News () {
     </div>
   </article></a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
         <a href="/Life_a" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -205,6 +280,78 @@ export function News () {
 
      
 const postsall  = [
+  {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Life_d" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={life_d} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t my-3">Заведующий лабораторией Криворотько О.И. примет участие в заседаниях IV Конгресса молодых учённых</h5>
+    <h5 class="card_descr_t lead my-4">17.10.2024 </h5>
+    </div>
+  </article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Conf_h" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={conf_e} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t">Cотрудники лаборатории примут участие в Международной конференции ПОСТГЕНОМ’2024, на которой с результатами работы выступит заведующий лабораторией Криворотько О.И.</h5>
+    <p class="card_descr_t lead">17.10.2024</p>
+    </div>
+  </article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Conf_g" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={conf_c} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t my-3">Сотрудники лаборатории примут участие в XVI конференции «Математические модели и численные методы в биологии и медицине»</h5>
+    <p class="card_descr_t lead my-4">17.10.2024</p>
+    </div>
+  </article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Conf_f" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={conf_d} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t my-2">Сотрудники лаборатории примут участие в конференции «Квазилинейные уравнения, обратные задачи и их приложения»</h5>
+    <p class="card_descr_t lead my-3">17.10.2024</p>
+    </div>
+  </article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Conf_e" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={conf_d} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t">
+        <h5 class="card_title_t my-2">Сотрудники лаборатории примут участие в конференции «Обратные некорректные задачи и машинное обучение»</h5>
+        <p class=" card_descr_t lead my-3">17.10.2024</p>
+        </div>
+      </article></a>
+    </li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 6, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Conf_d" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={conf_d} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t my-1">Сотрудники лаборатории примут участие в конференции «Индустриальная математика: от математических методов к промышленным технологиям»</h5>
+    <p class="card_descr_t lead my-2">17.10.2024</p>
+    </div>
+  </article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
   {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
     <a href="/Conf_b" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
@@ -410,7 +557,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="left" className="text-black">
-               Количество: 3</div>
+               Количество: 8</div>
                </Popover.Body>
              </Popover>
            }>
@@ -446,7 +593,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Количество: 3</div>
+               Количество: 4</div>
                </Popover.Body>
              </Popover>
            }>
@@ -465,7 +612,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Количество: 14</div>
+               Количество: 20</div>
                </Popover.Body>
              </Popover>
            }>

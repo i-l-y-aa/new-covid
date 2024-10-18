@@ -20,8 +20,9 @@ import Question from "./images/conf/Question.png"
 import Novikov from "./images/team/Novikov.jpg"
 import {Carousel} from 'react-bootstrap'
 import sem_a from "./images/news/sem_a.PNG"
-import conf_b from "./images/news/conf_b.PNG"
-import life_c from "./images/news/life_c.PNG"
+import life_d from "./images/news/life_d.PNG"
+import conf_c from "./images/news/conf_c.PNG"
+import conf_e from "./images/news/conf_e.PNG"
 import conf_TheoryAndNumericalMethods from "./images/conf/conf_TheoryAndNumericalMethods.png"
 import conf_ModernProblemsOfInverseProblems from "./images/conf/conf_ModernProblemsOfInverseProblems.png"
 
@@ -57,21 +58,21 @@ export function Main() {
 
   const newsItems = [
     {
-      title: "Сотрудники лаборатории примут участие в конференции «Математика в медицине»",
-      date: "24.09.2024",
-      image: conf_b,
+      title: "Криворотько О.И. примет участие в заседаниях IV Конгресса молодых учённых",
+      date: "17.10.2024",
+      image: life_d,
       link: "/Conf_b"
     },
     {
-      title: "26 сентября пройдёт семинар лаборатории на тему «Проблемы получения точной количественной оценки накопленной активности в опухолевых очагах при исследовании методом ОФЭКТ/КТ»",
-      date: "17.09.2024",
-      image: sem_a,
+      title: "Cотрудники лаборатории примут участие в Международной конференции ПОСТГЕНОМ’2024, на которой с результатами работы выступит заведующий лабораторией Криворотько О.И.",
+      date: "17.10.2024",
+      image: conf_e,
       link: "/Sem_h"
     },
     {
-      title: "12 сентября пройдёт семинар лаборатории на тему «Особенности использования физически-информированных нейронных сетей для решения задач моделирования движения несжимаемой жидкости»",
-      date: "11.09.2024",
-      image: sem_a,
+      title: "Сотрудники лаборатории примут участие в XVI конференции «Математические модели и численные методы в биологии и медицине»",
+      date: "17.10.2024",
+      image: conf_c,
       link: "/Sem_g"
     },
   ];
