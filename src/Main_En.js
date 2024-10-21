@@ -16,9 +16,9 @@ import Novikov from "./images/team/Novikov.jpg"
 import Koshelev from "./images/team/Koshelev.jpg"
 import Footer_En from './Components/Footer_En'
 import Question from "./images/conf/Question.png"
-import sem_a from "./images/news/sem_a.PNG"
-import conf_b from "./images/news/conf_b.PNG"
-import life_c from "./images/news/life_c.PNG"
+import conf_c from "./images/news/conf_c.PNG"
+import conf_e from "./images/news/conf_e.PNG"
+import life_d from "./images/news/life_d.PNG"
 import Semenova from "./images/team/Semenova.jpg"
 import Mikhailapov from "./images/team/Mikhailapov.png"
 import conf_TheoryAndNumericalMethods from "./images/conf/conf_TheoryAndNumericalMethods.png"
@@ -53,22 +53,22 @@ export function Main_En() {
 
   const newsItems = [
     {
-      title: "Laboratory staff will take part in the conference «Mathematics in Medicine»",
-      date: "24.09.2024",
-      image: conf_b,
-      link: "/Conf_b/En"
+      title: "O. Krivorotko will take part in the meetings of the IV Congress of Young Scientists",
+      date: "17.10.2024",
+      image: life_d,
+      link: "/Life_d/En"
     },
     {
-      title: "On September 26, the laboratory will hold a seminar on the topic «Problems of obtaining an accurate quantitative assessment of accumulated activity in tumor foci during the examination by the method of SPECT/CT»",
-      date: "17.09.2024",
-      image: sem_a,
-      link: "/Sem_h/En"
+      title: "Laboratory staff will take part in the International Conference POSTGENOM’2024, at which the head of the laboratory O. Krivorotko will present the results of the work",
+      date: "17.10.2024",
+      image: conf_e,
+      link: "/Conf_h/En"
     },
     {
-      title: "On September 12, a laboratory seminar will be held on the topic «Features of using physically informed neural networks to solve problems of modeling the motion of an incompressible fluid»",
-      date: "11.09.2024",
-      image: sem_a,
-      link: "/Sem_g/En"
+      title: "Laboratory staff will take part in the XVI conference «Mathematical Models and Numerical methods in Biology and Medicine»",
+      date: "17.10.2024",
+      image: conf_c,
+      link: "/Conf_g/En"
     },
   ];
 

@@ -11,12 +11,75 @@ import conf_b from "./images/news/conf_b.PNG"
 import life_a from "./images/news/life_a.PNG"
 import life_b from "./images/news/life_b.PNG"
 import life_c from "./images/news/life_c.PNG"
+import life_d from "./images/news/life_d.PNG"
 import conf_c from "./images/news/conf_c.PNG"
+import conf_e from "./images/news/conf_e.PNG"
+import conf_d from "./images/news/conf_d.PNG"
   
 export function News_En () {
 
     const postsA1 = [
       {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+      <a href="/Conf_h/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <article class="card_t">
+      <div class="card_image_t">
+        <img src={conf_e} alt="Конференция"></img>
+      </div>
+      <div class="card_content_t">
+      <h5 class="card_title_t">Laboratory staff will take part in the International Conference POSTGENOM’2024, at which the head of the laboratory O. Krivorotko will present the results of the work</h5>
+      <p class="card_descr_t lead">17.10.2024</p>
+      </div>
+    </article></a>
+    </li></ul>,eventKey: "A2",eventKey: "all"},
+    {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+      <a href="/Conf_g/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <article class="card_t">
+      <div class="card_image_t">
+        <img src={conf_c} alt="Конференция"></img>
+      </div>
+      <div class="card_content_t">
+      <h5 class="card_title_t my-1">Laboratory staff will take part in the XVI conference «Mathematical Models and Numerical methods in Biology and Medicine»</h5>
+      <p class="card_descr_t lead my-4">17.10.2024</p>
+      </div>
+    </article></a>
+    </li></ul>,eventKey: "A2",eventKey: "all"},
+    {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+      <a href="/Conf_f/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <article class="card_t">
+      <div class="card_image_t">
+        <img src={conf_d} alt="Конференция"></img>
+      </div>
+      <div class="card_content_t">
+      <h5 class="card_title_t my-3">Laboratory staff will take part in the conference «Quasi-linear equations, inverse problems and their applications»</h5>
+      <p class="card_descr_t lead my-4">17.10.2024</p>
+      </div>
+    </article></a>
+    </li></ul>,eventKey: "A2",eventKey: "all"},
+    {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+      <a href="/Conf_e/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+        <article class="card_t">
+          <div class="card_image_t">
+            <img src={conf_d} alt="Конференция"></img>
+          </div>
+          <div class="card_content_t">
+          <h5 class="card_title_t my-1">Laboratory staff will take part in the conference «Inverse incorrect tasks and machine learning»</h5>
+          <p class=" card_descr_t lead my-4">17.10.2024</p>
+          </div>
+        </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+    {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
+      <a href="/Conf_d/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <article class="card_t">
+      <div class="card_image_t">
+        <img src={conf_d} alt="Конференция"></img>
+      </div>
+      <div class="card_content_t">
+      <h5 class="card_title_t">Laboratory staff will take part in the conference «Industrial Mathematics: from mathematical methods to Industrial technologies»</h5>
+      <p class="card_descr_t lead">17.10.2024</p>
+      </div>
+    </article></a>
+    </li></ul>,eventKey: "A2",eventKey: "all"},
+      {id: 6, name: <ul class="cards_t "><li class="cards_item_t">
               <a href="/Conf_b/En" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
@@ -29,7 +92,7 @@ export function News_En () {
       </article>
       </a>
     </li></ul>,eventKey: "A1",eventKey: "all"},
-      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 7, name: <ul class="cards_t "><li class="cards_item_t">
               <a href="/Conf_c/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -43,7 +106,7 @@ export function News_En () {
   </a>
 </li>
   </ul>,eventKey: "A2",eventKey: "all"},
-      {id: 3, name: <ul class="cards_t ">
+      {id: 8, name: <ul class="cards_t ">
       <li class="cards_item_t">
       <a href="/Conf_a/En" style={{ textDecoration: 'none', color: 'inherit' }}>
         <article class="card_t">
@@ -172,6 +235,18 @@ export function News_En () {
     ]
     const postsQ1 = [
       {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+  <a href="/Life_d/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+<article class="card_t">
+  <div class="card_image_t">
+    <img src={life_d} alt="Конференция"></img>
+  </div>
+  <div class="card_content_t">
+  <h5 class="card_title_t my-1">O. Krivorotko will take part in the meetings of the IV Congress of Young Scientists</h5>
+  <h5 class="card_descr_t lead my-3">17.10.2024 </h5>
+  </div>
+</article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Life_c/En" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
@@ -185,7 +260,7 @@ export function News_En () {
       </a>
     </li>
     </ul>,eventKey: "A2",eventKey: "all"},
-      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Life_b/En" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
@@ -198,7 +273,7 @@ export function News_En () {
       </article>
       </a>
     </li></ul>,eventKey: "A2",eventKey: "all"},
-    {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+    {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
     <a href="/Life_a/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
       <div class="card_image_t">
@@ -219,6 +294,78 @@ export function News_En () {
     ]  
 const postsall  = [ 
   {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+  <a href="/Life_d/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+<article class="card_t">
+  <div class="card_image_t">
+    <img src={life_d} alt="Конференция"></img>
+  </div>
+  <div class="card_content_t">
+  <h5 class="card_title_t my-3">O. Krivorotko will take part in the meetings of the IV Congress of Young Scientists</h5>
+  <h5 class="card_descr_t lead my-4">17.10.2024 </h5>
+  </div>
+</article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+{id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  <a href="/Conf_h/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+<article class="card_t">
+  <div class="card_image_t">
+    <img src={conf_e} alt="Конференция"></img>
+  </div>
+  <div class="card_content_t">
+  <h5 class="card_title_t">Laboratory staff will take part in the International Conference POSTGENOM’2024, at which the head of the laboratory O. Krivorotko will present the results of the work</h5>
+  <p class="card_descr_t lead">17.10.2024</p>
+  </div>
+</article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+{id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+  <a href="/Conf_g/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+<article class="card_t">
+  <div class="card_image_t">
+    <img src={conf_c} alt="Конференция"></img>
+  </div>
+  <div class="card_content_t">
+  <h5 class="card_title_t my-1">Laboratory staff will take part in the XVI conference «Mathematical Models and Numerical methods in Biology and Medicine»</h5>
+  <p class="card_descr_t lead my-4">17.10.2024</p>
+  </div>
+</article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+{id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+  <a href="/Conf_f/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+<article class="card_t">
+  <div class="card_image_t">
+    <img src={conf_d} alt="Конференция"></img>
+  </div>
+  <div class="card_content_t">
+  <h5 class="card_title_t my-2">Laboratory staff will take part in the conference «Quasi-linear equations, inverse problems and their applications»</h5>
+  <p class="card_descr_t lead my-3">17.10.2024</p>
+  </div>
+</article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+{id: 5, name: <ul class="cards_t "><li class="cards_item_t">
+  <a href="/Conf_e/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <article class="card_t">
+      <div class="card_image_t">
+        <img src={conf_d} alt="Конференция"></img>
+      </div>
+      <div class="card_content_t">
+      <h5 class="card_title_t my-2">Laboratory staff will take part in the conference «Inverse incorrect tasks and machine learning»</h5>
+      <p class=" card_descr_t lead my-3">17.10.2024</p>
+      </div>
+    </article></a>
+  </li></ul>,eventKey: "A2",eventKey: "all"},
+{id: 6, name: <ul class="cards_t "><li class="cards_item_t">
+  <a href="/Conf_d/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+<article class="card_t">
+  <div class="card_image_t">
+    <img src={conf_d} alt="Конференция"></img>
+  </div>
+  <div class="card_content_t">
+  <h5 class="card_title_t my-1">Laboratory staff will take part in the conference «Industrial Mathematics: from mathematical methods to Industrial technologies»</h5>
+  <p class="card_descr_t lead my-2">17.10.2024</p>
+  </div>
+</article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 7, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Conf_b/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -232,7 +379,7 @@ const postsall  = [
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 8, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_h/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -246,7 +393,7 @@ const postsall  = [
   </a>
 </li>
 </ul>,eventKey: "A2",eventKey: "all"},
-  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 9, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_g/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -260,7 +407,7 @@ const postsall  = [
   </a>
 </li>
 </ul>,eventKey: "A2",eventKey: "all"},
-  {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 10, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Life_c/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -274,7 +421,7 @@ const postsall  = [
   </a>
 </li>
 </ul>,eventKey: "A2",eventKey: "all"},
-  {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 11, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_f/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -289,7 +436,7 @@ const postsall  = [
   </a>
 </li>
 </ul>,eventKey: "A2",eventKey: "all"},
-  {id: 6, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 12, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Conf_c/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -303,7 +450,7 @@ const postsall  = [
   </a>
 </li>
   </ul>,eventKey: "A2",eventKey: "all"},
-  {id: 7, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 13, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_e/En" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
@@ -317,7 +464,7 @@ const postsall  = [
       </a>
     </li>
   </ul>,eventKey: "A2",eventKey: "all"},
-    {id: 8, name: <ul class="cards_t "><li class="cards_item_t">
+    {id: 14, name: <ul class="cards_t "><li class="cards_item_t">
     <a href="/Sem_d/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
       <div class="card_image_t">
@@ -330,7 +477,7 @@ const postsall  = [
     </article>
     </a>
   </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 9, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 15, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Life_b/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -344,7 +491,7 @@ const postsall  = [
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 10, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 16, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_c/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -357,7 +504,7 @@ const postsall  = [
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 11, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 17, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Life_a/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -370,7 +517,7 @@ const postsall  = [
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 12, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 18, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_b/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -383,7 +530,7 @@ const postsall  = [
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 13, name: <ul class="cards_t ">
+  {id: 19, name: <ul class="cards_t ">
   <li class="cards_item_t">
   <a href="/Conf_a/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
@@ -397,7 +544,7 @@ const postsall  = [
     </article>
     </a>
   </li></ul>,eventKey: "A1",eventKey: "all"},
-  {id: 14, name: <ul class="cards_t"><li class="cards_item_t">
+  {id: 20, name: <ul class="cards_t"><li class="cards_item_t">
   <a href="/Sem_a/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -446,7 +593,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="left" className="text-black">
-               Quantity: 3 </div>
+               Quantity: 8 </div>
                </Popover.Body>
              </Popover>
            }>
@@ -482,7 +629,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Quantity: 3 </div>
+               Quantity: 4 </div>
                </Popover.Body>
              </Popover>
            }>
@@ -501,7 +648,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Quantity: 14 </div>
+               Quantity: 20 </div>
                </Popover.Body>
              </Popover>
            }>
