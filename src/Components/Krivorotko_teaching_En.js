@@ -59,6 +59,12 @@ export function Krivorotko_teaching_En () {
 <p>6.6. Comparison of different models.</p>
 <p>6.7. Accounting for repeated measurements.</p>
 <p>6.8. Simultaneous regression of several data sets with the same values of some parameters.</p></div>
+<div class="row my-2 ps-4"><h4><a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/InvProb_07.pptx">7. Solving the inverse problem with pre-training</a></h4></div>
+<div class="row my-2 ps-4"><p>7.1. General remarks.</p>
+<p>7.2. A pre-calculated table of values of the objective function.</p>
+<p>7.3. Analytical appeal.</p>
+<p>7.4. Automatic learning.</p>
+<p>7.5. Neural networks.</p></div>
 
 <div class="row my-4 ps-4"><h2>Application of the acquired knowledge in students' theses</h2></div>
 <div class="row my-4 ps-4"><p class="lead">As an examination paper, students must submit a chapter of the thesis (for the 5th year - preliminary), which describes the processing of experimental data. During the verification, the main attention will be paid to the statistical reliability of the results and conclusions.</p></div>
