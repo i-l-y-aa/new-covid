@@ -58,6 +58,12 @@ export function Main() {
 
   const newsItems = [
     {
+      title: "14 ноября пройдёт семинар лаборатории на тему «Моделирование острых и хронических инфекций»",
+      date: "07.11.2024",
+      image: sem_a,
+      link: "/Sem_i"
+    },
+    {
       title: "Криворотько О.И. примет участие в заседаниях IV Конгресса молодых учёных",
       date: "17.10.2024",
       image: life_d,
@@ -68,12 +74,6 @@ export function Main() {
       date: "17.10.2024",
       image: conf_e,
       link: "/Conf_h"
-    },
-    {
-      title: "Сотрудники лаборатории примут участие в XVI конференции «Математические модели и численные методы в биологии и медицине»",
-      date: "17.10.2024",
-      image: conf_c,
-      link: "/Conf_g"
     },
   ];
 
@@ -211,6 +211,9 @@ variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
       </a>
     </li>
   </ul>
+  <Button href="/Conferences" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
+          <div style={{ fontSize: 16 }}><b>Все конференции</b></div>
+        </Button>
 </div>
             
       </Container>

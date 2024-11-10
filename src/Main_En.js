@@ -16,7 +16,7 @@ import Novikov from "./images/team/Novikov.jpg"
 import Koshelev from "./images/team/Koshelev.jpg"
 import Footer_En from './Components/Footer_En'
 import Question from "./images/conf/Question.png"
-import conf_c from "./images/news/conf_c.PNG"
+import sem_a from "./images/news/sem_a.PNG"
 import conf_e from "./images/news/conf_e.PNG"
 import life_d from "./images/news/life_d.PNG"
 import Semenova from "./images/team/Semenova.jpg"
@@ -53,6 +53,12 @@ export function Main_En() {
 
   const newsItems = [
     {
+      title: "On November 14, the laboratory will hold a seminar on the topic «Modeling of acute and chronic infections»",
+      date: "06.11.2024",
+      image: sem_a,
+      link: "/Sem_i/En"
+    },
+    {
       title: "O. Krivorotko will take part in the meetings of the IV Congress of Young Scientists",
       date: "17.10.2024",
       image: life_d,
@@ -63,12 +69,6 @@ export function Main_En() {
       date: "17.10.2024",
       image: conf_e,
       link: "/Conf_h/En"
-    },
-    {
-      title: "Laboratory staff will take part in the XVI conference «Mathematical Models and Numerical methods in Biology and Medicine»",
-      date: "17.10.2024",
-      image: conf_c,
-      link: "/Conf_g/En"
     },
   ];
 

@@ -224,16 +224,9 @@ color:  #39C0ED;
   padding: 0;
   list-style-type: none;
   display: flex;
-  margin-bottom: 20px;
   align-items: stretch;
 }
 
-.cards_t {
-  display: flex; /* Используем Flexbox для списка карточек */
-  flex-wrap: wrap; /* Позволяет переносить элементы на новую строку */
-  list-style: none; /* Убираем маркеры списка */
-  padding: 0; /* Убираем отступы у списка */
-}
 .cards_item_t {
   flex: 1 1 calc(33.333% - 20px); /* Позволяет карточкам занимать равное пространство */
   max-width: 419px; /* Минимальная ширина для карточек */
