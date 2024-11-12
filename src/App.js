@@ -58,6 +58,7 @@ import { Modeling_En } from "./Modeling_En";
 import { Data_En } from "./Data_En";
 import { MainTeam_En } from "./MainTeam_En";
 import {Main_publications_more_detailed_En} from './Components/Main_publications_more_detailed_En';
+import {Conferences_En} from './Conferences_En';
 import {Sem_Compl_En} from './Sem_Compl_En';
 import {Links_En} from './Links_En';
 
@@ -157,6 +158,7 @@ return (<>
             <Route exact path="/news" element={<News />} />
             <Route exact path="/news/En" element={<News_En />} />
             <Route exact path="/conferences" element={<Conferences />} />
+            <Route exact path="/conferences/En" element={<Conferences_En />} />
             <Route exact path="/sem_compl" element={<Sem_Compl />} />
             <Route exact path="/sem_compl/EN" element={<Sem_Compl_En />} />
             <Route exact path="/sem_a" element={<Sem_a />} />

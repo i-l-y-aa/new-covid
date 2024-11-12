@@ -36,6 +36,7 @@ export function Conf_b () {
     <div class="row my-4"><p class="lead">Конференция пройдёт 1-4 октября 2024 года в институте математики им. С.Л. Соболева СО РАН, Академгородок, Новосибирск.</p></div>
     <div class="row my-4"><p class="lead">С полной программой можно ознакомиться по <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Программа_МмедКонф-24.pdf">ссылке.</a></p></div>
     <div class="row my-4"><p class="lead">Более подробная информация приведена на <a rel="noopener" target="_blank" href="http://conf.nsc.ru/mmed2024/ru/general_info">сайте конференции.</a></p></div>
+    <div class="row my-4"><p class="lead"><a rel="noopener" target="_blank" href="Conferences">Календарь конференций</a>.</p></div>
     <div class="row my-4"><p>24.09.2024</p></div>
   
     </Container>

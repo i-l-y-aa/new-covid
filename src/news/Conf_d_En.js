@@ -22,6 +22,7 @@ export function Conf_d_En () {
     <div class="row my-4"><p class="lead">From October 7 to October 11, the Sirius International Mathematical Center hosted the conference «Industrial Mathematics: from Mathematical Methods to Industrial Technologies», which was attended by laboratory staff.</p></div>
     <div class="row my-4"><p class="lead">The conference gathers experts and young researchers to share their experience in translating mathematical methods into industrial technologies. Industrial technologies are based primarily on mathematical modeling technologies, but also use information technologies, high-performance computing technologies, big data processing technologies, and artificial intelligence technologies. In all of the above technologies, mathematical methods and algorithms play a crucial role, so the experience of translating them into industrial technologies is critically important.</p></div>
     <div class="row my-4"><p class="lead">More detailed information can be found on the <a rel="noopener" target="_blank" href="https://siriusmathcenter.ru/program_048w">conference website.</a></p></div>
+    <div class="row my-4"><p class="lead"><a rel="noopener" target="_blank" href="/Conferences/En">Conference calendar</a>.</p></div>
     <div class="row my-4"><p>17.10.2024</p></div>
 
     </Container>

@@ -225,6 +225,7 @@ color:  #39C0ED;
   list-style-type: none;
   display: flex;
   align-items: stretch;
+  
 }
 
 .cards_item_t {
@@ -270,6 +271,7 @@ color:  #39C0ED;
   align-items: flex-start;
   padding: 20px;
   flex-grow: 1;
+  
 }
 .card_title_t {
   margin: 0;
@@ -316,6 +318,11 @@ color:  #39C0ED;
   flex: 0 0 48%; /* Каждая карточка занимает почти половину ширины контейнера */
   margin-bottom: 20px; /* Отступ между строками */
   margin:5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавный переход для трансформации и тени */
+}
+.cards_item_conf:hover {
+  transform: translateY(-5px); /* Выдвижение карточки */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Тень при наведении */
 }
 
 .card_conf {
@@ -328,6 +335,18 @@ color:  #39C0ED;
   width: 240px; /* Заставляет изображение занимать всю ширину карточки */
   height: 140px; /* Сохраняет пропорции изображения */
 }
+
+.m-team-item {
+  border-radius: 8px; /* Скругление углов */
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.1s ease; /* Плавный переход для трансформации и тени */
+}
+
+.m-team-item:hover {
+  transform: translateY(-10px); /* Выдвижение карточки вверх на 10 пикселей */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8); /* Тень при наведении */
+}
+
 
 .form {
   display: flex;

@@ -22,6 +22,7 @@ export function Conf_g_En () {
     <div class="row my-4"><p class="lead">The conference is organized by: the G.I. Marchuk Institute of Computational Mathematics of the Russian Academy of Sciences (IWM RAS), the Department of the world-class Mathematical Center “Moscow Center for Fundamental and Applied Mathematics” at IWM RAS, the Department of Higher Mathematics and Mathematical Modeling of Sechenov University, the Department of Computational Physics at MIPT.</p></div>
     <div class="row my-4"><p class="lead">Topics: mathematical modeling in cardiology, immunology, oncology, epidemiology, systems biology, sports, pharmacology, diagnostic methods (ultrasound, ECG, MRI, electrical impedance), computational hemodynamics, computational biomechanics, etc.</p></div>
     <div class="row my-4"><p class="lead">More detailed information can be found on the <a rel="noopener" target="_blank" href="https://dodo.inm.ras.ru/biomath/">conference website.</a></p></div>
+    <div class="row my-4"><p class="lead"><a rel="noopener" target="_blank" href="/Conferences/En">Conference calendar</a>.</p></div>
     <div class="row my-4"><p>17.10.2024</p></div>
 
     </Container>

@@ -27,6 +27,7 @@ The opening of the Russian-Chinese Congress in the field of life sciences will b
 named after Academicians M.M. Shemyakin and Yu.A. Ovchinnikov of the Russian Academy of Sciences (SSC IBH RAS).
 Address: 16/10 Miklukho-Maklaya str., Moscow, 117997</p></div>
     <div class="row my-4"><p class="lead">More detailed information can be found on the <a rel="noopener" target="_blank" href="https://www.postgenome.org/pages/aktualnaya_nauchnaya_programma">conference website.</a></p></div>
+    <div class="row my-4"><p class="lead"><a rel="noopener" target="_blank" href="/Conferences/En">Conference calendar</a>.</p></div>
     <div class="row my-4"><p>17.10.2024</p></div>
 
     </Container>

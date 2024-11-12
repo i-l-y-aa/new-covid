@@ -23,6 +23,7 @@ export function Conf_f_En () {
     <div class="row my-4"><p class="lead">The conference is devoted to modern mathematical methods of wave propagation analysis and non-destructive sensing. The mathematical problems under consideration arise in the framework of various tomographs (acoustic tomography, tomography using elementary particles, electro-magnetic tomography), in the analysis of Schumpeter dynamics in economic growth models, in the analysis of wave motion, in general, and in the analysis of shock wave dynamics, in particular.</p></div>
     <div class="row my-4"><p class="lead">The conference will discuss the current state of the theory of quasi-linear equations and inverse problems, as well as possible applications in medicine, geophysics, nano-physics, modeling of economic dynamics and traffic flows, physics of dispersive media.</p></div>
     <div class="row my-4"><p class="lead">More detailed information can be found on the <a rel="noopener" target="_blank" href="https://siriusmathcenter.ru/program_050w">conference website.</a></p></div>
+    <div class="row my-4"><p class="lead"><a rel="noopener" target="_blank" href="/Conferences/En">Conference calendar</a>.</p></div>
     <div class="row my-4"><p>17.10.2024</p></div>
 
     </Container>

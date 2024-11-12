@@ -24,13 +24,13 @@ export function Conf_b_En () {
     <hr></hr>
     <div class="row my-4"><p class="lead">Laboratory staff will take part in the conference, namely:
     <br></br>
-    <a rel="noopener" target="_blank" href="/Krivorotko_info">Olga Krivorotko</a><br></br>
+    <a rel="noopener" target="_blank" href="/Krivorotko_info/En">Olga Krivorotko</a><br></br>
     Topic: Mathematical modeling of the spread of tuberculosis of the respiratory system in the Novosibirsk region.<br></br>
     Time: October 1, 12:00 — 12:15.<hr></hr>
-    <a rel="noopener" target="_blank" href="/Nestrova_info">Angelina Nesterova</a><br></br>
+    <a rel="noopener" target="_blank" href="/Nestrova_info/EN">Angelina Nesterova</a><br></br>
     Topic: Problems of accurate quantitative assessment of accumulated activity in tumor foci during the examination by the method of SPECT/CT.<br></br>
     Time: October 3, 14:30 — 14:45.<hr></hr>
-    <a rel="noopener" target="_blank" href="/Mikhailapov_info">Denis Mikhailov</a><br></br>
+    <a rel="noopener" target="_blank" href="/Mikhailapov_info/En">Denis Mikhailov</a><br></br>
     Topic: Semi-controlled 3D segmentation of type "B" aortic dissection using SlimUNETTR.<br></br>
     Time: October 4, 10:30 — 10:45.<hr></hr>
 </p></div>
@@ -38,6 +38,7 @@ export function Conf_b_En () {
     <div class="row my-4"><p class="lead">The conference will be held on October 1-4, 2024 at the S.L. Sobolev Institute of Mathematics SB RAS, Akademgorodok, Novosibirsk.</p></div>
     <div class="row my-4"><p class="lead">The full program can be found at the <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Программа_МмедКонф-24.pdf">link.</a></p></div>
     <div class="row my-4"><p class="lead">More detailed information is available on the <a rel="noopener" target="_blank" href="http://conf.nsc.ru/mmed2024/ru/general_info">conference website.</a></p></div>
+    <div class="row my-4"><p class="lead"><a rel="noopener" target="_blank" href="/Conferences/En">Conference calendar</a>.</p></div>
     <div class="row my-4"><p>24.09.2024</p></div>
   
     </Container>

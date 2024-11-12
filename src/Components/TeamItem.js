@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const TeamItem = forwardRef((props, ref) => {
   return (
-    <Col xs={12} md={6} lg={6} className="my-1" ref={ref}>
+    <Col xs={12} md={6} lg={6} className="my-1 m-team-item" ref={ref}>
       <a href={props.post.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
         <Card border="light" style={{ minHeight: '12rem', maxWidth: '40rem' }} className="mx-auto shadow1">
           <Row>

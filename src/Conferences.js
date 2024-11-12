@@ -37,7 +37,7 @@ export function Conferences () {
 
         <div className="my-3"><h4 className="row ps-3">29 октября - 2 ноября 2024 Москва</h4>
 <h5 className="row ps-3 text-secondary">VI международная научно-практическая конференция ПОСТЕГНОМ’2024</h5>
-<h5 className="ps-1 text-secondary lead">С результатами работы выступила Заведующий лаборатории <a rel="noopener" target="_blank" href="/Krivorotko_info">Криворотько О.И.</a>.</h5>
+<h5 className="ps-1 text-secondary lead">С результатами работы выступила Заведующий лабораторией <a rel="noopener" target="_blank" href="/Krivorotko_info">Криворотько О.И.</a>.</h5>
 <h5 className="row ps-3 text-secondary lead" style={{ display: 'inline' }}>
   Более подробная информация приведена на<a rel="noopener" target="_blank" href="https://www.postgenome.org/pages/aktualnaya_nauchnaya_programma">сайте конференции.</a>
 </h5></div>

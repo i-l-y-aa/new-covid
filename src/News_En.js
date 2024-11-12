@@ -130,7 +130,7 @@ export function News_En () {
       <div class="card_image_t">
         <img src={sem_a} alt="Конференция"></img>
       </div>
-      <div class="card_content_t">
+      <div class="card_content_t my-1">
       <h5 class="card_title_t my-3">On November 14, the laboratory will hold a seminar on the topic «Modeling of acute and chronic infections»</h5>
       <h5 class="card_descr_t lead my-4">07.11.2024 </h5>
       </div>
@@ -171,7 +171,7 @@ export function News_En () {
           <img src={sem_a} alt="Seminar"></img>
         </div>
         <div class="card_content_t">
-        <h5 class="card_title_t my-2">On August 29, the laboratory will hold a seminar on the topic «The Gelfand-Levitan method in coefficient inverse problems»</h5>
+        <h5 class="card_title_t my-1">On August 29, the laboratory will hold a seminar on the topic «The Gelfand-Levitan method in coefficient inverse problems»</h5>
         <p class="card_descr_t lead my-4">23.08.2024</p>
         </div>
       </article>
@@ -213,7 +213,7 @@ export function News_En () {
         </div>
         <div class="card_content_t">
         <h5 class="card_title_t my-1">On July 18, the laboratory will hold a seminar on the topic "Semi-controlled segmentation of medical images: An overview"</h5>
-        <p class="card_descr_t lead my-4">10.07.2024</p>
+        <p class="card_descr_t lead my-2">10.07.2024</p>
         </div>
       </article>
       </a>
@@ -349,7 +349,7 @@ const postsall  = [
   </div>
   <div class="card_content_t">
   <h5 class="card_title_t my-1">Laboratory staff will take part in the XVI conference «Mathematical Models and Numerical methods in Biology and Medicine»</h5>
-  <p class="card_descr_t lead my-4">17.10.2024</p>
+  <p class="card_descr_t lead my-2">17.10.2024</p>
   </div>
 </article></a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
@@ -384,8 +384,8 @@ const postsall  = [
     <img src={conf_d} alt="Конференция"></img>
   </div>
   <div class="card_content_t">
-  <h5 class="card_title_t my-1">Laboratory staff will take part in the conference «Industrial Mathematics: from mathematical methods to Industrial technologies»</h5>
-  <p class="card_descr_t lead my-2">17.10.2024</p>
+  <h5 class="card_title_t my-2">Laboratory staff will take part in the conference «Industrial Mathematics: from mathematical methods to Industrial technologies»</h5>
+  <p class="card_descr_t lead my-4">17.10.2024</p>
   </div>
 </article></a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
@@ -425,7 +425,7 @@ const postsall  = [
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t my-1">On September 12, a laboratory seminar will be held on the topic «Features of using physically informed neural networks to solve problems of modeling the motion of an incompressible fluid»</h5>
-    <p class="card_descr_t lead my-3">11.09.2024</p>
+    <p class="card_descr_t lead my-2">11.09.2024</p>
     </div>
   </article>
   </a>
@@ -437,8 +437,8 @@ const postsall  = [
     <div class="card_image_t">
       <img src={life_c} alt="Seminar"></img>
      </div>
-     <div class="card_content_t">
-     <h5 class="card_title_t my-1">On August 30, a meeting of the Siberian Association of Neurosurgeons will be held at the Neurosurgery Center</h5>
+     <div class="card_content_t my-1">
+     <h5 class="card_title_t my-3">On August 30, a meeting of the Siberian Association of Neurosurgeons will be held at the Neurosurgery Center</h5>
      <p class="card_descr_t lead my-3">26.08.2024</p>
      </div>
   </article>
@@ -452,8 +452,8 @@ const postsall  = [
       <img src={sem_a} alt="Seminar"></img>
     </div>
     <div class="card_content_t">
-    <h5 class="card_title_t my-1">On August 29, the laboratory will hold a seminar on the topic «The Gelfand-Levitan method in coefficient inverse problems»</h5>
-    <p class="card_descr_t lead my-1">23.08.2024</p>
+    <h5 class="card_title_t my-2">On August 29, the laboratory will hold a seminar on the topic «The Gelfand-Levitan method in coefficient inverse problems»</h5>
+    <p class="card_descr_t lead my-3">23.08.2024</p>
 
     </div>
   </article>
@@ -467,7 +467,7 @@ const postsall  = [
       <img src={conf_c} alt="Conference"></img>
     </div>
     <div class="card_content_t">
-    <h5 class="card_title_t my-1">Laboratory staff will take part in the IV conference of mathematical centers of Russia</h5>
+    <h5 class="card_title_t my-3">Laboratory staff will take part in the IV conference of mathematical centers of Russia</h5>
     <p class="card_descr_t lead my-3">08.08.2024</p>
     </div>
   </article>
@@ -508,7 +508,7 @@ const postsall  = [
       <img src={life_b} alt="Life"></img>
     </div>
     <div class="card_content_t">
-    <h5 class="card_title_t my-3">The action "Science is near" is taking place in the Novosibirsk region</h5>
+    <h5 class="card_title_t my-1">The action "Science is near" is taking place in the Novosibirsk region</h5>
     <p class="card_descr_t lead my-1"></p>
     <p class="card_descr_t lead my-4">10.07.2024</p>
     </div>
@@ -548,13 +548,13 @@ const postsall  = [
       <img src={sem_a} alt="Seminar"></img>
     </div>
     <div class="card_content_t">
-    <h5 class="my-1 card_title_t">On July 4, a laboratory seminar will be held on the topic "Application of PINN in the SIR model of the middle field game"</h5>
+    <h5 class="my-2 card_title_t">On July 4, a laboratory seminar will be held on the topic "Application of PINN in the SIR model of the middle field game"</h5>
     <p class="my-3 card_descr_t lead">21.06.2024</p>
     </div>
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 29, name: <ul class="cards_t ">
+  {id: 20, name: <ul class="cards_t ">
   <li class="cards_item_t">
   <a href="/Conf_a/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">

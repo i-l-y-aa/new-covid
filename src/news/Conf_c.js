@@ -27,6 +27,7 @@ export function Conf_c () {
     <div class="row my-4"><p class="lead">Неверов А.В. примет участие в секции <a rel="noopener" target="_blank" href="https://mc4-conf.ru/applied-mathematics#!/tab/721114977-5">«Прикладная математика и математическое моделирование»</a> с докладом на тему «Применение PINN в SIR модели игры среднего поля»;</p></div>
     <div class="row my-4"><p class="lead">Дудукалов Д.В. примет участие в секции <a rel="noopener" target="_blank" href="https://mc4-conf.ru/probability-theory#!/tab/721114718-5">«Теория вероятностей»</a> с докладом на тему «Рекомендательная система для микрофинансовых организаций».</p></div>
     <div class="row my-4"><p class="lead">Более подробную информацию можно найти на <a rel="noopener" target="_blank" href="https://mc4-conf.ru/">сайте конференции.</a></p></div>
+    <div class="row my-4"><p class="lead"><a rel="noopener" target="_blank" href="Conferences">Календарь конференций</a>.</p></div>
     <div class="row my-4"><p>08.08.2024</p></div>
 
     </Container>

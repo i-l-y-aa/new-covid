@@ -20,6 +20,8 @@ export function Sem_i_En() {
         </div>
         
         <div className="row ps-4 my-4"><p className="lead"></p></div>
+        <div className="row ps-4 my-4"><p className="lead"></p></div>
+        <div className="row ps-4 my-4"><p className="lead"></p></div>
         <hr />
         <div className="row my-4"><p className="lead">There are a large number of classifications of infectious diseases. According to the duration of the infection, they are divided into acute and chronic. Each infectious disease has its own epidemiological characteristics, and mathematical modeling is one of the tools for studying them. The report will consider the inverse problem of determining the parameters of the epidemic process in a differential model consisting of 7 components. The differences between acute and chronic infectious diseases will be discussed. The values of the main parameters of the epidemic process and control coefficients will be presented, as well as the results of comparing model data with real ones. </p></div>
         <div className="row my-4"><p className="lead">Speaker: <b>Diana Semenova</b></p></div>

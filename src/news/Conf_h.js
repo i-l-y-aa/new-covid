@@ -26,6 +26,7 @@ export function Conf_h () {
 им. академиков М.М. Шемякина и Ю.А. Овчинникова Российской академии наук (ГНЦ ИБХ РАН).
 Адрес: 117997 Москва, ул. Миклухо-Маклая, 16/10</p></div>
     <div class="row my-4"><p class="lead">Более подробную информацию можно найти на <a rel="noopener" target="_blank" href="https://www.postgenome.org/pages/aktualnaya_nauchnaya_programma">сайте конференции.</a></p></div>
+    <div class="row my-4"><p class="lead"><a rel="noopener" target="_blank" href="Conferences">Календарь конференций</a>.</p></div>
     <div class="row my-4"><p>17.10.2024</p></div>
 
     </Container>
