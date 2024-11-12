@@ -203,6 +203,9 @@ variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
       </a>
     </li>
   </ul>
+  <Button href="/Conferences/En" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
+          <div style={{ fontSize: 16 }}><b>All conferences</b></div>
+        </Button>
 </div>
       </Container>
       <Footer_En />
