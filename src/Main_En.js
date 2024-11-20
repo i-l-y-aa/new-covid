@@ -53,6 +53,12 @@ export function Main_En() {
 
   const newsItems = [
     {
+      title: "On November 28, a laboratory seminar will be held on the topic «Probabilistic forecasting of epidemics in the regions of the Russian Federation based on a conditional generative-adversarial network and a Bayesian approach»",
+      date: "20.11.2024",
+      image: sem_a,
+      link: "/Sem_j/En"
+    },
+    {
       title: "On November 14, the laboratory will hold a seminar on the topic «Modeling of acute and chronic infections»",
       date: "06.11.2024",
       image: sem_a,
@@ -63,12 +69,6 @@ export function Main_En() {
       date: "17.10.2024",
       image: life_d,
       link: "/Life_d/En"
-    },
-    {
-      title: "Laboratory staff will take part in the International Conference POSTGENOM’2024, at which the head of the laboratory O. Krivorotko will present the results of the work",
-      date: "17.10.2024",
-      image: conf_e,
-      link: "/Conf_h/En"
     },
   ];
 
