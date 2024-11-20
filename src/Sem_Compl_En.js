@@ -52,6 +52,18 @@ export function Sem_Compl_En() {
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">On November 14, the laboratory will hold a seminar on the topic «Modeling of acute and chronic infections»</h5>
+                <p class="card_descr_t">15.11.2024</p>
+                <span class="card_btn_t "><a href="/Sem_i/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
                   <img src={sem_a} alt="Seminar"></img>
                 </div>
                 <div class="card_content_t">
@@ -73,7 +85,10 @@ export function Sem_Compl_En() {
                 </div>
               </article>
             </li>
+            
+            </ul>
 
+            <ul class="cards_t ">
             <li class="cards_item_t">
       <article class="card_t">
         <div class="card_image_t">
@@ -86,13 +101,6 @@ export function Sem_Compl_En() {
         </div>
       </article>
     </li>
-
-            
-            </ul>
-
-          
-
-            <ul class="cards_t ">
             <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
@@ -117,7 +125,11 @@ export function Sem_Compl_En() {
                 </div>
               </article>
             </li>
-            <li class="cards_item_t">
+            
+          </ul>
+
+          <ul class="cards_t ">
+          <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
                   <img src={sem_a} alt="Семинар"></img>
@@ -129,11 +141,6 @@ export function Sem_Compl_En() {
                 </div>
               </article>
             </li>
-
-            
-          </ul>
-
-          <ul class="cards_t ">
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">

@@ -55,6 +55,18 @@ export function Sem_Compl() {
                   <img src={sem_a} alt="Семинар"></img>
                 </div>
                 <div class="card_content_t">
+                <h5 class="card_title_t">14 ноября пройдёт семинар лаборатории на тему «Моделирование острых и хронических инфекций»</h5>
+                <p class="card_descr_t">15.11.2024</p>
+                <span class="card_btn_t "><a href="/Sem_i" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
                 <h5 class="card_title_t">26 сентября пройдёт семинар лаборатории на тему «Проблемы получения точной количественной оценки накопленной активности в опухолевых очагах при исследовании методом ОФЭКТ/КТ»</h5>
                 <p class="card_descr_t">27.09.2024</p>
                 <span class="card_btn_t "><a href="/Sem_h" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
@@ -73,7 +85,10 @@ export function Sem_Compl() {
                 </div>
               </article>
             </li>
-          <li class="cards_item_t">
+            
+            </ul>
+            <ul class="cards_t">
+            <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
                   <img src={sem_a} alt="Семинар"></img>
@@ -85,9 +100,6 @@ export function Sem_Compl() {
                 </div>
               </article>
             </li>
-            
-            </ul>
-            <ul class="cards_t">
             <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
@@ -112,7 +124,10 @@ export function Sem_Compl() {
                 </div>
               </article>
             </li>
-            <li class="cards_item_t">
+            
+          </ul>
+          <ul class="cards_t">
+          <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
                   <img src={sem_a} alt="Семинар"></img>
@@ -124,10 +139,6 @@ export function Sem_Compl() {
                 </div>
               </article>
             </li>
-
-            
-          </ul>
-          <ul class="cards_t">
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">

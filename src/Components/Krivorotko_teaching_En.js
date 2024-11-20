@@ -74,7 +74,14 @@ export function Krivorotko_teaching_En () {
 <p>8.5. The choice of the regularization matrix.</p>
 <p>8.6. Generalized singular value decomposition.</p>
 <p>8.7. Choosing a regularization parameter.</p></div>
-
+<div class="row my-2 ps-4"><h4><a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/InvProb_09.pptx">9. The basics of tomography</a></h4></div>
+<div class="row my-2 ps-4">
+<p>9.1. Types of tomography.</p>
+<p>9.2. Analytical formulas of treatment.</p>
+<p>9.3. Physical problems.</p>
+<p>9.4. Technical problems.</p>
+<p>9.5. Numerical methods.</p>
+<p>9.6. Optical diffraction tomography.</p></div>
 <div class="row my-4 ps-4"><h2>Application of the acquired knowledge in students' theses</h2></div>
 <div class="row my-4 ps-4"><p class="lead">As an examination paper, students must submit a chapter of the thesis (for the 5th year - preliminary), which describes the processing of experimental data. During the verification, the main attention will be paid to the statistical reliability of the results and conclusions.</p></div>
 </section>
