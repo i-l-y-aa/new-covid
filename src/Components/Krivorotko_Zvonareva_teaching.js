@@ -32,7 +32,7 @@ export function Krivorotko_Zvonareva_teaching () {
 
        <div class="row my-4 ps-4"><p class="lead"><b>6.</b> <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Семинары 8-9.pdf">Тензорные поля. Криволинейные системы координат и преобразование тензора. Градиент, дивергенция векторного поля, лапласиан, ротор.</a></p></div>
 
-       <div class="row my-4 ps-4"><p class="lead"><b>7.</b> <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Семинар 10-12.pdf">Понятие геодезических линий. Символы Кристоффеля и их свойства. Ковариантная производная.</a></p></div>
+       <div class="row my-4 ps-4"><p class="lead"><b>7.</b> <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Семинары 10-11.pdf">Понятие геодезических линий. Символы Кристоффеля и их свойства. Ковариантная производная.</a></p></div>
 
 </section>
         </Container>
