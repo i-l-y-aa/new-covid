@@ -25,7 +25,7 @@ function Footer_En() {
           <Col xs={12} md={4} lg={4} className="text-center">
             <h3 className="text-white">IM SB RAS</h3>
             <div className="text-white">630090, Novosibirsk, Akademika Koptyuga Avenue, 4</div>
-            <div className="text-white">contacts: info@covid19-modeling.ru, +7 (383) 329-7610</div>
+            <div className="text-white">contacts: info@ai-biolab.ru, +7 (383) 329-7610</div>
             <hr className="text-white mx-auto" />
             <small className="text-white">© 2024 COVID-19 in the Novosibirsk region</small>
           </Col>

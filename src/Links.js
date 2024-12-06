@@ -8,7 +8,7 @@ import { BsDownload } from 'react-icons/bs';
 
 export function Links() {
   const links = [
-    { id: 1, title: "Логотип лаборатории", url: "https://covid19-modeling.ru/data/Логотип.rar" },
+    { id: 1, title: "Логотип лаборатории", url: "https://ai-biolab.ru/data/Логотип.rar" },
   ];
 
   return (

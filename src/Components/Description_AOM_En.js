@@ -23,9 +23,9 @@ const Description_AOM_En = () => {
   const handleShow1 = () => setShow1(true);
 
   const files = [
-    {id: 1, name: 'Novosibirsk region', hr: 'https://covid19-modeling.ru/data/novosibirsk-region-data.csv', img: HSKG },
-    {id: 2, name: 'Omsk region', hr: 'https://covid19-modeling.ru/data/omsk-region-data.csv', img: OmskG},
-    {id: 3, name: 'Altai Territory', hr: 'https://covid19-modeling.ru/data/altay-region-data.csv', img: AltayG},
+    {id: 1, name: 'Novosibirsk region', hr: 'https://ai-biolab.ru/data/novosibirsk-region-data.csv', img: HSKG },
+    {id: 2, name: 'Omsk region', hr: 'https://ai-biolab.ru/data/omsk-region-data.csv', img: OmskG},
+    {id: 3, name: 'Altai Territory', hr: 'https://ai-biolab.ru/data/altay-region-data.csv', img: AltayG},
   ]
 
   const variants = {

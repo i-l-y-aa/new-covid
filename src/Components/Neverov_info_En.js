@@ -25,7 +25,7 @@ export function Neverov_info_En () {
         </div>
  
 
-        <div class="row ps-4"><p><a href="https://covid19-modeling.ru/data/Неверов_Резюме.pdf">CV</a></p></div>
+        <div class="row ps-4"><p><a href="https://ai-biolab.ru/data/Неверов_Резюме.pdf">CV</a></p></div>
         <div class="row ps-4"><p></p></div>
         <div class="row ps-4"><p></p></div>
         <div class="row ps-4"><p></p></div>

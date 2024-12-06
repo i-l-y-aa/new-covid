@@ -13,7 +13,7 @@ export default function NaviBar() {
 
     <>
       <Navbar collapseOnSelect expand="lg" bg="" variant="" >
-        <Container className="py-4">
+        <Container className="py-1">
         <Navbar.Brand className="text-white">
         <Stack direction="both" gap={3}>
         <Image variant="bottom" className = ""

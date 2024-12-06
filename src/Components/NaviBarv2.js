@@ -14,7 +14,7 @@ function NaviBarv2() {
 
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
-        <Container className="py-2">
+        <Container className="py-1">
         <Navbar.Brand className="text-white">
         <NavLink to="/" className={setActive}>
         <Stack direction="horizontal" gap={3}>

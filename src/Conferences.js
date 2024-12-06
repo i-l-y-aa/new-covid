@@ -88,7 +88,7 @@ export function Conferences () {
 <div className="my-3"><h4 className="row ps-3">1-4 октября 2024 Новосибирск ИМ СО РАН</h4>
 <h5 className="row ps-3 text-secondary">Конференция «Математика в медицине»</h5>
 <h5 className="ps-1 text-secondary lead">1, 3 и 4 октября сотрудники лаборатории, а именно: <a rel="noopener" target="_blank" href="/Krivorotko_info">Криворотько О.И.</a>, <a rel="noopener" target="_blank" href="/Nestrova_info">Нестерова А. В.</a> и  <a rel="noopener" target="_blank" href="/Mikhailapov_info">Михайлапов Д.И.</a>, выступили на конференции.</h5>
-<h5 className="ps-1 text-secondary lead"><a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%9C%D0%BC%D0%B5%D0%B4%D0%9A%D0%BE%D0%BD%D1%84-24.pdf">Полная программа.</a></h5>
+<h5 className="ps-1 text-secondary lead"><a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%9C%D0%BC%D0%B5%D0%B4%D0%9A%D0%BE%D0%BD%D1%84-24.pdf">Полная программа.</a></h5>
 <h5 className="row ps-3 text-secondary lead" style={{ display: 'inline' }}>
   Более подробная информация приведена на<a rel="noopener" target="_blank" href="http://conf.nsc.ru/mmed2024/ru/general_info">сайте конференции.</a>
 </h5></div>

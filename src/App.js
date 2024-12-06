@@ -122,7 +122,7 @@ return (<>
       <Helmet>
          <meta charSet="utf-8" />
          <title></title>
-         <link rel="canonical" href="http://covid19-modeling.ru" />
+         <link rel="canonical" href="http://ai-biolab.ru" />
        </Helmet>
           <Routes>
             <Route exact path="/statistics" element={<Covid />} />

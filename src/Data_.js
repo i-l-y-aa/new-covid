@@ -43,7 +43,7 @@ export function Data (){
       <motion.div initial="hidden" custom={2} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}} className="mx-3 my-3">
         <Row>
           <Col xs={8} md={10} lg={10}>
-            <div ><h4 className="mx-5 text-secondary">¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿</h4></div>
+            <div ><h4 className="mx-5 text-secondary">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h4></div>
           </Col>
           <Col xs={4} md={2} lg={2}>
             <div>
@@ -59,9 +59,9 @@ export function Data (){
         <Col xs= {12} md={6} lg={3}>
           <motion.div initial="hidden" custom={2} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
             <Card className="shadow1 my-1">
-              <a href="https://covid19-modeling.ru/data/rus-data.csv" style={{'textDecoration': 'none'}}  className="">
+              <a href="https://ai-biolab.ru/data/rus-data.csv" style={{'textDecoration': 'none'}}  className="">
               <Card.Body className="datacardcol">
-                <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ¿¿¿¿¿¿</h5></Card.Title>
+                <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
               </Card.Body></a>
               <Card.Footer><CollapseParamCSV/></Card.Footer>
             </Card>
@@ -70,9 +70,9 @@ export function Data (){
         <Col xs= {12} md={6} lg={3}>
           <motion.div initial="hidden" custom={4} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
             <Card className="shadow1 my-1">
-              <a href="https://covid19-modeling.ru/data/rus-invitro.csv" style={{'textDecoration': 'none'}}>
+              <a href="https://ai-biolab.ru/data/rus-invitro.csv" style={{'textDecoration': 'none'}}>
               <Card.Body className="datacardcol">
-              <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  IgG-¿¿¿¿¿¿¿¿</h5></Card.Title>
+              <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  IgG-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
               </Card.Body></a>
               <Card.Footer><CollapseParamInvitro /></Card.Footer>
             </Card>
@@ -83,7 +83,7 @@ export function Data (){
       <motion.div initial="hidden" custom={2} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}} className="mx-3 my-3"><hr />
         <Row>
           <Col xs={8} md={10} lg={10}>
-            <div ><h4 className="mx-5 text-secondary">¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿¿¿¿</h4></div>
+            <div ><h4 className="mx-5 text-secondary">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h4></div>
           </Col>
           <Col xs={4} md={2} lg={2}>
             <div>
@@ -99,9 +99,9 @@ export function Data (){
         <Col xs= {12} md={6} lg={3}>
           <motion.div initial="hidden" custom={2} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
             <Card className="shadow1 my-1">
-              <a href="https://covid19-modeling.ru/data/novosibirsk-region-data.csv" style={{'textDecoration': 'none'}}  className="">
+              <a href="https://ai-biolab.ru/data/novosibirsk-region-data.csv" style={{'textDecoration': 'none'}}  className="">
               <Card.Body className="datacardcol">
-                <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ¿¿¿¿¿¿</h5></Card.Title>
+                <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
               </Card.Body></a>
               <Card.Footer><CollapseParamCSV/></Card.Footer>
             </Card>
@@ -110,9 +110,9 @@ export function Data (){
         <Col xs= {12} md={6} lg={3}>
           <motion.div initial="hidden" custom={3} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
             <Card className="shadow1 my-1">
-              <a href="https://covid19-modeling.ru/data/novosibirsk-region-data-small.csv" style={{'textDecoration': 'none'}}  className="">
+              <a href="https://ai-biolab.ru/data/novosibirsk-region-data-small.csv" style={{'textDecoration': 'none'}}  className="">
               <Card.Body className="datacardcol">
-              <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ¿¿¿¿¿¿¿¿¿¿¿</h5></Card.Title>
+              <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
               </Card.Body></a>
               <Card.Footer><CollapseParamNSKsmall /></Card.Footer>
             </Card>
@@ -121,9 +121,9 @@ export function Data (){
         <Col xs= {12} md={6} lg={3}>
           <motion.div initial="hidden" custom={4} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
             <Card className="shadow1 my-1">
-              <a href="https://covid19-modeling.ru/data/novosibirsk-invitro.csv" style={{'textDecoration': 'none'}}>
+              <a href="https://ai-biolab.ru/data/novosibirsk-invitro.csv" style={{'textDecoration': 'none'}}>
               <Card.Body className="datacardcol">
-              <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  IgG-¿¿¿¿¿¿¿¿</h5></Card.Title>
+              <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  IgG-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
               </Card.Body></a>
               <Card.Footer><CollapseParamInvitro /></Card.Footer>
             </Card>
@@ -132,9 +132,9 @@ export function Data (){
         <Col xs= {12} md={6} lg={3}>
           <motion.div initial="hidden" custom={4} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
             <Card className="shadow1 my-1">
-              <a href="https://covid19-modeling.ru/data/new_deaths_Nsk_form_burial_statistics.csv" style={{'textDecoration': 'none'}}>
+              <a href="https://ai-biolab.ru/data/new_deaths_Nsk_form_burial_statistics.csv" style={{'textDecoration': 'none'}}>
               <Card.Body className="datacardcol">
-              <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ¿¿¿¿¿¿¿¿¿¿¿</h5></Card.Title>
+              <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
               </Card.Body></a>
               <Card.Footer> <CollapseMSDeath_data /></Card.Footer>
             </Card>
@@ -146,7 +146,7 @@ export function Data (){
       <motion.div initial="hidden" custom={2} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}} className="mx-3 my-3"><hr />
         <Row>
           <Col xs={8} md={10} lg={10}>
-            <div ><h4 className="mx-5 text-secondary">¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿</h4></div>
+            <div ><h4 className="mx-5 text-secondary">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h4></div>
           </Col>
           <Col xs={4} md={2} lg={2}>
             <div>
@@ -162,9 +162,9 @@ export function Data (){
         <Col xs= {12} md={6} lg={3}>
           <motion.div initial="hidden" custom={2} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
             <Card className="shadow1 my-1">
-              <a href="https://covid19-modeling.ru/data/mos_data.csv" style={{'textDecoration': 'none'}}  className="">
+              <a href="https://ai-biolab.ru/data/mos_data.csv" style={{'textDecoration': 'none'}}  className="">
               <Card.Body className="datacardcol">
-                <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ¿¿¿¿¿¿</h5></Card.Title>
+                <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
               </Card.Body></a>
               <Card.Footer><CollapseParamCSV/></Card.Footer>
             </Card>
@@ -173,9 +173,9 @@ export function Data (){
         <Col xs= {12} md={6} lg={3}>
           <motion.div initial="hidden" custom={4} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
             <Card className="shadow1 my-1">
-              <a href="https://covid19-modeling.ru/data/mos-invitro.csv" style={{'textDecoration': 'none'}}>
+              <a href="https://ai-biolab.ru/data/mos-invitro.csv" style={{'textDecoration': 'none'}}>
               <Card.Body className="datacardcol">
-              <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  IgG-¿¿¿¿¿¿¿¿</h5></Card.Title>
+              <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  IgG-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
               </Card.Body></a>
               <Card.Footer><CollapseParamInvitro /></Card.Footer>
             </Card>
@@ -188,7 +188,7 @@ export function Data (){
       <motion.div initial="hidden" custom={2} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}} className="mx-3 my-3"><hr />
         <Row>
           <Col xs={8} md={10} lg={10}>
-            <div ><h4 className="mx-5 text-secondary">¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿-¿¿¿¿¿¿¿¿¿¿</h4></div>
+            <div ><h4 className="mx-5 text-secondary">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h4></div>
           </Col>
           <Col xs={4} md={2} lg={2}>
             <div>
@@ -204,9 +204,9 @@ export function Data (){
         <Col xs= {12} md={6} lg={3}>
           <motion.div initial="hidden" custom={2} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
             <Card className="shadow1 my-1">
-              <a href="https://covid19-modeling.ru/data/spb_data.csv" style={{'textDecoration': 'none'}}  className="">
+              <a href="https://ai-biolab.ru/data/spb_data.csv" style={{'textDecoration': 'none'}}  className="">
               <Card.Body className="datacardcol">
-                <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ¿¿¿¿¿¿</h5></Card.Title>
+                <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
               </Card.Body></a>
               <Card.Footer><CollapseParamCSV/></Card.Footer>
             </Card>
@@ -215,9 +215,9 @@ export function Data (){
         <Col xs= {12} md={6} lg={3}>
           <motion.div initial="hidden" custom={4} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
             <Card className="shadow1 my-1">
-              <a href="https://covid19-modeling.ru/data/spb-invitro.csv" style={{'textDecoration': 'none'}}>
+              <a href="https://ai-biolab.ru/data/spb-invitro.csv" style={{'textDecoration': 'none'}}>
               <Card.Body className="datacardcol">
-              <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  IgG-¿¿¿¿¿¿¿¿</h5></Card.Title>
+              <Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  IgG-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
               </Card.Body></a>
               <Card.Footer><CollapseParamInvitro /></Card.Footer>
             </Card>
@@ -230,7 +230,7 @@ export function Data (){
       <motion.div initial="hidden" custom={2} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}} className="mx-3"><hr />
         <Row>
           <Col xs={8} md={10} lg={10}>
-            <div ><h4 className="mx-5 text-secondary">¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿ ¿¿¿¿¿¿¿</h4></div>
+            <div ><h4 className="mx-5 text-secondary">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h4></div>
           </Col>
           <Col xs={4} md={2} lg={2}>
           <div className="">
@@ -246,9 +246,9 @@ export function Data (){
         <Col xs= {12} md={6} lg={3}>
           <motion.div initial="hidden" custom={2} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
             <Card className="shadow1 my-1 ">
-              <a href="https://covid19-modeling.ru/data/omsk-region-data.csv" style={{'textDecoration': 'none'}}  >
+              <a href="https://ai-biolab.ru/data/omsk-region-data.csv" style={{'textDecoration': 'none'}}  >
               <Card.Body className="datacardcol">
-                <Card.Title><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ¿¿¿¿¿¿</h5></Card.Title>
+                <Card.Title><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
               </Card.Body></a>
               <Card.Footer><CollapseParamOmsk /></Card.Footer>
             </Card>
@@ -261,7 +261,7 @@ export function Data (){
       <motion.div initial="hidden" custom={2} variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}} className="mx-3"><hr />
          <Row>
          <Col xs={8} md={10} lg={10}>
-          <div><h4 className="mx-5 text-secondary">¿¿¿¿¿¿ ¿¿ ¿¿¿¿¿¿¿¿¿¿ ¿¿¿¿</h4></div>
+          <div><h4 className="mx-5 text-secondary">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½</h4></div>
          </Col>
          <Col xs={4} md={2} lg={2}>
            <div className="">
@@ -280,9 +280,9 @@ export function Data (){
            custom={2}
           variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
           <Card className="shadow1 my-1">
-        <a href="https://covid19-modeling.ru/data/altay-region-data.csv" style={{'textDecoration': 'none'}} >
+        <a href="https://ai-biolab.ru/data/altay-region-data.csv" style={{'textDecoration': 'none'}} >
         <Card.Body className="datacardcol">
-<Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ¿¿¿¿¿¿</h5></Card.Title>
+<Card.Title ><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
         </Card.Body></a>
         <Card.Footer><CollapseParamAltay /></Card.Footer>
       </Card></motion.div></Col>
@@ -291,9 +291,9 @@ export function Data (){
            custom={3}
           variants={variants2} whileInView="visible" viewport={{amount: 0.1, once: true}}>
       <Card className="shadow1 my-1">
-      <a href="https://covid19-modeling.ru/data/altay-region-data-smoothed.csv" style={{'textDecoration': 'none'}} >
+      <a href="https://ai-biolab.ru/data/altay-region-data-smoothed.csv" style={{'textDecoration': 'none'}} >
         <Card.Body className="datacardcol">
-<Card.Title><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  IgG-¿¿¿¿¿¿¿¿</h5></Card.Title>
+<Card.Title><h5 align='center' style={{fontSize:"20px", align:"left"}}><BsDownload />  IgG-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h5></Card.Title>
         </Card.Body></a>
         <Card.Footer><CollapseParamAltaysmoothed /></Card.Footer>
       </Card></motion.div></Col>

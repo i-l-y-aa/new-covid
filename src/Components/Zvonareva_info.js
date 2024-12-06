@@ -27,7 +27,7 @@ export function Zvonareva_info () {
         <div class="col-sm-6 col-md-5 col-lg-6 mx-auto ps-5 ">Scopus Author ID:<a href="https://www.scopus.com/authid/detail.uri?authorId=57274354900">57274354900</a><hr></hr></div>
         <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">ORCID: <a href="https://orcid.org/0000-0002-5418-3098">0000-0002-5418-3098</a><hr></hr></div>
         </div>
-        <div class="row ps-4"><p><a href="https://covid19-modeling.ru/data/Резюме ЗвонареваТА.pdf">Резюме</a></p></div>
+        <div class="row ps-4"><p><a href="https://ai-biolab.ru/data/Резюме ЗвонареваТА.pdf">Резюме</a></p></div>
         <div class="row ps-4"><p>1997</p></div>
         </section>
         <hr></hr>

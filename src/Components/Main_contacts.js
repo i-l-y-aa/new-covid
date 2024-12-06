@@ -29,7 +29,7 @@ const Main_contacts = () => {
           <BsFillEnvelopeFill size={25} className="my-1"/>
             <h5 className="text-center"> Email</h5>
             </Container>
-            <p className="text-center"> info@covid19-modeling.ru </p>
+            <p className="text-center"> info@ai-biolab.ru </p>
           </Col>
         </Row>
       </Card.Body>

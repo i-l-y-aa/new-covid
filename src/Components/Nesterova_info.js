@@ -18,7 +18,7 @@ export function Nesterova_info () {
         <div class="row ps-4"><p>Инженер-исследователь</p><hr></hr></div>
         <div class="row ps-4"><h5>📩 a.v.nesterova@math.nsc.ru</h5><hr></hr>
         </div>
-        <div class="row ps-4"><p><a href="https://covid19-modeling.ru/data/Резюме_НестероваАВ.pdf">Резюме</a></p></div>
+        <div class="row ps-4"><p><a href="https://ai-biolab.ru/data/Резюме_НестероваАВ.pdf">Резюме</a></p></div>
         </section>
         <div class="row ps-4"><p></p></div>
         <div class="row ps-4"><p></p></div>

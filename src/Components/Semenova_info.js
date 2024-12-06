@@ -20,7 +20,7 @@ export function Semenova_info () {
         </div>
         <div class="row">
         </div>
-        <div class="row ps-4"><p><a href="https://covid19-modeling.ru/data/Резюме_Семенова_Диана.pdf">Резюме</a></p></div>
+        <div class="row ps-4"><p><a href="https://ai-biolab.ru/data/Резюме_Семенова_Диана.pdf">Резюме</a></p></div>
         <div class="row ps-4"><p>1995</p></div>
         <div class="row ps-4"><p></p></div>
         <div class="row ps-4"><p></p></div>

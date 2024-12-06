@@ -28,7 +28,7 @@ export function Petrakova_info () {
         <div class="col-sm-6 col-md-5 col-lg-6 mx-auto ps-5 ">Scopus Author ID:<a href="https://www.scopus.com/authid/detail.uri?authorId=57192186292">57192186292</a><hr></hr></div>
         <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">ORCID: <a href="https://orcid.org/0000-0003-1126-2148">0000-0003-1126-2148</a><hr></hr></div>
         </div>
-        <div class="row ps-4"><p><a href="https://covid19-modeling.ru/data/Резюме-Петракова_2024.pdf">Резюме</a></p></div>
+        <div class="row ps-4"><p><a href="https://ai-biolab.ru/data/Резюме-Петракова_2024.pdf">Резюме</a></p></div>
         <div class="row ps-4"><p>1994</p></div>
         </section>
         <hr></hr>

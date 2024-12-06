@@ -88,7 +88,7 @@ More detailed information is available on the<a rel="noopener" target="_blank" h
 <div className="my-3"><h4 className="row ps-3">October 1-4, 2024 Novosibirsk IM SB RAS</h4>
 <h5 className="row ps-3 text-secondary">Conference "Mathematics in Medicine"</h5>
 <h5 className="ps-1 text-secondary lead">On October 1, 3 and 4, the laboratory staff, namely: <a rel="noopener" target="_blank" href="/Krivorotko_info/En">O. Krivorotko</a>, <a rel="noopener" target="_blank" href="/Nestrova_info/En">A. Nesterova</a> and  <a rel="noopener" target="_blank" href="/Mikhailapov_info/En">D. Mikhailapov</a>, spoke at the conference.</h5>
-<h5 className="ps-1 text-secondary lead"><a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%9C%D0%BC%D0%B5%D0%B4%D0%9A%D0%BE%D0%BD%D1%84-24.pdf">The full program.</a></h5>
+<h5 className="ps-1 text-secondary lead"><a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%9C%D0%BC%D0%B5%D0%B4%D0%9A%D0%BE%D0%BD%D1%84-24.pdf">The full program.</a></h5>
 <h5 className="row ps-3 text-secondary lead" style={{ display: 'inline' }}>
 More detailed information is available on the<a rel="noopener" target="_blank" href="http://conf.nsc.ru/mmed2024/ru/general_info">conference website.</a>
 </h5></div>

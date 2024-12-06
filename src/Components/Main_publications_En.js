@@ -11,14 +11,14 @@ const Main_publications_En = () => {
                     journal: "Journal of Applied Mathematics in Disease Control and Dynamics.",
                     volume: "Vol. 12, No.19.",
                     doi: "10.3390/math12193044",
-                    link: "https://covid19-modeling.ru/data/mathematics-12-03044.pdf"
+                    link: "https://ai-biolab.ru/data/mathematics-12-03044.pdf"
                 },
                 {
                     title: "O. Krivorotko, S. Kabanikhin. Artificial intelligence for COVID-19 spread modeling.",
                     journal: "Journal of Inverse and Ill-Posed Problems.",
                     volume: "Vol. 32, No.2.",
                     doi: "10.1515/jiip-2024-0013",
-                    link: "https://covid19-modeling.ru/data/COVID_review_10.1515_jiip-2024-0013.pdf"
+                    link: "https://ai-biolab.ru/data/COVID_review_10.1515_jiip-2024-0013.pdf"
                 },
                 {
                     title: "G. Akindinov, O. Krivorotko, V. Matyukhin. Numerical solution of an inverse problem for a general hyperbolic heat equation.",
@@ -39,14 +39,14 @@ const Main_publications_En = () => {
                         details: "Systems theory, algebraic biology, artificial intelligence: mathematical foundations and applications: Abstracts.",
                         pages: "P. 787-789.",
                         doi: "10.18699/sblai2023-22",
-                        link: "https://covid19-modeling.ru/data/COVID-19_NN_eng.pdf"
+                        link: "https://ai-biolab.ru/data/COVID-19_NN_eng.pdf"
                     },
                 {
                     title: "V. Petrakova, O. Krivorotko, A. Neverov. Review of the mean field models for predicting the spread of viral infections.",
                     conference: "2023 IEEE CSGB.",
                     pages: "P. 45-50.",
                     doi: "10.1109/CSGB60362.2023",
-                    link: "https://covid19-modeling.ru/data/Proc_Petrakova_Krivorotko_CSGB-23.pdf"
+                    link: "https://ai-biolab.ru/data/Proc_Petrakova_Krivorotko_CSGB-23.pdf"
                 }
             ]
         }

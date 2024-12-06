@@ -27,7 +27,7 @@ export function Zyatkov_info () {
         <div class="col-sm-6 col-md-5 col-lg-6 mx-auto ps-5 ">Scopus Author ID:<a href="https://www.scopus.com/authid/detail.uri?authorId=55151392600">55151392600</a><hr></hr></div>
         <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">ORCID: <a href="https://orcid.org/0000-0001-5847-4194">0000-0001-5847-4194</a><hr></hr></div>
         </div>
-        <div class="row ps-4"><p><a href="https://covid19-modeling.ru/data/Zyatkov N. - CV.pdf">Резюме</a></p></div>
+        <div class="row ps-4"><p><a href="https://ai-biolab.ru/data/Zyatkov N. - CV.pdf">Резюме</a></p></div>
         <div class="row ps-4"><p>12.04.1990</p></div>
         </section>
         <div class="row ps-4"><p></p></div>

@@ -25,7 +25,7 @@ function Footer() {
           <Col xs={12} md={4} lg={4} className="text-center">
             <h3 className="text-white">ИМ СО РАН</h3>
             <div className="text-white">630090, Новосибирск, Проспект Академика Коптюга, 4</div>
-            <div className="text-white">контакты: info@covid19-modeling.ru, +7 (383) 329-7610</div>
+            <div className="text-white">контакты: info@ai-biolab.ru, +7 (383) 329-7610</div>
             <hr className="text-white mx-auto" />
             <small className="text-white">© 2024 COVID-19 в Новосибирской области</small>
           </Col>

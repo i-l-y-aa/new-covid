@@ -36,7 +36,7 @@ export function Conf_b_En () {
 </p></div>
     <div class="row my-4"><p class="lead">The conference combines the following topics: mathematical algorithms in big data processing; application of mathematical statistics methods and modern statistical packages (SPSS, ORANGE and others) in the processing and interpretation of medical information; analysis of the results of transcriptomic and/or proteomic studies; application of neural networks and artificial intelligence systems in various fields of medicine; application of mathematical methods modeling in various fields of medicine (cardiology, virology, urology, etc.).</p></div>
     <div class="row my-4"><p class="lead">The conference will be held on October 1-4, 2024 at the S.L. Sobolev Institute of Mathematics SB RAS, Akademgorodok, Novosibirsk.</p></div>
-    <div class="row my-4"><p class="lead">The full program can be found at the <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Программа_МмедКонф-24.pdf">link.</a></p></div>
+    <div class="row my-4"><p class="lead">The full program can be found at the <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/Программа_МмедКонф-24.pdf">link.</a></p></div>
     <div class="row my-4"><p class="lead">More detailed information is available on the <a rel="noopener" target="_blank" href="http://conf.nsc.ru/mmed2024/ru/general_info">conference website.</a></p></div>
     <div class="row my-4"><p class="lead"><a rel="noopener" target="_blank" href="/Conferences/En">Conference calendar</a>.</p></div>
     <div class="row my-4"><p>24.09.2024</p></div>
