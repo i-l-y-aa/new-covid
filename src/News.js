@@ -5,6 +5,7 @@ import {Container, Row, Col, Card, ListGroup, ListGroupItem, Button, Tab, Nav,
 import Footer from './Components/Footer' ;
 import NaviBarv2 from './Components/NaviBarv2';
 import sem_a from "./images/news/sem_a.PNG"
+import sem_b from "./images/news/sem_b.PNG"
 import conf_a from "./images/news/conf_a.PNG"
 import NewsData from './Components/NewsData'
 import conf_b from "./images/news/conf_b.PNG"
@@ -126,7 +127,7 @@ export function News () {
     <a href="/Sem_j" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
-      <img src={sem_a} alt="Конференция"></img>
+      <img src={sem_b} alt="Конференция"></img>
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t">28 ноября пройдёт семинар лаборатории на тему «Вероятностное прогнозирование эпидемий в регионах Российской Федерации на основе условной генеративно-состязательной сети и байесовского подхода»</h5>
@@ -308,7 +309,7 @@ const postsall  = [
     <a href="/Sem_j" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
-      <img src={sem_a} alt="Конференция"></img>
+      <img src={sem_b} alt="Конференция"></img>
     </div>
     <div class="card_content_t">
     <h5 class="card_title_t my-1">28 ноября пройдёт семинар лаборатории на тему «Вероятностное прогнозирование эпидемий в регионах Российской Федерации на основе условной генеративно-состязательной сети и байесовского подхода»</h5>

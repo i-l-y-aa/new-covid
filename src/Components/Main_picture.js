@@ -38,7 +38,9 @@ const Main_picture = () => {
           <h2 className="text-white mp_info"><b>биологических, социально-экономических и экологических процессов</b></h2>
           </motion.div>
           </b>
-
+          <Button href="/modeling" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
+          <div style={{ fontSize: 16 }}><b>Моделирование</b></div>
+        </Button>
         
       </div>
       <Container>

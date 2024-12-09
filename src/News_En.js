@@ -5,6 +5,7 @@ import {Container, Row, Col, Card, ListGroup, ListGroupItem, Button, Tab, Nav,
 import Footer_En from './Components/Footer_En' ;
 import NaviBarv2_En from './Components/NaviBarv2_En';
 import sem_a from "./images/news/sem_a.PNG"
+import sem_b from "./images/news/sem_b.PNG"
 import conf_a from "./images/news/conf_a.PNG"
 import NewsData from './Components/NewsData'
 import conf_b from "./images/news/conf_b.PNG"
@@ -128,7 +129,7 @@ export function News_En () {
       <a href="/Sem_j/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
       <div class="card_image_t">
-        <img src={sem_a} alt="Конференция"></img>
+        <img src={sem_b} alt="Конференция"></img>
       </div>
       <div class="card_content_t ">
       <h5 class="card_title_t my-1">On November 28, a laboratory seminar will be held on the topic «Probabilistic forecasting of epidemics in the regions of the Russian Federation based on a conditional generative-adversarial network and a Bayesian approach»</h5>
@@ -321,7 +322,7 @@ const postsall  = [
       <a href="/Sem_j/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
       <div class="card_image_t">
-        <img src={sem_a} alt="Конференция"></img>
+        <img src={sem_b} alt="Конференция"></img>
       </div>
       <div class="card_content_t">
       <h5 class="card_title_t my-1">On November 28, a laboratory seminar will be held on the topic «Probabilistic forecasting of epidemics in the regions of the Russian Federation based on a conditional generative-adversarial network and a Bayesian approach»</h5>

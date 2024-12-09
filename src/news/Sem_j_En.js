@@ -4,7 +4,7 @@ import NaviBarv2_En from '../Components/NaviBarv2_En';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles.css";
 import { Container } from 'react-bootstrap';
-import sem_a from "../images/news/sem_a.PNG";
+import sem_b from "../images/news/sem_b.PNG";
 
 
 export function Sem_j_En() {
@@ -14,7 +14,7 @@ export function Sem_j_En() {
     <>
       <NaviBarv2_En />
       <Container>
-        <div><img src={sem_a} align="left" width={500}></img></div>
+        <div><img src={sem_b} align="left" width={500}></img></div>
         <div className="row my-4 ps-4">
           <h1>On November 28, a laboratory seminar will be held on the topic «Probabilistic forecasting of epidemics in the regions of the Russian Federation based on a conditional generative-adversarial network and a Bayesian approach»</h1>
         </div>

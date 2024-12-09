@@ -4,7 +4,7 @@ import NaviBarv2 from '../Components/NaviBarv2';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles.css";
 import { Container } from 'react-bootstrap';
-import sem_a from "../images/news/sem_a.PNG";
+import sem_b from "../images/news/sem_b.PNG";
 
 
 export function Sem_j() {
@@ -14,7 +14,7 @@ export function Sem_j() {
     <>
       <NaviBarv2 />
       <Container>
-        <div><img src={sem_a} align="left" width={500}></img></div>
+        <div><img src={sem_b} align="left" width={500}></img></div>
         <div className="row my-4 ps-4">
           <h1>28 ноября пройдёт семинар лаборатории на тему «Вероятностное прогнозирование эпидемий в регионах Российской Федерации на основе условной генеративно-состязательной сети и байесовского подхода»</h1>
         </div>
