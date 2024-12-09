@@ -76,17 +76,17 @@ export function Main_En() {
 
   const posts = [
     {id: 1, wid: '8rem', name: 'Olga Krivorotko', url:'/Krivorotko_info/En', institution: 'Doctor of Physical and Mathematical Sciences,Head of the laboratory',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
-    {id: 2, wid: '8rem', name: 'Sergey Kabanikhin', url:'https://ai-biolab.ru/data/_CV-Kabanikhin.pdf', institution: 'Doctor of Physical and Mathematical Sciences,Research Associate',Phone:' 📞 +7 (383) 330-8353',mail:'📩 ksi52@mail.ru', image: Kabanikhin},
-    {id: 3, wid: '8rem', name: 'Nikita Novikov', institution: 'Candidate of Physical and Mathematical Sciences,Senior Researcher',Phone:'',mail:'📩 novikov-1989@yandex.ru', image: Novikov},
-    {id: 4, wid: '8rem', name: 'Nikolai Zyatkov',url:'/Zyatkov_info/En', institution: 'Candidate of Technical Sciences,Research Associate',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
-    {id: 5, wid: '8rem', name: 'Victoria Petrakova',url:'/Petrakova_info/En', institution: 'Candidate of Physical and Mathematical Sciences,Research Associate',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
-    {id: 6, wid: '8rem', name: 'Tatyana Zvonareva',url:'/Zvonareva_info/En', institution: 'Junior Research Assistant',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
-    {id: 7, wid: '8rem', name: 'Diana Semenova',url:'/Semenova_info/En', institution: 'Junior Research Assistant',Phone:' 📞 +7(926) 189-8945',mail:'📩 dianasoulmate@yandex.ru', image: Semenova},
-    {id: 8, wid: '8rem', name: 'Andrei Neverov',url:'/Neverov_info/En', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
-    {id: 9, wid: '8rem', name: 'Angelina Nesterova',url:'/Nesterova_info/En', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:'',mail:'📩  a.v.nesterova@math.nsc.ru' , image: Question},
-    {id: 10, wid: '8rem', name: 'Denis Mikhailapov',url:'/Mikhailapov_info/En', institution: 'Intern Researcher',Phone:'',mail:'📩 d.mikhailapov@math.nsc.ru', image: Mikhailapov},
-    {id: 11, wid: '8rem', name: 'Sergey Strizhak', institution: 'Candidate of Technical Sciences, Senior Researcher',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
-    {id: 12, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev}
+    {id: 2, wid: '8rem', name: 'Nikita Novikov', institution: 'Candidate of Physical and Mathematical Sciences,Senior Researcher',Phone:'',mail:'📩 novikov-1989@yandex.ru', image: Novikov},
+    {id: 3, wid: '8rem', name: 'Nikolai Zyatkov',url:'/Zyatkov_info/En', institution: 'Candidate of Technical Sciences,Research Associate',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
+    {id: 4, wid: '8rem', name: 'Victoria Petrakova',url:'/Petrakova_info/En', institution: 'Candidate of Physical and Mathematical Sciences,Research Associate',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
+    {id: 5, wid: '8rem', name: 'Tatyana Zvonareva',url:'/Zvonareva_info/En', institution: 'Junior Research Assistant',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
+    {id: 6, wid: '8rem', name: 'Diana Semenova',url:'/Semenova_info/En', institution: 'Junior Research Assistant',Phone:' 📞 +7(926) 189-8945',mail:'📩 dianasoulmate@yandex.ru', image: Semenova},
+    {id: 7, wid: '8rem', name: 'Andrei Neverov',url:'/Neverov_info/En', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
+    {id: 8, wid: '8rem', name: 'Angelina Nesterova',url:'/Nesterova_info/En', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:'',mail:'📩  a.v.nesterova@math.nsc.ru' , image: Question},
+    {id: 9, wid: '8rem', name: 'Denis Mikhailapov',url:'/Mikhailapov_info/En', institution: 'Intern Researcher',Phone:'',mail:'📩 d.mikhailapov@math.nsc.ru', image: Mikhailapov},
+    {id: 10, wid: '8rem', name: 'Sergey Strizhak', institution: 'Candidate of Technical Sciences, Senior Researcher',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
+    {id: 11, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev},
+    {id: 12, wid: '8rem', name: 'Sergey Kabanikhin', url:'https://ai-biolab.ru/data/_CV-Kabanikhin.pdf', institution: 'Doctor of Physical and Mathematical Sciences, Corresponding Member of the Russian Academy of Sciences,Chief Research Associate',Phone:' 📞 +7 (383) 330-8353',mail:'📩 ksi52@mail.ru', image: Kabanikhin}
   ]
   return(
       <>
