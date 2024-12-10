@@ -91,7 +91,7 @@ export function Main() {
     {id: 9, wid: '8rem', name: 'Михайлапов Денис Иванович',url:'/Mikhailapov_info', institution: 'стажер-исследователь',Phone:'',mail:'📩 d.i.mikhailapov@math.nsc.ru', image: Mikhailapov},
     {id: 10, wid: '8rem', name: 'Стрижак Сергей Владимирович ', institution: 'к.т.н., старший научный сотрудник',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
     {id: 11, wid: '8rem', name: 'Кошелев Константин Борисович ', institution: 'к.ф.-м.н., старший научный сотрудник',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev},
-    {id: 12, wid: '8rem', name: 'Кабанихин Сергей Игоревич', url:'https://ai-biolab.ru/data/_CV-Kabanikhin.pdf', institution: 'д.ф.-м.н.,член-корреспондент РАН,главный научный сотрудник',Phone:' 📞 +7 (383) 330-8353',mail:'📩 ksi52@mail.ru', image: Kabanikhin}
+    {id: 12, wid: '8rem', name: 'Кабанихин Сергей Игоревич', url:'/Kabanikhin_info', institution: 'д.ф.-м.н.,член-корреспондент РАН,главный научный сотрудник',Phone:' 📞 +7 (383) 330-8353',mail:'📩 ksi52@mail.ru', image: Kabanikhin}
   ]
   return(
       <>

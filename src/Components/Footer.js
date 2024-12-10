@@ -34,7 +34,7 @@ function Footer() {
           <Col xs={12} md={4} lg={4} className="d-flex justify-content-end">
 
   <div align="center">
-        <Image variant="bottom" className = ""
+        <Image variant="bottom" className = "mx-4"
         src={RF2}
         fluid
         style={{ width: '2.7rem' }, {height: '2.7rem'}}
@@ -42,7 +42,7 @@ function Footer() {
         </div>
 
         <div align="center">
-        <Image variant="bottom" className = "my-1"
+        <Image variant="bottom" className = "my-1 mx-4"
         src={RNF6}
         fluid
         style={{ width: '2.5rem' }, {height: '2.5rem'}}

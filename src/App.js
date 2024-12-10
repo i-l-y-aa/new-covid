@@ -8,6 +8,8 @@ import {MainTeam} from './MainTeam'
 import {Main_publications_more_detailed} from './Components/Main_publications_more_detailed'
 import {Krivorotko_info} from './Components/Krivorotko_info'
 import {Krivorotko_info_En} from './Components/Krivorotko_info_En'
+import {Kabanikhin_info} from './Components/Kabanikhin_info'
+import {Kabanikhin_info_En} from './Components/Kabanikhin_info_En'
 import {Mikhailapov_info} from './Components/Mikhailapov_info'
 import {Mikhailapov_info_En} from './Components/Mikhailapov_info_En'
 import {Petrakova_info} from './Components/Petrakova_info'
@@ -143,6 +145,8 @@ return (<>
             <Route exact path="/main_publications_more_detailed/En" element={<Main_publications_more_detailed_En />} />
             <Route exact path="/krivorotko_info" element={<Krivorotko_info />} />
             <Route exact path="/krivorotko_info/En" element={<Krivorotko_info_En />} />
+            <Route exact path="/kabanikhin_info" element={<Kabanikhin_info />} />
+            <Route exact path="/kabanikhin_info/En" element={<Kabanikhin_info_En />} />
             <Route exact path="/mikhailapov_info" element={<Mikhailapov_info />} />
             <Route exact path="/mikhailapov_info/En" element={<Mikhailapov_info_En />} />
             <Route exact path="/petrakova_info" element={<Petrakova_info />} />

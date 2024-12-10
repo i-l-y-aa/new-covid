@@ -86,7 +86,7 @@ export function Main_En() {
     {id: 9, wid: '8rem', name: 'Denis Mikhailapov',url:'/Mikhailapov_info/En', institution: 'Intern Researcher',Phone:'',mail:'📩 d.mikhailapov@math.nsc.ru', image: Mikhailapov},
     {id: 10, wid: '8rem', name: 'Sergey Strizhak', institution: 'Candidate of Technical Sciences, Senior Researcher',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
     {id: 11, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev},
-    {id: 12, wid: '8rem', name: 'Sergey Kabanikhin', url:'https://ai-biolab.ru/data/_CV-Kabanikhin.pdf', institution: 'Doctor of Physical and Mathematical Sciences, Corresponding Member of the Russian Academy of Sciences,Chief Research Associate',Phone:' 📞 +7 (383) 330-8353',mail:'📩 ksi52@mail.ru', image: Kabanikhin}
+    {id: 12, wid: '8rem', name: 'Sergey Kabanikhin', url:'/Kabanikhin_info/En', institution: 'Doctor of Physical and Mathematical Sciences, Corresponding Member of the Russian Academy of Sciences,Chief Research Associate',Phone:' 📞 +7 (383) 330-8353',mail:'📩 ksi52@mail.ru', image: Kabanikhin}
   ]
   return(
       <>
