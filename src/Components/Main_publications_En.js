@@ -8,9 +8,8 @@ const Main_publications_En = () => {
             items: [
                 {
                     title: "O. Krivorotko, N. Zyatkov. The Forecasting of the Spread of Infectious Diseases Based on Conditional Generative Adversarial Networks.",
-                    journal: "Journal of Applied Mathematics in Disease Control and Dynamics.",
-                    volume: "Vol. 12, No.19.",
-                    doi: "10.3390/math12193044",
+                    journal: "Mathematics 2024,",
+                    volume: "12, 3044.",
                     link: "https://ai-biolab.ru/data/mathematics-12-03044.pdf"
                 },
                 {
