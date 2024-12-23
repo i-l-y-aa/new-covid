@@ -51,7 +51,7 @@ function ModelingSEIR_HCD_En() {
 
   const lastDate2 = () => {
     axios
-    .get("https://server.covid19-modeling.ru/datesSEIR")
+    .get("https://server.ai-biolab.ru/datesSEIR")
     .then(res => {
       setLastsData(res.data.dates[res.data.dates.length-1].data)
     })
@@ -79,7 +79,7 @@ function ModelingSEIR_HCD_En() {
 
   const datesOption=()=>{
     axios
-    .get("https://server.covid19-modeling.ru/datesSEIR")
+    .get("https://server.ai-biolab.ru/datesSEIR")
     .then(res => {
       for (const dataObj of res.data.dates) {
         dates.push({date: dataObj.data})
@@ -114,7 +114,7 @@ function ModelingSEIR_HCD_En() {
     let datatype = selected
     let dataT = selected
     axios({
-        url:'https://server.covid19-modeling.ru/api/forecasts_train/',
+        url:'https://server.ai-biolab.ru/api/forecasts_train/',
         method: "POST",
         data: {dataT},
       })
@@ -129,7 +129,7 @@ function ModelingSEIR_HCD_En() {
           min.push(dataObj.R0_min)
         }
         axios({
-            url:'https://server.covid19-modeling.ru/api/forecasts/',
+            url:'https://server.ai-biolab.ru/api/forecasts/',
             method: "POST",
             data: {datatype},
           })
@@ -281,7 +281,7 @@ function ModelingSEIR_HCD_En() {
     let tr = []
     let name = "New cases identified";
     axios({
-        url:'https://server.covid19-modeling.ru/api/forecasts_true/',
+        url:'https://server.ai-biolab.ru/api/forecasts_true/',
         method: "POST",
         data: {datatype},
       })
@@ -301,7 +301,7 @@ function ModelingSEIR_HCD_En() {
           mean.push(0)
         }
         axios({
-            url:'https://server.covid19-modeling.ru/api/forecasts',
+            url:'https://server.ai-biolab.ru/api/forecasts',
             method: "POST",
             data: {datatype},
           })
@@ -411,7 +411,7 @@ function ModelingSEIR_HCD_En() {
   const res_validR0=()=>{
     let dataBS = [];
     axios
-    .get("https://server.covid19-modeling.ru/api/res_valid")
+    .get("https://server.ai-biolab.ru/api/res_valid")
     .then(res => {
       for (const dataObj of res.data) {
         dataBS.push(dataObj.Date);
@@ -513,7 +513,7 @@ function ModelingSEIR_HCD_En() {
   const res_trainR0=()=>{
       let dataBS = [];
     axios
-    .get("https://server.covid19-modeling.ru/api/res_train")
+    .get("https://server.ai-biolab.ru/api/res_train")
     .then(res => {
      for (const dataObj of res.data) {
         dataBS.push(dataObj.Date);
@@ -619,7 +619,7 @@ function ModelingSEIR_HCD_En() {
     let min_data = []
     let r_data = []
     axios
-    .get("https://server.covid19-modeling.ru/api/res_train")
+    .get("https://server.ai-biolab.ru/api/res_train")
     .then(res => {
       for (const dataObj of res.data) {
         dataSEIRHCD.push(dataObj.Date);
@@ -628,7 +628,7 @@ function ModelingSEIR_HCD_En() {
         min_data.push(dataObj[min])
       }
       axios
-      .get("https://server.covid19-modeling.ru/api/csvCovid/nd/")
+      .get("https://server.ai-biolab.ru/api/csvCovid/nd/")
       .then(res2 => {
         for (const dataObj of res2.data) {
           r_data.push(parseInt(dataObj[param]));
@@ -744,7 +744,7 @@ function ModelingSEIR_HCD_En() {
     let min_data = []
     let r_data = []
     axios
-    .get("https://server.covid19-modeling.ru/api/res_valid")
+    .get("https://server.ai-biolab.ru/api/res_valid")
     .then(res => {
       for (const dataObj of res.data) {
         dataSEIRHCD.push(dataObj.Date);
@@ -753,7 +753,7 @@ function ModelingSEIR_HCD_En() {
         min_data.push(dataObj[min])
       }
       axios
-      .get("https://server.covid19-modeling.ru/api/csvCovid/nd")
+      .get("https://server.ai-biolab.ru/api/csvCovid/nd")
       .then(res2 => {
         for (const dataObj of res2.data) {
           r_data.push(parseInt(dataObj[param]));
@@ -866,7 +866,7 @@ function ModelingSEIR_HCD_En() {
     let e_data = []
     let m_data = []
     axios
-    .get("https://server.covid19-modeling.ru/api/res_valid/")
+    .get("https://server.ai-biolab.ru/api/res_valid/")
     .then(res => {
       for (const dataObj of res.data) {
         dataSEIRHCD.push(dataObj.Date);
@@ -991,7 +991,7 @@ function ModelingSEIR_HCD_En() {
     let e_data = []
     let m_data = []
     axios
-    .get("https://server.covid19-modeling.ru/api/res_train/")
+    .get("https://server.ai-biolab.ru/api/res_train/")
     .then(res => {
       for (const dataObj of res.data) {
         dataSEIRHCD.push(dataObj.Date);
@@ -1221,7 +1221,7 @@ function ModelingSEIR_HCD_En() {
                </Popover.Body>
              </Popover>
            }>
-        <a href="https://covid19-modeling.ru/data/papers/1_Krivorotko_et_al_COVID-19_in_Moscow_and_NSO.pdf"><Button variant="link" onClick={(e)=>{
+        <a href="https://ai-biolab.ru/data/papers/1_Krivorotko_et_al_COVID-19_in_Moscow_and_NSO.pdf"><Button variant="link" onClick={(e)=>{
         document.body.click(e)
         this.overlay.hide()
       }}><BsFillArrowUpRightSquareFill size={30}/></Button></a></OverlayTrigger>
@@ -1242,7 +1242,7 @@ function ModelingSEIR_HCD_En() {
              </Popover.Body>
            </Popover>
          }>
-        <a href="https://covid19-modeling.ru/data/papers/2_Krivorotko_et_al_COVID-19_Identifiability.pdf"><Button variant="link" onClick={(e)=>{
+        <a href="https://ai-biolab.ru/data/papers/2_Krivorotko_et_al_COVID-19_Identifiability.pdf"><Button variant="link" onClick={(e)=>{
         document.body.click(e)
         this.overlay.hide()
       }}><BsFillArrowUpRightSquareFill size={30}/></Button></a></OverlayTrigger>

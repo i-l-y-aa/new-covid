@@ -9,6 +9,7 @@ import conf_a from "../images/news/conf_a.PNG"
 
 
 export function Conf_a_En () {
+
   return (
         <>
     <NaviBarv2_En />
@@ -18,10 +19,12 @@ export function Conf_a_En () {
     <div class="row ps-4 my-4"><p class="lead"></p></div>
     <div class="row ps-4 my-4"><p class="lead"></p></div>
     <hr></hr>
-    <div class="row ps-4 my-4"><p class="lead">Laboratory staff will take part in the 14th International Multi-conference "Bioinformatics of genome Regulation and Structure/Systems Biology", which will be held in Novosibirsk Akademgorodok on August 5-10, 2024.</p></div>
-    <div class="row ps-4 my-4"><p class="lead">Within the framework of the conference, a section "Mathematical Epidemiology" will be organized (<a rel="noopener" target="_blank" href="https://bgrssb.icgbio.ru/2024/ru/systems-computational-biology/">Symposium "System Computer Biology"</a>).</p></div>
-    <div class="row ps-4 my-4"><p class="lead">More detailed information is available on the <a rel="noopener" target="_blank" href="https://bgrssb.icgbio.ru/2024/ru/schedule/">conference website.</a></p></div>
-    <div class="row ps-4 my-4"><p>13.06.2024</p></div>
+    <div class="row my-4"><p class="lead">Laboratory staff will take part in the 14th International Multi-conference "Bioinformatics of genome Regulation and Structure/Systems Biology", which will be held in Novosibirsk Akademgorodok on August 5-10, 2024.</p></div>
+    <div class="row my-4"><p class="lead">Within the framework of the conference, a section "Mathematical Epidemiology" will be organized (<a rel="noopener" target="_blank" href="https://bgrssb.icgbio.ru/2024/ru/systems-computational-biology/">Symposium "System Computer Biology"</a>).</p></div>
+    <div class="row my-4"><p class="lead">More detailed information is available on the <a rel="noopener" target="_blank" href="https://bgrssb.icgbio.ru/2024/ru/schedule/">conference website.</a></p></div>
+    <div class="row my-4"><p class="lead"><a rel="noopener" target="_blank" href="/Conferences/En">Conference calendar</a>.</p></div>
+    <div class="row my-4"><p>13.06.2024</p></div>
+
     </Container>
     <Footer_En />
     </>

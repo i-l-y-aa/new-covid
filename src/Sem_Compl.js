@@ -55,8 +55,86 @@ export function Sem_Compl() {
                   <img src={sem_a} alt="Семинар"></img>
                 </div>
                 <div class="card_content_t">
-                <h5 class="card_title_t">18 июля пройдёт семинар лаборатории на тему «Полуконтролируемая сегментация медицинских изображений: Обзор»</h5>
-                <p class="card_descr_t">19.07.2024</p>
+                <h5 class="card_title_t">14 ноября пройдёт семинар лаборатории на тему «Моделирование острых и хронических инфекций»</h5>
+                <p class="card_descr_t">15.11.2024</p>
+                <span class="card_btn_t "><a href="/Sem_i" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">26 сентября пройдёт семинар лаборатории на тему «Проблемы получения точной количественной оценки накопленной активности в опухолевых очагах при исследовании методом ОФЭКТ/КТ»</h5>
+                <p class="card_descr_t">27.09.2024</p>
+                <span class="card_btn_t "><a href="/Sem_h" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">12 сентября пройдёт семинар лаборатории на тему «Особенности использования физически-информированных нейронных сетей для решения задач моделирования движения несжимаемой жидкости»</h5>
+                <p class="card_descr_t">11.09.2024</p>
+                <span class="card_btn_t "><a href="/Sem_g" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+            
+            </ul>
+            <ul class="cards_t">
+            <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">29 августа пройдёт семинар лаборатории на тему «Метод Гельфанда-Левитана в коэффициентых обратных задачах»</h5>
+        <p class="my-4 card_descr_t ">30.08.2024</p>
+        <span class="my-2 card_btn_t "><a href="/Sem_f" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+            <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t my-1">15 августа пройдёт семинар лаборатории на тему «Рекомендательная система для микрофинансовых организаций»</h5>
+        <p class="my-4 card_descr_t ">16.08.2024</p>
+        <span class="my-2 card_btn_t "><a href="/Sem_e" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+            <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t my-1">1 августа пройдёт семинар лаборатории на тему «Метод регуляризации А.Н. Тихонова для решения задачи определения начального условия в параболическом уравнении»</h5>
+        <p class="card_descr_t ">02.08.2024</p>
+        <span class="card_btn_t "><a href="/Sem_d" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
+                </div>
+              </article>
+            </li>
+            
+          </ul>
+          <ul class="cards_t">
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
+                  <img src={sem_a} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t my-1">
+                <h5 class="card_title_t my-2">18 июля пройдёт семинар лаборатории на тему «Полуконтролируемая сегментация медицинских изображений: Обзор»</h5>
+                <p class="card_descr_t my-4">19.07.2024</p>
                 <span class="card_btn_t "><a href="/Sem_c" class="lead" style={{'textDecoration': 'none'}}>Читать полностью > </a></span>
                 </div>
               </article>
@@ -73,7 +151,8 @@ export function Sem_Compl() {
                 </div>
               </article>
             </li>
-            <li class="cards_item_t">
+
+          <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
                   <img src={sem_a} alt="Семинар"></img>

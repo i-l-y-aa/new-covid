@@ -9,6 +9,7 @@ import conf_c from "../images/news/conf_c.PNG"
 
 
 export function Conf_c_En () {
+
   return (
         <>
     <NaviBarv2_En />
@@ -26,7 +27,9 @@ export function Conf_c_En () {
     <div class="row my-4"><p class="lead">Andrey Neverov will take part in the section <a rel="noopener" target="_blank" href="https://mc4-conf.ru/applied-mathematics#!/tab/721114977-5">«Applied Mathematics and mathematical modeling»</a> with a report on «Application of PINN in the SIR model of the middle field game»;</p></div>
     <div class="row my-4"><p class="lead">Dmitry Dudukalov will take part in the section <a rel="noopener" target="_blank" href="https://mc4-conf.ru/probability-theory#!/tab/721114718-5">«Probability Theory»</a> with a report on «Recommendation system for microfinance organizations».</p></div>
     <div class="row my-4"><p class="lead">More detailed information can be found on the <a rel="noopener" target="_blank" href="https://mc4-conf.ru/">conference website.</a></p></div>
+    <div class="row my-4"><p class="lead"><a rel="noopener" target="_blank" href="/Conferences/En">Conference calendar</a>.</p></div>
     <div class="row my-4"><p>08.08.2024</p></div>
+
     </Container>
     <Footer_En />
     </>

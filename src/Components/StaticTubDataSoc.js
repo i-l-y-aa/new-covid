@@ -114,7 +114,7 @@ const StaticTubDataSoc = (props) => {
         labels: soc_data,
         datasets: [
             {
-                label: "безработица , шк.2",
+                label: "безработица , шк.2 (%)",
                 data: soc_unempl,
                 fill: false,
                 borderColor: "rgba(0, 191, 255, 1)",
@@ -129,7 +129,7 @@ const StaticTubDataSoc = (props) => {
               },
               
           {
-            label: "доля населения с доходами ниже прожиточного минимума , шк.2",
+            label: "доля населения с доходами ниже прожиточного минимума , шк.2 (%)",
             data: soc_pov,
             borderColor: "rgb(255,0,0)",
             backgroundColor: "rgb(255,0,0, 1)",

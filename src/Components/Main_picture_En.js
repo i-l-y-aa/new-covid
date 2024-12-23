@@ -2,6 +2,7 @@ import React from "react";
 import {Container, Card, Image, Col, Row, Button} from 'react-bootstrap';
 import NaviBar_En from './NaviBar_En';
 import { motion } from "framer-motion"
+import back_1 from "../images/back_1.jpg"
 
 const variants = {
   visible: custom => ({
@@ -18,22 +19,28 @@ const variants = {
 
 const Main_picture_En = () => {
     return (
-      <Card  border="light"  style={{
-        backgroundImage: `url("https://ega.ee/wp-content/uploads/2020/08/corona_1.jpg")`,
-        height:'500px',
-
-      }}>
+<Card
+  border="light"
+  style={{
+    backgroundImage: `url(${back_1})`, 
+    backgroundSize: 'cover', 
+    height: '500px',
+    backgroundPosition: 'center', 
+  }}
+>
       <NaviBar_En />
       <div align="left" className="my-auto mx-auto">
         <b>
         <motion.div initial="hidden"
           animate="visible" custom={1}
           variants={variants}>
-          <h2 className="text-white mp_info"><b>Laboratory of AI-technologies for mathematical modeling</b></h2>
-          <h2 className="text-white mp_info"><b>of biological, socio-economic and environmental processes</b></h2>
+          <h2 className="text-white mp_info"><b>AI technologies for mathematical modeling of biological,</b></h2>
+          <h2 className="text-white mp_info"><b>socio-economic and ecological processes</b></h2>
           </motion.div>
           </b>
-
+          <Button href="/modeling/En" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
+          <div style={{ fontSize: 16 }}><b>Modeling</b></div>
+        </Button>
         
       </div>
       <Container>

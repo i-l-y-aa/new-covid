@@ -9,6 +9,7 @@ import life_b from "../images/news/life_b.PNG"
 
 
 export function Life_b () {
+
   return (
         <>
     <NaviBarv2 />
@@ -23,6 +24,7 @@ export function Life_b () {
     <hr></hr>
     <div class="row ps-4 my-4"><p class="lead">Герои информационных баннеров - 15 молодых новосибирских учёных, чьи научные достижения активно применяют в различных отраслях. На цифровых панелях можно увидеть не только фото исследователей, но и познакомиться с результатами их деятельности. С одной из героинь встретилась корреспондент телеканала ОТС Светлана Шевченко. Видео можно посмотреть по <a rel="noopener" target="_blank" href="https://yandex.ru/video/preview/1383508478853144806">ссылке.</a></p></div>
     <div class="row ps-4 my-4"><p>10.07.2024</p></div>
+
     </Container>
     <Footer />
     </>

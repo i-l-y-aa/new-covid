@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Card, Row, Button } from 'react-bootstrap'
+import {Container, Card, Row, Button, Col } from 'react-bootstrap'
 import MTeamItem from './Components/TeamItem'
 import Main_picture_En from './Components/Main_picture_En'
 import Main_contacts_En from './Components/Main_contacts_En'
@@ -12,15 +12,17 @@ import Krivorotko from "./images/team/Krivorotko.png"
 import Zyatkov from "./images/team/Zyatkov.png"
 import Neverov from "./images/team/Neverov.png"
 import Petrakova from "./images/team/Petrakova.jpg"
+import Kabanikhin from "./images/team/Kabanikhin.jpg"
+import Novikov from "./images/team/Novikov.jpg"
 import Koshelev from "./images/team/Koshelev.jpg"
 import Footer_En from './Components/Footer_En'
 import Question from "./images/conf/Question.png"
 import sem_a from "./images/news/sem_a.PNG"
-import conf_c from "./images/news/conf_c.PNG"
-import life_b from "./images/news/life_b.PNG"
+import sem_b from "./images/news/sem_b.PNG"
+import conf_e from "./images/news/conf_e.PNG"
+import life_d from "./images/news/life_d.PNG"
 import Semenova from "./images/team/Semenova.jpg"
 import Mikhailapov from "./images/team/Mikhailapov.png"
-import Dudukalov from "./images/team/Dudukalov.jpg"
 import conf_TheoryAndNumericalMethods from "./images/conf/conf_TheoryAndNumericalMethods.png"
 import conf_ModernProblemsOfInverseProblems from "./images/conf/conf_ModernProblemsOfInverseProblems.png"
 const variants = {
@@ -51,72 +53,73 @@ const itemAnimation = {
 
 export function Main_En() {
 
+  const newsItems = [
+    {
+      title: "On November 28, a laboratory seminar will be held on the topic «Probabilistic forecasting of epidemics in the regions of the Russian Federation based on a conditional generative-adversarial network and a Bayesian approach»",
+      date: "20.11.2024",
+      image: sem_b,
+      link: "/Sem_j/En"
+    },
+    {
+      title: "On November 14, the laboratory will hold a seminar on the topic «Modeling of acute and chronic infections»",
+      date: "06.11.2024",
+      image: sem_a,
+      link: "/Sem_i/En"
+    },
+    {
+      title: "O. Krivorotko will take part in the meetings of the IV Congress of Young Scientists",
+      date: "17.10.2024",
+      image: life_d,
+      link: "/Life_d/En"
+    },
+  ];
+
   const posts = [
     {id: 1, wid: '8rem', name: 'Olga Krivorotko', url:'/Krivorotko_info/En', institution: 'Doctor of Physical and Mathematical Sciences,Head of the laboratory',Phone:' 📞 +7(383) 329-7610',mail:'📩 o.i.krivorotko@math.nsc.ru', image: Krivorotko},
-    {id: 2, wid: '8rem', name: 'Nikita Novikov', institution: 'Candidate of Physical and Mathematical Sciences,Senior Researcher',Phone:'',mail:'📩 novikov-1989@yandex.ru', image: Question},
-    {id: 3, wid: '8rem', name: 'Nikolai Zyatkov', institution: 'Candidate of Technical Sciences,Research Associate',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
-    {id: 4, wid: '8rem', name: 'Victoria Petrakova', url:'https://covid19-modeling.ru/data/Petrakova_CV.pdf', institution: 'Candidate of Physical and Mathematical Sciences,Research Associate',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
-    {id: 5, wid: '8rem', name: 'Sergey Strizhak', institution: 'Candidate of Technical Sciences, Senior Researcher',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
-    {id: 6, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev},
-    {id: 7, wid: '8rem', name: 'Tatyana Zvonareva',url:'https://covid19-modeling.ru/data/Zvonareva-CV.pdf', institution: 'Junior Research Assistant',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
-    {id: 8, wid: '8rem', name: 'Diana Semenova', institution: 'Junior Research Assistant',Phone:' 📞 +7(926) 189-8945',mail:'📩 dianasoulmate@yandex.ru', image: Semenova},
-    {id: 9, wid: '8rem', name: 'Andrey Neverov', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
-    {id: 10, wid: '8rem', name: 'Angelina Nesterova', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:'',mail:'📩  a.v.nesterova@math.nsc.ru' , image: Question},
-    {id: 11, wid: '8rem', name: 'Denis Mikhailapov', institution: 'Intern Researcher',Phone:'',mail:'📩 d.i.mikhailapov@math.nsc.ru', image: Mikhailapov},
-    {id: 12, wid: '8rem', name: 'Dmitry Dudukalov', institution: 'Intern Researcher',Phone:'',mail:'📩 d.dudukalov@g.nsu.ru', image: Dudukalov}
-  
+    {id: 2, wid: '8rem', name: 'Nikita Novikov', institution: 'Candidate of Physical and Mathematical Sciences,Senior Researcher',Phone:'',mail:'📩 novikov-1989@yandex.ru', image: Novikov},
+    {id: 3, wid: '8rem', name: 'Nikolai Zyatkov',url:'/Zyatkov_info/En', institution: 'Candidate of Technical Sciences,Research Associate',Phone:' 📞 +7(383) 329-7610',mail:'📩 n.y.zyatkov@math.nsc.ru ', image: Zyatkov},
+    {id: 4, wid: '8rem', name: 'Victoria Petrakova',url:'/Petrakova_info/En', institution: 'Candidate of Physical and Mathematical Sciences,Research Associate',Phone:'📞 +7(923) 267-3748',mail:'📩 vika-svetlakova@yandex.ru', image: Petrakova},
+    {id: 5, wid: '8rem', name: 'Tatyana Zvonareva',url:'/Zvonareva_info/En', institution: 'Junior Research Assistant',Phone:' 📞 +7(383) 329-7611',mail:'📩 t.a.zvonareva@math.nsc.ru', image: Zvonareva},
+    {id: 6, wid: '8rem', name: 'Diana Semenova',url:'/Semenova_info/En', institution: 'Junior Research Assistant',Phone:' 📞 +7(926) 189-8945',mail:'📩 dianasoulmate@yandex.ru', image: Semenova},
+    {id: 7, wid: '8rem', name: 'Andrei Neverov',url:'/Neverov_info/En', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:' 📞 +7(383) 3297611',mail:'📩 a.neverov@g.nsu.ru', image: Neverov},
+    {id: 8, wid: '8rem', name: 'Angelina Nesterova',url:'/Nesterova_info/En', institution: 'Graduate student IM SB RAS',institution2:'Research Engineer',Phone:'',mail:'📩  a.v.nesterova@math.nsc.ru' , image: Question},
+    {id: 9, wid: '8rem', name: 'Denis Mikhailapov',url:'/Mikhailapov_info/En', institution: 'Intern Researcher',Phone:'',mail:'📩 d.mikhailapov@math.nsc.ru', image: Mikhailapov},
+    {id: 10, wid: '8rem', name: 'Sergey Strizhak', institution: 'Candidate of Technical Sciences, Senior Researcher',institution2:'',Phone:'',mail:'📩 strijhak@yandex.ru', image: Question},
+    {id: 11, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev},
+    {id: 12, wid: '8rem', name: 'Sergey Kabanikhin', url:'/Kabanikhin_info/En', institution: 'Doctor of Physical and Mathematical Sciences, Corresponding Member of the Russian Academy of Sciences,Chief Research Associate',Phone:' 📞 +7 (383) 330-8353',mail:'📩 ksi52@mail.ru', image: Kabanikhin}
   ]
   return(
       <>
       <Main_picture_En />
       <Container >
-        <motion.div initial="hidden"
-             custom={2}
-            variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
-          <Card className="text-center bg-secondary text-white my-3" >
-            <Card.Title> <h4 className="my-1 ">News</h4> </Card.Title>
+        <motion.div initial="hidden" custom={2} variants={variants} whileInView="visible" viewport={{ amount: 0.05, once: true }}>
+          <Card className="text-center bg-secondary text-white my-3">
+            <Card.Title>
+              <h4 className="my-1">News</h4>
+            </Card.Title>
           </Card>
-          </motion.div>
-          <ul class="cards_t">
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={conf_c} alt="Conference"></img>
+        </motion.div>
+
+        <Row>
+          {newsItems.map((item, index) => (
+            <Col xs={12} md={6} lg={4} key={index} className="mb-4"> {/* Измените размеры колонок здесь */}
+              <a href={item.link} style={{ textDecoration: 'none', color: 'inherit' }}>
+                <article className="card_t">
+                <div className="card_image_t">
+                  <img src={item.image} alt={item.title}></img>
                 </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">Laboratory staff will take part in the IV conference of mathematical centers of Russia</h5>
-                <p class="card_descr_t">08.08.2024</p>
-                <span class="card_btn_t "><a href="/Conf_c/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+                <div className="card_content_t">
+                  <h5 className="card_title_t">{item.title}</h5>
+                  <p className="card_descr_t">{item.date}</p>
                 </div>
-              </article>
-            </li>
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={sem_a} alt="Seminar"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">On August 15, the laboratory will hold a seminar on the topic «Recommendation system for microfinance organizations»</h5>
-                <p class="card_descr_t">31.07.2024</p>
-                <span class="card_btn_t "><a href="/Sem_e/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
-                </div>
-              </article>
-            </li>
-          <li class="cards_item_t">
-              <article class="card_t">
-                <div class="card_image_t">
-                  <img src={sem_a} alt="Seminar"></img>
-                </div>
-                <div class="card_content_t">
-                <h5 class="card_title_t">On August 1, a laboratory seminar will be held on the topic «A.N. Tikhonov's regularization method for solving the problem of determining the initial condition in a parabolic equation»</h5>
-                <p class="card_descr_t">31.07.2024</p>
-                <span class="card_btn_t "><a href="/Sem_d/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
-                </div>
-              </article>
-            </li>
-          </ul>
-          <Button href="/News/En" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
-            <div style={{fontSize: 16}}><b>All the news</b></div></Button>
+              </article></a>
+            </Col>
+          ))}
+        </Row>
+
+        <Button href="/News/En" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
+          <div style={{ fontSize: 16 }}><b>All news</b></div>
+        </Button>
           <motion.div initial="hidden"
              custom={2}
             variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
@@ -172,36 +175,41 @@ variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
 <Card.Title> <h4 className="my-1 ">Conferences</h4> </Card.Title>
 </Card>
 </motion.div>
-<ul class="cards_t">
-<li class="cards_item_t">
-<article class="card_conf">
-<div class="card_image_conf my-3">
-<img src={conf_TheoryAndNumericalMethods} alt="Conferences"></img>
+<div className="cards_container">
+  <ul className="cards_t">
+    <li className="cards_item_conf">
+    <a href="/TheoryAndNumericalMethods/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article className="card_conf">
+        <div className="card_image_conf my-4">
+          <img src={conf_TheoryAndNumericalMethods} alt="Конференция" />
+        </div>
+        <div className="card_content_t">
+          <h5 className="card_title_t">XVI International Youth Scientific School-conference «Theory and numerical methods for solving inverse and ill-posed problems».</h5>
+          <p className="card_title_t">Venue: S.L. Sobolev Institute of Mathematics SB RAS</p>
+          <p className="card_title_t">Date: From September 30 to October 2, 2024.</p>
+        </div>
+      </article>
+      </a>
+    </li>
+    <li className="cards_item_conf">
+    <a href="/ModernProblemsOfInverseProblems/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article className="card_conf">
+        <div className="card_image_conf my-4">
+          <img src={conf_ModernProblemsOfInverseProblems} alt="Конференция" />
+        </div>
+        <div className="card_content_t">
+          <h5 className="card_title_t">International Scientific Conference «Modern problems of inverse problems».</h5>
+          <p className="card_title_t">Venue: S.L. Sobolev Institute of Mathematics SB RAS.</p>
+          <p className="card_title_t">Date: From 3 to 5 October 2024.</p>
+        </div>
+      </article>
+      </a>
+    </li>
+  </ul>
+  <Button href="/Conferences/En" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
+          <div style={{ fontSize: 16 }}><b>All conferences</b></div>
+        </Button>
 </div>
-<div class="card_content_t">
-<h5 class="card_title_t">XVI International Youth Scientific School-conference «Theory and numerical methods for solving inverse and ill-posed problems».</h5>
-<p class="card_title_t ">Venue: S.L. Sobolev Institute of Mathematics SB RAS.</p>
-<p class="card_title_t ">Date: From September 30 to October 2, 2024.</p>
-
-<span class="card_btn_t "><a href="/TheoryAndNumericalMethods/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
-</div>
-</article>
-</li>
-<li class="cards_item_t">
-<article class="card_conf">
-<div class="card_image_conf my-3">
-<img src={conf_ModernProblemsOfInverseProblems} alt="Conferences"></img>
-</div>
-<div class="card_content_t">
-<h5 class="card_title_t">International Scientific Conference «Modern problems of inverse problems».</h5>
-<p class="card_title_t ">Venue: S.L. Sobolev Institute of Mathematics SB RAS.</p>
-<p class="card_title_t ">Date: From 3 to 5 October 2024.</p>
-
-<span class="card_btn_t "><a href="/ModernProblemsOfInverseProblems/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
-</div>
-</article>
-</li>
-</ul>
       </Container>
       <Footer_En />
     </>

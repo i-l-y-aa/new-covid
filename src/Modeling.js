@@ -62,7 +62,7 @@ ChartJS.register(zoomPlugin);
 const download_article=(e)=>{
    e.preventDefault()
    axios({
-     url:"https://server.covid19-modeling.ru/article",
+     url:"https://server.ai-biolab.ru/article",
      method: "GET",
      responseType:"blob"
    }).then((resA)=>{
@@ -110,7 +110,7 @@ export function Modeling(){
     setIsrunning(true)
     cancelToken.current = axios.CancelToken.source();
   axios({
-      url:'https://server.covid19-modeling.ru/data',
+      url:'https://server.ai-biolab.ru/data',
       method: "POST",
       responseType:"blob",
       data: {population_data, region_data, n_future_day, init_inf},
@@ -175,7 +175,7 @@ export function Modeling(){
 
     const real_data1=(e)=>{
       axios
-      .get("https://server.covid19-modeling.ru/api/csvCovid/nd")
+      .get("https://server.ai-biolab.ru/api/csvCovid/nd")
       .then(res => {
         for (const dataObj of res.data) {
           cov_nd_state.push(parseInt(dataObj.new_diagnoses));
@@ -230,7 +230,7 @@ export function Modeling(){
     }
     const real_data2=(e)=>{
       axios
-      .get("https://server.covid19-modeling.ru/api/csvCovid/nd")
+      .get("https://server.ai-biolab.ru/api/csvCovid/nd")
       .then(res => {
         for (const dataObj of res.data) {
           cov_nd_state.push(parseInt(dataObj.cum_diagnoses));
@@ -285,7 +285,7 @@ export function Modeling(){
     }
     const real_data3=(e)=>{
       axios
-      .get("https://server.covid19-modeling.ru/api/csvCovid/nd")
+      .get("https://server.ai-biolab.ru/api/csvCovid/nd")
       .then(res => {
         for (const dataObj of res.data) {
           cov_nd_state.push(parseInt(dataObj.new_deaths));
@@ -340,7 +340,7 @@ export function Modeling(){
     }
     const real_data4=(e)=>{
       axios
-      .get("https://server.covid19-modeling.ru/api/csvCovid/nd")
+      .get("https://server.ai-biolab.ru/api/csvCovid/nd")
       .then(res => {
         for (const dataObj of res.data) {
           cov_nd_state.push(parseInt(dataObj.new_recoveries));
@@ -395,7 +395,7 @@ export function Modeling(){
     }
     const real_data5=(e)=>{
       axios
-      .get("https://server.covid19-modeling.ru/api/csvCovid/nd")
+      .get("https://server.ai-biolab.ru/api/csvCovid/nd")
       .then(res => {
         for (const dataObj of res.data) {
           cov_nd_state.push(parseInt(dataObj.n_critical));
@@ -451,7 +451,7 @@ export function Modeling(){
 
     const real_data6=(e)=>{
       axios({
-          url:'https://server.covid19-modeling.ru/api/curData',
+          url:'https://server.ai-biolab.ru/api/curData',
           method: "POST",
           data: {region_data},
         })
@@ -508,7 +508,7 @@ export function Modeling(){
     }
     const real_data7=(e)=>{
       axios({
-          url:'https://server.covid19-modeling.ru/api/curData',
+          url:'https://server.ai-biolab.ru/api/curData',
           method: "POST",
           data: {region_data},
         })
@@ -566,7 +566,7 @@ export function Modeling(){
     }
     const real_data8=(e)=>{
       axios({
-          url:'https://server.covid19-modeling.ru/api/curData',
+          url:'https://server.ai-biolab.ru/api/curData',
           method: "POST",
           data: {region_data},
         })
@@ -624,7 +624,7 @@ export function Modeling(){
     }
     const real_data9=(e)=>{
       axios({
-          url:'https://server.covid19-modeling.ru/api/curData',
+          url:'https://server.ai-biolab.ru/api/curData',
           method: "POST",
           data: {region_data},
         })
@@ -682,7 +682,7 @@ export function Modeling(){
     }
     const real_data10=(e)=>{
       axios({
-          url:'https://server.covid19-modeling.ru/api/curData',
+          url:'https://server.ai-biolab.ru/api/curData',
           method: "POST",
           data: {region_data},
         })
@@ -743,7 +743,7 @@ export function Modeling(){
     const initchart = () => {
       setChartnum(6)
       axios({
-          url:'https://server.covid19-modeling.ru/getUMsim2',
+          url:'https://server.ai-biolab.ru/getUMsim2',
           method: "POST",
           data: {population_data, region_data, n_future_day, init_inf},
         })
@@ -840,7 +840,7 @@ export function Modeling(){
     const initchart_cumdiag = () => {
       setChartnum(7)
       axios({
-          url:'https://server.covid19-modeling.ru/getUMsim2',
+          url:'https://server.ai-biolab.ru/getUMsim2',
           method: "POST",
           data: {population_data, region_data, n_future_day, init_inf},
         })
@@ -936,7 +936,7 @@ export function Modeling(){
     const initchart_newdeath = () => {
       setChartnum(8)
       axios({
-          url:'https://server.covid19-modeling.ru/getUMsim2',
+          url:'https://server.ai-biolab.ru/getUMsim2',
           method: "POST",
           data: {population_data, region_data, n_future_day, init_inf},
         })
@@ -1032,7 +1032,7 @@ export function Modeling(){
     const initchart_new_rec = () => {
       setChartnum(9)
       axios({
-          url:'https://server.covid19-modeling.ru/getUMsim2',
+          url:'https://server.ai-biolab.ru/getUMsim2',
           method: "POST",
           data: {population_data, region_data, n_future_day, init_inf},
         })
@@ -1128,7 +1128,7 @@ export function Modeling(){
     const initchart_new_crit = () => {
       setChartnum(10)
       axios({
-          url:'https://server.covid19-modeling.ru/getUMsim2',
+          url:'https://server.ai-biolab.ru/getUMsim2',
           method: "POST",
           data: {population_data, region_data, n_future_day, init_inf},
         })
@@ -1225,7 +1225,7 @@ export function Modeling(){
     const chart = () => {
       setChartnum(1)
       axios
-        .get("https://server.covid19-modeling.ru/getMsim")
+        .get("https://server.ai-biolab.ru/getMsim")
         .then(res => {
           setLoadingprosses(false)
           setSomeerrors(false)
@@ -1328,7 +1328,7 @@ export function Modeling(){
     const chart_cumdiag = () => {
       setChartnum(2)
       axios
-        .get("https://server.covid19-modeling.ru/getMsim")
+        .get("https://server.ai-biolab.ru/getMsim")
         .then(res => {
           for (const dataObj of res.data.results.cum_diagnoses) {
             cov_cum_diag.push(parseInt(dataObj));
@@ -1421,7 +1421,7 @@ export function Modeling(){
     const chart_newdeath = () => {
       setChartnum(3)
       axios
-        .get("https://server.covid19-modeling.ru/getMsim")
+        .get("https://server.ai-biolab.ru/getMsim")
         .then(res => {
           for (const dataObj of res.data.results.new_deaths) {
             cov_new_death.push(parseInt(dataObj));
@@ -1514,7 +1514,7 @@ export function Modeling(){
     const chart_new_rec = () => {
       setChartnum(4)
       axios
-        .get("https://server.covid19-modeling.ru/getMsim")
+        .get("https://server.ai-biolab.ru/getMsim")
         .then(res => {
           for (const dataObj of res.data.results.new_recoveries) {
             cov_new_rec.push(parseInt(dataObj));
@@ -1607,7 +1607,7 @@ export function Modeling(){
     const chart_new_crit = () => {
       setChartnum(5)
       axios
-        .get("https://server.covid19-modeling.ru/getMsim")
+        .get("https://server.ai-biolab.ru/getMsim")
         .then(res => {
           for (const dataObj of res.data.results.new_critical) {
             cov_new_crit.push(parseInt(dataObj));

@@ -9,6 +9,7 @@ import life_b from "../images/news/life_b.PNG"
 
 
 export function Life_b_En () {
+
   return (
         <>
     <NaviBarv2_En />
@@ -24,6 +25,7 @@ export function Life_b_En () {
     <hr></hr>
     <div class="row ps-4 my-4"><p class="lead">The heroes of the information banners are 15 young Novosibirsk scientists whose scientific achievements are actively used in various industries. On the digital panels, you can see not only photos of researchers, but also get acquainted with the results of their activities. Svetlana Shevchenko, a correspondent of the OTS TV channel, met with one of the heroines. The video can be <a rel="noopener" target="_blank" href="https://yandex.ru/video/preview/1383508478853144806">viewed here.</a></p></div>
     <div class="row ps-4 my-4"><p>10.07.2024</p></div>
+
     </Container>
     <Footer_En />
     </>

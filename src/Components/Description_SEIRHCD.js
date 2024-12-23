@@ -101,7 +101,7 @@ const Description_SEIRHCD = () => {
         <td>4</td>
         <td><i>{'\u03B2'}(t)</i></td>
         <td>Доля инфицированных, имеющая антитела IgG к SARS-CoV-2</td>
-        <td><a href="https://covid19-modeling.ru/data/novosibirsk-invitro.csv">Инвитро</a></td>
+        <td><a href="https://ai-biolab.ru/data/novosibirsk-invitro.csv">Инвитро</a></td>
       </tr>
       <tr>
         <td>5</td>
@@ -194,7 +194,7 @@ const Description_SEIRHCD = () => {
                     <div className=" ms-auto">2</div>
                     </OverlayTrigger>
                     <div className="vr" />
-                      <a href="https://covid19-modeling.ru/data/novosibirsk-region-data.csv" style={{'textDecoration': 'none'}}  className="">
+                      <a href="https://ai-biolab.ru/data/novosibirsk-region-data.csv" style={{'textDecoration': 'none'}}  className="">
                     <div className=""><BsDownload/></div></a>
                   </Stack>
                   <hr />
@@ -213,7 +213,7 @@ const Description_SEIRHCD = () => {
                     <div className=" ms-auto">22</div>
                     </OverlayTrigger>
                     <div className="vr" />
-                      <a href="https://covid19-modeling.ru/data/novosibirsk-region-data.csv" style={{'textDecoration': 'none'}}  className="">
+                      <a href="https://ai-biolab.ru/data/novosibirsk-region-data.csv" style={{'textDecoration': 'none'}}  className="">
                     <div className=""><BsDownload/></div></a>
                   </Stack>
                   <hr />
@@ -232,7 +232,7 @@ const Description_SEIRHCD = () => {
                     <div className=" ms-auto">16</div>
                     </OverlayTrigger>
                     <div className="vr" />
-                      <a href="https://covid19-modeling.ru/data/novosibirsk-region-data.csv" style={{'textDecoration': 'none'}}  className="">
+                      <a href="https://ai-biolab.ru/data/novosibirsk-region-data.csv" style={{'textDecoration': 'none'}}  className="">
                     <div className=""><BsDownload/></div></a>
                   </Stack>
                   <hr />
@@ -251,7 +251,7 @@ const Description_SEIRHCD = () => {
                     <div className=" ms-auto">7</div>
                     </OverlayTrigger>
                     <div className="vr" />
-                      <a href="https://covid19-modeling.ru/data/novosibirsk-region-data.csv" style={{'textDecoration': 'none'}}  className="">
+                      <a href="https://ai-biolab.ru/data/novosibirsk-region-data.csv" style={{'textDecoration': 'none'}}  className="">
                     <div className=""><BsDownload/></div></a>
                   </Stack>
                   <hr />
@@ -270,7 +270,7 @@ const Description_SEIRHCD = () => {
                     <div className=" ms-auto">21</div>
                     </OverlayTrigger>
                     <div className="vr" />
-                      <a href="https://covid19-modeling.ru/data/novosibirsk-region-data.csv" style={{'textDecoration': 'none'}}  className="">
+                      <a href="https://ai-biolab.ru/data/novosibirsk-region-data.csv" style={{'textDecoration': 'none'}}  className="">
                     <div className=""><BsDownload/></div></a>
                   </Stack>
                   <hr />
@@ -289,7 +289,7 @@ const Description_SEIRHCD = () => {
                     <div className=" ms-auto">2</div>
                     </OverlayTrigger>
                     <div className="vr" />
-                      <a href="https://covid19-modeling.ru/data/novosibirsk-invitro.csv" style={{'textDecoration': 'none'}}>
+                      <a href="https://ai-biolab.ru/data/novosibirsk-invitro.csv" style={{'textDecoration': 'none'}}>
                     <div className=""><BsDownload/></div></a>
                   </Stack>
                  </Card.Body></Card></motion.div>

@@ -9,6 +9,7 @@ import sem_a from "../images/news/sem_a.PNG"
 
 
 export function Sem_a_En () {
+
   return (
         <>
     <NaviBarv2_En />
@@ -24,9 +25,10 @@ export function Sem_a_En () {
     <div class="row my-4"><p class="lead">Time: 14:00 Novosibirsk time (10:00 Moscow time).</p></div>
     <div class="row my-4"><p class="lead">The seminar will be held in an online format in Zoom. You can join via the <a rel="noopener" target="_blank" href="https://us02web.zoom.us/j/8615596919">link.</a></p></div>
     <div class="row my-4"><p class="lead">*Before connecting, please write your first and last name.</p></div>
-    <div class="row my-4"><p class="lead">The presentation of the report can be seen at the <a rel="noopener" target="_blank" href="https://covid19-modeling.ru/data/Семинар_Мол_Лаб_2024_Нестационарность_ВР_.pdf">link</a>.</p></div>
+    <div class="row my-4"><p class="lead">The presentation of the report can be seen at the <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/Семинар_Мол_Лаб_2024_Нестационарность_ВР_.pdf">link</a>.</p></div>
     <div class="row my-4"><p class="lead">All the seminars held are posted in the <a rel="noopener" target="_blank" href="/Sem_Compl/En">archive</a>.</p></div>
     <div class="row my-4"><p>13.06.2024</p></div>
+
     </Container>
     <Footer_En />
     </>

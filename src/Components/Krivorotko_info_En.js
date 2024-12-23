@@ -25,10 +25,10 @@ export function Krivorotko_info_En () {
         <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0 ">ID OF the RSCI:<a rel="noopener" target="_blank" href="https://www.elibrary.ru/author_profile.asp?authorid=746714">746714</a></div>
         </div>
         <div class="row">
-        <div class="col-sm-6 col-md-5 col-lg-6 mx-auto ps-5 ">Scopus Author ID:<a href="https://www.scopus.com/authid/detail.uri?authorId=56557032900">56557032900</a><hr></hr></div>
+        <div class="col-sm-6 col-md-5 col-lg-6 mx-auto ps-5 ">Scopus Author ID:<a href="https://www.scopus.com/authid/detail.uri?authorId=57217457913">57217457913</a><hr></hr></div>
         <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">ORCID: <a href="https://orcid.org/0000-0003-0125-4988">0000-0003-0125-4988</a><hr></hr></div>
         </div>
-        <div class="row ps-4"><p><a href="https://covid19-modeling.ru/data/Krivorotko-CV_short .pdf">CV</a></p></div>
+        <div class="row ps-4"><p><a href="https://ai-biolab.ru/data/Krivorotko-CV_short .pdf">CV</a></p></div>
         <div class="row ps-4"><p>03.04.1989</p></div>
         </section>
         <hr></hr>
@@ -59,6 +59,13 @@ export function Krivorotko_info_En () {
         <div class="col-sm-6 col-md-5 col-lg-6 mx-auto"><div class="my-3"><h3>Teaching</h3></div>
         <p>Numerical methods for solving inverse and incorrect problems - annual special course of the Department of Mathematical Methods of Geophysics of MMF NSU, courses 3-6.</p>
         <p>Vector and tensor analysis - lectures and seminars, 3rd year of the NSU Faculty of Physics.</p>
+        <Button href="/Krivorotko_Zvonareva_teaching/En" className="text-white shadow4 mp_info" variant="info" size="sm">
+            <div style={{fontSize: 16}}><b>Materials</b></div></Button>
+            <div class="row ps-4 my-3"><p class="lead"></p></div>
+            <p>Inverse problems: theory and practice - a course at <a rel="noopener" target="_blank" href="https://cytometry.ru/biomed/schedule.html">the Department of Biomedical Physics of Novosibirsk State University</a> for 5th-6th year undergraduates.</p>
+        <Button href="/Krivorotko_teaching/En" className="text-white shadow4 mp_info" variant="info" size="sm">
+            <div style={{fontSize: 16}}><b>Materials</b></div></Button>
+            <div class="row ps-4 my-3"><p class="lead"></p></div>
         <p>Supervisor of 6 students (2 graduate students, 1 undergraduate, 3 bachelors).</p></div>
         <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0"><div class="my-3"><h3>Professional interests</h3></div>
         <p>Inverse and incorrect problems in Earth sciences and biology.</p>
