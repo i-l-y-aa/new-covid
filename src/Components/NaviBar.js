@@ -34,7 +34,6 @@ export default function NaviBar() {
             <NavDropdown.Item> <NavLink to="/pollution_modeling" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Моделирование загрязнений в регионах РФ</NavLink></NavDropdown.Item>
             <NavDropdown.Item> <NavLink to="/medicine" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Моделирование в медицине</NavLink></NavDropdown.Item>
           </NavDropdown></h5>
-          <Nav.Link><NavLink to="/modeling" className={setActive}><h5>Моделирование</h5></NavLink></Nav.Link>
           <h5><NavDropdown title={<span className="fdrop">Данные</span>} id="collasible-nav-dropdown">
             <NavDropdown.Item> <NavLink to="/data" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Данные для скачивания</NavLink></NavDropdown.Item>
             <NavDropdown.Item> <NavLink to="/links" className={({isActive}) => isActive ? 'active-dropdown' : 'non-active-dropdown'} >Полезные ссылки</NavLink></NavDropdown.Item>
