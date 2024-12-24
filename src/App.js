@@ -47,11 +47,14 @@ import {News_En} from './News_En';
 import {Conferences} from './Conferences';
 import {Sem_Compl} from './Sem_Compl';
 import {Links} from './Links';
+<<<<<<< HEAD
 import {Data_processing_and_analysis} from './Data_processing_and_analysis';
 import {The_spread_of_epidemics} from './The_spread_of_epidemics';
 import {Medicine} from './Medicine';
 import {Pollution_modeling} from './Pollution_modeling';
 import {Social_processes} from './Social_processes';
+=======
+>>>>>>> 3f550d9aebe78ebf5ed5ca80909be387da0dd4db
 
 
 
