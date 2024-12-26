@@ -6,6 +6,21 @@ const Main_publications = () => {
         {
             year: 2024,
             items: [
+                
+                {
+                    title: "S. Kabanikhin, O. Krivorotko, A. Neverov, G. Kaminskiy, O. Semenova. Identification of the mathematical model of Tuberculosis and HIV co-infection dynamics.",
+                    journal: "Mathematics. 2024.",
+                    volume: "V. 12. Article 3636.",
+                    doi: "10.3390/math12233636",
+                    link: "https://ai-biolab.ru/data/mathematics-12-03636.pdf"
+                },
+                {
+                    title: "V. Petrakova. Inverse coefficient problem for epidemiological mean field formulation.",
+                    journal: "Mathematics 2024,",
+                    volume: "12(22), 3581;",
+                    doi: "10.3390/math12223581",
+                    link: "https://ai-biolab.ru/data/mathematics-12-03581-v2.pdf"
+                },
                 {
                     title: "O. Krivorotko, N. Zyatkov. The Forecasting of the Spread of Infectious Diseases Based on Conditional Generative Adversarial Networks.",
                     journal: "Mathematics 2024,",
@@ -29,26 +44,6 @@ const Main_publications = () => {
                 }
             ]
         },
-        {
-            year: 2023,
-            items: [
-                {
-                    title: "Криворотько О.И., Кабанихин С.И., Зятьков Н.Ю. Нейросетевое моделирование распространения COVID-19 c учетом социально-экономических процессов.",
-                    journal: "Всемирный конгресс (26–30 июня 2023 г., Москва).",
-                    details: "Теория систем, алгебраическая биология, искусственный интеллект: математические основы и приложения: Тезисы докладов.",
-                    pages: "С. 787-789.",
-                    doi: "10.18699/sblai2023-22",
-                    link: "https://ai-biolab.ru/data/КСИ_КОИ_ЗНЮ_ЖВМиМФ_COVID_NN.pdf"
-                },
-                {
-                    title: "V. Petrakova, O. Krivorotko, A. Neverov. Review of the mean field models for predicting the spread of viral infections.",
-                    conference: "2023 IEEE CSGB.",
-                    pages: "P. 45-50.",
-                    doi: "10.1109/CSGB60362.2023",
-                    link: "https://ai-biolab.ru/data/Proc_Petrakova_Krivorotko_CSGB-23.pdf"
-                }
-            ]
-        }
     ];
 
     return (
