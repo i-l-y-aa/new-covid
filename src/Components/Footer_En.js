@@ -27,7 +27,7 @@ function Footer_En() {
             <div className="text-white">630090, Novosibirsk, Akademika Koptyuga Avenue, 4</div>
             <div className="text-white">contacts: info@ai-biolab.ru, +7 (383) 329-7610</div>
             <hr className="text-white mx-auto" />
-            <small className="text-white">© 2024 COVID-19 in the Novosibirsk region</small>
+            <small className="text-white">© 2025 COVID-19 in the Novosibirsk region</small>
           </Col>
 
           {/* Правый столбец с изображениями */}

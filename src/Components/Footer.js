@@ -27,7 +27,7 @@ function Footer() {
             <div className="text-white">630090, Новосибирск, Проспект Академика Коптюга, 4</div>
             <div className="text-white">контакты: info@ai-biolab.ru, +7 (383) 329-7610</div>
             <hr className="text-white mx-auto" />
-            <small className="text-white">© 2024 COVID-19 в Новосибирской области</small>
+            <small className="text-white">© 2025 COVID-19 в Новосибирской области</small>
           </Col>
 
           {/* Правый столбец с изображениями */}
