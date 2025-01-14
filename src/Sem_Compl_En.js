@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import Footer_En from './Components/Footer_En'
 import NaviBarv2_En from './Components/NaviBarv2_En'
 import sem_a from "./images/news/sem_a.PNG"
-
+import sem_b from "./images/news/sem_b.PNG"
 
 
 
@@ -52,6 +52,18 @@ export function Sem_Compl_En() {
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
+                  <img src={sem_b} alt="Семинар"></img>
+                </div>
+                <div class="card_content_t">
+                <h5 class="card_title_t">On November 28, a laboratory seminar will be held on the topic «Probabilistic forecasting of epidemics in the regions of the Russian Federation based on a conditional generative-adversarial network and a Bayesian approach»</h5>
+                <p class="card_descr_t">07.01.2025</p>
+                <span class="card_btn_t "><a href="/Sem_j/En" class="lead" style={{'textDecoration': 'none'}}>Read completely > </a></span>
+                </div>
+              </article>
+            </li>
+          <li class="cards_item_t">
+              <article class="card_t">
+                <div class="card_image_t">
                   <img src={sem_a} alt="Семинар"></img>
                 </div>
                 <div class="card_content_t">
@@ -73,7 +85,10 @@ export function Sem_Compl_En() {
                 </div>
               </article>
             </li>
-          <li class="cards_item_t">
+            </ul>
+
+            <ul class="cards_t ">
+            <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
                   <img src={sem_a} alt="Seminar"></img>
@@ -85,10 +100,6 @@ export function Sem_Compl_En() {
                 </div>
               </article>
             </li>
-            
-            </ul>
-
-            <ul class="cards_t ">
             <li class="cards_item_t">
       <article class="card_t">
         <div class="card_image_t">
@@ -113,7 +124,10 @@ export function Sem_Compl_En() {
                 </div>
               </article>
             </li>
-            <li class="cards_item_t">
+          </ul>
+
+          <ul class="cards_t ">
+          <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
                   <img src={sem_a} alt="Семинар"></img>
@@ -125,10 +139,6 @@ export function Sem_Compl_En() {
                 </div>
               </article>
             </li>
-            
-          </ul>
-
-          <ul class="cards_t ">
           <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
@@ -153,7 +163,10 @@ export function Sem_Compl_En() {
                 </div>
               </article>
             </li>
-          <li class="cards_item_t">
+          
+       </ul>
+       <ul class="cards_t ">
+       <li class="cards_item_t">
               <article class="card_t">
                 <div class="card_image_t">
                   <img src={sem_a} alt="Семинар"></img>
@@ -166,8 +179,6 @@ export function Sem_Compl_En() {
               </article>
             </li>
        </ul>
-          
-          
             
       </Container>
       <Footer_En />
