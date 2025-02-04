@@ -256,7 +256,6 @@ color:  #39C0ED;
   height: 200px;
 }
 .card_image_conf {
-  height: 150px;
   width: 500px;
 }
 .card_image_t img {
@@ -319,6 +318,7 @@ color:  #39C0ED;
   margin-bottom: 20px; /* Отступ между строками */
   margin:5px;
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавный переход для трансформации и тени */
+  
 }
 .cards_item_conf:hover {
   transform: translateY(-5px); /* Выдвижение карточки */
@@ -334,6 +334,25 @@ color:  #39C0ED;
 .card_image_conf img {
   width: 240px; /* Заставляет изображение занимать всю ширину карточки */
   height: 140px; /* Сохраняет пропорции изображения */
+}
+
+.additional_info {
+  position: absolute;
+  background-color: rgba(255, 255, 255); 
+  color: black; /* Цвет текста */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 0; /* Позиционирование поверх карточки */
+  left: 0;
+  right: 0;
+  transform: translateY(-100%); /* Начальное положение (вне видимости) */
+  transition: transform 0.3s ease-in-out; /* Анимация */
+}
+
+.cards_item_conf:hover .additional_info {
+  transform: translateY(0); /* Показать дополнительную информацию при наведении */
 }
 
 .m-team-item {

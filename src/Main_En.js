@@ -19,7 +19,7 @@ import Footer_En from './Components/Footer_En'
 import Question from "./images/conf/Question.png"
 import sem_a from "./images/news/sem_a.PNG"
 import sem_b from "./images/news/sem_b.PNG"
-import conf_e from "./images/news/conf_e.PNG"
+import sem_c from "./images/news/sem_c.PNG"
 import life_d from "./images/news/life_d.PNG"
 import Semenova from "./images/team/Semenova.jpg"
 import Mikhailapov from "./images/team/Mikhailapov.png"
@@ -55,6 +55,12 @@ export function Main_En() {
 
   const newsItems = [
     {
+          title: "On February 6, the laboratory will hold a seminar on «Combined models for building scenarios for the spread of epidemics»",
+          date: "04.02.2025",
+          image: sem_c,
+          link: "/Sem_k/En"
+        },
+    {
       title: "On November 28, a laboratory seminar will be held on the topic «Probabilistic forecasting of epidemics in the regions of the Russian Federation based on a conditional generative-adversarial network and a Bayesian approach»",
       date: "20.11.2024",
       image: sem_b,
@@ -66,12 +72,7 @@ export function Main_En() {
       image: sem_a,
       link: "/Sem_i/En"
     },
-    {
-      title: "O. Krivorotko will take part in the meetings of the IV Congress of Young Scientists",
-      date: "17.10.2024",
-      image: life_d,
-      link: "/Life_d/En"
-    },
+
   ];
 
   const posts = [

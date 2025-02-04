@@ -69,6 +69,11 @@ import {Main_publications_more_detailed_En} from './Components/Main_publications
 import {Conferences_En} from './Conferences_En';
 import {Sem_Compl_En} from './Sem_Compl_En';
 import {Links_En} from './Links_En';
+import {Data_processing_and_analysis_En} from './Data_processing_and_analysis_En';
+import {The_spread_of_epidemics_En} from './The_spread_of_epidemics_En';
+import {Medicine_En} from './Medicine_En';
+import {Pollution_modeling_En} from './Pollution_modeling_En';
+import {Social_processes_En} from './Social_processes_En';
 
 
 import {Sem_a} from './news/Sem_a';
@@ -107,6 +112,8 @@ import {Sem_i} from './news/Sem_i';
 import {Sem_i_En} from './news/Sem_i_En'
 import {Sem_j} from './news/Sem_j';
 import {Sem_j_En} from './news/Sem_j_En'
+import {Sem_k} from './news/Sem_k';
+import {Sem_k_En} from './news/Sem_k_En'
 import {Life_a} from './news/Life_a';
 import {Life_a_En} from './news/Life_a_En'
 import {Life_b} from './news/Life_b';
@@ -142,6 +149,11 @@ return (<>
             <Route exact path="/medicine" element={<Medicine />} />
             <Route exact path="/pollution_modeling" element={<Pollution_modeling />} />
             <Route exact path="/social_processes" element={<Social_processes />} />
+            <Route exact path="/data_processing_and_analysis/En" element={<Data_processing_and_analysis_En />} />
+            <Route exact path="/the_spread_of_epidemics/En" element={<The_spread_of_epidemics_En />} />
+            <Route exact path="/medicine/En" element={<Medicine_En />} />
+            <Route exact path="/pollution_modeling/En" element={<Pollution_modeling_En />} />
+            <Route exact path="/social_processes/En" element={<Social_processes_En />} />
             <Route exact path="/data" element={<Data />} />
             <Route exact path="/links" element={<Links />} />
             <Route exact path="/mainTeam" element={<MainTeam />} />
@@ -214,6 +226,8 @@ return (<>
             <Route exact path="/sem_i/En" element={<Sem_i_En />} />
             <Route exact path="/sem_j" element={<Sem_j />} />
             <Route exact path="/sem_j/En" element={<Sem_j_En />} />
+            <Route exact path="/sem_k" element={<Sem_k />} />
+            <Route exact path="/sem_k/En" element={<Sem_k_En />} />
             <Route exact path="/life_a" element={<Life_a />} />
             <Route exact path="/life_a/En" element={<Life_a_En />} />
             <Route exact path="/life_b" element={<Life_b />} />

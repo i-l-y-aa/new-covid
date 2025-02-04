@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import {Container, Card, Row, Button, CarouselItem, CarouselCaption, Col } from 'react-bootstrap'
 import MTeamItem from './Components/TeamItem'
 import Main_picture from './Components/Main_picture'
@@ -22,7 +22,7 @@ import Novikov from "./images/team/Novikov.jpg"
 import {Carousel} from 'react-bootstrap'
 import sem_a from "./images/news/sem_a.PNG"
 import sem_b from "./images/news/sem_b.PNG"
-import life_d from "./images/news/life_d.PNG"
+import sem_c from "./images/news/sem_c.PNG"
 import conf_c from "./images/news/conf_c.PNG"
 import conf_e from "./images/news/conf_e.PNG"
 import conf_TheoryAndNumericalMethods from "./images/conf/conf_TheoryAndNumericalMethods.png"
@@ -60,6 +60,12 @@ export function Main() {
 
   const newsItems = [
     {
+      title: "6 февраля пройдёт семинар лаборатории на тему «Совмещённые модели для построения сценариев распространения эпидемий»",
+      date: "04.02.2025",
+      image: sem_c,
+      link: "/Sem_k"
+    },
+    {
       title: "28 ноября пройдёт семинар лаборатории на тему «Вероятностное прогнозирование эпидемий в регионах Российской Федерации на основе условной генеративно-состязательной сети и байесовского подхода»",
       date: "20.11.2024",
       image: sem_b,
@@ -70,12 +76,6 @@ export function Main() {
       date: "07.11.2024",
       image: sem_a,
       link: "/Sem_i"
-    },
-    {
-      title: "Криворотько О.И. примет участие в заседаниях IV Конгресса молодых учёных",
-      date: "17.10.2024",
-      image: life_d,
-      link: "/Life_d"
     },
   ];
 
@@ -93,6 +93,28 @@ export function Main() {
     {id: 11, wid: '8rem', name: 'Кошелев Константин Борисович ', institution: 'к.ф.-м.н., старший научный сотрудник',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev},
     {id: 12, wid: '8rem', name: 'Кабанихин Сергей Игоревич', url:'/Kabanikhin_info', institution: 'д.ф.-м.н.,член-корреспондент РАН,главный научный сотрудник',Phone:' 📞 +7 (383) 330-8353',mail:'📩 ksi52@mail.ru', image: Kabanikhin}
   ]
+
+
+    const [hoveredIndex, setHoveredIndex] = useState(null);
+  
+    const conferences = [
+      {
+        title: "XVI международная молодежная научная школа-конференция «Теория и численные методы решения обратных и некорректных задач»",
+        image: conf_TheoryAndNumericalMethods,
+        link: "/TheoryAndNumericalMethods",
+        location: "Институт математики им. С.Л. Соболева СО РАН.",
+        time: "С 30 сентября по 2 октября 2024 года."
+      },
+      {
+        title: "Международная научная конференция «Современные проблемы обратных задач»",
+        image: conf_ModernProblemsOfInverseProblems,
+        link: "/ModernProblemsOfInverseProblems",
+        location: "Институт математики им. С.Л. Соболева СО РАН.",
+        time: "С 3 по 5 октября 2024 года."
+      }, 
+           
+    ];
+
   return(
       <>
       <Main_picture />
@@ -176,48 +198,58 @@ export function Main() {
           <Button href="/Main_publications_more_detailed" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
             <div style={{fontSize: 16}}><b>Подробнее</b></div></Button>
             </motion.div>
-            <motion.div initial="hidden"
-custom={2}
-variants={variants} whileInView="visible" viewport={{amount: 0.05, once: true}}>
-<Card className="text-center bg-secondary text-white my-3" >
-<Card.Title> <h4 className="my-1 ">Конференции</h4> </Card.Title>
-</Card>
-</motion.div>
-<div className="cards_container">
-  <ul className="cards_t">
-    <li className="cards_item_conf">
-    <a href="/TheoryAndNumericalMethods" style={{ textDecoration: 'none', color: 'inherit' }}>
-      <article className="card_conf">
-        <div className="card_image_conf my-4">
-          <img src={conf_TheoryAndNumericalMethods} alt="Конференция" />
-        </div>
-        <div className="card_content_t">
-          <h5 className="card_title_t">XVI международная молодежная научная школа-конференция «Теория и численные методы решения обратных и некорректных задач».</h5>
-          <p className="card_title_t">Место проведения: Институт математики им. С.Л. Соболева СО РАН.</p>
-          <p className="card_title_t">Дата проведения: С 30 сентября по 2 октября 2024 года.</p>
-        </div>
-      </article>
-      </a>
-    </li>
-    <li className="cards_item_conf">
-    <a href="/ModernProblemsOfInverseProblems" style={{ textDecoration: 'none', color: 'inherit' }}>
-      <article className="card_conf">
-        <div className="card_image_conf my-4">
-          <img src={conf_ModernProblemsOfInverseProblems} alt="Конференция" />
-        </div>
-        <div className="card_content_t">
-          <h5 className="card_title_t">Международная научная конференция «Современные проблемы обратных задач».</h5>
-          <p className="card_title_t">Место проведения: Институт математики им. С.Л. Соболева СО РАН.</p>
-          <p className="card_title_t">Дата проведения: С 3 по 5 октября 2024 года.</p>
-        </div>
-      </article>
-      </a>
-    </li>
-  </ul>
-  <Button href="/Conferences" className="text-white shadow4 my-3 py-2 mp_info" variant="info" size="sm">
+            <motion.div 
+        initial="hidden" 
+        custom={2} 
+        variants={variants} 
+        whileInView="visible" 
+        viewport={{ amount: 0.05, once: true }}
+      >
+        <Card className="text-center bg-secondary text-white my-3">
+          <Card.Title>
+            <h4 className="my-1">Конференции</h4>
+          </Card.Title>
+        </Card>
+      </motion.div>
+
+      <div className="cards_container">
+        <ul className="cards_t">
+          {conferences.map((conf, index) => (
+            <li 
+              key={index} 
+              className="cards_item_conf" 
+              onMouseEnter={() => setHoveredIndex(index)} 
+              onMouseLeave={() => setHoveredIndex(null)}
+            >
+              <a href={conf.link} style={{ textDecoration: 'none', color: 'inherit' }}>
+                <article className="card_conf">
+                  <div className="card_image_conf my-4">
+                    <img src={conf.image} alt="Конференция" />
+                  </div>
+                  <div className="card_content_t">
+                    <h5 className="card_title_t">{conf.title}</h5>
+                    {hoveredIndex === index && (
+                      <div className="additional_info">
+                        <p>{conf.title}</p>
+                        <p>Место проведения: {conf.location}</p>
+                        <p>Дата проведения: {conf.time}</p>
+                      </div>
+                    )}
+                  </div>
+                </article>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <Button 
+          href="/Conferences" 
+          className="text-white shadow4 my-3 py-2 mp_info" 
+          variant="info" 
+          size="sm"
+        >
           <div style={{ fontSize: 16 }}><b>Все конференции</b></div>
         </Button>
-</div>
+      </div>
             
       </Container>
       <Footer />
