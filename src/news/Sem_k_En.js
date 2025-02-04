@@ -16,7 +16,7 @@ export function Sem_k_En() {
       <Container>
         <div><img src={sem_c} align="left" width={500}></img></div>
         <div className="row my-4 ps-4">
-          <h1>On February 6, the laboratory will hold a seminar on "Combined models for building scenarios for the spread of epidemics"</h1>
+          <h1>On February 6, the laboratory will hold a seminar on "Mathematical modeling of epidemic spread taking into account social, economic and environmental processes"</h1>
         </div>
         <br></br>
         <div className="row ps-4 my-4"><p className="lead"></p></div>

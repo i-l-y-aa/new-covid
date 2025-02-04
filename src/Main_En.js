@@ -55,7 +55,7 @@ export function Main_En() {
 
   const newsItems = [
     {
-          title: "On February 6, the laboratory will hold a seminar on «Combined models for building scenarios for the spread of epidemics»",
+          title: "On February 6, the laboratory will hold a seminar on «Mathematical modeling of epidemic spread taking into account social, economic and environmental processes»",
           date: "04.02.2025",
           image: sem_c,
           link: "/Sem_k/En"
