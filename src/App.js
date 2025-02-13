@@ -126,6 +126,10 @@ import {TheoryAndNumericalMethods} from './conference/TheoryAndNumericalMethods'
 import {TheoryAndNumericalMethods_En} from './conference/TheoryAndNumericalMethods_En';
 import {ModernProblemsOfInverseProblems} from './conference/ModernProblemsOfInverseProblems';
 import {ModernProblemsOfInverseProblems_En} from './conference/ModernProblemsOfInverseProblems_En';
+import {Conf_bioresources} from './conference/Conf_bioresources';
+import {Conf_dynamics} from './conference/Conf_dynamics';
+import {Conf_mathematicsAI} from './conference/Conf_mathematicsAI';
+import {Conf_innovativeMethods} from './conference/Conf_innovativeMethods';
 
 
 function App() {
@@ -240,6 +244,10 @@ return (<>
             <Route exact path="/theoryAndNumericalMethods/En" element={<TheoryAndNumericalMethods_En />} />
             <Route exact path="/modernProblemsOfInverseProblems" element={<ModernProblemsOfInverseProblems />} />
             <Route exact path="/modernProblemsOfInverseProblems/En" element={<ModernProblemsOfInverseProblems_En />} />
+            <Route exact path="/conf_bioresources" element={<Conf_bioresources />} />
+            <Route exact path="/conf_dynamics" element={<Conf_dynamics />} />
+            <Route exact path="/conf_mathematicsAI" element={<Conf_mathematicsAI />} />
+            <Route exact path="/conf_innovativeMethods" element={<Conf_innovativeMethods />} />
             <Route exact path="/krivorotko_zvonareva_teaching" element={<Krivorotko_Zvonareva_teaching />} />
             <Route exact path="/krivorotko_teaching" element={<Krivorotko_teaching />} />
             <Route exact path="/krivorotko_zvonareva_teaching/En" element={<Krivorotko_Zvonareva_teaching_En />} />

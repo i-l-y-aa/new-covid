@@ -23,9 +23,10 @@ import {Carousel} from 'react-bootstrap'
 import sem_a from "./images/news/sem_a.PNG"
 import sem_b from "./images/news/sem_b.PNG"
 import sem_c from "./images/news/sem_c.PNG"
-import conf_c from "./images/news/conf_c.PNG"
+import conf_bioresources from "./images/conf/conf_bioresources.PNG"
+import conf_Dynamics from "./images/conf/conf_Dynamics.PNG"
 import conf_e from "./images/news/conf_e.PNG"
-import conf_TheoryAndNumericalMethods from "./images/conf/conf_TheoryAndNumericalMethods.png"
+import Sirius_conference from "./images/conf/Sirius_conference.png"
 import conf_ModernProblemsOfInverseProblems from "./images/conf/conf_ModernProblemsOfInverseProblems.png"
 
 
@@ -99,20 +100,35 @@ export function Main() {
   
     const conferences = [
       {
-        title: "XVI международная молодежная научная школа-конференция «Теория и численные методы решения обратных и некорректных задач»",
-        image: conf_TheoryAndNumericalMethods,
-        link: "/TheoryAndNumericalMethods",
-        location: "Институт математики им. С.Л. Соболева СО РАН.",
-        time: "С 30 сентября по 2 октября 2024 года."
+        title: "Международная научно-практическая конференция «Биоресурсы, изменение климата и сохранение биоразнообразия: междисциплинарные подходы, инновационные решения»",
+        image: conf_bioresources,
+        link: "/Conf_bioresources",
+        location: "Онлайн-конференция",
+        time: "С 27 по 28 февраля 2025 года."
       },
       {
-        title: "Международная научная конференция «Современные проблемы обратных задач»",
-        image: conf_ModernProblemsOfInverseProblems,
-        link: "/ModernProblemsOfInverseProblems",
+        title: "Научная конференция «Динамика в Сибири»",
+        image: conf_Dynamics,
+        link: "/Conf_dynamics",
         location: "Институт математики им. С.Л. Соболева СО РАН.",
-        time: "С 3 по 5 октября 2024 года."
-      }, 
-           
+        time: "С 24 февраля по 1 марта 2025 года."
+      },            
+    ];
+    const conferencestwo = [
+      {
+        title: "Научная конференция «Математика искусственного интеллекта»",
+        image: Sirius_conference,
+        link: "/Conf_mathematicsAI",
+        location: "Международный математический центр Сириус",
+        time: "С 24 по 28 марта 2025 года."
+      },
+      {
+        title: "IV Международная научно-практическая конференция «Инновационные методы математики и физики в экологических и гидрометеорологических исследованиях»",
+        image: conf_ModernProblemsOfInverseProblems,
+        link: "/Conf_innovativeMethods",
+        location: "Российский государственный гидрометеорологический университет",
+        time: "4 апреля 2025 года."
+      },            
     ];
 
   return(
@@ -215,6 +231,34 @@ export function Main() {
       <div className="cards_container">
         <ul className="cards_t">
           {conferences.map((conf, index) => (
+            <li 
+              key={index} 
+              className="cards_item_conf" 
+              onMouseEnter={() => setHoveredIndex(index)} 
+              onMouseLeave={() => setHoveredIndex(null)}
+            >
+              <a href={conf.link} style={{ textDecoration: 'none', color: 'inherit' }}>
+                <article className="card_conf">
+                  <div className="card_image_conf my-4">
+                    <img src={conf.image} alt="Конференция" />
+                  </div>
+                  <div className="card_content_t">
+                    <h5 className="card_title_t">{conf.title}</h5>
+                    {hoveredIndex === index && (
+                      <div className="additional_info">
+                        <p>{conf.title}</p>
+                        <p>Место проведения: {conf.location}</p>
+                        <p>Дата проведения: {conf.time}</p>
+                      </div>
+                    )}
+                  </div>
+                </article>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <ul className="cards_t">
+          {conferencestwo.map((conf, index) => (
             <li 
               key={index} 
               className="cards_item_conf" 
