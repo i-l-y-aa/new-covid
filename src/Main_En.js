@@ -55,6 +55,12 @@ export function Main_En() {
 
   const newsItems = [
     {
+          title: "On February 20, the laboratory will hold a seminar on «A new method for correcting the parameters of dynamic epidemiological models»",
+          date: "17.02.2025",
+          image: sem_a,
+          link: "/Sem_l/En"
+        },
+    {
           title: "On February 6, the laboratory will hold a seminar on «Mathematical modeling of epidemic spread taking into account social, economic and environmental processes»",
           date: "04.02.2025",
           image: sem_c,
@@ -65,12 +71,6 @@ export function Main_En() {
       date: "20.11.2024",
       image: sem_b,
       link: "/Sem_j/En"
-    },
-    {
-      title: "On November 14, the laboratory will hold a seminar on the topic «Modeling of acute and chronic infections»",
-      date: "06.11.2024",
-      image: sem_a,
-      link: "/Sem_i/En"
     },
 
   ];

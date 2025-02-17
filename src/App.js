@@ -114,6 +114,8 @@ import {Sem_j} from './news/Sem_j';
 import {Sem_j_En} from './news/Sem_j_En'
 import {Sem_k} from './news/Sem_k';
 import {Sem_k_En} from './news/Sem_k_En'
+import {Sem_l} from './news/Sem_l';
+import {Sem_l_En} from './news/Sem_l_En'
 import {Life_a} from './news/Life_a';
 import {Life_a_En} from './news/Life_a_En'
 import {Life_b} from './news/Life_b';
@@ -232,6 +234,8 @@ return (<>
             <Route exact path="/sem_j/En" element={<Sem_j_En />} />
             <Route exact path="/sem_k" element={<Sem_k />} />
             <Route exact path="/sem_k/En" element={<Sem_k_En />} />
+            <Route exact path="/sem_l" element={<Sem_l />} />
+            <Route exact path="/sem_l/En" element={<Sem_l_En />} />
             <Route exact path="/life_a" element={<Life_a />} />
             <Route exact path="/life_a/En" element={<Life_a_En />} />
             <Route exact path="/life_b" element={<Life_b />} />
