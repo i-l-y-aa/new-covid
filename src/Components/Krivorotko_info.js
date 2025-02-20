@@ -57,7 +57,11 @@ export function Krivorotko_info () {
         <hr></hr>
         <div class="row">
         <div class="col-sm-6 col-md-5 col-lg-6 mx-auto"><div class="my-3"><h3>Преподавание</h3></div>
+
         <p>Численные методы решения обратных и некорректных задач - годовой спецкурс кафедры математических методов геофизики ММФ НГУ, 3-6 курсы.</p>
+        <Button href="/Krivorotko_teaching_methods" className="text-white shadow4 mp_info" variant="info" size="sm">
+        <div style={{fontSize: 16}}><b>Материалы</b></div></Button>
+        <div class="row ps-4 my-3"><p class="lead"></p></div>
         <p>Векторный и тензорный анализ - лекции и семинары, 3 курс физического факультета НГУ.</p>
         <Button href="/Krivorotko_Zvonareva_teaching" className="text-white shadow4 mp_info" variant="info" size="sm">
             <div style={{fontSize: 16}}><b>Материалы</b></div></Button>

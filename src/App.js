@@ -28,6 +28,8 @@ import {Krivorotko_Zvonareva_teaching} from './Components/Krivorotko_Zvonareva_t
 import {Krivorotko_teaching} from './Components/Krivorotko_teaching';
 import {Krivorotko_Zvonareva_teaching_En} from './Components/Krivorotko_Zvonareva_teaching_En';
 import {Krivorotko_teaching_En} from './Components/Krivorotko_teaching_En';
+import {Krivorotko_teaching_methods} from './Components/Krivorotko_teaching_methods';
+import {Krivorotko_teaching_methods_En} from './Components/Krivorotko_teaching_methods_En';
 
 import {
   BrowserRouter as Router,
@@ -256,6 +258,8 @@ return (<>
             <Route exact path="/krivorotko_teaching" element={<Krivorotko_teaching />} />
             <Route exact path="/krivorotko_zvonareva_teaching/En" element={<Krivorotko_Zvonareva_teaching_En />} />
             <Route exact path="/krivorotko_teaching/En" element={<Krivorotko_teaching_En />} />
+            <Route exact path="/krivorotko_teaching_methods" element={<Krivorotko_teaching_methods />} />
+            <Route exact path="/krivorotko_teaching_methods/En" element={<Krivorotko_teaching_methods_En />} />
           </Routes>
           </div>
     </>

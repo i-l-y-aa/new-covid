@@ -58,6 +58,9 @@ export function Krivorotko_info_En () {
         <div class="row">
         <div class="col-sm-6 col-md-5 col-lg-6 mx-auto"><div class="my-3"><h3>Teaching</h3></div>
         <p>Numerical methods for solving inverse and incorrect problems - annual special course of the Department of Mathematical Methods of Geophysics of MMF NSU, courses 3-6.</p>
+        <Button href="/Krivorotko_teaching_methods/En" className="text-white shadow4 mp_info" variant="info" size="sm">
+            <div style={{fontSize: 16}}><b>Materials</b></div></Button>
+            <div class="row ps-4 my-3"><p class="lead"></p></div>
         <p>Vector and tensor analysis - lectures and seminars, 3rd year of the NSU Faculty of Physics.</p>
         <Button href="/Krivorotko_Zvonareva_teaching/En" className="text-white shadow4 mp_info" variant="info" size="sm">
             <div style={{fontSize: 16}}><b>Materials</b></div></Button>

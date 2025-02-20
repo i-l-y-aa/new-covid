@@ -13,7 +13,7 @@ export function Krivorotko_Zvonareva_teaching () {
     <NaviBarv2 />
     <Container>
       <section>
-        <div class="row my-4 ps-4"><h1>Семинары курса "Векторный и тензорный анализ"</h1></div>
+        <div class="row my-4 text-center"><h1>Семинары курса "Векторный и тензорный анализ"</h1></div>
 
 <div class="row my-4 ps-4"><p class="lead">Курс на <a rel="noopener" target="_blank" href="https://www.nsu.ru/n/physics-department/departments/kafedra-vysshey-matematiki/">кафедре высшей математики</a> Новосибирского государственного университета для студентов 3 курса.</p></div>
 <div class="row my-4 ps-4"><p class="lead">Авторы: <a rel="noopener" target="_blank" href="/Krivorotko_info">Криворотько О.И.</a>, <a rel="noopener" target="_blank" href="/Zvonareva_info">Звонарева Т.А.</a>.</p></div>

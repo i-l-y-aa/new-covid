@@ -26,7 +26,7 @@ export function Sem_k_En() {
         <div className="row my-4"><p className="lead">Time: 16:00 Novosibirsk time (12:00 Moscow time).</p></div>
         <div className="row my-4"><p className="lead">The seminar will be held in an online format in Zoom. You can join by following the <a rel="noopener" target="_blank" href="https://us02web.zoom.us/j/8615596919">link.</a></p></div>
         <div className="row my-4"><p className="lead">*Before connecting, please write your first and last name.</p></div>
-        <div class="row my-4"><p class="lead">The presentation of the report can be seen at the <a rel="noopener" target="_blank" href="">link</a>.</p></div>
+        <div class="row my-4"><p class="lead">The presentation of the report can be seen at the <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/Криворотько_лабИИ_06-02-25_full">link</a>.</p></div>
         <div className="row my-4"><p className="lead">All the seminars held are posted in the <a rel="noopener" target="_blank" href="/Sem_Compl/En">archive</a>.</p></div>
         <div className="row my-4"><p>04.02.2025</p></div>
 
