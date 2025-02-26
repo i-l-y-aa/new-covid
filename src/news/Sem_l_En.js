@@ -16,7 +16,7 @@ export function Sem_l_En() {
       <Container>
         <div><img src={sem_c} align="left" width={500}></img></div>
         <div className="row my-4 ps-4">
-          <h1>On February 20, the laboratory will hold a seminar on «A new method for correcting the parameters of dynamic epidemiological models»</h1>
+          <h1>On February 27, the laboratory will hold a seminar on «A new method for correcting the parameters of dynamic epidemiological models»</h1>
         </div>
         <br></br>
         <div className="row ps-4 my-4"><p className="lead"></p></div>

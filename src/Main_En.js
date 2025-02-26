@@ -55,7 +55,7 @@ export function Main_En() {
 
   const newsItems = [
     {
-          title: "On February 20, the laboratory will hold a seminar on «A new method for correcting the parameters of dynamic epidemiological models»",
+          title: "On February 27, the laboratory will hold a seminar on «A new method for correcting the parameters of dynamic epidemiological models»",
           date: "17.02.2025",
           image: sem_a,
           link: "/Sem_l/En"
