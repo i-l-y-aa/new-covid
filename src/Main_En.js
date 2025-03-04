@@ -55,6 +55,12 @@ export function Main_En() {
 
   const newsItems = [
     {
+      title: "On March 6, a joint meeting of the seminar «Applied Statistics» and the seminar of the Laboratory of AI technologies for mathematical modeling of biological, socio-economic and environmental processes will be held",
+      date: "04.03.2025",
+      image: sem_a,
+      link: "/Sem_m/En"
+    },
+    {
           title: "On February 27, the laboratory will hold a seminar on «A new method for correcting the parameters of dynamic epidemiological models»",
           date: "17.02.2025",
           image: sem_a,
@@ -66,12 +72,7 @@ export function Main_En() {
           image: sem_c,
           link: "/Sem_k/En"
         },
-    {
-      title: "On November 28, a laboratory seminar will be held on the topic «Probabilistic forecasting of epidemics in the regions of the Russian Federation based on a conditional generative-adversarial network and a Bayesian approach»",
-      date: "20.11.2024",
-      image: sem_b,
-      link: "/Sem_j/En"
-    },
+
 
   ];
 
