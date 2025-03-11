@@ -26,7 +26,7 @@ export function Sem_m() {
         <div className="row my-4"><p className="lead">Время: 16:30 новосибирского времени (12:30 Мск).</p></div>
         <div className="row my-4"><p className="lead">Семинар будет проходить в онлайн формате в Zoom. Присоединиться можно по <a rel="noopener" target="_blank" href="https://us06web.zoom.us/j/82737787257?pwd=5WjMK2SAzb7MusScTpdMjtvaotfgv2.1">ссылке.</a> Идентификатор конференции: 827 3778 7257. Код доступа: 498246</p></div>
         <div className="row my-4"><p className="lead">*Перед подключением просьба написать свои Имя и Фамилию.</p></div>
-        <div className="row my-4"><p className="lead">Презентацию доклада можно увидеть по <a rel="noopener" target="_blank" href="">ссылке</a>.</p></div>
+        <div className="row my-4"><p className="lead">Презентацию доклада можно увидеть по <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/Gaussian_process_regression_06.03.pdf">ссылке</a>.</p></div>
         <div className="row my-4"><p className="lead">Все проведённые семинары выложены в <a rel="noopener" target="_blank" href="Sem_Compl">архиве</a>.</p></div>
         <div className="row my-4"><p>04.03.2025</p></div>
 

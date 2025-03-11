@@ -19,6 +19,10 @@ export function Krivorotko_teaching_methods () {
         <div class="row my-4 ps-4"><p class="lead">Присоединиться можно по <a rel="noopener" target="_blank" href="https://us02web.zoom.us/j/8615596919">ссылке.</a></p></div>
         <div class="row my-4 ps-4"><p class="lead">Время проведения: четверг 10:30-12:00 (первое занятие - 27.02.2025)</p></div>
         <div class="row my-4 ps-4"><p class="lead">Изучаются численные методы решения обратных и некорректных задач биологии (иммунологии, эпидемиологии, фармакокинетики), медицины (термоакустика, биостатистика), математической физики (геофизики, цунами, акустики), экономики и социальных процессов. Особое внимание уделяется численной регуляризации обратных задач, оценкам условной устойчивости решений обратных задач, идентифицируемости.</p></div>
+        <div class="row ps-4 my-4"><p class="lead"></p></div>
+        <div class="row my-4 ps-4"><p class="lead"><h4>Лекция 1</h4></p></div>
+        <div class="row my-4 ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/-amZKrP0bQF5UxQZ7RTq37fPfZzsN5kc-F6o2apDhRwXWJ4NIgunXhRaSEFsC_II.hzb974X2B49fJ9Gn?startTime=1741226931000">Запись лекции</a> и <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 1.pdf">материалы</a> можно найти по ссылкам. Код доступа к записи: YK*2o^j9.</p></div>
+
 </section>
         </Container>
         
