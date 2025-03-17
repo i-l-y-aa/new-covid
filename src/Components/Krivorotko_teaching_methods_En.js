@@ -22,6 +22,9 @@ export function Krivorotko_teaching_methods_En () {
         <div class="row ps-4 my-4"><p class="lead"></p></div>
         <div class="row my-4 ps-4"><p class="lead"><h4>Lecture 1</h4></p></div>
         <div class="row my-4 ps-4"><p class="lead">It is fashionable to find<a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/-amZKrP0bQF5UxQZ7RTq37fPfZzsN5kc-F6o2apDhRwXWJ4NIgunXhRaSEFsC_II.hzb974X2B49fJ9Gn?startTime=1741226931000">lecture recording</a> and <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 1.pdf">materials</a> by following the links. Entry access code: YK*2o^j9.</p></div>
+        <div class="row ps-4 my-4"><p class="lead"></p></div>
+        <div class="row my-4 ps-4"><p class="lead"><h4>Lecture 2</h4></p></div>
+        <div class="row my-4 ps-4"><p class="lead">It is fashionable to find<a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/-TXKyI0vYyuCE7wR18BdGBDKEnaF95r2atHtTLgM5ULHa43kXZG0pu_f-zJycS-W.CxkopbCWTm5s82_x">lecture recording</a> and <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 2.pdf">materials</a> by following the links. Entry access code: H=Po7#pA.</p></div>
 </section>
         </Container>
         
