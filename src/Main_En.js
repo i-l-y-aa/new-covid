@@ -55,6 +55,12 @@ export function Main_En() {
 
   const newsItems = [
     {
+      title: "On March 20, the laboratory will hold a seminar on «Semi-supervised classification: Basic Ideas»",
+      date: "19.03.2025",
+      image: sem_b,
+      link: "/Sem_n/En"
+    },
+    {
       title: "On March 6, a joint meeting of the seminar «Applied Statistics» and the seminar of the Laboratory of AI technologies for mathematical modeling of biological, socio-economic and environmental processes will be held",
       date: "04.03.2025",
       image: sem_a,
@@ -65,12 +71,6 @@ export function Main_En() {
           date: "17.02.2025",
           image: sem_a,
           link: "/Sem_l/En"
-        },
-    {
-          title: "On February 6, the laboratory will hold a seminar on «Mathematical modeling of epidemic spread taking into account social, economic and environmental processes»",
-          date: "04.02.2025",
-          image: sem_c,
-          link: "/Sem_k/En"
         },
 
 
