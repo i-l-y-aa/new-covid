@@ -55,6 +55,12 @@ export function Main_En() {
 
   const newsItems = [
     {
+      title: "On April 3, the laboratory will hold a seminar on «Why living things are poorly suited for differential and probabilistic modeling»",
+      date: "29.03.2025",
+      image: sem_a,
+      link: "/Sem_o/En"
+    },
+    {
       title: "On March 20, the laboratory will hold a seminar on «Semi-supervised classification: Basic Ideas»",
       date: "19.03.2025",
       image: sem_b,
@@ -66,13 +72,6 @@ export function Main_En() {
       image: sem_a,
       link: "/Sem_m/En"
     },
-    {
-          title: "On February 27, the laboratory will hold a seminar on «A new method for correcting the parameters of dynamic epidemiological models»",
-          date: "17.02.2025",
-          image: sem_a,
-          link: "/Sem_l/En"
-        },
-
 
   ];
 
