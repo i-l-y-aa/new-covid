@@ -20,7 +20,6 @@ export function Sem_o_En() {
         </div>
         <br></br>
         <div className="row ps-4 my-4"><p className="lead"></p></div>
-        <hr />
         <div className="row my-4"><p className="lead">Using the example of gene networks, the report will substantiate the need to use the concept of switching from state to state when modeling living systems.</p></div>
         <div className="row my-4"><p className="lead">Speaker: <b>Augustinovich Sergey.</b></p></div>
         <div className="row my-4"><p className="lead">Time: 16:00 Novosibirsk time (12:00 Moscow time).</p></div>
