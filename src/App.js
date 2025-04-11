@@ -124,6 +124,8 @@ import {Sem_n} from './news/Sem_n';
 import {Sem_n_En} from './news/Sem_n_En'
 import {Sem_o} from './news/Sem_o';
 import {Sem_o_En} from './news/Sem_o_En'
+import {Sem_p} from './news/Sem_p';
+import {Sem_p_En} from './news/Sem_p_En'
 import {Life_a} from './news/Life_a';
 import {Life_a_En} from './news/Life_a_En'
 import {Life_b} from './news/Life_b';
@@ -136,7 +138,7 @@ import {TheoryAndNumericalMethods} from './conference/TheoryAndNumericalMethods'
 import {TheoryAndNumericalMethods_En} from './conference/TheoryAndNumericalMethods_En';
 import {ModernProblemsOfInverseProblems} from './conference/ModernProblemsOfInverseProblems';
 import {ModernProblemsOfInverseProblems_En} from './conference/ModernProblemsOfInverseProblems_En';
-import {Conf_bioresources} from './conference/Conf_bioresources';
+import {Conf_Astana} from './conference/Conf_Astana';
 import {Conf_dynamics} from './conference/Conf_dynamics';
 import {Conf_mathematicsAI} from './conference/Conf_mathematicsAI';
 import {Conf_innovativeMethods} from './conference/Conf_innovativeMethods';
@@ -250,6 +252,8 @@ return (<>
             <Route exact path="/sem_n/En" element={<Sem_n_En />} />
             <Route exact path="/sem_o" element={<Sem_o />} />
             <Route exact path="/sem_o/En" element={<Sem_o_En />} />
+            <Route exact path="/sem_p" element={<Sem_p />} />
+            <Route exact path="/sem_p/En" element={<Sem_p_En />} />
             <Route exact path="/life_a" element={<Life_a />} />
             <Route exact path="/life_a/En" element={<Life_a_En />} />
             <Route exact path="/life_b" element={<Life_b />} />
@@ -262,7 +266,7 @@ return (<>
             <Route exact path="/theoryAndNumericalMethods/En" element={<TheoryAndNumericalMethods_En />} />
             <Route exact path="/modernProblemsOfInverseProblems" element={<ModernProblemsOfInverseProblems />} />
             <Route exact path="/modernProblemsOfInverseProblems/En" element={<ModernProblemsOfInverseProblems_En />} />
-            <Route exact path="/conf_bioresources" element={<Conf_bioresources />} />
+            <Route exact path="/conf_Astana" element={<Conf_Astana />} />
             <Route exact path="/conf_dynamics" element={<Conf_dynamics />} />
             <Route exact path="/conf_mathematicsAI" element={<Conf_mathematicsAI />} />
             <Route exact path="/conf_innovativeMethods" element={<Conf_innovativeMethods />} />

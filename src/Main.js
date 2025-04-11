@@ -27,6 +27,7 @@ import conf_bioresources from "./images/conf/conf_bioresources.PNG"
 import conf_Dynamics from "./images/conf/conf_Dynamics.PNG"
 import conf_e from "./images/news/conf_e.PNG"
 import Sirius_conference from "./images/conf/Sirius_conference.png"
+import conf_TheoryAndNumericalMethods2 from "./images/conf/conf_TheoryAndNumericalMethods2.png"
 import conf_ModernProblemsOfInverseProblems from "./images/conf/conf_ModernProblemsOfInverseProblems.png"
 
 
@@ -61,6 +62,12 @@ export function Main() {
 
   const newsItems = [
     {
+      title: "17 апреля пройдёт семинар лаборатории на тему «Суперкомпьютерный анализ и регуляризация задач идентификации и управления социальными процессами»",
+      date: "11.04.2025",
+      image: sem_b,
+      link: "/Sem_p"
+    },
+    {
       title: "3 апреля пройдёт семинар лаборатории на тему «Почему живое плохо подходит для дифференциального и вероятностного моделирования»",
       date: "29.03.2025",
       image: sem_a,
@@ -72,12 +79,7 @@ export function Main() {
       image: sem_b,
       link: "/Sem_n"
     },
-    {
-      title: "6 марта состоится совместное заседание семинара «Прикладная статистика»  и семинара лаборатории ИИ-технологий математического моделирования биологических, социально-экономических и экологических процессов",
-      date: "04.03.2025",
-      image: sem_a,
-      link: "/Sem_m"
-    },
+
     
   ];
 
@@ -101,11 +103,11 @@ export function Main() {
   
     const conferences = [
       {
-        title: "Международная научно-практическая конференция «Биоресурсы, изменение климата и сохранение биоразнообразия: междисциплинарные подходы, инновационные решения»",
-        image: conf_bioresources,
-        link: "/Conf_bioresources",
-        location: "Онлайн-конференция",
-        time: "С 27 по 28 февраля 2025 года."
+        title: "Евразийская международная научная конференция «Искусственный интелект и обратные задачи в науке, технике и индустрии»",
+        image: conf_TheoryAndNumericalMethods2,
+        link: "/Conf_Astana",
+        location: "Астана, Казахстан",
+        time: "С 14 по 16 апреля 2025 года."
       },
       {
         title: "Научная конференция «Динамика в Сибири»",

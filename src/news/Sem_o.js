@@ -21,8 +21,7 @@ export function Sem_o() {
         <br></br>
         <div className="row ps-4 my-4"><p className="lead"></p></div>
         <hr />
-        <div className="row my-4"><p className="lead">3 апреля 2025 года в 16:00, ауд. 305 (+Zoom)
-В докладе на примере генных сетей будет обоснована необходимость использования понятия переключения из состояния в состояние при моделировании живых систем. </p></div>
+        <div className="row my-4"><p className="lead">В докладе на примере генных сетей будет обоснована необходимость использования понятия переключения из состояния в состояние при моделировании живых систем. </p></div>
         <div className="row my-4"><p className="lead">Докладчик: <b>Сергей Владимирович Августинович.</b></p></div>
         <div className="row my-4"><p className="lead">Время: 16:00 новосибирского времени (12:00 Мск).</p></div>
         <div className="row my-4"><p className="lead">Семинар будет проходить в ИМ СО РАН в аудитории 305, а также в онлайн формате в Zoom. Присоединиться можно по <a rel="noopener" target="_blank" href="https://us02web.zoom.us/j/8615596919">ссылке.</a></p></div>

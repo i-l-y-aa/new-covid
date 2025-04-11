@@ -55,6 +55,12 @@ export function Main_En() {
 
   const newsItems = [
     {
+      title: "On April 17, the laboratory will hold a seminar on «Supercomputer analysis and regularization of tasks of identification and management of social processes»",
+      date: "11.04.2025",
+      image: sem_b,
+      link: "/Sem_p/En"
+    },
+    {
       title: "On April 3, the laboratory will hold a seminar on «Why living things are poorly suited for differential and probabilistic modeling»",
       date: "29.03.2025",
       image: sem_a,
@@ -66,13 +72,6 @@ export function Main_En() {
       image: sem_b,
       link: "/Sem_n/En"
     },
-    {
-      title: "On March 6, a joint meeting of the seminar «Applied Statistics» and the seminar of the Laboratory of AI technologies for mathematical modeling of biological, socio-economic and environmental processes will be held",
-      date: "04.03.2025",
-      image: sem_a,
-      link: "/Sem_m/En"
-    },
-
   ];
 
   const posts = [
@@ -89,6 +88,7 @@ export function Main_En() {
     {id: 11, wid: '8rem', name: 'Konstantin Koshelev', institution: 'Candidate of Physical and Mathematical Sciences, Senior Researcher',Phone:'',mail:'📩 koshelevkb@mail.ru', image: Koshelev},
     {id: 12, wid: '8rem', name: 'Sergey Kabanikhin', url:'/Kabanikhin_info/En', institution: 'Doctor of Physical and Mathematical Sciences, Corresponding Member of the Russian Academy of Sciences,Chief Research Associate',Phone:' 📞 +7 (383) 330-8353',mail:'📩 ksi52@mail.ru', image: Kabanikhin}
   ]
+           
   return(
       <>
       <Main_picture_En />
