@@ -37,6 +37,9 @@ export function Krivorotko_teaching_methods () {
         <div class="row ps-4 my-4"><p class="lead"></p></div>
         <div class="row ps-4"><p class="lead"><h4>Лекция 6. Сходимость метода наискорейшего спуска к точному решению. Сходимость по функционалу.</h4></p></div>
         <div class="row ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/x0E6__2HFowgi3-ip7guMjAEefCl-UBDMVm1sytCKpUH-VXwijrCGX-cJ0iMip4z.3s01OPDYVeWMolLE">Запись лекции</a> и <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 6.pdf">материалы</a> можно найти по ссылкам. Код доступа к записи: u^6cLjE..</p></div>
+        <div class="row ps-4 my-4"><p class="lead"></p></div>
+        <div class="row ps-4"><p class="lead"><h4>Лекция 7. Пример вывода градиента целевого функционала.</h4></p></div>
+        <div class="row ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/1yPPajEsNqwARJcMgu2R-8q8sPgSRG6W-Wu7iLEN0qlMZIuJgadK2-js9xH3HrFA.ELYp3Tm9CUmaa7W8 ">Запись лекции</a> и <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 7.pdf">материалы</a> можно найти по ссылкам. Код доступа к записи: 1^f$00tj. Также к данной лекции прилагаются <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/Krivorotko_gradODE_2020.pdf">дополнительные материалы.</a></p></div>
 
 </section>
         </Container>

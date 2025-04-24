@@ -37,6 +37,9 @@ export function Krivorotko_teaching_methods_En () {
         <div class="row ps-4 my-4"><p class="lead"></p></div>
         <div class="row ps-4"><p class="lead"><h4>Lecture 6. Convergence of the steepest descent method to the exact solution. Functional convergence.</h4></p></div>
         <div class="row ps-4"><p class="lead">It is fashionable to find<a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/x0E6__2HFowgi3-ip7guMjAEefCl-UBDMVm1sytCKpUH-VXwijrCGX-cJ0iMip4z.3s01OPDYVeWMolLE"> lecture recording</a> and <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 6.pdf">materials</a> by following the links. Entry access code: u^6cLjE..</p></div>
+        <div class="row ps-4 my-4"><p class="lead"></p></div>
+        <div class="row ps-4"><p class="lead"><h4>Lecture 7. Example of output of the gradient of the target functional.</h4></p></div>
+        <div class="row ps-4"><p class="lead">It is fashionable to find<a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/1yPPajEsNqwARJcMgu2R-8q8sPgSRG6W-Wu7iLEN0qlMZIuJgadK2-js9xH3HrFA.ELYp3Tm9CUmaa7W8"> lecture recording</a> and <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 7.pdf">materials</a> by following the links. Entry access code: 1^f$00tj. Additional <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/Krivorotko_gradODE_2020.pdf">materials</a> are also attached to this lecture.</p></div>
 
 </section>
         </Container>
