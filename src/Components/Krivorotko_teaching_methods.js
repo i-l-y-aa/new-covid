@@ -40,6 +40,9 @@ export function Krivorotko_teaching_methods () {
         <div class="row ps-4 my-4"><p class="lead"></p></div>
         <div class="row ps-4"><p class="lead"><h4>Лекция 7. Пример вывода градиента целевого функционала.</h4></p></div>
         <div class="row ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/1yPPajEsNqwARJcMgu2R-8q8sPgSRG6W-Wu7iLEN0qlMZIuJgadK2-js9xH3HrFA.ELYp3Tm9CUmaa7W8 ">Запись лекции</a> и <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 7.pdf">материалы</a> можно найти по ссылкам. Код доступа к записи: 1^f$00tj. Также к данной лекции прилагаются <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/Krivorotko_gradODE_2020.pdf">дополнительные материалы.</a></p></div>
+        <div class="row ps-4 my-4"><p class="lead"></p></div>
+        <div class="row ps-4"><p class="lead"><h4>Лекция 8. Идентифицируемость математических моделей (введение).</h4></p></div>
+        <div class="row ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/1s8GdaZzUmBfyd0lGAAEYDquY2JWmuaKOElvZxmFbUOlrTsfIAdbsPz3AjNu3JUc.FbgK1alBtWTEUPnF">Запись лекции</a> и <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 8.pdf">материалы</a> можно найти по ссылкам. Код доступа к записи: cx@eiry4.</p></div>
 
 </section>
         </Container>
