@@ -40,8 +40,12 @@ export function Krivorotko_teaching_methods_En () {
         <div class="row ps-4 my-4"><p class="lead"></p></div>
         <div class="row ps-4"><p class="lead"><h4>Lecture 7. Example of output of the gradient of the target functional.</h4></p></div>
         <div class="row ps-4"><p class="lead">It is fashionable to find<a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/1yPPajEsNqwARJcMgu2R-8q8sPgSRG6W-Wu7iLEN0qlMZIuJgadK2-js9xH3HrFA.ELYp3Tm9CUmaa7W8"> lecture recording</a> and <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 7.pdf">materials</a> by following the links. Entry access code: 1^f$00tj. Additional <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/Krivorotko_gradODE_2020.pdf">materials</a> are also attached to this lecture.</p></div>
+        <div class="row ps-4 my-4"><p class="lead"></p></div>
         <div class="row ps-4"><p class="lead"><h4>Lecture 8. Identifiability of mathematical models (introduction).</h4></p></div>
         <div class="row ps-4"><p class="lead">It is fashionable to find<a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/1s8GdaZzUmBfyd0lGAAEYDquY2JWmuaKOElvZxmFbUOlrTsfIAdbsPz3AjNu3JUc.FbgK1alBtWTEUPnF"> lecture recording</a> and <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 8.pdf">materials</a> by following the links. Entry access code: cx@eiry4.</p></div>
+        <div class="row ps-4 my-4"><p class="lead"></p></div>
+        <div class="row ps-4"><p class="lead"><h4>Lecture 9. Sensitivity analysis of mathematical models.</h4></p></div>
+        <div class="row ps-4"><p class="lead">It is fashionable to find<a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/E02nJ1aCwmpaRmcOVo6goYgaEVZbSWOdbyn4x8w4u2w8aAHn59CVEnm42Ya1ryAf.l2leF7Uf1uCUizjC"> lecture recording</a> and <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 9.pdf">materials</a> by following the links. Entry access code: W^UtU5v^. Additional <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/Анализ_чувствительности_Соболя.pptx">materials</a> are also attached to this lecture.</p></div>
         <div class="row ps-4 my-4"><p class="lead"></p></div>
 
 </section>

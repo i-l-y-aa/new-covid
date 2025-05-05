@@ -43,6 +43,9 @@ export function Krivorotko_teaching_methods () {
         <div class="row ps-4 my-4"><p class="lead"></p></div>
         <div class="row ps-4"><p class="lead"><h4>Лекция 8. Идентифицируемость математических моделей (введение).</h4></p></div>
         <div class="row ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/1s8GdaZzUmBfyd0lGAAEYDquY2JWmuaKOElvZxmFbUOlrTsfIAdbsPz3AjNu3JUc.FbgK1alBtWTEUPnF">Запись лекции</a> и <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 8.pdf">материалы</a> можно найти по ссылкам. Код доступа к записи: cx@eiry4.</p></div>
+        <div class="row ps-4 my-4"><p class="lead"></p></div>
+        <div class="row ps-4"><p class="lead"><h4>Лекция 9. Анализ чувствительности математических моделей.</h4></p></div>
+        <div class="row ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/E02nJ1aCwmpaRmcOVo6goYgaEVZbSWOdbyn4x8w4u2w8aAHn59CVEnm42Ya1ryAf.l2leF7Uf1uCUizjC ">Запись лекции</a> и <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 9.pdf">материалы</a> можно найти по ссылкам. Код доступа к записи: W^UtU5v^. Также к данной лекции прилагаются <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/Анализ_чувствительности_Соболя.pptx">дополнительные материалы.</a></p></div>
 
 </section>
         </Container>
