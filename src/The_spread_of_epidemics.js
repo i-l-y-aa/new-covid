@@ -33,7 +33,7 @@ import machine7 from "./images/directions/machine7.png"
 import machine8 from "./images/directions/machine8.png"
 import machine9 from "./images/directions/machine9.png"
 import { DownloadCount } from 'axios-progress-bar'
-import {BlockMath} from 'react-katex'
+
 
 import ModelingSEIR_HCD from './ModelingSEIR_HCD'
 import Description_AOM from './Components/Description_AOM'
