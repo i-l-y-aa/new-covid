@@ -33,6 +33,8 @@ import machine7 from "./images/directions/machine7.png"
 import machine8 from "./images/directions/machine8.png"
 import machine9 from "./images/directions/machine9.png"
 import { DownloadCount } from 'axios-progress-bar'
+import 'katex/dist/katex.min.css'
+import {BlockMath} from 'react-katex'
 
 import ModelingSEIR_HCD_En from './ModelingSEIR_HCD_En'
 import Description_AOM from './Components/Description_AOM'
@@ -1757,8 +1759,9 @@ export function The_spread_of_epidemics_En(){
 
   return(
   <>
+  <div style={{ backgroundColor: 'white'}}>
   <NaviBarv2_En />
-      <Container className="my-3"   style={{
+      <Container className=""   style={{
               height: "120%" }}>
                 <p className="lead my-4">The laboratory investigates mathematical models of the spread of infectious diseases in a population (epidemics) based on differential equations (ordinary, partial differential equations, stochastic), agent-based, machine learning models and their combinations. The main idea that unites all mathematical models is to build algorithms for analyzing and identifying unknown model parameters (coefficients, initial and boundary conditions) that characterize the spread of the epidemic in the region under study: the contagiousness of the virus, the rate of development of severe forms of the disease, the number of asymptomatic infected, the level of isolation of patients, mortality, etc.</p>
         <Tabs  justify defaultActiveKey="AOM" id="uncontrolled-tab-example" >
@@ -2204,7 +2207,14 @@ model based on the totality of available epidemiological data. The main tool for
           </Tab>
           <Tab eventKey="SEIR-HCD" title="SEIR-HCD">
           <p class="lead my-4"><b><u>A differential SEIR-HCD model of the spread of COVID-19 in the regions of the Russian Federation </u></b>is constructed and analyzed , described by 7 nonlinear ordinary differential equations combined by the law of acting masses. The essence of the model is to study the spread of an infectious disease in a closed population divided into 7 groups, interconnected by coefficients (often probabilities) of transition: susceptible (S), asymptomatic carriers (E), symptomatic infected (I), cured or immune (R), hospitalized (H), critical cases people connected to a ventilator (C) and deceased (D). Within each group, individuals are uniformly mixed. The coefficients of transition between states are characterized by the average time spent in the incubation state (t<sub>inc</sub>), the average time of infection (t<sub>inf</sub>), hospitalization (t<sub>hosp</sub>), stay in critical condition (t<sub>crit</sub>) and the duration of immunity to the virus (t<sub>imm</sub>), which are determined from statistical estimates and distributed according to a log-normal law with a given mean and variance. Vector of parameters q=(<span>&alpha;</span>(t), <span>&beta;</span>(t), <span>&epsilon;</span>(t), <span>&mu;</span>(t), E<sub>0</sub>, I<sub>0</sub>) is determined during the solution of the inverse problem, which consists in minimizing the target functional describing the deviation of the model data from thl ones:</p>
-          <div class="center"><img src={seir1} align="center" width={1000} /></div>
+          <div className="center">
+                      <BlockMath math={String.raw`
+                        J(q) = \sum_{k=1}^{K} \frac{1}{(1-b_k^{real})^2 (h_k^{real})^2 + 1} 
+                        \left( \frac{1}{t_{inc}} E(t_{k-1}) - \left( 1 - b_k^{real} \right) h_k^{real} \right)^2 
+                        + \frac{(C(t_k) - C_k^{real})}{(C_k^{real})^2 + 1} 
+                        + \frac{(D(t_k) - g_k^{real})}{(g_k^{real})^2 + 1}
+                      `} />
+                    </div>
           <p class="lead my-4">Here h<sub>k</sub><sup>real</sup> – number of identified COVID-19 infected per day k, b<sub>k</sub><sup>real</sup> – the proportion of asymptomatic carriers detected per day k, C<sub>k</sub><sup>real</sup> – number of critical patients per day k, g<sub>k</sub><sup>real</sup> – cumulative number of deaths as a result of COVID-19 per day k. The q parameters are piecewise constant in time, consistent with the restrictive measures taken in the Novosibirsk region (vertical dotted lines). Sensitivity analysis showed that the rate of formation of immunity <span>&beta;</span>(t) it is not sensitive to changes, which makes the inverse problem incorrect (the gray line in the figure). When adding additional information about the percentage of the population with late antibodies to the Sars-CoV-2 virus (Invitro website), the solution to the inverse problem (red line) better describes the real data from 05/22/2020 to 10/17/2021 (black dots).</p>
           <div class="center"><img src={seir2} align="center" width={600} /></div>
           <div class="center"><img src={seir3} align="center" width={600} /></div>
@@ -2243,7 +2253,7 @@ model based on the totality of available epidemiological data. The main tool for
           <p class="lead my-4">1.	V. Petrakova, O. Krivorotko. Comparison of two mean field approaches to modeling. JOTA. </p>
           <h5 class="my-4">Принята к печати. WoS, Scopus, Q1-SJR</h5>
           <p class="lead my-4">2.	V. Petrakova. Inverse coefficient problem for epidemiological mean field formulation. Mathematics. 2024, 12(22), 3581. </p>
-          <h5 class="my-4">WoS, Scopus Q2-SJR</h5>
+          <h5 class="my-1">WoS, Scopus Q2-SJR</h5>
           </Tab>
           <Tab eventKey="machine" title="Machine learning">
           <p className="lead my-4"><u>A time series forecasting model using a Bayesian approach and Gaussian processes to estimate the capacity of a group of wind farms</u></p>
@@ -2278,6 +2288,7 @@ model based on the totality of available epidemiological data. The main tool for
           </Tab>
         </Tabs>
     </Container>
+    </div>
     <Footer_En />
   </>
 )}

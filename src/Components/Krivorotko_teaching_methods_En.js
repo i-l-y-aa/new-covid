@@ -47,6 +47,9 @@ export function Krivorotko_teaching_methods_En () {
         <div class="row ps-4"><p class="lead"><h4>Lecture 9. Sensitivity analysis of mathematical models.</h4></p></div>
         <div class="row ps-4"><p class="lead">It is fashionable to find<a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/E02nJ1aCwmpaRmcOVo6goYgaEVZbSWOdbyn4x8w4u2w8aAHn59CVEnm42Ya1ryAf.l2leF7Uf1uCUizjC"> lecture recording</a> and <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 9.pdf">materials</a> by following the links. Entry access code: W^UtU5v^. Additional <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/Анализ_чувствительности_Соболя.pptx">materials</a> are also attached to this lecture.</p></div>
         <div class="row ps-4 my-4"><p class="lead"></p></div>
+        <div class="row ps-4"><p class="lead"><h4>Lecture 10. Regularizing properties of gradient methods. Consideration of a priori information in gradient algorithms.</h4></p></div>
+        <div class="row ps-4"><p class="lead">It is fashionable to find<a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/2cVSY8in6OeN5g2GJlaaYB81vQqekeGkichb0Hcc7QFzubThtrHqdXkfSym1dtpn.Y8IzChzE7RP_3uhe"> lecture recording</a> and <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 10.pdf">materials</a> by following the links. Entry access code: 21Vv#mGD.</p></div>
+        <div class="row ps-4 my-4"><p class="lead"></p></div>
 
 </section>
         </Container>
