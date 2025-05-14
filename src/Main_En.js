@@ -55,6 +55,12 @@ export function Main_En() {
 
   const newsItems = [
     {
+      title: "On May 15, the laboratory will hold a seminar on «Prediction of the spread of socially significant diseases based on deep learning methods in case of insufficient data»",
+      date: "14.05.2025",
+      image: sem_a,
+      link: "/Sem_q/En"
+    },
+    {
       title: "On April 17, the laboratory will hold a seminar on «Supercomputer analysis and regularization of tasks of identification and management of social processes»",
       date: "11.04.2025",
       image: sem_b,
@@ -65,12 +71,6 @@ export function Main_En() {
       date: "29.03.2025",
       image: sem_a,
       link: "/Sem_o/En"
-    },
-    {
-      title: "On March 20, the laboratory will hold a seminar on «Semi-supervised classification: Basic Ideas»",
-      date: "19.03.2025",
-      image: sem_b,
-      link: "/Sem_n/En"
     },
   ];
 

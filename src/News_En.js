@@ -126,7 +126,86 @@ export function News_En () {
      
     ]
     const postsA2 = [
-      {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+        {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+        <a href="/Sem_q/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_a} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t ">
+        <h5 class="card_title_t my-1">On May 15, the laboratory will hold a seminar on «Prediction of the spread of socially significant diseases based on deep learning methods in case of insufficient data»</h5>
+        <h5 class="card_descr_t lead my-1">14.05.2025 </h5>
+        </div>
+      </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+
+       {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+        <a href="/Sem_p/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_b} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t ">
+        <h5 class="card_title_t my-1">On April 17, the laboratory will hold a seminar on «Supercomputer analysis and regularization of tasks of identification and management of social processes»</h5>
+        <h5 class="card_descr_t lead my-3">11.04.2025 </h5>
+        </div>
+      </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+
+       {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+        <a href="/Sem_o/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_a} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t ">
+        <h5 class="card_title_t my-1">On April 3, the laboratory will hold a seminar on «Why living things are poorly suited for differential and probabilistic modeling»</h5>
+        <h5 class="card_descr_t lead my-3">29.03.2025 </h5>
+        </div>
+      </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+
+       {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+        <a href="/Sem_n/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_b} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t my-1">
+        <h5 class="card_title_t my-3">On March 20, the laboratory will hold a seminar on «Semi-supervised classification: Basic Ideas»</h5>
+        <h5 class="card_descr_t lead my-4">19.03.2025 </h5>
+        </div>
+      </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+
+       {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
+        <a href="/Sem_m/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_a} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t ">
+        <h5 class="card_title_t my-1">On March 6, a joint meeting of the seminar "Applied Statistics" and the seminar of the Laboratory of AI technologies for mathematical modeling of biological, socio-economic and environmental processes will be held</h5>
+        <h5 class="card_descr_t lead my-1">04.03.2025 </h5>
+        </div>
+      </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+
+       {id: 6, name: <ul class="cards_t "><li class="cards_item_t">
+        <a href="/Sem_l/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_c} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t ">
+        <h5 class="card_title_t my-3">On February 27, the laboratory will hold a seminar on «A new method for correcting the parameters of dynamic epidemiological models»</h5>
+        <h5 class="card_descr_t lead my-3">17.02.2025 </h5>
+        </div>
+      </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+
+
+      {id: 7, name: <ul class="cards_t "><li class="cards_item_t">
         <a href="/Sem_k/En" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
@@ -138,7 +217,7 @@ export function News_En () {
         </div>
       </article></a>
       </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 8, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Sem_j/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
       <div class="card_image_t">
@@ -150,7 +229,7 @@ export function News_En () {
       </div>
     </article></a>
     </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 9, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Sem_i/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
       <div class="card_image_t">
@@ -162,7 +241,7 @@ export function News_En () {
       </div>
     </article></a>
     </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 10, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Sem_h/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -176,7 +255,7 @@ export function News_En () {
   </a>
 </li>
 </ul>,eventKey: "A2",eventKey: "all"},
-      {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 11, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Sem_g/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -190,7 +269,7 @@ export function News_En () {
   </a>
 </li>
 </ul>,eventKey: "A2",eventKey: "all"},
-      {id: 6, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 12, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Sem_f/En" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
@@ -204,7 +283,7 @@ export function News_En () {
       </a>
     </li>
   </ul>,eventKey: "A2",eventKey: "all"},
-      {id: 7, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 13, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Sem_e/En" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
@@ -218,7 +297,7 @@ export function News_En () {
       </a>
     </li>
   </ul>,eventKey: "A2",eventKey: "all"},
-    {id: 8, name: <ul class="cards_t "><li class="cards_item_t">
+    {id: 14, name: <ul class="cards_t "><li class="cards_item_t">
     <a href="/Sem_d/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
       <div class="card_image_t">
@@ -231,7 +310,7 @@ export function News_En () {
     </article>
     </a>
   </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 9, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 15, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Sem_c/En" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
@@ -244,7 +323,7 @@ export function News_En () {
       </article>
       </a>
     </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 10, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 16, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Sem_b/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -257,7 +336,7 @@ export function News_En () {
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 11, name: <ul class="cards_t"><li class="cards_item_t">
+      {id: 17, name: <ul class="cards_t"><li class="cards_item_t">
       <a href="/Sem_a/En" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
@@ -271,6 +350,9 @@ export function News_En () {
       </a>
     </li></ul>,eventKey: "A2",eventKey: "all"}
     ]
+
+
+
     const postsQ1 = [
       {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Life_d/En" style={{ textDecoration: 'none', color: 'inherit' }}>
@@ -331,7 +413,84 @@ export function News_En () {
 
     ]  
 const postsall  = [ 
-  {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+   {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+        <a href="/Sem_q/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_a} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t ">
+        <h5 class="card_title_t my-1">On May 15, the laboratory will hold a seminar on «Prediction of the spread of socially significant diseases based on deep learning methods in case of insufficient data»</h5>
+        <h5 class="card_descr_t lead my-1">14.05.2025 </h5>
+        </div>
+      </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+
+       {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+        <a href="/Sem_p/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_b} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t ">
+        <h5 class="card_title_t my-1">On April 17, the laboratory will hold a seminar on «Supercomputer analysis and regularization of tasks of identification and management of social processes»</h5>
+        <h5 class="card_descr_t lead my-3">11.04.2025 </h5>
+        </div>
+      </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+
+       {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+        <a href="/Sem_o/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_a} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t ">
+        <h5 class="card_title_t my-1">On April 3, the laboratory will hold a seminar on «Why living things are poorly suited for differential and probabilistic modeling»</h5>
+        <h5 class="card_descr_t lead my-3">29.03.2025 </h5>
+        </div>
+      </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+
+       {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+        <a href="/Sem_n/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_b} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t my-1">
+        <h5 class="card_title_t my-3">On March 20, the laboratory will hold a seminar on «Semi-supervised classification: Basic Ideas»</h5>
+        <h5 class="card_descr_t lead my-4">19.03.2025 </h5>
+        </div>
+      </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+
+       {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
+        <a href="/Sem_m/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_a} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t ">
+        <h5 class="card_title_t my-1">On March 6, a joint meeting of the seminar "Applied Statistics" and the seminar of the Laboratory of AI technologies for mathematical modeling of biological, socio-economic and environmental processes will be held</h5>
+        <h5 class="card_descr_t lead my-1">04.03.2025 </h5>
+        </div>
+      </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+
+       {id: 6, name: <ul class="cards_t "><li class="cards_item_t">
+        <a href="/Sem_l/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <article class="card_t">
+        <div class="card_image_t">
+          <img src={sem_c} alt="Конференция"></img>
+        </div>
+        <div class="card_content_t ">
+        <h5 class="card_title_t my-3">On February 27, the laboratory will hold a seminar on «A new method for correcting the parameters of dynamic epidemiological models»</h5>
+        <h5 class="card_descr_t lead my-3">17.02.2025 </h5>
+        </div>
+      </article></a>
+      </li></ul>,eventKey: "A2",eventKey: "all"},
+  {id: 7, name: <ul class="cards_t "><li class="cards_item_t">
     <a href="/Sem_k/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -343,7 +502,7 @@ const postsall  = [
     </div>
   </article></a>
   </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 8, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Sem_j/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
       <div class="card_image_t">
@@ -355,7 +514,7 @@ const postsall  = [
       </div>
     </article></a>
     </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 9, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_i/En" style={{ textDecoration: 'none', color: 'inherit' }}>
 <article class="card_t">
   <div class="card_image_t">
@@ -367,7 +526,7 @@ const postsall  = [
   </div>
 </article></a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 10, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Life_d/En" style={{ textDecoration: 'none', color: 'inherit' }}>
 <article class="card_t">
   <div class="card_image_t">
@@ -379,7 +538,7 @@ const postsall  = [
   </div>
 </article></a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-{id: 5, name: <ul class="cards_t "><li class="cards_item_t">
+{id: 11, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Conf_h/En" style={{ textDecoration: 'none', color: 'inherit' }}>
 <article class="card_t">
   <div class="card_image_t">
@@ -391,7 +550,7 @@ const postsall  = [
   </div>
 </article></a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-{id: 6, name: <ul class="cards_t "><li class="cards_item_t">
+{id: 12, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Conf_g/En" style={{ textDecoration: 'none', color: 'inherit' }}>
 <article class="card_t">
   <div class="card_image_t">
@@ -403,7 +562,7 @@ const postsall  = [
   </div>
 </article></a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-{id: 7, name: <ul class="cards_t "><li class="cards_item_t">
+{id: 13, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Conf_f/En" style={{ textDecoration: 'none', color: 'inherit' }}>
 <article class="card_t">
   <div class="card_image_t">
@@ -415,7 +574,7 @@ const postsall  = [
   </div>
 </article></a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-{id: 8, name: <ul class="cards_t "><li class="cards_item_t">
+{id: 14, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Conf_e/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
       <div class="card_image_t">
@@ -427,7 +586,7 @@ const postsall  = [
       </div>
     </article></a>
   </li></ul>,eventKey: "A2",eventKey: "all"},
-{id: 9, name: <ul class="cards_t "><li class="cards_item_t">
+{id: 15, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Conf_d/En" style={{ textDecoration: 'none', color: 'inherit' }}>
 <article class="card_t">
   <div class="card_image_t">
@@ -439,7 +598,7 @@ const postsall  = [
   </div>
 </article></a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 10, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 16, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Conf_b/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -453,7 +612,7 @@ const postsall  = [
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 11, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 17, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_h/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -467,7 +626,7 @@ const postsall  = [
   </a>
 </li>
 </ul>,eventKey: "A2",eventKey: "all"},
-  {id: 12, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 18, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_g/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -481,7 +640,7 @@ const postsall  = [
   </a>
 </li>
 </ul>,eventKey: "A2",eventKey: "all"},
-  {id: 13, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 19, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Life_c/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -495,7 +654,7 @@ const postsall  = [
   </a>
 </li>
 </ul>,eventKey: "A2",eventKey: "all"},
-  {id: 14, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 20, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_f/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -510,7 +669,7 @@ const postsall  = [
   </a>
 </li>
 </ul>,eventKey: "A2",eventKey: "all"},
-  {id: 15, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 21, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Conf_c/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -524,7 +683,7 @@ const postsall  = [
   </a>
 </li>
   </ul>,eventKey: "A2",eventKey: "all"},
-  {id: 16, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 22, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_e/En" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
@@ -538,7 +697,7 @@ const postsall  = [
       </a>
     </li>
   </ul>,eventKey: "A2",eventKey: "all"},
-    {id: 17, name: <ul class="cards_t "><li class="cards_item_t">
+    {id: 23, name: <ul class="cards_t "><li class="cards_item_t">
     <a href="/Sem_d/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
       <div class="card_image_t">
@@ -551,7 +710,7 @@ const postsall  = [
     </article>
     </a>
   </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 18, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 24, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Life_b/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -565,7 +724,7 @@ const postsall  = [
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 19, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 25, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_c/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -578,7 +737,7 @@ const postsall  = [
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 20, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 26, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Life_a/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -591,7 +750,7 @@ const postsall  = [
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 21, name: <ul class="cards_t "><li class="cards_item_t">
+  {id: 27, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Sem_b/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -604,7 +763,7 @@ const postsall  = [
   </article>
   </a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-  {id: 22, name: <ul class="cards_t ">
+  {id: 28, name: <ul class="cards_t ">
   <li class="cards_item_t">
   <a href="/Conf_a/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
@@ -618,7 +777,7 @@ const postsall  = [
     </article>
     </a>
   </li></ul>,eventKey: "A1",eventKey: "all"},
-  {id: 23, name: <ul class="cards_t"><li class="cards_item_t">
+  {id: 29, name: <ul class="cards_t"><li class="cards_item_t">
   <a href="/Sem_a/En" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -685,7 +844,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Quantity: 11 </div>
+               Quantity: 17 </div>
                </Popover.Body>
              </Popover>
            }>
@@ -722,7 +881,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Quantity: 23 </div>
+               Quantity: 29 </div>
                </Popover.Body>
              </Popover>
            }>
