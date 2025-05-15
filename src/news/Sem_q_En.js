@@ -26,7 +26,7 @@ export function Sem_q_En() {
         <div className="row my-4"><p className="lead">Time: 16:00 Novosibirsk time (12:00 Moscow time).</p></div>
         <div className="row my-4"><p className="lead">The seminar will be held in an online format in Zoom. You can join by following the <a rel="noopener" target="_blank" href="https://us02web.zoom.us/j/8615596919">link.</a></p></div>
         <div className="row my-4"><p className="lead">*Before connecting, please write your first and last name.</p></div>
-        <div class="row my-4"><p class="lead">The presentation of the report can be seen at the <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/">link</a>.</p></div>
+        <div class="row my-4"><p class="lead">The presentation of the report can be seen at the <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/Ц1.2_Семинар_ТБ_ЗятьковНЮ.pdf">link</a>.</p></div>
         <div className="row my-4"><p className="lead">All the seminars held are posted in the <a rel="noopener" target="_blank" href="/Sem_Compl/En">archive</a>.</p></div>
         <div className="row my-4"><p>11.04.2025</p></div>
       </Container>
