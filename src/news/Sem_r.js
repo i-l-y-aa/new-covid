@@ -19,6 +19,14 @@ export function Sem_r() {
           <h1>20 мая пройдёт семинар лаборатории, на котором планируется 3 доклада</h1>
         </div>
         <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <hr />
         <div className="row my-4"><p className="lead">20.05.2025 (вторник) в 16:00 Мск (20:00 Нск) планируется 3 доклада.</p></div>
         <div className="row my-4"><p className="lead">Предварительная программа:</p></div>
