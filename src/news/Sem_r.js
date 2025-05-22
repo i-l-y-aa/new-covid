@@ -36,6 +36,7 @@ export function Sem_r() {
         <div className="row my-4"><p className="lead">Время: 20:00 новосибирского времени (16:00 Мск).</p></div>
         <div className="row my-4"><p className="lead">Семинар будет проходить в онлайн формате в Zoom. Присоединиться можно по <a rel="noopener" target="_blank" href="https://us02web.zoom.us/j/8615596919">ссылке.</a></p></div>
         <div className="row my-4"><p className="lead">*Перед подключением просьба написать свои Имя и Фамилию.</p></div>
+        <div className="row my-4"><p className="lead">Запись доклада можно увидеть по <a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/d35RUjed5DW_69BwgGMIVxNLWE27Um5e7Ud0mnUqj7g68R0odu4aKy22SfX0zJwC.xRWSROYf86k55v4f ">ссылке</a>. Код доступа: QSAe2#+z.</p></div>
         <div className="row my-4"><p className="lead">Все проведённые семинары выложены в <a rel="noopener" target="_blank" href="Sem_Compl">архиве</a>.</p></div>
         <div className="row my-4"><p>19.05.2025</p></div>
       </Container>

@@ -53,6 +53,9 @@ export function Krivorotko_teaching_methods_En () {
         <div class="row ps-4"><p class="lead"><h4>Lecture 11. Fundamental solutions of mathematical physics equations. Examples of front amplitude output for shallow water approximation and acoustics tasks.</h4></p></div>
         <div class="row ps-4"><p class="lead">It is fashionable to find<a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/TCkRvM1kGFYDwGGFRicx80OyEJPF20R045KMGj5gT_zxUNbtrtzdG45Kmrv2i2FK.e87mMhJa24AZw9hF"> lecture recording</a> and <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 11.pdf">materials</a> by following the links. Entry access code: QmUkX3B#.</p></div>
         <div class="row ps-4 my-4"><p class="lead"></p></div>
+        <div class="row ps-4"><p class="lead"><h4>Lecture 12. The Radon Task.</h4></p></div>
+        <div class="row ps-4"><p class="lead">It is fashionable to find<a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/N1qPYBoR0mm5K9RLd0_LB7B4LFDFvzUY5IuZHMbiO34nJE6KjVRS_9xyYE5CPAe_.vVf4PyuinaX2Cw47"> lecture recording</a> and <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 12.pdf">materials</a> by following the links. Entry access code: z7YVe?6P.</p></div>
+        
 </section>
         </Container>
         

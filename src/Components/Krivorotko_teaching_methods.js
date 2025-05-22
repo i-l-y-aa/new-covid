@@ -52,6 +52,9 @@ export function Krivorotko_teaching_methods () {
         <div class="row ps-4 my-4"><p class="lead"></p></div>
         <div class="row ps-4"><p class="lead"><h4>Лекция 11. Фундаментальные решения уравнений математической физики. Примеры вывода амплитуды фронта для приближения мелкой воды и задачи акустики.</h4></p></div>
         <div class="row ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/TCkRvM1kGFYDwGGFRicx80OyEJPF20R045KMGj5gT_zxUNbtrtzdG45Kmrv2i2FK.e87mMhJa24AZw9hF ">Запись лекции</a> и <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 11.pdf">материалы</a> можно найти по ссылкам. Код доступа к записи: QmUkX3B#.</p></div>
+        <div class="row ps-4 my-4"><p class="lead"></p></div>
+        <div class="row ps-4"><p class="lead"><h4>Лекция 12. Задача Радона.</h4></p></div>
+        <div class="row ps-4"><p class="lead"><a rel="noopener" target="_blank" href="https://us02web.zoom.us/rec/share/N1qPYBoR0mm5K9RLd0_LB7B4LFDFvzUY5IuZHMbiO34nJE6KjVRS_9xyYE5CPAe_.vVf4PyuinaX2Cw47 ">Запись лекции</a> и <a rel="noopener" target="_blank" href="https://ai-biolab.ru/data/СК-25_Семинар 12.pdf">материалы</a> можно найти по ссылкам. Код доступа к записи: z7YVe?6P.</p></div>
 
 </section>
         </Container>
