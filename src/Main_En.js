@@ -55,23 +55,25 @@ export function Main_En() {
 
   const newsItems = [
     {
+      title: "On June 19, the laboratory will hold a seminar on «Comparative analysis of approaches to solving the inverse problem of image reconstruction in emission medical tomography»",
+      date: "17.06.2025",
+      image: sem_a,
+      link: "/Sem_s/En"
+    },
+    {
+      title: "On May 20, a laboratory workshop will be held, at which 3 reports are planned",
+      date: "19.05.2025",
+      image: sem_b,
+      link: "/Sem_r/En"
+    },
+    {
       title: "On May 15, the laboratory will hold a seminar on «Prediction of the spread of socially significant diseases based on deep learning methods in case of insufficient data»",
       date: "14.05.2025",
       image: sem_a,
       link: "/Sem_q/En"
     },
-    {
-      title: "On April 17, the laboratory will hold a seminar on «Supercomputer analysis and regularization of tasks of identification and management of social processes»",
-      date: "11.04.2025",
-      image: sem_b,
-      link: "/Sem_p/En"
-    },
-    {
-      title: "On April 3, the laboratory will hold a seminar on «Why living things are poorly suited for differential and probabilistic modeling»",
-      date: "29.03.2025",
-      image: sem_a,
-      link: "/Sem_o/En"
-    },
+    
+    
   ];
 
   const posts = [
