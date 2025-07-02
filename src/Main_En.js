@@ -54,6 +54,12 @@ const itemAnimation = {
 export function Main_En() {
 
   const newsItems = [
+        {
+          title: "On July 3, the laboratory will hold a seminar on «Simplification of Neverov»",
+          date: "02.07.2025",
+          image: sem_b,
+          link: "/Sem_t/En"
+        },
     {
       title: "On June 19, the laboratory will hold a seminar on «Comparative analysis of approaches to solving the inverse problem of image reconstruction in emission medical tomography»",
       date: "17.06.2025",
@@ -65,12 +71,6 @@ export function Main_En() {
       date: "19.05.2025",
       image: sem_b,
       link: "/Sem_r/En"
-    },
-    {
-      title: "On May 15, the laboratory will hold a seminar on «Prediction of the spread of socially significant diseases based on deep learning methods in case of insufficient data»",
-      date: "14.05.2025",
-      image: sem_a,
-      link: "/Sem_q/En"
     },
     
     
