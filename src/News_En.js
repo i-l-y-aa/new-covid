@@ -14,6 +14,7 @@ import life_a from "./images/news/life_a.PNG"
 import life_b from "./images/news/life_b.PNG"
 import life_c from "./images/news/life_c.PNG"
 import life_d from "./images/news/life_d.PNG"
+import life_e from "./images/news/life_e.PNG"
 import conf_c from "./images/news/conf_c.PNG"
 import conf_e from "./images/news/conf_e.PNG"
 import conf_d from "./images/news/conf_d.PNG"
@@ -391,32 +392,44 @@ export function News_En () {
 
     const postsQ1 = [
       {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+  <a href="/Life_e/En" style={{ textDecoration: 'none', color: 'inherit' }}>
+<article class="card_t">
+  <div class="card_image_t">
+    <img src={life_e} alt="Конференция"></img>
+  </div>
+  <div class="card_content_t">
+  <h5 class="card_title_t my-1">The International Congress on Analysis, Applications and Computing (ISAAC-2025) is taking place from July 21 to 25, with 5 laboratory staff participating at once</h5>
+  <h5 class="card_descr_t lead my-1">21.07.2025 </h5>
+  </div>
+</article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
   <a href="/Life_d/En" style={{ textDecoration: 'none', color: 'inherit' }}>
 <article class="card_t">
   <div class="card_image_t">
     <img src={life_d} alt="Конференция"></img>
   </div>
   <div class="card_content_t">
-  <h5 class="card_title_t my-1">O. Krivorotko will take part in the meetings of the IV Congress of Young Scientists</h5>
+  <h5 class="card_title_t my-3">O. Krivorotko will take part in the meetings of the IV Congress of Young Scientists</h5>
   <h5 class="card_descr_t lead my-3">17.10.2024 </h5>
   </div>
 </article></a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Life_c/En" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
           <img src={life_c} alt="Scientific life"></img>
          </div>
          <div class="card_content_t">
-         <h5 class="card_title_t my-1">On August 30, a meeting of the Siberian Association of Neurosurgeons will be held at the Neurosurgery Center</h5>
+         <h5 class="card_title_t my-3">On August 30, a meeting of the Siberian Association of Neurosurgeons will be held at the Neurosurgery Center</h5>
          <p class="card_descr_t lead my-3">26.08.2024</p>
          </div>
       </article>
       </a>
     </li>
     </ul>,eventKey: "A2",eventKey: "all"},
-      {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
       <a href="/Life_b/En" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
@@ -429,7 +442,7 @@ export function News_En () {
       </article>
       </a>
     </li></ul>,eventKey: "A2",eventKey: "all"},
-    {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+    {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
     <a href="/Life_a/En" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article class="card_t">
       <div class="card_image_t">
@@ -934,7 +947,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Quantity: 4 </div>
+               Quantity: 5 </div>
                </Popover.Body>
              </Popover>
            }>

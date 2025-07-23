@@ -142,6 +142,8 @@ import {Life_c} from './news/Life_c';
 import {Life_c_En} from './news/Life_c_En'
 import {Life_d} from './news/Life_d';
 import {Life_d_En} from './news/Life_d_En'
+import {Life_e} from './news/Life_e';
+import {Life_e_En} from './news/Life_e_En'
 import {TheoryAndNumericalMethods} from './conference/TheoryAndNumericalMethods';
 import {TheoryAndNumericalMethods_En} from './conference/TheoryAndNumericalMethods_En';
 import {ModernProblemsOfInverseProblems} from './conference/ModernProblemsOfInverseProblems';
@@ -278,6 +280,8 @@ return (<>
             <Route exact path="/life_c/En" element={<Life_c_En />} />
             <Route exact path="/life_d" element={<Life_d />} />
             <Route exact path="/life_d/En" element={<Life_d_En />} />
+            <Route exact path="/life_e" element={<Life_e />} />
+            <Route exact path="/life_e/En" element={<Life_e_En />} />
             <Route exact path="/theoryAndNumericalMethods" element={<TheoryAndNumericalMethods />} />
             <Route exact path="/theoryAndNumericalMethods/En" element={<TheoryAndNumericalMethods_En />} />
             <Route exact path="/modernProblemsOfInverseProblems" element={<ModernProblemsOfInverseProblems />} />

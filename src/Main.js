@@ -25,7 +25,7 @@ import sem_b from "./images/news/sem_b.PNG"
 import sem_c from "./images/news/sem_c.PNG"
 import conf_bioresources from "./images/conf/conf_bioresources.PNG"
 import conf_Dynamics from "./images/conf/conf_Dynamics.PNG"
-import conf_e from "./images/news/conf_e.PNG"
+import life_e from "./images/news/life_e.PNG"
 import Sirius_conference from "./images/conf/Sirius_conference.png"
 import conf_TheoryAndNumericalMethods2 from "./images/conf/conf_TheoryAndNumericalMethods2.png"
 import conf_ModernProblemsOfInverseProblems from "./images/conf/conf_ModernProblemsOfInverseProblems.png"
@@ -61,7 +61,12 @@ const itemAnimation = {
 export function Main() {
 
   const newsItems = [
-    
+        {
+      title: "С 21 по 25 июля проходит Международный конгресс по анализу, приложениям и вычислениям (ISAAC-2025), участниками которого станут сразу 5 сотрудников лаборатории",
+      date: "21.07.2025",
+      image: life_e,
+      link: "/Life_e"
+    },
     {
       title: "3 июля пройдёт семинар лаборатории на тему «Симплификация Неверова»",
       date: "02.07.2025",
@@ -73,12 +78,6 @@ export function Main() {
       date: "17.06.2025",
       image: sem_a,
       link: "/Sem_s"
-    },
-    {
-      title: "20 мая пройдёт семинар лаборатории, на котором планируется 3 доклада",
-      date: "19.05.2025",
-      image: sem_b,
-      link: "/Sem_r"
     },
     
   ];

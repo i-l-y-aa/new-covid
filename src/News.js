@@ -13,6 +13,7 @@ import conf_b from "./images/news/conf_b.PNG"
 import life_a from "./images/news/life_a.PNG"
 import life_b from "./images/news/life_b.PNG"
 import life_c from "./images/news/life_c.PNG"
+import life_e from "./images/news/life_e.PNG"
 import conf_c from "./images/news/conf_c.PNG"
 import conf_e from "./images/news/conf_e.PNG"
 import conf_d from "./images/news/conf_d.PNG"
@@ -370,30 +371,42 @@ export function News () {
 
     const postsQ1 = [
       {id: 1, name: <ul class="cards_t "><li class="cards_item_t">
+    <a href="/Life_e" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <article class="card_t">
+    <div class="card_image_t">
+      <img src={life_e} alt="Конференция"></img>
+    </div>
+    <div class="card_content_t">
+    <h5 class="card_title_t my-1">С 21 по 25 июля проходит Международный конгресс по анализу, приложениям и вычислениям (ISAAC-2025), участниками которого станут сразу 5 сотрудников лаборатории</h5>
+    <h5 class="card_descr_t lead my-1">21.07.2025 </h5>
+    </div>
+  </article></a>
+</li></ul>,eventKey: "A2",eventKey: "all"},
+      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
     <a href="/Life_d" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
       <img src={life_d} alt="Конференция"></img>
     </div>
-    <div class="card_content_t">
-    <h5 class="card_title_t">Заведующий лабораторией Криворотько О.И. примет участие в заседаниях IV Конгресса молодых учённых</h5>
-    <h5 class="card_descr_t lead">17.10.2024 </h5>
+    <div class="card_content_t my-1">
+    <h5 class="card_title_t my-2">Заведующий лабораторией Криворотько О.И. примет участие в заседаниях IV Конгресса молодых учённых</h5>
+    <h5 class="card_descr_t lead my-2">17.10.2024 </h5>
     </div>
   </article></a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 2, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
         <a href="/Life_c" style={{ textDecoration: 'none', color: 'inherit' }}>
       <article class="card_t">
         <div class="card_image_t">
           <img src={life_c} alt="Конференция"></img>
         </div>
         <div class="card_content_t">
-        <h5 class="card_title_t my-1">30 августа на базе Центра нейрохирургии состоится Заседание Сибирской ассоциации нейрохирургов</h5>
+        <h5 class="card_title_t my-2">30 августа на базе Центра нейрохирургии состоится Заседание Сибирской ассоциации нейрохирургов</h5>
         <p class="card_descr_t lead my-4">26.08.2024</p>
         </div>
       </article></a>
     </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 3, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
         <a href="/Life_b" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -405,7 +418,7 @@ export function News () {
     </div>
   </article></a>
 </li></ul>,eventKey: "A2",eventKey: "all"},
-      {id: 4, name: <ul class="cards_t "><li class="cards_item_t">
+      {id: 5, name: <ul class="cards_t "><li class="cards_item_t">
         <a href="/Life_a" style={{ textDecoration: 'none', color: 'inherit' }}>
   <article class="card_t">
     <div class="card_image_t">
@@ -883,7 +896,7 @@ const postsall  = [
              <Popover>
                <Popover.Body>
                <div align="start" className="text-black">
-               Количество: 4</div>
+               Количество: 5</div>
                </Popover.Body>
              </Popover>
            }>

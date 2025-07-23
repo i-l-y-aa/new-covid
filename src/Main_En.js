@@ -20,7 +20,7 @@ import Question from "./images/conf/Question.png"
 import sem_a from "./images/news/sem_a.PNG"
 import sem_b from "./images/news/sem_b.PNG"
 import sem_c from "./images/news/sem_c.PNG"
-import life_d from "./images/news/life_d.PNG"
+import life_e from "./images/news/life_e.PNG"
 import Semenova from "./images/team/Semenova.jpg"
 import Mikhailapov from "./images/team/Mikhailapov.png"
 import conf_TheoryAndNumericalMethods from "./images/conf/conf_TheoryAndNumericalMethods.png"
@@ -54,6 +54,12 @@ const itemAnimation = {
 export function Main_En() {
 
   const newsItems = [
+     {
+          title: "The International Congress on Analysis, Applications and Computing (ISAAC-2025) is taking place from July 21 to 25, with 5 laboratory staff participating at once",
+          date: "21.07.2025",
+          image: life_e,
+          link: "/Life_e/En"
+        },
         {
           title: "On July 3, the laboratory will hold a seminar on «Simplification of Neverov»",
           date: "02.07.2025",
@@ -66,12 +72,7 @@ export function Main_En() {
       image: sem_a,
       link: "/Sem_s/En"
     },
-    {
-      title: "On May 20, a laboratory workshop will be held, at which 3 reports are planned",
-      date: "19.05.2025",
-      image: sem_b,
-      link: "/Sem_r/En"
-    },
+    
     
     
   ];
